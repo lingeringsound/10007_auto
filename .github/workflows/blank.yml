@@ -27,9 +27,6 @@ jobs:
         git config --local user.name ${{ secrets.MYUSERNAME }}
         git add .
         git commit -m "hosts update" -a
-        git checkout master
-        git reset --hard developer
-        git push --force origin master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
