@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [ main , master ]
   schedule:
     - cron: 10 * * * *
 
@@ -26,9 +26,9 @@ jobs:
         git checkout --orphan new_branch
         git add -A
         git commit -am 'Add changes'
-        git branch -D main
-        git branch -m main
-        git branch -M main
+        git branch -D master
+        git branch -m master
+        git branch -M master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
