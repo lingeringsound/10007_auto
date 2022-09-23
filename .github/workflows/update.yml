@@ -1,7 +1,7 @@
 name: addhosts
 on:
   push:
-    branches: [ master ]
+    branches: [ master , main ]
   watch:
     types: [started]
   schedule:
