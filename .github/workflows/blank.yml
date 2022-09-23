@@ -19,7 +19,7 @@ jobs:
         sudo rm -rf /etc/localtime
         sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
         sudo apt-get install -y dos2unix
-        bash update_action.sh
+        bash update_action.sh 2>/dev/null
     - name: Commit files
       run: |
         git config --local user.email ${{ secrets.MAIL }}
