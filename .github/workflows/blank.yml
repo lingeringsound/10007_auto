@@ -28,6 +28,9 @@ jobs:
         git commit -m "hosts update" -a
         git add -A
         git checkout --orphan developer
+        git checkout master
+        git reset --hard developer
+        git push --force origin master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
