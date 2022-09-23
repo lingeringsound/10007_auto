@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 original_Host=host
 
