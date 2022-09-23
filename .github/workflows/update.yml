@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: 1 * * * *
+    - cron: 10 * * * *
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
         git branch -m main
         git branch -M main
     - name: Push changes
-      uses: ad-m/github-push-action@main
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
