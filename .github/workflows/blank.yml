@@ -22,13 +22,10 @@ jobs:
         bash update_action.sh
     - name: Commit files
       run: |
-        git config --local user.email ${{ secrets.MAIL }}
-        git config --local user.name ${{ secrets.NAME }}
-        git add -A
-        git commit -am 'update hosts'
-        git checkout master
-        git reset --hard master
-        git push --force origin master
+        git pull
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
+        git commit -m "Update Hosts" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
