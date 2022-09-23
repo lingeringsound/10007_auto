@@ -25,10 +25,8 @@ jobs:
         git pull
         git config --local user.email ${{ secrets.MYEMAIL }}
         git config --local user.name ${{ secrets.MYUSERNAME }}
-        git checkout master
-        git reset --hard master
-        git push --force origin master
-        git commit -m "Update Hosts" -a
+        git commit -m "hosts update" -a
+        git commit -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
