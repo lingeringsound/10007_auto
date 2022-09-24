@@ -8,6 +8,7 @@ on:
     - cron: '55 * * * *'
 
 jobs:
+ make master:
   build:
     runs-on: ubuntu-latest
     steps:
@@ -35,10 +36,12 @@ jobs:
         force : true
 
 jobs:
+ make Feature:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@Feature
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
     - name: Create local changes
@@ -62,10 +65,12 @@ jobs:
         force : true
 
 jobs:
+ make developer:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@developer
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
     - name: Create local changes
