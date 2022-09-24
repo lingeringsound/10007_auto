@@ -33,6 +33,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
         force : true
+   steps:
    -name: Feature make
     - uses: actions/checkout@Feature
       with:
@@ -57,6 +58,7 @@ jobs:
         branch: ${{ github.ref }}
         force : true
         -name: developer make
+    steps:
     - uses: actions/checkout@developer
       with:
         persist-credentials: false
