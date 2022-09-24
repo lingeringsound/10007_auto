@@ -9,8 +9,8 @@ on:
 
 jobs:
  make_master:
- name: master
-  build:
+  name: master
+   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -93,4 +93,3 @@ make_developer:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
         force : true
-        
