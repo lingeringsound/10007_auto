@@ -8,7 +8,7 @@ on:
     - cron: '55 * * * *'
 
 jobs:
-   build:
+   master:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -37,9 +37,9 @@ jobs:
    developer:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@developer
+    - uses: actions/checkout@v2
       with:
-        persist-credentials: false
+          ref: developer
     - name: Create local changes developer
       run: |
         sudo rm -rf /etc/localtime
