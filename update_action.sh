@@ -983,6 +983,8 @@ cat << "key" > ${file}
 ^127.0.0.1[[:space:]]flash.sec.miui.com$
 ^127.0.0.1[[:space:]]flash.sec.intl.miui.com$
 ^127.0.0.1[[:space:]]staging.flash.sec.miui.com$
+#小爱同学个人信息获取
+^127.0.0.1[[:space:]]tracker.ai.xiaomi.com$
 
 
 
