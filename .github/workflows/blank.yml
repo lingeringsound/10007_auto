@@ -10,8 +10,6 @@ on:
 jobs:
    build:
     runs-on: ubuntu-latest
-  master_make:
-    name: master
     steps:
     - uses: actions/checkout@v3
       with:
