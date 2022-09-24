@@ -1,11 +1,11 @@
-name: addhosts
+name: add_hosts_master
 on:
   push:
     branches: [ master ]
   watch:
     types: [started]
   schedule:
-    - cron: 0 */12 * * *
+    - cron: 0 */6 * * *
 
 jobs:
   build:
