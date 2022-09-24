@@ -36,8 +36,7 @@ jobs:
         branch: ${{ github.ref }}
         force : true
 
-jobs:
- make_Feature:
+make_Feature:
  name: make Feature
   build:
     runs-on: ubuntu-latest
@@ -66,8 +65,7 @@ jobs:
         branch: ${{ github.ref }}
         force : true
 
-jobs:
- make_developer:
+make_developer:
   name: make developer
   build:
     runs-on: ubuntu-latest
