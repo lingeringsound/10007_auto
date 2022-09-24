@@ -8,10 +8,10 @@ on:
     - cron: '55 * * * *'
 
 jobs:
- make_master:
-  name: master
    build:
     runs-on: ubuntu-latest
+  make_master:
+   name: master
     steps:
     - uses: actions/checkout@v3
       with:
