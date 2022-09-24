@@ -8,7 +8,8 @@ on:
     - cron: '55 * * * *'
 
 jobs:
- make master:
+ make_master:
+ name: make master
   build:
     runs-on: ubuntu-latest
     steps:
@@ -36,7 +37,8 @@ jobs:
         force : true
 
 jobs:
- make Feature:
+ make_Feature:
+ name: make Feature
   build:
     runs-on: ubuntu-latest
     steps:
@@ -65,7 +67,8 @@ jobs:
         force : true
 
 jobs:
- make developer:
+ make_developer:
+  name: make developer
   build:
     runs-on: ubuntu-latest
     steps:
