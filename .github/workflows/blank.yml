@@ -9,7 +9,7 @@ on:
 
 jobs:
  make_master:
- name: make master
+ name: master
   build:
     runs-on: ubuntu-latest
     steps:
@@ -37,7 +37,7 @@ jobs:
         force : true
 
 make_Feature:
- name: make Feature
+ name: Feature
   build:
     runs-on: ubuntu-latest
     steps:
@@ -66,7 +66,7 @@ make_Feature:
         force : true
 
 make_developer:
-  name: make developer
+  name: developer
   build:
     runs-on: ubuntu-latest
     steps:
