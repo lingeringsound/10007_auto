@@ -33,8 +33,11 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
         force : true
-   steps:
-   -name: Feature make
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@Feature
       with:
         persist-credentials: false
@@ -57,7 +60,10 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
         force : true
-        -name: developer make
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@developer
       with:
@@ -81,3 +87,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
         force : true
+        
