@@ -1241,7 +1241,7 @@ sed -i "6i 127.0.0.1 localhost" "${target_file}"
 sed -i "7i ::1 localhost" "${target_file}"
 sed -i "8i ::1 ip6-loopback" "${target_file}"
 sed -i "9i ::1 ip6-localhost" "${target_file}"
-sed -i '10i \n' "${target_file}"
+sed -i '10i ##################\n' "${target_file}"
 }
 
 function write_ad_block_reward_rules(){
