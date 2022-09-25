@@ -1116,9 +1116,10 @@ https://hosts.oisd.nl/basic
 https://neodev.team/lite_host
 '
 a=0
+echo -e "\n※下载hosts中……"
 for i in ${hosts_list}
 do
-	curl -k -L -o "${tmp_DIR}/$a" "${i}" && echo -e "下载成功${a}" || echo -e "$i 下载失败"
+	curl -k -L -o "${tmp_DIR}/$a" "${i}" >/dev/null 2>&1 && echo -e "※[ ${i} ] 下载成功！" || echo -e "[ $i ]下载失败！"
 	hosts_original="$(cat ${tmp_DIR}/$a 2>/dev/null )"
 	echo -e "${hosts_original}" >> "${file}"
 	a="$(($a + 1))"
@@ -1240,7 +1241,7 @@ sed -i "6i 127.0.0.1 localhost" "${target_file}"
 sed -i "7i ::1 localhost" "${target_file}"
 sed -i "8i ::1 ip6-loopback" "${target_file}"
 sed -i "9i ::1 ip6-localhost" "${target_file}"
-sed -i '10i ##############' "${target_file}"
+sed -i '10i ' "${target_file}"
 }
 
 function write_ad_block_reward_rules(){
