@@ -13,7 +13,7 @@ cat << key > `pwd`/README.md
 ## 统计
 \`\`\`
 完整版累积拦截域名: ${count_all}
-保留广告奖励累积拦截域名: ${count_all}
+保留广告奖励累积拦截域名: ${count_reward}
 \`\`\`
 
 ## Feature 分支
@@ -65,7 +65,7 @@ cat << key > `pwd`/README.md
 ## 统计
 \`\`\`
 完整版累积拦截域名: ${count_all}
-保留广告奖励累积拦截域名: ${count_all}
+保留广告奖励累积拦截域名: ${count_reward}
 \`\`\`
 
 | **名称** | **链接** | **镜像链接** |
