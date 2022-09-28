@@ -663,6 +663,8 @@ cat << "key" > ${file}
 127.0.0.1 tnc3-bjlgy.bytedance.com
 127.0.0.1 tnc3-bjlgy.zijieapi.com
 127.0.0.1 tnc3-bjlgy.snssdk.com
+127.0.0.1 ad-monitor.sh9130.com
+
 
 key
 test -f "${file}" && echo -e "创建文件${file}成功！"
@@ -1118,6 +1120,7 @@ echo "
 127.0.0.1 ads$i-normal-lf.zijieapi.com
 127.0.0.1 ads$i-normal-hl.zijieapi.com
 127.0.0.1 ads$i-normal.zijieapi.com
+127.0.0.1 p$i-orange.byteorge.com
 127.0.0.1 lf$i-common-ckv-tos.pstatp.com
 127.0.0.1 v$i-ad.ixigua.com
 127.0.0.1 xn--pan-ei"$i"e.xn--baidu-jm6h.com
