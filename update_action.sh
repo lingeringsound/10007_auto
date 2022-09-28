@@ -651,6 +651,19 @@ cat << "key" > ${file}
 127.0.0.1 adcos.adxmly.com
 127.0.0.1 appmarket.api.gsxnj.cn
 #127.0.0.1 gsxnj.cn
+
+#22.09.28
+#番茄小说
+127.0.0.1 tnc3-alisc1.bytedance.com
+127.0.0.1 tnc3-alisc2.bytedance.com
+127.0.0.1 tnc3-alisc1.zijieapi.com
+127.0.0.1 tnc3-alisc2.zijieapi.com
+127.0.0.1 tnc3-alisc1.snssdk.com
+127.0.0.1 tnc3-alisc2.snssdk.com
+127.0.0.1 tnc3-bjlgy.bytedance.com
+127.0.0.1 tnc3-bjlgy.zijieapi.com
+127.0.0.1 tnc3-bjlgy.snssdk.com
+
 key
 test -f "${file}" && echo -e "创建文件${file}成功！"
 }
@@ -1059,6 +1072,70 @@ key
 test -f "${file}" && echo -e "创建文件${file}成功！"
 }
 
+function Do_detect_hosts(){
+local file="`pwd`/result/test.conf"
+
+test -f "${file}" && rm -rf "${file}"
+
+#预测广告厂商重复的hosts
+local number1=0
+local number2=31
+for i in $(seq $number1 $number2)
+do
+#127.0.0.1 img$i.360buyimg.com
+#127.0.0.1 lf$i-short.bytegoofy.com
+#127.0.0.1 polaris$i-normal-hl.zijieapi.com
+#127.0.0.1 polaris$i-normal-lq.zijieapi.com
+#127.0.0.1 lf$i-cdn-tos.bytescm.com
+#127.0.0.1 gecko$i-hl.zijieapi.com
+#127.0.0.1 gecko$i-lq.zijieapi.com
+#127.0.0.1 v$i-default.ixigua.com
+#127.0.0.1 log$i-applog-hl.fqnovel.com
+#127.0.0.1 gecko$i-hl.zijieapi.com
+#127.0.0.1 gecko$i-lq.zijieapi.com
+#127.0.0.1 polaris$i-normal-hl.zijieapi.com
+#127.0.0.1 polaris$i-normal-lq.zijieapi.com
+#127.0.0.1 api$i-normal-lq.fqnovel.com
+#127.0.0.1 api$i-normal-hl.fqnovel.com
+#127.0.0.1 mon$i-misc-lf.fqnovel.com
+#127.0.0.1 lf$i-common-ckv-tos.pstatp.com
+#127.0.0.1 valipl.cp$i.ott.cibntv.net
+#127.0.0.1 vali-g1.cp$i.ott.cibntv.net
+#127.0.0.1 v$i-novelapp.ixigua.com
+#127.0.0.1 lf$i-common-ckv-tos.pstatp.com
+#127.0.0.1 tnc3-alisc1.bytedance.com
+#127.0.0.1 tnc3-bjlgy.bytedance.com
+
+echo "
+127.0.0.1 p$i-ad-sign.byteimg.com
+127.0.0.1 vs$i.bj2cm.u3.ucweb.com
+127.0.0.1 vs$i.bj2cu.u3.ucweb.com
+127.0.0.1 vs$i.bj2ct.u3.ucweb.com
+127.0.0.1 vs$i.gzct.u3.ucweb.com
+127.0.0.1 vs$i.gzcu.u3.ucweb.com
+127.0.0.1 vs$i.gzcm.u3.ucweb.com
+127.0.0.1 ads$i-normal-lq.zijieapi.com
+127.0.0.1 ads$i-normal-lf.zijieapi.com
+127.0.0.1 ads$i-normal-hl.zijieapi.com
+127.0.0.1 ads$i-normal.zijieapi.com
+127.0.0.1 lf$i-common-ckv-tos.pstatp.com
+127.0.0.1 v$i-ad.ixigua.com
+127.0.0.1 xn--pan-ei"$i"e.xn--baidu-jm6h.com
+" >> "${file}"
+done
+
+#蓝奏云拦截域名
+for i in s d z ;do
+cat <<key >> "${file}"
+127.0.0.1 lanzou$i.com
+127.0.0.1 cbzhk.lanzou$i.com
+127.0.0.1 wwa.lanzou$i.com
+127.0.0.1 wws.lanzou$i.com
+127.0.0.1 www.lanzou$i.com
+127.0.0.1 wwe.lanzou$i.com
+key
+done
+}
 
 
 function wipe_value() {
@@ -1582,6 +1659,7 @@ grep_value_file '1' 'yandex' "${hosts_file}"
 RUnning_SETUPS_environment
 #筛选设定值
 RUnning_grep_values_conf
+Do_detect_hosts
 #制作去除广告奖励的Host
 mktouch_host
 #制作不包含广告奖励的Host
