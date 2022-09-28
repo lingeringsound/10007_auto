@@ -1000,6 +1000,8 @@ cat << "key" > ${file}
 ^127.0.0.1[[:space:]]staging.flash.sec.miui.com$
 #小爱同学个人信息获取
 ^127.0.0.1[[:space:]]tracker.ai.xiaomi.com$
+#小米主题设计师注册
+^127.0.0.1[[:space:]]market.xiaomi.com$
 
 
 
