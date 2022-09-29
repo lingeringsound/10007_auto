@@ -665,6 +665,12 @@ cat << "key" > ${file}
 127.0.0.1 tnc3-bjlgy.snssdk.com
 127.0.0.1 ad-monitor.sh9130.com
 
+#22.09.29
+#番茄小说
+#来自酷安大佬
+127.0.0.1 vcs.zijieapi.com
+
+
 
 key
 test -f "${file}" && echo -e "创建文件${file}成功！"
