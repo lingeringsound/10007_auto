@@ -668,7 +668,9 @@ cat << "key" > ${file}
 #22.09.29
 #番茄小说
 #来自酷安大佬
-127.0.0.1 vcs.zijieapi.com
+#已禁用，会影响广告奖励获得
+#127.0.0.1 vcs.zijieapi.com
+
 
 
 
