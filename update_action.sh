@@ -672,6 +672,10 @@ cat << "key" > ${file}
 #127.0.0.1 vcs.zijieapi.com
 
 
+#谷歌翻译
+180.163.151.162 translate.googleapis.com
+203.208.40.66 translate.googleapis.com
+203.208.40.66 translate.google.com
 
 
 key
