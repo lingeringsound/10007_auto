@@ -1414,8 +1414,11 @@ if test -f "$file" ;then
 	sed -i "s/127.0.0.1 /||/g;s|$|^|g" "$file"
 	sed -i "s/^\^//g" "$file"
 	sed -i "1i [Host 10007]" "$file"
-	sed -i "2i !Title: Host 10007" "$file"
-	sed -i "3i !URL= https://raw.githubusercontent.com/lingeringsound/10007/main/adb.txt" "$file"
+        sed -i "1i [Adblock Plus 2.0]" "$file"
+        sed -i "2i ! Title: Host 10007" "$file"
+        sed -i "3i ! Homepage: https://github.com/lingeringsound/10007_auto " "$file"
+        sed -i "3i ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto " "$file"
+        sed -i "4i ! Last modified: `date +'%F %T'`" "$file"
 fi
 }
 
