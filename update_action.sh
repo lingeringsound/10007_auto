@@ -1014,6 +1014,10 @@ cat << "key" > ${file}
 ^127.0.0.1[[:space:]]tracker.ai.xiaomi.com$
 #小米主题设计师注册
 ^127.0.0.1[[:space:]]market.xiaomi.com$
+#百度贴吧表情误杀
+
+^127.0.0.1[[:space:]]static.tieba.baidu.com$
+
 
 
 
