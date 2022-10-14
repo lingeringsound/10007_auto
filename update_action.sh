@@ -1019,6 +1019,12 @@ cat << "key" > ${file}
 #咪咕爱看视频
 ^127.0.0.1[[:space:]]aikanvod.miguvideo.com$
 ^127.0.0.1[[:space:]]aikanlive.miguvideo.com$
+#部分设备的小米推送
+^127.0.0.1[[:space:]]resolver.msg.xiaomi.net$
+^127.0.0.1[[:space:]]register.xmpush.xiaomi.com$
+^127.0.0.1[[:space:]]app.chat.xiaomi.net$
+#部分设备的小米云服务
+^127.0.0.1[[:space:]]api.g.micloud.xiaomi.net$
 
 
 
