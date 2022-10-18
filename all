@@ -2,14 +2,71 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2022-10-19 05:43:32 
+#更新时间: 2022-10-19 06:51:50 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:26970
+#规则数量:27109
 ##################
 
+127.0.0.1 ! ad script wpadmngr.com
+127.0.0.1 ! ads from alicdn.com
+127.0.0.1 ! ads.bid
+127.0.0.1 ! avaxhome.pro
+127.0.0.1 ! booking ads on biletyplus.ru
+127.0.0.1 ! company name: ads2.bid
+127.0.0.1 ! fix market.yandex.ru
+127.0.0.1 ! for correct blocking ads on tv4play.se
+127.0.0.1 ! glomex video ads - ttv.pl
+127.0.0.1 ! good: ||ad.doubleclick.net
+127.0.0.1 ! good: ||tracker.doubleclick.net
+127.0.0.1 ! google chrome banner at mail.google.com
+127.0.0.1 ! google chrome banner at translate.google.com
+127.0.0.1 ! here you can check how it's used by android: https://cs.android.com/search?q=ds.metric.gstatic.com
+127.0.0.1 ! mac-torrent-download.net
+127.0.0.1 ! offergate.pro
+127.0.0.1 ! pop-ups in uploader.link, zeefiles.download
+127.0.0.1 ! promo banner ex. 8543joho.jugem.jp
+127.0.0.1 ! self promo ads at www.sankei.com
+127.0.0.1 ! self-promo ads on iwate-np.co.jp
+127.0.0.1 ! testserver.pro
+127.0.0.1 ! tv.yandex.by,tv.yandex.kz,tv.yandex.ru
+127.0.0.1 ! ubar.pro
+127.0.0.1 ! yandex.by,yandex.kz,yandex.ru
+127.0.0.1 ! yandex.games
+127.0.0.1 ! yandex.health
+127.0.0.1 ! yandex.market
+127.0.0.1 ! yandex.music
+127.0.0.1 ! yandex.news
+127.0.0.1 ! yandex.radio
+127.0.0.1 ! yandex.realty
+127.0.0.1 ! yandex.search
+127.0.0.1 ! yandex.sport
+127.0.0.1 ! yandex.tv
+127.0.0.1 ! yandex.video
+127.0.0.1 ! yandex.weather
+127.0.0.1 ! ||api.loganalytics.io
+127.0.0.1 ! ||bugly.qcloud.com
+127.0.0.1 ! ||crash-reports.browser.yandex.net
+127.0.0.1 ! ||crashlytics2.l.google.com
+127.0.0.1 ! ||sa.etp-prod.com/analytics.js^ - breaks player on crunchyroll.com
+127.0.0.1 !/keyno=0/path=1.220/*http://yandex.ru
+127.0.0.1 *ad.durasite.net
+127.0.0.1 /ads.pl
+127.0.0.1 /banner/*.gif,domain=~tvphapluat.vn
+127.0.0.1 /cdn-cgi/pe/bag2?*adhitzads.com
+127.0.0.1 /cdn-cgi/pe/bag2?*arabyads.com
+127.0.0.1 /cdn-cgi/pe/bag2?*buysellads.com
+127.0.0.1 /cdn-cgi/pe/bag2?*exosrv.com
+127.0.0.1 /cdn-cgi/pe/bag2?*hilltopads.net
+127.0.0.1 /cdn-cgi/pe/bag2?*juicyads.com
+127.0.0.1 /cdn-cgi/pe/bag2?*pagead2.googlesyndication.com
+127.0.0.1 /cdn-cgi/pe/bag2?*securepubads.g.doubleclick.net
+127.0.0.1 /cdn77-fs.ads
+127.0.0.1 /iframe.ad
+127.0.0.1 /static/cache/?url=https://mc.yandex.ru
+127.0.0.1 /vmind.qqvideo.tc.qq.com
 127.0.0.1 0.r.msn.com
 127.0.0.1 0.twitter.com
 127.0.0.1 00-bootstrap-spyder-api.net.daraz.com
@@ -171,7 +228,6 @@
 127.0.0.1 24h-ipad-ad.24hstatic.com
 127.0.0.1 24newsoft.fetmoredonefasterbysubmiting.download
 127.0.0.1 24porn.pro
-127.0.0.1 24smi.pro
 127.0.0.1 24upgradecheck.thesteadysystemforupgrades.download
 127.0.0.1 25c8e.admaster.com.cn
 127.0.0.1 25t6ioaooca2.top
@@ -396,8 +452,41 @@
 127.0.0.1 9ibbcq2d.sina.cn
 127.0.0.1 9utwbj08.top
 127.0.0.1 9w2zed1szg.execute-api.us-east-1.amazonaws.com
+127.0.0.1 @@||1plus1.video/static/pubads.ad
+127.0.0.1 @@||ad.10010.com
+127.0.0.1 @@||ad.abchina.com
+127.0.0.1 @@||ad.apps.fm
+127.0.0.1 @@||ad.kazakinfo.com
+127.0.0.1 @@||ad.ourgame.com
+127.0.0.1 @@||adcdn.pingan.com
+127.0.0.1 @@||adobeid-*.services.adobe.com
+127.0.0.1 @@||ads.tdbank.com
+127.0.0.1 @@||api-merchants.skimlinks.com
+127.0.0.1 @@||api-secure.solvemedia.com
+127.0.0.1 @@||api.ads.tvb.com
+127.0.0.1 @@||api.privatbank.ua
+127.0.0.1 @@||app-advertise.zhihuishu.com
+127.0.0.1 @@||authentication-api.skimlinks.com
+127.0.0.1 @@||auto-api.yelp.com
+127.0.0.1 @@||captcha.su.baidu.com
+127.0.0.1 @@||download.adguard.com
+127.0.0.1 @@||guce.advertising.com
+127.0.0.1 @@||img.ads.tvb.com
+127.0.0.1 @@||partner.kards.qip.ru
+127.0.0.1 @@||pass.yandex.kz
+127.0.0.1 @@||pass.yandex.ru
+127.0.0.1 @@||pro.similarweb.com
+127.0.0.1 @@||publisher.adservice.com
+127.0.0.1 @@||sync.disk.yandex.net
+127.0.0.1 @@||tagmanager.google.com
+127.0.0.1 @@||tpc.googlesyndication.com^,subdocument,domain=magazineluiza.com.br
+127.0.0.1 @@||unian.net/static/pubads.ad
+127.0.0.1 @@||webmaster.yandex.ru^,domain=yandex.ru
+127.0.0.1 @@||xmpp.disk.yandex.net
+127.0.0.1 @@||yandex-team.ru
 127.0.0.1 _kerberos._tcp.hb-api.tt.omtrdc.net
 127.0.0.1 _thums.ero-advertising.com
+127.0.0.1 _vmind.qqvideo.tc.qq.com
 127.0.0.1 a-ad.adwo.com
 127.0.0.1 a-ads.com
 127.0.0.1 a-api.dianview.com
@@ -595,6 +684,10 @@
 127.0.0.1 active-advertising.com
 127.0.0.1 activeqq.3g.qq.com
 127.0.0.1 activity.browser.intl.miui.com
+127.0.0.1 ad*.bilgin.pro
+127.0.0.1 ad*.mac-torrent-download.net
+127.0.0.1 ad*.nexage.com
+127.0.0.1 ad*.tmgrup.com.tr
 127.0.0.1 ad-1258444056.cos.accelerate.myqcloud.com
 127.0.0.1 ad-411.com
 127.0.0.1 ad-a.juicyad.com
@@ -3311,6 +3404,7 @@
 127.0.0.1 adobe.wacoal.jp
 127.0.0.1 adobeanalytics.actalentservices.com
 127.0.0.1 adobecorp.hb-api.omtrdc.net
+127.0.0.1 adocean.pl/ad.xml?id=*/key=ru.tsn.ua
 127.0.0.1 adopt-sdk.xg.tagtic.cn
 127.0.0.1 adopt.xg.tagtic.cn
 127.0.0.1 adp.adview.pl
@@ -3340,6 +3434,11 @@
 127.0.0.1 adrezbinvest.pro
 127.0.0.1 adrikon-invest.pro
 127.0.0.1 adro.pro
+127.0.0.1 ads*.autodaily.vn
+127.0.0.1 ads*.depositfiles.com
+127.0.0.1 ads*.depositfiles.org
+127.0.0.1 ads*.dfiles.eu
+127.0.0.1 ads*.dfiles.ru
 127.0.0.1 ads-01.adprofs.com
 127.0.0.1 ads-03.tor.focusin.ads.targetnet.com
 127.0.0.1 ads-205.quarterserver.de
@@ -5338,6 +5437,7 @@
 127.0.0.1 ads.idgworldexpo.com
 127.0.0.1 ads.ielektro.cz
 127.0.0.1 ads.iforex.com
+127.0.0.1 ads.igfhaber.com
 127.0.0.1 ads.iggroup.com
 127.0.0.1 ads.ign.com
 127.0.0.1 ads.iguana2.com
@@ -8396,6 +8496,7 @@
 127.0.0.1 adv.mxmcdn.net
 127.0.0.1 adv.sec.intl.miui.com
 127.0.0.1 adv.sec.miui.com
+127.0.0.1 adv0*.msa.cdn.mediaset.net
 127.0.0.1 adv2.absoluteagency.com
 127.0.0.1 adv2.downsave.com
 127.0.0.1 adv2.expres.ua
@@ -8729,6 +8830,7 @@
 127.0.0.1 amp-project.pro
 127.0.0.1 amp.nz4.igexin.com
 127.0.0.1 ampcid.google.com
+127.0.0.1 amplefeed.pro
 127.0.0.1 ampltd.top.gg
 127.0.0.1 ams-ads-cornerstone-creatives-eu.s3.amazonaws.com
 127.0.0.1 ams-ads-cornerstone-creatives-fe.s3.amazonaws.com
@@ -8773,6 +8875,9 @@
 127.0.0.1 analteen.pro
 127.0.0.1 analvids.top
 127.0.0.1 analy.qq.com
+127.0.0.1 analytics*.carambo.la
+127.0.0.1 analytics*.clickdimensions.com
+127.0.0.1 analytics*.prezly.com
 127.0.0.1 analytics-1.cavai.com
 127.0.0.1 analytics-ad-eyu9u2md.kgslb.com
 127.0.0.1 analytics-ads.xyz
@@ -8830,6 +8935,7 @@
 127.0.0.1 analytics-production.hapyak.com
 127.0.0.1 analytics-proxy.springboard.com
 127.0.0.1 analytics-rhwg.rhcloud.com
+127.0.0.1 analytics-rollout-*.amazonaws.com
 127.0.0.1 analytics-s4.com
 127.0.0.1 analytics-script.ad-shield.io
 127.0.0.1 analytics-scripts.cablelabs.com
@@ -9778,6 +9884,10 @@
 127.0.0.1 aparat.ads.saba-e.com
 127.0.0.1 apex-ad.com
 127.0.0.1 aphookkensidah.pro
+127.0.0.1 api*.amplitude.com
+127.0.0.1 api*.batmobi.net
+127.0.0.1 api*.batmobil.net
+127.0.0.1 api-*.bidmachine.io
 127.0.0.1 api-01.com
 127.0.0.1 api-02.com
 127.0.0.1 api-03.com
@@ -10635,6 +10745,7 @@
 127.0.0.1 api.rideraid.net
 127.0.0.1 api.ringtonematcher.com
 127.0.0.1 api.rlcdn.com
+127.0.0.1 api.rnet.plus^,domain=shakko.ru|mirovich.media|livejournal.com
 127.0.0.1 api.rollbar.com
 127.0.0.1 api.rotatornet.com
 127.0.0.1 api.rqmob.com
@@ -10913,6 +11024,7 @@
 127.0.0.1 apo.ero-advertising.com
 127.0.0.1 apoll.m.taobao.com
 127.0.0.1 app-ad.variflight.com
+127.0.0.1 app-analytics-*.snapchat.com
 127.0.0.1 app-analytics-cn.huami.com
 127.0.0.1 app-analytics-ru.huami.com
 127.0.0.1 app-analytics-v2.snapchat.com
@@ -11092,6 +11204,7 @@
 127.0.0.1 astrategy.beacon.qq.com
 127.0.0.1 astrogempakpoc.hb-api.omtrdc.net
 127.0.0.1 asus.adsame.com
+127.0.0.1 at*.doubanio.com
 127.0.0.1 at.umeng.com
 127.0.0.1 at1.doubanio.com
 127.0.0.1 at2.doubanio.com
@@ -11380,6 +11493,7 @@
 127.0.0.1 banne2s.ero-advertising.com
 127.0.0.1 banne3s.ero-advertising.com
 127.0.0.1 banne4s.ero-advertising.com
+127.0.0.1 banner*.kinogo.by
 127.0.0.1 banner-a.oddcast.com
 127.0.0.1 banner-cfnetwork.cdn.hinet.net
 127.0.0.1 banner-d.oddcast.com
@@ -11388,6 +11502,7 @@
 127.0.0.1 banner-farm.com
 127.0.0.1 banner-gateway.supersonicads.com
 127.0.0.1 banner-img.haber7.com
+127.0.0.1 banner-in.net
 127.0.0.1 banner-madai-com.s3.amazonaws.com
 127.0.0.1 banner-mania.com
 127.0.0.1 banner-media.ru
@@ -13446,6 +13561,7 @@
 127.0.0.1 dandan15.top
 127.0.0.1 darcysassoon.top
 127.0.0.1 darkangel-sm.de
+127.0.0.1 darkoccasion.pro
 127.0.0.1 darlik-investing.pro
 127.0.0.1 dart-apac.l.doubleclick.net
 127.0.0.1 dart.l.doubleclick.net
@@ -13492,6 +13608,7 @@
 127.0.0.1 data.wunderman-email.cjm.adobe.com
 127.0.0.1 data2.ad-score.com
 127.0.0.1 data2.ero-advertising.com
+127.0.0.1 datacollector-*.dt.hicloud.com
 127.0.0.1 datacollector-dra.dt.hicloud.com
 127.0.0.1 datacollector-drcn.dt.hicloud.com
 127.0.0.1 dataf.ads.oppomobile.com
@@ -13748,6 +13865,8 @@
 127.0.0.1 dlswbr.baidu.com
 127.0.0.1 dlv.ad-serving.co
 127.0.0.1 dlxxjsh.top
+127.0.0.1 dm*.ppzuowen.com
+127.0.0.1 dm*.yxlady.com
 127.0.0.1 dm-event.net
 127.0.0.1 dm-hl.toutiao.com
 127.0.0.1 dm-lq.toutiao.com
@@ -14246,6 +14365,7 @@
 127.0.0.1 ebaycn.doubleclick.net
 127.0.0.1 ebaytw.doubleclick.net
 127.0.0.1 ebazhaheiw.top
+127.0.0.1 eberalofe.pro
 127.0.0.1 ebmzp.top
 127.0.0.1 ebook-res.meizu.com
 127.0.0.1 ebook.res.meizu.com
@@ -14406,6 +14526,7 @@
 127.0.0.1 ether2x.pro
 127.0.0.1 etherblog.click
 127.0.0.1 etherget.pro
+127.0.0.1 ethertake.pro
 127.0.0.1 ethfree.pro
 127.0.0.1 ethgive.pro
 127.0.0.1 ethgives.pro
@@ -14458,6 +14579,8 @@
 127.0.0.1 event.ksosoft.com
 127.0.0.1 event.toggle.qq.com
 127.0.0.1 eventcsgo.pro
+127.0.0.1 events-*.op.hicloud.com
+127.0.0.1 events-api*.outfit7.com
 127.0.0.1 events-api.otherlevels.com
 127.0.0.1 events-api.outfit7.com
 127.0.0.1 events-api.outfit7.net
@@ -14694,6 +14817,7 @@
 127.0.0.1 fls.doubleclick.net
 127.0.0.1 fls.uk.doubleclick.net
 127.0.0.1 flt.ad-spire.net
+127.0.0.1 flurry.agentportal-*.yahoodns.net
 127.0.0.1 flurry.cachefly.net
 127.0.0.1 flurry.com
 127.0.0.1 flw.ero-advertising.com
@@ -15872,6 +15996,7 @@
 127.0.0.1 imposst.srvplgktr.top
 127.0.0.1 impr.ads.justpremium.com
 127.0.0.1 impressionaffiliate.mobi
+127.0.0.1 impservice*.youdao.com
 127.0.0.1 impservice-test.dictapp.youdao.com
 127.0.0.1 impservice.chnl.youdao.com
 127.0.0.1 impservice.dict.youdao.com
@@ -16603,6 +16728,7 @@
 127.0.0.1 khattinh.pro
 127.0.0.1 khdry.top
 127.0.0.1 kidnepishlient.pro
+127.0.0.1 kienthuc.net.vn/*.ads
 127.0.0.1 kihudevo.pro
 127.0.0.1 kikibobo.top
 127.0.0.1 kiks.yandex.ru
@@ -16744,6 +16870,7 @@
 127.0.0.1 latest.news-pro.today
 127.0.0.1 latest.open.tips
 127.0.0.1 lau1.slot.union.ucweb.com
+127.0.0.1 launchermsg.3g.cn/golaunchermsg/advservice.do
 127.0.0.1 laureat-nagrody.click
 127.0.0.1 law-check-two.xyz
 127.0.0.1 law-enforcement-check-three.xyz
@@ -16769,6 +16896,7 @@
 127.0.0.1 lcs.test.lenovomm.cn
 127.0.0.1 lcsdk.3g.qq.com
 127.0.0.1 lcttty.top
+127.0.0.1 ldd62n.top
 127.0.0.1 ldogre.top
 127.0.0.1 lds.lenovomm.com
 127.0.0.1 ldsage.top
@@ -17295,6 +17423,7 @@
 127.0.0.1 material.ssp.xunlei.com
 127.0.0.1 mateul.top
 127.0.0.1 mathafuda.pro
+127.0.0.1 matkaendurot.net/images/*banner,domain=matkaendurot.net
 127.0.0.1 matomy.adk2.co
 127.0.0.1 matriell.dm-storage.no
 127.0.0.1 mature-porn.top
@@ -18175,6 +18304,7 @@
 127.0.0.1 nfl.hb-api.omtrdc.net
 127.0.0.1 ng3.ads.warnerbros.com
 127.0.0.1 ngc1.nsm-corp.com
+127.0.0.1 nghenhinvietnam.vn/data/*.ads
 127.0.0.1 ngsaang.top
 127.0.0.1 ngthyfs.top
 127.0.0.1 nhentai.pro
@@ -19173,6 +19303,7 @@
 127.0.0.1 partner.top-obaly.cz
 127.0.0.1 partner.topcities.com
 127.0.0.1 partner.toutiao.com
+127.0.0.1 partner.toutiao.com/partner_recommend/*&url=http%3a%2f%2fm.duanwenxue.com
 127.0.0.1 partner.twtelecom.azure.net.daraz.com
 127.0.0.1 partner.tyano.cz
 127.0.0.1 partner.vataonline.cz
@@ -19260,7 +19391,6 @@
 127.0.0.1 pecgsm.termquotientbeen.top
 127.0.0.1 pei-ads.playboy.com
 127.0.0.1 pei-ads.thesmokingjacket.com
-127.0.0.1 peinados.top
 127.0.0.1 pekao24.top
 127.0.0.1 pekao24pl.top
 127.0.0.1 peltaush.click
@@ -19463,8 +19593,10 @@
 127.0.0.1 playtest-api.topaz-analytics.com
 127.0.0.1 plbslog.umeng.com
 127.0.0.1 pleasedontslaymy.download
+127.0.0.1 pliaoboer.top
 127.0.0.1 plified.pro
 127.0.0.1 plkjia.top
+127.0.0.1 plo.vn/*.ads
 127.0.0.1 plprog-pro.programs-pl.xyz
 127.0.0.1 plprogra-pro.programs-pl.xyz
 127.0.0.1 plsk.poland-pro-one.site
@@ -21156,6 +21288,7 @@
 127.0.0.1 sg.mmstat.com
 127.0.0.1 sg01.top
 127.0.0.1 sgame.baidu.com
+127.0.0.1 sggp.org.vn/*.ads
 127.0.0.1 sgiz.mobi
 127.0.0.1 sgj1.zmj22.top
 127.0.0.1 sgp.o2o.api.xiaomi.com
@@ -22224,6 +22357,7 @@
 127.0.0.1 tg.jifen.2345.com
 127.0.0.1 tgw-masdk.3g.qq.com
 127.0.0.1 tgw-sasdk.3g.qq.com
+127.0.0.1 thanhnien.vn^*.ads
 127.0.0.1 thatobjective.pro
 127.0.0.1 the-bitcoin-era-pro.com
 127.0.0.1 the-bitcoin-rush-pro.financialmarketsworld.com
@@ -22844,6 +22978,7 @@
 127.0.0.1 ubar-pro.ru
 127.0.0.1 ubar.pro
 127.0.0.1 ubazhaheit.top
+127.0.0.1 uc*.atobo.com
 127.0.0.1 uc-56.ru
 127.0.0.1 uc-ap.yodo1api.com
 127.0.0.1 uc.agrantsem.com
@@ -22919,6 +23054,7 @@
 127.0.0.1 unifiedbidding.ad.smaato.net
 127.0.0.1 unilife.top
 127.0.0.1 unimportant-vehicle.pro
+127.0.0.1 union*.365inews.com
 127.0.0.1 union-tracking.duapps.com
 127.0.0.1 union-wifi.com
 127.0.0.1 union.114.com.cn
@@ -24331,6 +24467,7 @@
 127.0.0.1 vtube.mobi
 127.0.0.1 vtyqy.admaster.com.cn
 127.0.0.1 vufizopi.pro
+127.0.0.1 vupmex01.top
 127.0.0.1 vuukle-analytics.appspot.com
 127.0.0.1 vuwomoby.pro
 127.0.0.1 vv84.bj.bcebos.com
@@ -26403,6 +26540,7 @@
 127.0.0.1 x5.xclicks.net
 127.0.0.1 x5.yamanoha.com
 127.0.0.1 x8vn.top
+127.0.0.1 x99skiu.top
 127.0.0.1 xads.100links.com
 127.0.0.1 xads.codon.vn
 127.0.0.1 xads.joboko.com
@@ -26557,6 +26695,7 @@
 127.0.0.1 xplnnxx.top
 127.0.0.1 xqiyi.top
 127.0.0.1 xqwkjf.top
+127.0.0.1 xranks.com/api/a/proxydocker.com
 127.0.0.1 xratt15.sky1818.net
 127.0.0.1 xrkadslmgg.top
 127.0.0.1 xroll.pro
