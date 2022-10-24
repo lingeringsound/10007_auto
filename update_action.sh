@@ -1028,7 +1028,9 @@ cat << "key" > ${file}
 ^127.0.0.1[[:space:]]api.g.micloud.xiaomi.net$
 #QQ浏览器插件误杀
 ^127.0.0.1[[:space:]]tbsone.imtt.qq.com$
-
+#UC浏览器网盘
+^127.0.0.1[[:space:]]uc.ucweb.com$
+^127.0.0.1[[:space:]]puds.ucweb.com$
 
 
 #放到iptables屏蔽的域名
