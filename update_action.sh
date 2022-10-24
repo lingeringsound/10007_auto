@@ -1693,7 +1693,8 @@ grep_value_file '1' 'yandex' "${hosts_file}"
 grep_value_file '1' 'hicloud' "${hosts_file}"
 #yandex广告
 grep_value_file '1' 'yandexadexchange' "${hosts_file}"
-
+#22.10.24 网易邮箱
+grep_value_file '1' '163' "${hosts_file}"
 }
 
 #开始运行
