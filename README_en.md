@@ -15,6 +15,7 @@ reward: 26816
 
 ## **[Donate](https://github.com/lingeringsound/10007)**
 
+## 引用和致谢
 | **Hosts引用链接** | 感谢各位大佬 |
 | :-- | :-- |
 | [大圣净化](https://github.com/jdlingyu/ad-wars) | ❤感谢！❤ |
