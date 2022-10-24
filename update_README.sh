@@ -147,7 +147,34 @@ key
 fi
 }
 
+function echo_thank(){
+cat << "key" >> `pwd`/README.md
+
+| **Hosts引用链接** | 感谢各位大佬 |
+| :-- | :-- |
+| [大圣净化](https://github.com/jdlingyu/ad-wars) | ❤感谢！❤ |
+| [yhost](https://github.com/VeleSila/yhosts) | ❤感谢！❤ |
+| [Steven Black](https://github.com/StevenBlack/hosts) | ❤感谢！❤ |
+| [oisd](https://oisd.nl/howto) | ❤感谢！❤ |
+| [1024](https://github.com/Goooler/1024_hosts) | ❤感谢！❤ |
+| [adhost](https://github.com/E7KMbb/AD-hosts) | ❤感谢！❤ |
+
+key
+cat << "key" >> `pwd`/README_en.md
+
+| **Hosts引用链接** | 感谢各位大佬 |
+| :-- | :-- |
+| [大圣净化](https://github.com/jdlingyu/ad-wars) | ❤感谢！❤ |
+| [yhost](https://github.com/VeleSila/yhosts) | ❤感谢！❤ |
+| [Steven Black](https://github.com/StevenBlack/hosts) | ❤感谢！❤ |
+| [oisd](https://oisd.nl/howto) | ❤感谢！❤ |
+| [1024](https://github.com/Goooler/1024_hosts) | ❤感谢！❤ |
+| [adhost](https://github.com/E7KMbb/AD-hosts) | ❤感谢！❤ |
+
+key
+}
+
 update_readme_master
 #update_readme_Feature
 #update_readme_developer
-
+echo_thank
