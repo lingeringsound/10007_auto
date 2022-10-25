@@ -1211,30 +1211,31 @@ function mk_new_file() {
 
 #下载新的hosts
 function download_hosts() {
+locfunction download_hosts() {
 local file="${1}"
 local IFS=$'\n'
 local tmp_DIR="`pwd`/tmp_hosts"
 mkdir -p "${tmp_DIR}"
 local hosts_list='
-https://hblock.molinero.dev/hosts
-https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
-https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
-https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
-https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-https://hosts.oisd.nl/basic
-https://neodev.team/lite_host
+https://hblock.molinero.dev/hosts|hblock
+https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts|adhost
+https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts|1024
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts|StevenBlack
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts|大圣净化
+https://hosts.oisd.nl/basic|oisd
+https://neodev.team/lite_host|neodev
 '
-a=0
+
 echo -e "\n※下载hosts中……"
 for i in ${hosts_list}
 do
-	curl -k -L -o "${tmp_DIR}/$a" "${i}" >/dev/null 2>&1 && echo -e "※[ ${i} ] 下载成功！" || echo -e "[ $i ]下载失败！"
-	hosts_original="$(cat ${tmp_DIR}/$a 2>/dev/null )"
+	HostURL="$(echo "${i}" | cut -d'|' -f1)"
+	Hostname="$(echo "${i}" | cut -d'|' -f2)"
+	curl -k -L -o "${tmp_DIR}/$Hostname" "${HostURL}" >/dev/null 2>&1 && echo -e "※[ ${Hostname} ] 下载成功！" || echo -e "[ ${Hostname} ]下载失败！"
+	hosts_original="$(cat ${tmp_DIR}/$Hostname 2>/dev/null )"
 	echo -e "${hosts_original}" >> "${file}"
-	a="$(($a + 1))"
-done 
-test -f "${file}" && rm -rf "${tmp_DIR}"
+done
 test ! -f "${file}" && echo -e "${file} 不存在！！" && exit 1
 }
 
@@ -1696,7 +1697,9 @@ grep_value_file '1' 'yandexadexchange' "${hosts_file}"
 #22.10.24 网易邮箱
 grep_value_file '1' '163' "${hosts_file}"
 #22.10.25 恢复QQ相关域名拦截，可能会有大量误杀
-grep_value_file '1' 'qq' "${hosts_file}"
+grep_value_file '1' 'qq' "`pwd`/tmp_hosts/yhost"
+grep_value_file '1' 'qq' "`pwd`/tmp_hosts/大圣净化"
+
 }
 
 #开始运行
@@ -1712,7 +1715,7 @@ mktouch_no_host
 #制作adblock规则
 adblock `pwd`/reward
 #统计
-rm -rf `pwd`/result `pwd`/configure `pwd`/host
+rm -rf `pwd`/result `pwd`/configure `pwd`/host `pwd`/tmp_hosts
 test -f `pwd`/reward && echo "文件大小 $( du -sh `pwd`/reward )，hosts数量: $(cat `pwd`/reward | wc -l ) "
 test -f `pwd`/all && echo "文件大小 $( du -sh `pwd`/all )，hosts数量: $(cat `pwd`/all | wc -l ) "
 test -f `pwd`/adb.txt && echo "文件大小 $( du -sh `pwd`/adb.txt )，hosts数量: $(cat `pwd`/adb.txt | wc -l ) "
