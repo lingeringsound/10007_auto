@@ -1211,7 +1211,6 @@ function mk_new_file() {
 
 #下载新的hosts
 function download_hosts() {
-locfunction download_hosts() {
 local file="${1}"
 local IFS=$'\n'
 local tmp_DIR="`pwd`/tmp_hosts"
