@@ -677,6 +677,11 @@ cat << "key" > ${file}
 203.208.40.66 translate.googleapis.com
 203.208.40.66 translate.google.com
 
+#22.11.05
+#coolapk
+127.0.0.1 gromore.pangolin-sdk-toutiao.com
+
+
 
 key
 test -f "${file}" && echo -e "创建文件${file}成功！"
