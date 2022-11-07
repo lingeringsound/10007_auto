@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2022-11-08 04:08:46
+! Last modified: 2022-11-08 05:07:39
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 
@@ -62,9 +62,9 @@
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2022-11-08 04:08:45 ^
+!更新时间: 2022-11-08 05:07:39 ^
 
-!规则数量:27586^
+!规则数量:27543^
 !#################^
 
 108.177.122.90 translate.googleapis.com^
@@ -870,6 +870,7 @@
 ||ad-web-ad.com^
 ||ad-wheel.com^
 ||ad-wisteria.excite.co.jp^
+||ad-words.ru^
 ||ad-x.co.uk^
 ||ad-x.com^
 ||ad-yt-bfp.doubleclick.net^
@@ -1572,8 +1573,6 @@
 ||ad.jumbaexchange.com^
 ||ad.jxnews.com.cn^
 ||ad.k.21cn.com^
-||ad.kakao.com^
-||ad.kakaocorp.com^
 ||ad.kaskus.co.id^
 ||ad.kat.ph^
 ||ad.kataweb.it^
@@ -2517,7 +2516,6 @@
 ||ad2.img.static.youmi.net^
 ||ad2.ip.ro^
 ||ad2.ireklama.cz^
-||ad2.jwtt3.com^
 ||ad2.lbn.ru^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -3509,7 +3507,6 @@
 ||ads-pictela-net.geo.adtechus.com^
 ||ads-pixiv.net^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||ads-rdb.sol.no^
 ||ads-redirect.com^
 ||ads-resources-legacy.waze.com^
 ||ads-resources.waze.com^
@@ -3526,7 +3523,6 @@
 ||ads-sdk.upltv.com^
 ||ads-secure.videohub.tv^
 ||ads-sg.tiktok.com^
-||ads-solno.sol.no^
 ||ads-static.saymedia.com^
 ||ads-stats.com^
 ||ads-stream.com^
@@ -3573,7 +3569,6 @@
 ||ads.123net.jp^
 ||ads.128b.com^
 ||ads.12titans.net^
-||ads.152media.com^
 ||ads.160tracker.com^
 ||ads.1a-infosysteme.de^
 ||ads.1mobile.com^
@@ -4408,7 +4403,6 @@
 ||ads.chicagoreader.com^
 ||ads.chickclick.com^
 ||ads.childish.org^
-||ads.chilecomparte.net^
 ||ads.china.com^
 ||ads.chinatimes.com^
 ||ads.chinatimes.com.tw^
@@ -5913,7 +5907,6 @@
 ||ads.members.teamskeet.com^
 ||ads.memob.com^
 ||ads.meninpain.com^
-||ads.mercadoclics.com^
 ||ads.mercedesya.com.ar^
 ||ads.merchantbankcard.com^
 ||ads.meredithads.com^
@@ -6135,7 +6128,6 @@
 ||ads.necgroup.co.uk^
 ||ads.neda.net.ir^
 ||ads.nedmax.com^
-||ads.needish.com^
 ||ads.nefmls.com^
 ||ads.neg.bg^
 ||ads.neoseeker.com^
@@ -6539,7 +6531,6 @@
 ||ads.ppvmedien.de^
 ||ads.pr.valueclick.net^
 ||ads.praguetv.cz^
-||ads.pramer.tv^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads.predictad.com^
 ||ads.preissuchmaschine.de^
@@ -6679,7 +6670,6 @@
 ||ads.realitytraffic.com^
 ||ads.realitytraffic.com.s2.gvirabi.com^
 ||ads.realitytraffic.com.s3.gvirabi.com^
-||ads.realmedia.com^
 ||ads.realmedia.com.br^
 ||ads.realmedia.de^
 ||ads.realmedia.ro^
@@ -8468,6 +8458,7 @@
 ||adult-sex-partner.blogspot.com^
 ||adult-sex-toys-pro.blogspot.com^
 ||adult-targeted-traffic.com^
+||adult-top-list.com^
 ||adult-top.worlddatingforum.com^
 ||adult.adrevservice.com^
 ||adulteenshow.mobi^
@@ -8741,7 +8732,6 @@
 ||akamai.smartadserver.com^
 ||akme-club.pro^
 ||akn.analytics.autodesk.com^
-||aknlsaqfwsibvn.top^
 ||akrenmnqgkfai.top^
 ||aktualnosci-polskie-pl.click^
 ||akydbank-invest.pro^
@@ -9167,7 +9157,6 @@
 ||analytics.discountpowertx.com^
 ||analytics.disneyinternational.com^
 ||analytics.disneyplus.com^
-||analytics.diyriver.io^
 ||analytics.dns-shop.ru^
 ||analytics.dnsfilter.com^
 ||analytics.dogecoin.gg^
@@ -9505,7 +9494,6 @@
 ||analytics.pogo.tv^
 ||analytics.pointdrive.linkedin.com^
 ||analytics.pokki.com^
-||analytics.polarbyte.com^
 ||analytics.poolshool.com^
 ||analytics.pop2watch.com^
 ||analytics.popsci.com^
@@ -11102,7 +11090,6 @@
 ||applandforbuddies.top^
 ||apple-icloud-lost.top^
 ||apple-id-cziphone.top^
-||apple.0g3wn9mr3cab.top^
 ||apple.com-security-desktop-antimalware-support.download^
 ||apple.com-supportcenter.pro^
 ||apple.com-webbrowsing-security.download^
@@ -11154,16 +11141,11 @@
 ||argq.juteur.top^
 ||ariat-polska.top^
 ||ark-event.pro^
-||ark-fund.pro^
 ||ark.cp21.ott.cibntv.net^
-||arkbonus.pro^
-||arkelon.pro^
 ||arketh.pro^
-||arkevent.pro^
 ||arkgifts.pro^
 ||arkgives.pro^
 ||arkinfo.pro^
-||arkmusk.pro^
 ||arnaz0n.nmrde.top^
 ||arpe.top^
 ||art-family.pro^
@@ -11260,7 +11242,6 @@
 ||atanx2.alicdn.com^
 ||ataxgnkcyhrlr.top^
 ||atcomp-bradesegurop.dns.army^
-||ateam-ad.jp^
 ||athena-ads.wikia.com^
 ||athena.api.kwalee.com^
 ||athena.simba.taobao.com^
@@ -11561,6 +11542,7 @@
 ||banner-farm.com^
 ||banner-gateway.supersonicads.com^
 ||banner-img.haber7.com^
+||banner-in.net^
 ||banner-madai-com.s3.amazonaws.com^
 ||banner-mania.com^
 ||banner-media.ru^
@@ -11636,7 +11618,6 @@
 ||banner.comtec.de^
 ||banner.congstar.de^
 ||banner.consultant.ru^
-||banner.content-ad.net^
 ||banner.cooguo.com^
 ||banner.coral.co.uk^
 ||banner.cotedazurpalace.com^
@@ -12135,7 +12116,6 @@
 ||browser-tools.systems^
 ||browser-update.org^
 ||browser-updater.yandex.net^
-||browser-ya.pro^
 ||browser.ard.ttpod.com^
 ||browser.covatic.io^
 ||browser.events.data.microsoft.com^
@@ -12365,7 +12345,6 @@
 ||cbjslog.baidu.com^
 ||cbola-ads-1-t3.us-east-1.elasticbeanstalk.com^
 ||cbola-analytics-c5-6.us-east-1.elasticbeanstalk.com^
-||cbowvspl.top^
 ||cbs-stage.hb-api.omtrdc.net^
 ||cbs.hb-api.omtrdc.net^
 ||cbsnews-dev.hb-api.omtrdc.net^
@@ -12653,7 +12632,6 @@
 ||cfg.adsmogo.mobi^
 ||cfg.flurry.com^
 ||cfs.u-ad.info^
-||cfxlwrnn.top^
 ||cgdjy.top^
 ||cgi-login-account-verify-update-info.lulka.sk^
 ||cgi.tbs.co.jp^
@@ -13314,7 +13292,6 @@
 ||compliance-john.top^
 ||compliance-julianna.top^
 ||composivel.pro^
-||comproliverton.pro^
 ||computersblogfromus32.top^
 ||conde.adsame.com^
 ||conf.international.baidu.com^
@@ -13384,7 +13361,6 @@
 ||corp.eulerian.net^
 ||corp.hunantv.com^
 ||corp.kaltura.com^
-||corp.leanplum.com^
 ||corp.meitu.com^
 ||corp.ns1.viviotech.net.daraz.com^
 ||corp.president.co.jp^
@@ -13492,7 +13468,6 @@
 ||creativetv.pro^
 ||creativos.ads.uigc.net^
 ||creusatcom.tt.hb-api.omtrdc.net^
-||crew5-spacex.pro^
 ||crewardscyprus.top^
 ||criminglynuk.pro^
 ||critariatele.pro^
@@ -14466,6 +14441,7 @@
 ||ebaycn.doubleclick.net^
 ||ebaytw.doubleclick.net^
 ||ebazhaheiw.top^
+||eberalofe.pro^
 ||ebmzp.top^
 ||ebook-res.meizu.com^
 ||ebook.res.meizu.com^
@@ -15061,7 +15037,6 @@
 ||fxyjmp.top^
 ||fyglovilo.pro^
 ||fyls88zqyb.content-ad.net^
-||fyrjtfqgrirpeo.top^
 ||fyuluutqtohihhd.top^
 ||fyxmkofspvog.top^
 ||fyyqq.top^
@@ -15466,7 +15441,6 @@
 ||gsp1.baidu.com^
 ||gsp2.baidu.com^
 ||gsp3.baidu.com^
-||gsrdsvdxrcud.top^
 ||gsycl.top^
 ||gt051102203eac.click^
 ||gt051102204eac.click^
@@ -15634,12 +15608,12 @@
 ||hdsex.pro^
 ||hdsexvideos.pro^
 ||hdt.adx.admaster.com.cn^
-||hdwbdlre.top^
 ||hdxxx.top^
 ||head.lowhood.top^
 ||health-partner.net^
 ||hearbreakingfizz.top^
 ||heavenwil.top^
+||hebgb.top^
 ||hecan123.top^
 ||heclnyu.top^
 ||hegarberetrof.pro^
@@ -15860,7 +15834,6 @@
 ||hw-cdn.trafficjunky.net^
 ||hw-cdn2.trafficjunky.net^
 ||hwtkmvcyvfxv.top^
-||hxgpxocxr.top^
 ||hxjiswwqtyvd.top^
 ||hxnhtvbxcacp.top^
 ||hybrid-prd.ad-prd.s.joyn.de^
@@ -17172,7 +17145,6 @@
 ||lffckamr.top^
 ||lg.tr.pandora.tv^
 ||lgih.scendo.top^
-||lgqxbjnhwru.top^
 ||lgz.poewage.top^
 ||lhinqc.oculal.top^
 ||lhyang.top^
@@ -17247,11 +17219,9 @@
 ||lksw3.top^
 ||llgf.cnzz.jiehunmishu.com^
 ||llhhbb.top^
-||lllypmcqagpgj.top^
 ||llqss.top^
 ||lm.licenses.adobe.com^
 ||lmlicenses.wip4.adobe.com^
-||lmrycxuojndbekx.top^
 ||ln.doubleclick.net^
 ||lnmaqtracknwcp.top^
 ||lnoomsxlyhkpn.top^
@@ -17620,7 +17590,6 @@
 ||marketingplatform.google.com^
 ||marketplace.trafficjunky.net^
 ||marklokdinvest.pro^
-||marout.bloodteethrub.top^
 ||martafatass.pro^
 ||martens1460.top^
 ||marvel.hb-api.omtrdc.net^
@@ -18062,12 +18031,9 @@
 ||mobiledl.adobe.com^
 ||mobileleads.msn.com^
 ||mobileoffers-7-q-download.com^
-||mobileoffers-ab-download.com^
 ||mobileoffers-ac-download.com^
 ||mobileoffers-ad-download.com^
 ||mobileoffers-al-download.com^
-||mobileoffers-bm-download.com^
-||mobileoffers-bn-download.com^
 ||mobileweb.api.airpush.com^
 ||moblink.mob.com^
 ||mobojs.baidu.com^
@@ -18223,6 +18189,7 @@
 ||mp.adnxs.com^
 ||mp.cmllw.iego.net^
 ||mp.huangye.miui.com^
+||mp3statycy.top^
 ||mplaylist-ads.zadn.vn^
 ||mplaylist-ads.zascdn.me^
 ||mpn-analytics.mokonocdn.com^
@@ -18280,7 +18247,6 @@
 ||mssdk-bu.bytedance.com^
 ||mssdk-bu.snssdk.com^
 ||mssp.baidu.com^
-||mstake.pro^
 ||mstr.patpat-pro.xyz^
 ||mt.analytics.163.com^
 ||mta-sts.mail.wt-eu02.net^
@@ -18705,7 +18671,6 @@
 ||oc.umeng.com^
 ||ocbhqr.skillmodernplan.top^
 ||ocdn.adsterra.com^
-||ocdofafneqmj.top^
 ||oceancode.top^
 ||ocsp.godaddy.com^
 ||octopart-analytics.com^
@@ -20095,6 +20060,7 @@
 ||pro-news.net^
 ||pro-p.program-pro1.xyz^
 ||pro-p1.progpl1pl.xyz^
+||pro-partners.nl^
 ||pro-pl.chatpros.site^
 ||pro-pl.info^
 ||pro-pl.live1program.site^
@@ -20192,7 +20158,6 @@
 ||promedia-click.ru^
 ||promo-banner.ru^
 ||promo.adrevservice.com^
-||promo.ads.softbank.net^
 ||promo.partner.alawar.ru^
 ||promote.biz.weibo.cn^
 ||promote.buy-targeted-traffic.com^
@@ -20514,7 +20479,6 @@
 ||readyupdate.thelatestmostreadytocontentgetnowfast.top^
 ||real.sp.analytics.yahoo.com^
 ||realsrv.com^
-||realsrv.name^
 ||realtime-metrics.flurry.com^
 ||reargooduches.pro^
 ||rec-corp.xyz^
@@ -20767,6 +20731,7 @@
 ||rwpt.top^
 ||rx-top.com^
 ||ry.znvzzptgblovers.download^
+||ryoucraft.top^
 ||s-adobe.wacoal.jp^
 ||s-yoolk-banner-assets.yoolk.com^
 ||s.1ts18.top^
@@ -22102,7 +22067,6 @@
 ||stage.alphagirlz.mobi^
 ||stage.ap1.alphagirlz.mobi^
 ||stage.ap2.alphagirlz.mobi^
-||stage.tr.ad-stir.com^
 ||staging-ads.adtarget.me^
 ||staging-ads.blogherads.com^
 ||staging-ads.flurry.com^
@@ -22321,8 +22285,6 @@
 ||streamwatch.pro^
 ||strip.alicdn.com^
 ||strip.taobaocdn.com^
-||sts.advertising.microsoft.com^
-||sts.si.advertising.microsoft.com^
 ||sttcc.top^
 ||sttrr.top^
 ||stud-pro.ro^
@@ -22586,7 +22548,6 @@
 ||tarocardsfornoobs.top^
 ||tastepilgrimage.top^
 ||tattle.api.osano.com^
-||tayqxhiugetm.top^
 ||tb.pagetest.top^
 ||tb060x.corp.youdao.com^
 ||tb104x.corp.youdao.com^
@@ -22883,6 +22844,7 @@
 ||top-eleven-hack.com^
 ||top-flex.com^
 ||top-fr.mconet.biz^
+||top-free-casino-games.com^
 ||top-fwz1.mail.ru^
 ||top-gan.ru^
 ||top-groupprogram.biz^
@@ -23064,7 +23026,6 @@
 ||trace.zhiziyun.com^
 ||track-help.admaster.com.cn^
 ||track-sdk.customer.io^
-||track.ad.nl^
 ||track.ad.xiaomi.com^
 ||track.admaster.com.cn^
 ||track.adwo.com^
@@ -27023,7 +26984,6 @@
 ||x.jd.com^
 ||x.zhuyuanp.top^
 ||x29l.top^
-||x2ether.pro^
 ||x2tesla-event.pro^
 ||x3.extreme-dm.com^
 ||x4hub-pro.com^
@@ -27192,8 +27152,6 @@
 ||xrkadslmgg.top^
 ||xroll.pro^
 ||xrp-bonus.pro^
-||xrp-gift.pro^
-||xrpbonus.pro^
 ||xsapp.cdn.bcebos.com^
 ||xsexvideos.pro^
 ||xsolid.baidu.com^
@@ -27376,7 +27334,6 @@
 ||youyouf.top^
 ||yoyi-cm.admaster.com.cn^
 ||yp333.top^
-||ypjiavvxy.top^
 ||yqageskbedvavwa.top^
 ||yqywreeyts.top^
 ||yrrcc.top^
