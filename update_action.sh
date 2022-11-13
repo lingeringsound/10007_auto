@@ -1499,7 +1499,7 @@ write_ad_block_reward_rules "${file}"
 echo "$(cat $old_file )" >> "${file}"
 if test -f "$file" ;then
 	sed -i "s|^#|!|g" "$file"
-	sed -i "/^::1/d" "$file"
+	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d" "$file"
 	sed -i "s/127.0.0.1[[:space:]]localhost//g" "$file"
 	sed -i "s/127.0.0.1 /||/g;s|$|^|g" "$file"
 	sed -i "s/^\^//g" "$file"
