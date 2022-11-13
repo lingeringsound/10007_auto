@@ -1101,6 +1101,10 @@ cat << "key" > ${file}
 ^127.0.0.1[[:space:]]u.oppomobile.com$
 #新浪新闻图片
 ^127.0.0.1[[:space:]]k.sinaimg.cn$
+#酷安推送来自酷安@ck388(http://www.coolapk.com/u/1347977)
+^127.0.0.1[[:space:]]guid.tpns.tencent.com$
+^127.0.0.1[[:space:]]access1.tpns.tencent.com$
+
 
 
 #放到iptables屏蔽的域名
@@ -1723,7 +1727,7 @@ grep_value_file '1' 'tongji' "${hosts_file}"
 grep_value_file '1' 'top' "${hosts_file}"
 grep_value_file '1' 'tos' "${hosts_file}"
 grep_value_file '1' 'toutiao' "${hosts_file}"
-grep_value_file '1' 'tpns' "${hosts_file}"
+#grep_value_file '1' 'tpns' "${hosts_file}"
 grep_value_file '1' 'trace' "${hosts_file}"
 grep_value_file '1' 'twitter' "${hosts_file}"
 grep_value_file '1' 'uc' "${hosts_file}"
