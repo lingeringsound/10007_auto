@@ -1289,9 +1289,13 @@ local file="${1}"
 local IFS=$'\n'
 local tmp_DIR="`pwd`/tmp_hosts"
 mkdir -p "${tmp_DIR}"
+
+#adhost 禁用 2022.11.20
+#https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts|AdHost
+
+
 local hosts_list='
 https://hblock.molinero.dev/hosts|hblock
-https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts|adhost
 https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts|1024
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts|StevenBlack
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
