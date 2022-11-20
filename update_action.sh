@@ -1777,6 +1777,10 @@ grep_value_file '1' '163' "${hosts_file}"
 grep_value_file '1' 'qq' "`pwd`/tmp_hosts/yhost"
 grep_value_file '1' 'qq' "`pwd`/tmp_hosts/大圣净化"
 
+#虎扑 2022.11.20
+grep_value_file '1' 'hupu' "${hosts_file}"
+
+
 }
 
 #开始运行
