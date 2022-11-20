@@ -742,6 +742,11 @@ cat << "key" > ${file}
 #coolapk
 127.0.0.1 gromore.pangolin-sdk-toutiao.com
 
+#22.11.20
+#soul
+127.0.0.1 soul-ad.soulapp.cn
+127.0.0.1 ad.soulapp.cn
+
 
 
 key
