@@ -747,6 +747,12 @@ cat << "key" > ${file}
 127.0.0.1 soul-ad.soulapp.cn
 127.0.0.1 ad.soulapp.cn
 
+#22.11.23
+#有道翻译官
+127.0.0.1 ad-sdk-config.youdao.com
+#127.0.0.1 openapi.youdao.com
+#127.0.0.1 oimagea2.ydstatic.com
+
 
 
 key
@@ -1109,6 +1115,8 @@ cat << "key" > ${file}
 #酷安推送来自酷安@ck388(http://www.coolapk.com/u/1347977)
 ^127.0.0.1[[:space:]]guid.tpns.tencent.com$
 ^127.0.0.1[[:space:]]access1.tpns.tencent.com$
+#有道翻译官网页翻译
+^127.0.0.1[[:space:]]c.youdao.com$
 
 
 
