@@ -1119,6 +1119,10 @@ cat << "key" > ${file}
 ^127.0.0.1[[:space:]]c.youdao.com$
 #百度网盘签到图片界面
 ^127.0.0.1[[:space:]]staticsns.cdn.bcebos.com$
+#大众养生网
+
+^127.0.0.1[[:space:]]mipcache.bdstatic.com$
+
 
 
 
