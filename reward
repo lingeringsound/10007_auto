@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2023-01-26 16:08:28 
+#更新时间: 2023-01-26 17:26:55 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:20704
+#规则数量:20734
 ##################
 
 108.177.122.90 translate.googleapis.com
@@ -195,7 +195,6 @@
 127.0.0.1 360.2-vr.com
 127.0.0.1 360.anatic.net
 127.0.0.1 360.cn
-127.0.0.1 360.lcy2zzx.pw
 127.0.0.1 360.munion.mediav.com
 127.0.0.1 360.my
 127.0.0.1 360dianjing.agrantsem.com
@@ -544,6 +543,9 @@
 127.0.0.1 ad-dev.everymundo.net
 127.0.0.1 ad-dev.globalnoticias.pt
 127.0.0.1 ad-display.wikawika.xyz
+127.0.0.1 ad-dra.dt.dbankcloud.com
+127.0.0.1 ad-dre.dt.dbankcloud.com
+127.0.0.1 ad-drru.dt.dbankcloud.com
 127.0.0.1 ad-ebis.bookpass.auone.jp
 127.0.0.1 ad-ebis.mynavi-job20s.jp
 127.0.0.1 ad-emea.doubleclick.net
@@ -3880,6 +3882,7 @@
 127.0.0.1 adwoplok-investing.pro
 127.0.0.1 adwpaces.ero-advertising.com
 127.0.0.1 adx-api.otm-r.com
+127.0.0.1 adx-dra.op.hicloud.com
 127.0.0.1 adx-dre.op.hicloud.com
 127.0.0.1 adx-f.ads.heytapmobi.com
 127.0.0.1 adx-f.ads.heytapmobile.com
@@ -6216,6 +6219,7 @@
 127.0.0.1 athena-ads.wikia.com
 127.0.0.1 athena.api.kwalee.com
 127.0.0.1 ationconsulat.top
+127.0.0.1 atlas-emui-drcn.hicloud.com
 127.0.0.1 atmnjcinews.pro
 127.0.0.1 atom.adjust.com
 127.0.0.1 atomicwallet.pro
@@ -7753,6 +7757,7 @@
 127.0.0.1 config.adview.cn
 127.0.0.1 config.emb-api.com
 127.0.0.1 config.sdk.scopely.io
+127.0.0.1 configserver-dra.platform.hicloud.com
 127.0.0.1 confirmations.top
 127.0.0.1 confused-classic.pro
 127.0.0.1 congnb.analytics.saas-vn.network
@@ -8067,6 +8072,9 @@
 127.0.0.1 data2.ad-score.com
 127.0.0.1 data2.ero-advertising.com
 127.0.0.1 datacollector-dra.dt.hicloud.com
+127.0.0.1 datacollector-drcn.dt.hicloud.com
+127.0.0.1 datacollector-dre.dt.hicloud.com
+127.0.0.1 datacollector-drru.dt.hicloud.com
 127.0.0.1 datadoghq-browser-agent.com
 127.0.0.1 dataf.ads.oppomobile.com
 127.0.0.1 dataose.top
@@ -8316,6 +8324,7 @@
 127.0.0.1 dmp.doubleclick.net
 127.0.0.1 dmp.vlion.cn
 127.0.0.1 dmyusjtmiiia.top
+127.0.0.1 dnkeeper.hicloud.com
 127.0.0.1 dns-2-0698dcc4-2070-434b-b6f1-c0c2da48881d.net.daraz.com
 127.0.0.1 dns-analytics.com
 127.0.0.1 dns-clientinfo.cbsivideo.com
@@ -8612,6 +8621,7 @@
 127.0.0.1 e.tf.360.cn
 127.0.0.1 e.zg-api.com
 127.0.0.1 e0.extreme-dm.com
+127.0.0.1 e0pxjz8hh09v.top
 127.0.0.1 e1.extreme-dm.com
 127.0.0.1 e2.extreme-dm.com
 127.0.0.1 e346ab6c68.click
@@ -8837,11 +8847,14 @@
 127.0.0.1 events-collector-api.viacom.tech
 127.0.0.1 events-dra.op.hicloud.com
 127.0.0.1 events-jp.splash-screen.net
+127.0.0.1 events-sandbox.data.msn.com
 127.0.0.1 events.adjust.com
 127.0.0.1 events.api.boomtrain.com
 127.0.0.1 events.api.godaddy.com
 127.0.0.1 events.api.red.wemesh.ca
 127.0.0.1 events.api.vungle.com
+127.0.0.1 events.data.msn.cn
+127.0.0.1 events.data.msn.com
 127.0.0.1 events.ocdn.eu
 127.0.0.1 events.splash-screen.net
 127.0.0.1 events.twitter.com
@@ -8947,6 +8960,7 @@
 127.0.0.1 feed-image.baidu.com
 127.0.0.1 feed.baidu.com
 127.0.0.1 feedads.g.doubleclick.net
+127.0.0.1 feedback-dre.platform.hicloud.com
 127.0.0.1 feedback.uc.cn
 127.0.0.1 feeds.wise-click.com
 127.0.0.1 feelfereetoc.top
@@ -9287,6 +9301,7 @@
 127.0.0.1 geo.adobe.com
 127.0.0.1 geo.ads.audio.thisisdax.com
 127.0.0.1 geo.flurry.com
+127.0.0.1 geo.hicloud.com
 127.0.0.1 geo2.adobe.com
 127.0.0.1 geoced.smartadserver.com
 127.0.0.1 geofence.sys.miui.com
@@ -9508,6 +9523,7 @@
 127.0.0.1 grounded-card.pro
 127.0.0.1 growingfailure.pro
 127.0.0.1 groxton-invest.pro
+127.0.0.1 grs.hicloud.com
 127.0.0.1 gruchipevi.pro
 127.0.0.1 grumpy-fear.pro
 127.0.0.1 grushashuka.pro
@@ -9661,6 +9677,7 @@
 127.0.0.1 hdwbdlre.top
 127.0.0.1 hdxxx.top
 127.0.0.1 health-partner.net
+127.0.0.1 healthdata.hicloud.com
 127.0.0.1 hearbreakingfizz.top
 127.0.0.1 heavenly-test.pro
 127.0.0.1 hebgb.top
@@ -11279,9 +11296,12 @@
 127.0.0.1 loglabitrufly.top
 127.0.0.1 logserver.insight.ucweb.com
 127.0.0.1 logservice-dra.platform.hicloud.com
+127.0.0.1 logservice-dre.platform.hicloud.com
+127.0.0.1 logservice-drru.dt.hicloud.com
 127.0.0.1 logservice.hicloud.com
 127.0.0.1 logservice1.hicloud.com
 127.0.0.1 logssug.ucweb.com
+127.0.0.1 logtransform.hicloud.com
 127.0.0.1 logupdate.avlyun.sec.miui.com
 127.0.0.1 logview.uc.alimama.com
 127.0.0.1 lolishe.top
@@ -11657,9 +11677,11 @@
 127.0.0.1 metrica-yandex.com
 127.0.0.1 metrics-api.librato.com
 127.0.0.1 metrics-dra.dt.hicloud.com
+127.0.0.1 metrics-drcn.dt.hicloud.com
 127.0.0.1 metrics.api.drift.com
 127.0.0.1 metrics.api.yle.fi
 127.0.0.1 metrics.data.hicloud.com
+127.0.0.1 metrics.dt.hicloud.com
 127.0.0.1 metrics.pandora.com
 127.0.0.1 metrics.tbs.com
 127.0.0.1 metrics1.data.hicloud.com
@@ -11667,6 +11689,7 @@
 127.0.0.1 metrics3.data.hicloud.com
 127.0.0.1 metrics4.data.hicloud.com
 127.0.0.1 metrics5.data.hicloud.com
+127.0.0.1 metrics6.dt.hicloud.com
 127.0.0.1 metrika.yandex.ru
 127.0.0.1 metroverce.top
 127.0.0.1 meyd.7mmtv.top
@@ -12290,6 +12313,7 @@
 127.0.0.1 nota.click
 127.0.0.1 notablenephew.top
 127.0.0.1 notes-analytics-events.apple.com
+127.0.0.1 notes-analytics-events.news.apple-dns.net
 127.0.0.1 notice.iqiyi.com
 127.0.0.1 notification-browser.com
 127.0.0.1 novel.pangolin-sdk-toutiao.com
@@ -12730,6 +12754,7 @@
 127.0.0.1 opoew.top
 127.0.0.1 oppu778.top
 127.0.0.1 oprspl-pro.programs-pl.xyz
+127.0.0.1 opsdata.hicloud.com
 127.0.0.1 opskins.pro
 127.0.0.1 optimize.google.com
 127.0.0.1 optimus-ads.amap.com
@@ -12762,6 +12787,7 @@
 127.0.0.1 osloginvesting.pro
 127.0.0.1 oslufkyilrgd.top
 127.0.0.1 osniffer.pro
+127.0.0.1 osscach2023.hicloud.tw
 127.0.0.1 ot7.wagbridge.advertisement.tanx.com
 127.0.0.1 otf.msn.com
 127.0.0.1 oth.eve.mdt.qq.com
@@ -14840,6 +14866,7 @@
 127.0.0.1 sdkconfig.play.aiseet.atianqi.com
 127.0.0.1 sdkconfig.play.cp81.ott.cibntv.net
 127.0.0.1 sdkrec.tf.360.cn
+127.0.0.1 sdkserver-dra.op.hicloud.com
 127.0.0.1 sdkupgrade.insight.ucweb.com
 127.0.0.1 sdnc.top
 127.0.0.1 sdsp.ipinyou.com
@@ -14924,6 +14951,7 @@
 127.0.0.1 serviceclient.top
 127.0.0.1 servicer.traffic-media.co.uk
 127.0.0.1 services.runescape.com-wet.top
+127.0.0.1 servicesupport.hicloud.com
 127.0.0.1 serving-ad.tv24.vn
 127.0.0.1 serving.ad.org.vn
 127.0.0.1 serving.dfnb-ads.com
@@ -18157,6 +18185,7 @@
 127.0.0.1 weangcaptiewx.top
 127.0.0.1 weapfuh.originalriver-tone.top
 127.0.0.1 weather-analytics-events.apple.com
+127.0.0.1 weather-analytics-events.news.apple-dns.net
 127.0.0.1 web-ad.xyz
 127.0.0.1 web-analytics.date
 127.0.0.1 web-analytics.engagio.com
@@ -18899,6 +18928,7 @@
 127.0.0.1 www.es.ero-advertising.com
 127.0.0.1 www.essentialpiece.pro
 127.0.0.1 www.eu-click.eworldtrack.com
+127.0.0.1 www.excellent-closet.pro
 127.0.0.1 www.exit-ad.de
 127.0.0.1 www.expensivesurvey.click
 127.0.0.1 www.extreme-dm.com
@@ -19071,6 +19101,7 @@
 127.0.0.1 www.ikasgok-invest.pro
 127.0.0.1 www.imads.ero-advertising.com
 127.0.0.1 www.imeds.ero-advertising.com
+127.0.0.1 www.immediatesignal.pro
 127.0.0.1 www.in-post.id-dostawa32984.click
 127.0.0.1 www.in-pro.xyz
 127.0.0.1 www.inail.simcoin.webd.pro
@@ -19244,6 +19275,7 @@
 127.0.0.1 www.meds-pro.info
 127.0.0.1 www.meetyour-partner.life
 127.0.0.1 www.mega-ad.de
+127.0.0.1 www.mellow-game.pro
 127.0.0.1 www.mememakers.mobi
 127.0.0.1 www.memoryofcrypro.click
 127.0.0.1 www.merry-angels-top.ma.cx
@@ -19433,7 +19465,6 @@
 127.0.0.1 www.pandamovies.pro
 127.0.0.1 www.pandora-konkurs.com.pl
 127.0.0.1 www.pandora-konkurs.pl
-127.0.0.1 www.pangle-b.io
 127.0.0.1 www.pangle.io
 127.0.0.1 www.paridakinvest.pro
 127.0.0.1 www.partner-ads.com
@@ -19626,7 +19657,6 @@
 127.0.0.1 www.publicxxxvideo.pro
 127.0.0.1 www.pureprofit.click
 127.0.0.1 www.push-ad.com
-127.0.0.1 www.push-sdk.net
 127.0.0.1 www.pussyporn.mobi
 127.0.0.1 www.pussyvids.pro
 127.0.0.1 www.pustka-swiat.click
