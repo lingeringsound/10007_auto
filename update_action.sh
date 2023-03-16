@@ -1249,9 +1249,11 @@ echo "
 127.0.0.1 vs$i.bj2cm.u3.ucweb.com
 127.0.0.1 vs$i.bj2cu.u3.ucweb.com
 127.0.0.1 vs$i.bj2ct.u3.ucweb.com
+127.0.0.1 vs${i}.bj2.u3.ucweb.com
 127.0.0.1 vs$i.gzct.u3.ucweb.com
 127.0.0.1 vs$i.gzcu.u3.ucweb.com
 127.0.0.1 vs$i.gzcm.u3.ucweb.com
+127.0.0.1 ${i}gtest.bj2cu.u3.ucweb.com
 127.0.0.1 ads$i-normal-lq.zijieapi.com
 127.0.0.1 ads$i-normal-lf.zijieapi.com
 127.0.0.1 ads$i-normal-hl.zijieapi.com
