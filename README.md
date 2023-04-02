@@ -1,10 +1,10 @@
 ## 去广告订阅自动更新
 ## [English](./README_en.md)
 
-## 统计 (2023-04-02 08:33:47)
+## 统计 (2023-04-02 09:59:40)
 ```
-完整版累积拦截域名: 23034
-保留广告奖励累积拦截域名: 23001
+完整版累积拦截域名: 23036
+保留广告奖励累积拦截域名: 23003
 ```
 ## 访问人数 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007_auto&left_color=green&right_color=red)
 
