@@ -1830,7 +1830,7 @@ mktouch_no_host
 #制作adblock规则
 adblock `pwd`/reward
 #统计
-rm -rf `pwd`/result `pwd`/configure `pwd`/host `pwd`/tmp_hosts
+rm -rf `pwd`/result `pwd`/host `pwd`/tmp_hosts
 test -f `pwd`/reward && echo "文件大小 $( du -sh `pwd`/reward )，hosts数量: $(cat `pwd`/reward | wc -l ) "
 test -f `pwd`/all && echo "文件大小 $( du -sh `pwd`/all )，hosts数量: $(cat `pwd`/all | wc -l ) "
 test -f `pwd`/adb.txt && echo "文件大小 $( du -sh `pwd`/adb.txt )，hosts数量: $(cat `pwd`/adb.txt | wc -l ) "
