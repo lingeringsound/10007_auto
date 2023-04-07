@@ -173,6 +173,8 @@ xlog
 xlogs
 logs
 log
+alog
+alogs
 ulog
 ulogs
 toblog
