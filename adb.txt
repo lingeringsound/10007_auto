@@ -1,74 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2023-04-08 11:21:26
+! Last modified: 2023-04-08 11:39:03
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
-
-!爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。^
-||t7z.cupid.iqiyi.com^
-||mdevstat.qqlive.qq.com^
-
-||adsmind.gdtimg.com^
-||c.gdt.qq.com^
-||d.gdt.qq.com^
-||gw.365you.com^
-||i.gdt.qq.com^
-||ii.gdt.qq.com^
-||ipv4.gdt.qq.com^
-||m.gdt.qq.com^
-||mi.gdt.qq.com^
-||nc.gdt.qq.com^
-||pv.sohu.com^
-||q.i.gdt.qq.com^
-||rm.gdt.qq.com^
-||rpt.gdt.qq.com^
-||v.gdt.qq.com^
-||vr.gdt.qq.com^
-||x.adnet.qq.com^
-||pgdt.ugdtimg.com^
-||xc.gdt.qq.com^
-||v2.gdt.qq.com^
-||sdk.e.qq.com^
-||t.gdt.qq.com^
-!QQ广告奖励^
-||win.gdt.qq.com^
-!抖音广告奖励^
-!||is.snssdk.com^
-!微信广告奖励^
-!||wxsnsad.tc.qq.com^
-!||wxsnsdy.tc.qq.com^
-!||wxsnsdy.video.qq.com^
-!||wxsnsdy.wxs.qq.com^
-!||wxsnsdythumb.wxs.qq.com^
-!百度云视频广告奖励^
-!||nadvideo.baidu.com^
-!||nadvideo2.baidu.com^
-!快手支持^
-!删掉会使得部分开屏广告复燃^
-||open.e.kuaishou.com^
-||e.kuaishou.com^
-||api2.e.kuaishou.com^
-||api.e.kuaishou.com^
-!APP分享^
-!注释掉可获得广告奖励^
-!但是也会有部广告重新出现，毕竟穿山甲是目前最恶心的广告联盟^^
-||log-api.pangolin-sdk-toutiao-b.com^
-||log-api.pangolin-sdk-toutiao.com^
-||api-access.pangolin-sdk-toutiao.com^
-||api-access.pangolin-sdk-toutiao-b.com^
-
-! 放行一些规则防止误杀^
-@@||ulog*.*.com^$important^
-@@||toblog.ctobsnssdk.com^$important^
-@@||mmstat.com^$important^
-@@||360.cn^$important^
-
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2023-04-08 11:21:26 ^
+!更新时间: 2023-04-08 11:39:03 ^
 
 !规则数量:22719^
 !#################^
@@ -22729,3 +22669,63 @@
 ||zypanafo.pro^
 ||zz.bdstatic.com^
 ||zzbb1.top^
+
+!爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
+||t7z.cupid.iqiyi.com^
+||mdevstat.qqlive.qq.com^
+
+||adsmind.gdtimg.com^
+||c.gdt.qq.com^
+||d.gdt.qq.com^
+||gw.365you.com^
+||i.gdt.qq.com^
+||ii.gdt.qq.com^
+||ipv4.gdt.qq.com^
+||m.gdt.qq.com^
+||mi.gdt.qq.com^
+||nc.gdt.qq.com^
+||pv.sohu.com^
+||q.i.gdt.qq.com^
+||rm.gdt.qq.com^
+||rpt.gdt.qq.com^
+||v.gdt.qq.com^
+||vr.gdt.qq.com^
+||x.adnet.qq.com^
+||pgdt.ugdtimg.com^
+||xc.gdt.qq.com^
+||v2.gdt.qq.com^
+||sdk.e.qq.com^
+||t.gdt.qq.com^
+!QQ广告奖励
+||win.gdt.qq.com^
+!抖音广告奖励
+!||is.snssdk.com^
+!微信广告奖励
+!||wxsnsad.tc.qq.com^
+!||wxsnsdy.tc.qq.com^
+!||wxsnsdy.video.qq.com^
+!||wxsnsdy.wxs.qq.com^
+!||wxsnsdythumb.wxs.qq.com^
+!百度云视频广告奖励
+!||nadvideo.baidu.com^
+!||nadvideo2.baidu.com^
+!快手支持
+!删掉会使得部分开屏广告复燃
+||open.e.kuaishou.com^
+||e.kuaishou.com^
+||api2.e.kuaishou.com^
+||api.e.kuaishou.com^
+!APP分享
+!注释掉可获得广告奖励
+!但是也会有部广告重新出现，毕竟穿山甲是目前最恶心的广告联盟
+||log-api.pangolin-sdk-toutiao-b.com^
+||log-api.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao-b.com^
+
+! 放行一些规则防止误杀
+@@||ulog*.*.com^$important
+@@||toblog.ctobsnssdk.com^$important
+@@||mmstat.com^$important
+@@||360.cn^$important
+
