@@ -331,6 +331,10 @@ cat << "key" >> "$file"
 @@||toblog.ctobsnssdk.com^$important
 @@||mmstat.com^$important
 @@||360.cn^$important
+@@||dragate.dc.oppomobile.com^$important
+@@||client-uc.heytapmobi.com^$important
+@@||dragate-cn.dc.heytapmobi.com^$important
+
 
 key
 }
