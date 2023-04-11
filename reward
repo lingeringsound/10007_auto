@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2023-04-11 11:56:13 
+#更新时间: 2023-04-11 12:56:04 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:22620
+#规则数量:22761
 ##################
 
 108.177.111.90 translate.googleapis.com
@@ -39,14 +39,18 @@
 127.0.0.1 0.twitter.com
 127.0.0.1 00-01-partner-alpha-f11.net.daraz.com
 127.0.0.1 00-01-partner-alpha-f5.net.daraz.com
+127.0.0.1 00-01-partner-alpha-f6.net.daraz.com
 127.0.0.1 00-api.net.daraz.com
 127.0.0.1 00-bootstrap-analytics-www.partner.net.daraz.com
 127.0.0.1 00-bootstrap-api.net.daraz.com
 127.0.0.1 00-bootstrap-corp-spring.net.daraz.com
 127.0.0.1 00-bootstrap-corp-w-htgb-a.net.daraz.com
+127.0.0.1 00-bootstrap-frontpage-partner.net.daraz.com
 127.0.0.1 00-bootstrapwww.partner.net.daraz.com
+127.0.0.1 0004-disable-google-url-tracker.net.daraz.com
 127.0.0.1 009.itpolska.click
 127.0.0.1 01-kube-partner-cf23region.net.daraz.com
+127.0.0.1 01-lib-oa-1-partner-11.net.daraz.com
 127.0.0.1 0377shujuhuifu.top
 127.0.0.1 05w0bq3nbq9b.top
 127.0.0.1 0676el9lskux.top
@@ -81,6 +85,7 @@
 127.0.0.1 1-free-share-buttons.com
 127.0.0.1 1-online.top
 127.0.0.1 1.ad-locus.com
+127.0.0.1 1.aerial.maps.api.net.daraz.com
 127.0.0.1 1.dpoopsrv.click
 127.0.0.1 1.dtxsrvgo.pro
 127.0.0.1 1.hao123.com
@@ -93,6 +98,7 @@
 127.0.0.1 123.manga1001.top
 127.0.0.1 123pago-api-stg.docs.net.daraz.com
 127.0.0.1 123pago.api-stg.docs.net.daraz.com
+127.0.0.1 123pago.docs.spyder-api.net.daraz.com
 127.0.0.1 123pago.pre-api.net.daraz.com
 127.0.0.1 123sex.top
 127.0.0.1 128pago.analytics.net.daraz.com.00db0000000cfpfeai.net.daraz.com
@@ -1806,6 +1812,9 @@
 127.0.0.1 adobe-dns.adobe.com
 127.0.0.1 adobe-email-doc-protect.pro
 127.0.0.1 adobe-ep.cms.gov
+127.0.0.1 adobe-ep.cuidadodesalud.gov
+127.0.0.1 adobe-ep.healthcare.gov
+127.0.0.1 adobe-ep.medicare.gov
 127.0.0.1 adobe-flashplayer.com
 127.0.0.1 adobe-l.com
 127.0.0.1 adobe-nonsecure.cjone.com
@@ -2719,7 +2728,6 @@
 127.0.0.1 ads.kozmetika-bg.com
 127.0.0.1 ads.krawall.de
 127.0.0.1 ads.ksl.com
-127.0.0.1 ads.kulturportalen.dk
 127.0.0.1 ads.kure.tv
 127.0.0.1 ads.kureren.no
 127.0.0.1 ads.kyalon.net
@@ -4011,6 +4019,7 @@
 127.0.0.1 aecpm.alicdn.com
 127.0.0.1 aeg32y.top
 127.0.0.1 aeisons-info.bgpgrs.top
+127.0.0.1 aer-api-application-spring.net.daraz.com
 127.0.0.1 aer-api.docs.net.daraz.com
 127.0.0.1 aer-api.n-switch.net.daraz.com
 127.0.0.1 aeventlog.beacon.qq.com
@@ -4157,6 +4166,7 @@
 127.0.0.1 allolhplus.marketgym.top
 127.0.0.1 allorbusiness.pro
 127.0.0.1 allprofitsurvey.top
+127.0.0.1 allseason-partner.net.daraz.com
 127.0.0.1 allteenmovies.pro
 127.0.0.1 alnuf.extralive.top
 127.0.0.1 alogsus.umeng.com
@@ -4202,6 +4212,7 @@
 127.0.0.1 amazon-verify-link.top
 127.0.0.1 amazon-vsduayv.dns-report.com
 127.0.0.1 amazon-xvcbf.dynamic-dns.net
+127.0.0.1 amazon.abovem.top
 127.0.0.1 amazonco-jp.top
 127.0.0.1 amazonusavip.top
 127.0.0.1 amazoshoppp.top
@@ -4528,6 +4539,7 @@
 127.0.0.1 analytics.ecosia.org
 127.0.0.1 analytics.edgekey.net
 127.0.0.1 analytics.edgesuite.net
+127.0.0.1 analytics.egernsund.com
 127.0.0.1 analytics.eggoffer.com
 127.0.0.1 analytics.eikko.ai
 127.0.0.1 analytics.eikondigital.it
@@ -4539,6 +4551,7 @@
 127.0.0.1 analytics.enjoymobiserver.com
 127.0.0.1 analytics.ensighten.com
 127.0.0.1 analytics.erepublic.com
+127.0.0.1 analytics.ericafischerphotography.com
 127.0.0.1 analytics.ero-advertising.com
 127.0.0.1 analytics.esporteinterativo.com.br
 127.0.0.1 analytics.eventbrite.com
@@ -4586,6 +4599,7 @@
 127.0.0.1 analytics.gavelz.com
 127.0.0.1 analytics.gazeta.pl
 127.0.0.1 analytics.geappliancesstore.com
+127.0.0.1 analytics.geastore.com
 127.0.0.1 analytics.geekyminds.net
 127.0.0.1 analytics.gen.shield.monitoringservice.co
 127.0.0.1 analytics.geoutletstore.com
@@ -4669,6 +4683,7 @@
 127.0.0.1 analytics.kau.li
 127.0.0.1 analytics.kb.se
 127.0.0.1 analytics.keepstreams.com
+127.0.0.1 analytics.kellerpermits.com
 127.0.0.1 analytics.kellyservices.com
 127.0.0.1 analytics.kemlu.go.id
 127.0.0.1 analytics.kerns.co
@@ -4712,7 +4727,9 @@
 127.0.0.1 analytics.maileon.com
 127.0.0.1 analytics.mailmunch.co
 127.0.0.1 analytics.makeitmeme.com
+127.0.0.1 analytics.makro.cz
 127.0.0.1 analytics.makro.nl
+127.0.0.1 analytics.makro.pt
 127.0.0.1 analytics.mall.tv
 127.0.0.1 analytics.mambaui.com
 127.0.0.1 analytics.manen.me
@@ -4856,6 +4873,7 @@
 127.0.0.1 analytics.pipelife.no
 127.0.0.1 analytics.pipelife.pl
 127.0.0.1 analytics.pipelife.ro
+127.0.0.1 analytics.pipelife.se
 127.0.0.1 analytics.pixels.ai
 127.0.0.1 analytics.plaid.com
 127.0.0.1 analytics.plaza.ir
@@ -5321,8 +5339,10 @@
 127.0.0.1 api-app.ants.vn
 127.0.0.1 api-app.coocaa.ottcn.com
 127.0.0.1 api-compatible.mixpanel.com
+127.0.0.1 api-csr11.net.daraz.com
 127.0.0.1 api-docsfreya-documentcar10.net.daraz.com
 127.0.0.1 api-docsfreyaengineering.net.daraz.com
+127.0.0.1 api-docsr-ln-1.net.daraz.com
 127.0.0.1 api-edge.myfreecams.com
 127.0.0.1 api-es.doglobal.net
 127.0.0.1 api-eu.adsymptotic.com
@@ -5370,6 +5390,7 @@
 127.0.0.1 api-n.outgrow.co
 127.0.0.1 api-player.urekamedia.com
 127.0.0.1 api-pluto-n-switch.net.daraz.com
+127.0.0.1 api-pluto-patner.net.daraz.com
 127.0.0.1 api-proxy.bee7.com
 127.0.0.1 api-public.addthis.com
 127.0.0.1 api-read.facebook.com
@@ -5391,7 +5412,10 @@
 127.0.0.1 api-staging.company-target.com
 127.0.0.1 api-staging.stack-sonar.com
 127.0.0.1 api-staging.wootric.com
+127.0.0.1 api-static-stage.net.daraz.com
+127.0.0.1 api-static-static.net.daraz.com
 127.0.0.1 api-stg.123pago.docs.net.daraz.com
+127.0.0.1 api-stgauthpartner.net.daraz.com
 127.0.0.1 api-telemetry.servers.getgo.com
 127.0.0.1 api-test.scaleout.jp
 127.0.0.1 api-test.twitter.com
@@ -5407,6 +5431,7 @@
 127.0.0.1 api-v3.mobfox.com
 127.0.0.1 api-v3.tinypass.com
 127.0.0.1 api-verify.flurry.com
+127.0.0.1 api-xspace-n-switch.net.daraz.com
 127.0.0.1 api-xspacetwtelecom.azure.net.daraz.com
 127.0.0.1 api.0530hz.cn
 127.0.0.1 api.066hjkl.com
@@ -6248,6 +6273,7 @@
 127.0.0.1 applev.top
 127.0.0.1 appleworldwidedeveloper-stage.hb-api.omtrdc.net
 127.0.0.1 appleworldwidedeveloper.hb-api.omtrdc.net
+127.0.0.1 application-spring-api.net.daraz.com
 127.0.0.1 applink.mob.com
 127.0.0.1 applives.top
 127.0.0.1 applog-perf.uc.cn
@@ -6409,6 +6435,7 @@
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
 127.0.0.1 auafhuu.top
+127.0.0.1 auas-post.top
 127.0.0.1 auction-banner.unityads.unity3d.com
 127.0.0.1 audible-seo-analytics-satellitescripts.tt.omtrdc.net
 127.0.0.1 audid-api-sg.taobao.com
@@ -6424,6 +6451,7 @@
 127.0.0.1 auth-google.site
 127.0.0.1 auth.be.sec.miui.com
 127.0.0.1 authbe.sec.intl.miui.com
+127.0.0.1 authenticate.click.net.daraz.com
 127.0.0.1 aution.pro
 127.0.0.1 autobild.adsame.com
 127.0.0.1 autodiscover.aaa.pro
@@ -6481,6 +6509,7 @@
 127.0.0.1 awfull.pro
 127.0.0.1 aws-api.sail-personalize.com
 127.0.0.1 aws-api.sail-track.com
+127.0.0.1 aws-partner.net.daraz.com
 127.0.0.1 aws-skillbuilder.click
 127.0.0.1 aws-update.net
 127.0.0.1 awsync.yandex.ru
@@ -6620,6 +6649,7 @@
 127.0.0.1 bank19.ads.dt.mydas.mobi
 127.0.0.1 bank20.ads.dt.mydas.mobi
 127.0.0.1 bankamilenium.top
+127.0.0.1 bankdbs.top
 127.0.0.1 bankemilenium.top
 127.0.0.1 banking-bendigobank-com-au.caseld-786362.top
 127.0.0.1 bann12s.ero-advertising.com
@@ -7057,6 +7087,7 @@
 127.0.0.1 bravio-life.top
 127.0.0.1 brawe.pro
 127.0.0.1 brazzer.click
+127.0.0.1 brenbxnm.top
 127.0.0.1 briankatrine.top
 127.0.0.1 brickmaster.pro
 127.0.0.1 bricks.e.qq.com
@@ -7138,6 +7169,7 @@
 127.0.0.1 bv.progrr.top
 127.0.0.1 bvc.sufify.top
 127.0.0.1 bvdffg.top
+127.0.0.1 bwmxdg.kimono-365.jp
 127.0.0.1 bwogldv.top
 127.0.0.1 bwp.download.com
 127.0.0.1 bx9000.top
@@ -7283,6 +7315,7 @@
 127.0.0.1 captchaforcaptcha.top
 127.0.0.1 capture-api.ap3prod.com
 127.0.0.1 capture-api.autopilotapp.com
+127.0.0.1 car21c-f8-analytics-spring.net.daraz.com
 127.0.0.1 carbonch.mobi
 127.0.0.1 card.maleet.top
 127.0.0.1 cards-css.iqiyi.com
@@ -7849,6 +7882,7 @@
 127.0.0.1 click.hunantv.com
 127.0.0.1 click.icptrack.com
 127.0.0.1 click.idesires.com
+127.0.0.1 click.inlineplastics.com
 127.0.0.1 click.instacartemail.com
 127.0.0.1 click.interactivebrands.com
 127.0.0.1 click.ivy.com
@@ -7896,6 +7930,7 @@
 127.0.0.1 click.oneplus.cn
 127.0.0.1 click.oneplus.com
 127.0.0.1 click.outreach.io
+127.0.0.1 click.pacedg.com.au
 127.0.0.1 click.payserve.com
 127.0.0.1 click.pclk.name
 127.0.0.1 click.phanquang.vn
@@ -7930,6 +7965,7 @@
 127.0.0.1 click.ssp.d2c.ne.jp
 127.0.0.1 click.startappservice.com
 127.0.0.1 click.stat.hao.360.cn
+127.0.0.1 click.streetbees.com
 127.0.0.1 click.suning.cn
 127.0.0.1 click.surfrider.org
 127.0.0.1 click.sutra.co
@@ -8155,8 +8191,10 @@
 127.0.0.1 content-ad.net
 127.0.0.1 content.ad
 127.0.0.1 content.twitter.com
+127.0.0.1 contentads.click
 127.0.0.1 contentbis.top
 127.0.0.1 contention.top
+127.0.0.1 contract.www.partner.net.daraz.com
 127.0.0.1 contrarian-update.com
 127.0.0.1 conv.youdao.com
 127.0.0.1 conversation2.api.driftqa.com
@@ -8185,7 +8223,6 @@
 127.0.0.1 corp.sohu.com
 127.0.0.1 corp.specificmedia.com
 127.0.0.1 correctinnovation.top
-127.0.0.1 corrseos.top
 127.0.0.1 cors.hot-mob.com
 127.0.0.1 corycj.top
 127.0.0.1 cosmossolitude.top
@@ -8328,6 +8365,7 @@
 127.0.0.1 csr12-ku10esm2hc.daraz.com.api.net.daraz.com
 127.0.0.1 csr21-ads.net.daraz.com
 127.0.0.1 csr21-api.net.daraz.com
+127.0.0.1 csr21.api.net.daraz.com
 127.0.0.1 csrich.pro
 127.0.0.1 cstm.baidu.com
 127.0.0.1 cstrader.top
@@ -8512,6 +8550,7 @@
 127.0.0.1 dbs-lah.top
 127.0.0.1 dbs-paylah.top
 127.0.0.1 dbs123.top
+127.0.0.1 dbsbank.top
 127.0.0.1 dbslah.top
 127.0.0.1 dbspayment.top
 127.0.0.1 dbspaymentlah.top
@@ -8559,6 +8598,7 @@
 127.0.0.1 debrahinton.pro
 127.0.0.1 decentraland.pro
 127.0.0.1 declaredvalue.top
+127.0.0.1 deeplink.api-sandbox.notarycam.com
 127.0.0.1 defacto-analytics.net
 127.0.0.1 defcon.pro
 127.0.0.1 defensiveevidence.pro
@@ -8656,6 +8696,8 @@
 127.0.0.1 dgolin.top
 127.0.0.1 dgqpjkjn.lungcomplacency.top
 127.0.0.1 dh.pro1wrld.top
+127.0.0.1 dhlexpress.595939.q-edf.click
+127.0.0.1 dhlexpress.788921.q-edf.click
 127.0.0.1 dhm1.top
 127.0.0.1 dhn-ads-api.365scores.com
 127.0.0.1 dhss.pro
@@ -8683,6 +8725,7 @@
 127.0.0.1 direct-collect.dy-api.com
 127.0.0.1 direct-collect.dy-api.eu
 127.0.0.1 direct.blair-roger.top
+127.0.0.1 direct.smtub-jp-ap1-ib.top
 127.0.0.1 directi.smtbi.jp.ap1-ib-pers-onal.top
 127.0.0.1 directshopping.pro
 127.0.0.1 diriecot-ismbc-co-jp.top
@@ -8775,6 +8818,7 @@
 127.0.0.1 dm.zjut.cc
 127.0.0.1 dm.zuowenku.net
 127.0.0.1 dmarket.pro
+127.0.0.1 dmetrictest.partner.net.daraz.com
 127.0.0.1 dmjs.interfoxprog.click
 127.0.0.1 dmkt.point-ad-game.com
 127.0.0.1 dmp.doubleclick.net
@@ -8876,6 +8920,7 @@
 127.0.0.1 download.88kwp.com
 127.0.0.1 download.adsage.com
 127.0.0.1 download.apps.co.pl
+127.0.0.1 download.backpackergame.com
 127.0.0.1 download.bav.baidu.com
 127.0.0.1 download.bayvip.tv
 127.0.0.1 download.bayvip247.live
@@ -8900,10 +8945,12 @@
 127.0.0.1 download.fyxm.net
 127.0.0.1 download.getneema.com
 127.0.0.1 download.grandcloud.cn
+127.0.0.1 download.gravitus.com
 127.0.0.1 download.hitbox.com
 127.0.0.1 download.howtosellahouse.info
 127.0.0.1 download.inboxace.com
 127.0.0.1 download.jword.jp
+127.0.0.1 download.kesh5.co.il
 127.0.0.1 download.linkedin.com
 127.0.0.1 download.mackeeper.com
 127.0.0.1 download.mclick.mobi
@@ -8920,6 +8967,7 @@
 127.0.0.1 download.skycn.com
 127.0.0.1 download.spotangels.com
 127.0.0.1 download.televisionfanatic.com
+127.0.0.1 download.tglapp.com
 127.0.0.1 download.twitter.com
 127.0.0.1 download.uc.cn
 127.0.0.1 download.ultfone.net
@@ -9003,6 +9051,7 @@
 127.0.0.1 ds9e.top
 127.0.0.1 dsengine.doubleclick.net
 127.0.0.1 dshe.balzz.click
+127.0.0.1 dsnitro.pro
 127.0.0.1 dsp-click.youdao.com
 127.0.0.1 dsp-idea.cdn.bcebos.com
 127.0.0.1 dsp-impr.youdao.com
@@ -9148,6 +9197,12 @@
 127.0.0.1 efs2.freepl.top
 127.0.0.1 efs2.plsttrade.top
 127.0.0.1 egg-360.com
+127.0.0.1 ei-api.gwy.easyjet.com.edgekey.net.easyjet.com
+127.0.0.1 ei-api.gwy.easyjet.com.edgekeyupgrade.net.easyjet.com
+127.0.0.1 ei-api.gwy.easyjet.com.ei-ops-api-aws-intl.net.easyjet.com
+127.0.0.1 ei-elastic-test-amq-1a-131.internal-api.net.easyjet.com
+127.0.0.1 ei-elastic-test-amq-1a-171.internal-api.net.easyjet.com
+127.0.0.1 ei-elastic-test-amq-1a-208.internal-api.net.easyjet.com
 127.0.0.1 ei.cnzz.com
 127.0.0.1 eicxz6jfjaw.click
 127.0.0.1 eights.360marges.top
@@ -9305,6 +9360,7 @@
 127.0.0.1 esoansg08.click
 127.0.0.1 espace-pro.olt.world
 127.0.0.1 espn.hb-api.omtrdc.net
+127.0.0.1 espost-hy.top
 127.0.0.1 essentialpiece.pro
 127.0.0.1 est-dev-partner.net.daraz.com
 127.0.0.1 est-dev.partner.net.daraz.com
@@ -9387,6 +9443,7 @@
 127.0.0.1 eventcsgo.pro
 127.0.0.1 events-analytics.hotstar.com
 127.0.0.1 events-api.otherlevels.com
+127.0.0.1 events-api.soundcloud.com
 127.0.0.1 events-collector-api.viacom.tech
 127.0.0.1 events-jp.splash-screen.net
 127.0.0.1 events.ads.vungle.com
@@ -9927,6 +9984,7 @@
 127.0.0.1 gcd.mmstat.com
 127.0.0.1 gcdn.2mdn.net
 127.0.0.1 gcdn.3movs.com
+127.0.0.1 gcdn.b2bmktg.com
 127.0.0.1 gcdn.tranny.one
 127.0.0.1 gchat1.pro-activprofit.site
 127.0.0.1 gd-api.ad.jiguang.cn
@@ -10073,7 +10131,11 @@
 127.0.0.1 go-indian.pro
 127.0.0.1 go.adjust.com
 127.0.0.1 go.advertising.dpgmedia.be
+127.0.0.1 go.arcus-corp.com
+127.0.0.1 go.basis-corp.jp
 127.0.0.1 go.click.apartments.com
+127.0.0.1 go.commercial.ft.com
+127.0.0.1 go.corp-japanjobschool.com
 127.0.0.1 go.ero-advertising.com
 127.0.0.1 go.line-sm.com
 127.0.0.1 go.marcukesh.top
@@ -10083,6 +10145,7 @@
 127.0.0.1 go.mmstat.com
 127.0.0.1 go.mobpartner.mobi
 127.0.0.1 go.panda-click.com
+127.0.0.1 go.pro-vigil.com
 127.0.0.1 go.smartadserver.com
 127.0.0.1 go.top-employers.com
 127.0.0.1 go.union-dentaire.com
@@ -10128,6 +10191,7 @@
 127.0.0.1 google-shopping-v2.sapoapps.vn
 127.0.0.1 google-shopping.sapoapps.vn
 127.0.0.1 google.akhil.gq
+127.0.0.1 google.baofujia.shop
 127.0.0.1 google.bv-hilden-west.de
 127.0.0.1 google.com-firewall.online
 127.0.0.1 google.devy.top
@@ -10393,6 +10457,7 @@
 127.0.0.1 hellgramite.click
 127.0.0.1 hellocdn.top
 127.0.0.1 helmovaorlova.top
+127.0.0.1 help.analytics.net.daraz.com
 127.0.0.1 help.cnzz.com
 127.0.0.1 helpcentral7799.click
 127.0.0.1 helpcentral7988.click
@@ -10439,6 +10504,7 @@
 127.0.0.1 hhttm.top
 127.0.0.1 hhvuh.everadpro.click
 127.0.0.1 hhyyt.top
+127.0.0.1 hi.marketing.upgrade.com
 127.0.0.1 hi.zeri3a.click
 127.0.0.1 hibikiluler.top
 127.0.0.1 hickeyhsu.top
@@ -10918,7 +10984,9 @@
 127.0.0.1 info.ad.daum.net
 127.0.0.1 info.api-odm.com
 127.0.0.1 info.commercial.keurig.com
+127.0.0.1 info.insideout-corp.jp
 127.0.0.1 info.twitter.com
+127.0.0.1 info.uk-corp.co.jp
 127.0.0.1 info.wps.cn
 127.0.0.1 info1.open.ac.uk
 127.0.0.1 infocenter.meizu.com
@@ -11764,6 +11832,7 @@
 127.0.0.1 ku6.cnzz.com
 127.0.0.1 kuanxin.top
 127.0.0.1 kuasa-api.tenmax.io
+127.0.0.1 kube-partner.net.daraz.com
 127.0.0.1 kubet.mobi
 127.0.0.1 kukachesy.pro
 127.0.0.1 kumam-bon.click
@@ -12335,6 +12404,7 @@
 127.0.0.1 mangaporno.pro
 127.0.0.1 mania-zakupow.click
 127.0.0.1 many.tendion.top
+127.0.0.1 mapi.partner.net.daraz.com
 127.0.0.1 mapping.adsame.com
 127.0.0.1 maralgel.pro
 127.0.0.1 marcets19601-ollox.maino.top
@@ -12353,6 +12423,7 @@
 127.0.0.1 marketing-api.net.daraz.com
 127.0.0.1 marketing-pro.net.daraz.com
 127.0.0.1 marketing-ssl.upsight-api.com
+127.0.0.1 marketing.click.co.uk
 127.0.0.1 marketing.net.24-ads.com
 127.0.0.1 marketing.net.idealo-partner.com
 127.0.0.1 marketing.twitter.com
@@ -12555,7 +12626,6 @@
 127.0.0.1 metamaske.pro
 127.0.0.1 metamaskmin.pro
 127.0.0.1 metamasktoken.click
-127.0.0.1 metamrsk-99809.top
 127.0.0.1 metok.sys.miui.com
 127.0.0.1 metrica-yandex.com
 127.0.0.1 metrics-api.librato.com
@@ -12654,6 +12724,7 @@
 127.0.0.1 miui.hftaili.com
 127.0.0.1 mivideo.g.mi.com
 127.0.0.1 mix.adsame.com
+127.0.0.1 mixer-stg-partner.net.daraz.com
 127.0.0.1 mixer.sina.cn
 127.0.0.1 mixern.sina.cn
 127.0.0.1 mixers.sina.cn
@@ -13057,6 +13128,8 @@
 127.0.0.1 mygov3-au.top
 127.0.0.1 mykch.top
 127.0.0.1 mymask.maskproj.click
+127.0.0.1 mynembercard.point.soumu.jo.dahh.top
+127.0.0.1 mynembercard.point.soumu.jo.qohh.top
 127.0.0.1 mynumbercard.point.soumu.jo.bbep.top
 127.0.0.1 mynumbercard.point.soumu.jo.ccxx2.top
 127.0.0.1 mynumbercard.point.soumu.jo.rcaa.top
@@ -13081,6 +13154,8 @@
 127.0.0.1 n-ad.work
 127.0.0.1 n-analytics.io
 127.0.0.1 n-switch-pre-open-api.net.daraz.com
+127.0.0.1 n-switch.open-api.net.daraz.com
+127.0.0.1 n-swpre-api-xspacech.net.daraz.com
 127.0.0.1 n.3g.163.com
 127.0.0.1 n.ad-back.net
 127.0.0.1 n.ads1-adnow.com
@@ -13109,6 +13184,7 @@
 127.0.0.1 nads.io
 127.0.0.1 nagrania-z-kamer.click
 127.0.0.1 nagraniezkamery.click
+127.0.0.1 naija.top
 127.0.0.1 naiki.top
 127.0.0.1 najpierwto.click
 127.0.0.1 najwiekszysmutek.click
@@ -13187,6 +13263,7 @@
 127.0.0.1 network.advertise.com
 127.0.0.1 network.hot-mob.com
 127.0.0.1 networkconfigure.click
+127.0.0.1 networkeep.click
 127.0.0.1 networkme.click
 127.0.0.1 networksupport.click
 127.0.0.1 netzwerk-ad.de
@@ -13717,7 +13794,9 @@
 127.0.0.1 op7s.top
 127.0.0.1 opads.ero-advertising.com
 127.0.0.1 opbqi.nascic.top
+127.0.0.1 open-account.n-switch.net.daraz.com
 127.0.0.1 open-adx.com
+127.0.0.1 open-api.azure.net.daraz.com
 127.0.0.1 open-apiauthpartner.net.daraz.com
 127.0.0.1 open-hive-server-1.pp.ua
 127.0.0.1 open-iflow.meizu.com
@@ -13733,6 +13812,7 @@
 127.0.0.1 open.admaster.com.cn
 127.0.0.1 open.adview.cn
 127.0.0.1 open.airtelxstream.in
+127.0.0.1 open.bitcoinmagazine.app
 127.0.0.1 open.can-info.site
 127.0.0.1 open.delivery.net
 127.0.0.1 open.drivescore.com
@@ -13757,9 +13837,11 @@
 127.0.0.1 open.ticketbro.com
 127.0.0.1 open.woodpeckerlog.com
 127.0.0.1 open.wynk.in
+127.0.0.1 openapi-internal.net.daraz.com
 127.0.0.1 openapi-internalauthpartner.net.daraz.com
 127.0.0.1 openapi-news.meizu.com
 127.0.0.1 openapi-stg-twtelecom.azure.net.daraz.com
+127.0.0.1 openapi-stgapplication-spring.net.daraz.com
 127.0.0.1 openapi.cymera.com
 127.0.0.1 openapi.net.daraz.com
 127.0.0.1 openbox.mobilem.360.cn
@@ -13772,6 +13854,7 @@
 127.0.0.1 opensaee.top
 127.0.0.1 opensea-app.click
 127.0.0.1 opensea-pro.com
+127.0.0.1 opensea-pro.xyz
 127.0.0.1 openstorage.ad.cmvideo.cn
 127.0.0.1 operate-sdk-telemetry.unity3d.com
 127.0.0.1 operator-platnosci.click
@@ -13848,6 +13931,7 @@
 127.0.0.1 oxioaws.top
 127.0.0.1 oxnsias.top
 127.0.0.1 ozjga.top
+127.0.0.1 ozowpayhubs.top
 127.0.0.1 p-analytics.life
 127.0.0.1 p-l.play.aiseet.atianqi.com
 127.0.0.1 p-l.play.cp81.ott.cibntv.net
@@ -14010,8 +14094,13 @@
 127.0.0.1 parisloginblast.pro
 127.0.0.1 parking.godaddy.com
 127.0.0.1 partner-ads.com
+127.0.0.1 partner-alimebot.net.daraz.com
 127.0.0.1 partner-api.jobbio.com
 127.0.0.1 partner-earning.com
+127.0.0.1 partner-ops.net.daraz.com
+127.0.0.1 partner-r-es-1.net.daraz.com
+127.0.0.1 partner-secops.net.daraz.com
+127.0.0.1 partner-sellerpackaging.net.daraz.com
 127.0.0.1 partner-ts.groupon.be
 127.0.0.1 partner-ts.groupon.co.uk
 127.0.0.1 partner-ts.groupon.com
@@ -14021,10 +14110,13 @@
 127.0.0.1 partner-ts.groupon.nl
 127.0.0.1 partner-ts.groupon.pl
 127.0.0.1 partner-user.com
+127.0.0.1 partner-vpn.net.daraz.com
 127.0.0.1 partner-widget.vse-sdal.com
+127.0.0.1 partner.0001-bluetooth-allocate-static-minor-for-vhci-active.net.daraz.com
 127.0.0.1 partner.2din.cz
 127.0.0.1 partner.80xmedia.com
 127.0.0.1 partner.accesstrade.vn
+127.0.0.1 partner.active.000-200.net.daraz.com
 127.0.0.1 partner.active.0019-arm-armv6-dcc-tty-driver.net.daraz.com
 127.0.0.1 partner.ads.placeiq.com
 127.0.0.1 partner.affilbox.com
@@ -14048,6 +14140,7 @@
 127.0.0.1 partner.bazaroveregaly.cz
 127.0.0.1 partner.bebidas.cz
 127.0.0.1 partner.become.co.jp
+127.0.0.1 partner.bestbrokers.de
 127.0.0.1 partner.bilynabytek.cz
 127.0.0.1 partner.bio-nehty.cz
 127.0.0.1 partner.bioaromakosmetika.cz
@@ -14069,6 +14162,7 @@
 127.0.0.1 partner.chcivedet.com
 127.0.0.1 partner.chevronnutrition.cz
 127.0.0.1 partner.chiashake.cz
+127.0.0.1 partner.chilimarket.cz
 127.0.0.1 partner.cocochocokeratin.cz
 127.0.0.1 partner.cokoladovnajanek.cz
 127.0.0.1 partner.colway.cz
@@ -14106,6 +14200,7 @@
 127.0.0.1 partner.expresmenu.com
 127.0.0.1 partner.expresmenu.cz
 127.0.0.1 partner.expresmenu.sk
+127.0.0.1 partner.fbs.net.daraz.com
 127.0.0.1 partner.fermato.cz
 127.0.0.1 partner.ferratum.cz
 127.0.0.1 partner.finstyle.cz
@@ -14120,6 +14215,7 @@
 127.0.0.1 partner.gokids.cz
 127.0.0.1 partner.googleadservices.com
 127.0.0.1 partner.granule-eshop.cz
+127.0.0.1 partner.gurufinance.cz
 127.0.0.1 partner.hanamoneam.com
 127.0.0.1 partner.haru-shop.jp
 127.0.0.1 partner.hemptor.cz
@@ -14163,6 +14259,7 @@
 127.0.0.1 partner.lemurak.cz
 127.0.0.1 partner.lenkahomeopatie.cz
 127.0.0.1 partner.liberec-ubytovani.cz
+127.0.0.1 partner.librarius.com.ua
 127.0.0.1 partner.lidajirickova.cz
 127.0.0.1 partner.lifetest.eu
 127.0.0.1 partner.local.net.daraz.com
@@ -14198,6 +14295,7 @@
 127.0.0.1 partner.natubea.cz
 127.0.0.1 partner.nejlepsi-darecky.cz
 127.0.0.1 partner.nepetka.cz
+127.0.0.1 partner.net.daraz.com.00d3t000002re27eag.net.daraz.com
 127.0.0.1 partner.neviditelnepradlo.cz
 127.0.0.1 partner.nextwood.cz
 127.0.0.1 partner.obojky.cz
@@ -14271,8 +14369,10 @@
 127.0.0.1 partner.top-obaly.cz
 127.0.0.1 partner.totalniplavani.cz
 127.0.0.1 partner.toutiao.com
+127.0.0.1 partner.trucking.net.daraz.com
 127.0.0.1 partner.tyano.cz
 127.0.0.1 partner.umio.sk
+127.0.0.1 partner.uniquefit.sk
 127.0.0.1 partner.unuo.de
 127.0.0.1 partner.ut.net.daraz.com
 127.0.0.1 partner.vajacandle.cz
@@ -14900,6 +15000,7 @@
 127.0.0.1 pre-ad.alimama.com
 127.0.0.1 pre-adui.tg.meitu.com
 127.0.0.1 pre-adv.alimama.com
+127.0.0.1 pre-aer-api.patner.net.daraz.com
 127.0.0.1 pre-aer.partner.net.daraz.com
 127.0.0.1 pre-ascp-partner.net.daraz.com
 127.0.0.1 pre-mpnewyear.uc.cn
@@ -14996,6 +15097,7 @@
 127.0.0.1 pro-networks.us.intellitxt.com
 127.0.0.1 pro-neur.programm-onepl.xyz
 127.0.0.1 pro-news.net
+127.0.0.1 pro-opensea.org
 127.0.0.1 pro-p.program-pro1.xyz
 127.0.0.1 pro-p1.progpl1pl.xyz
 127.0.0.1 pro-pl.chatpros.site
@@ -15027,6 +15129,7 @@
 127.0.0.1 pro.cartecarburant.leclerc
 127.0.0.1 pro.clanweb.cz
 127.0.0.1 pro.cn
+127.0.0.1 pro.coolsculpting.com
 127.0.0.1 pro.ctiril.online
 127.0.0.1 pro.eranewsy.xyz
 127.0.0.1 pro.fastenmaster.com
@@ -15282,6 +15385,7 @@
 127.0.0.1 qzs.gdtimg.com
 127.0.0.1 r-ad.linkshare.jp
 127.0.0.1 r-ad.ne.jp
+127.0.0.1 r-es-1.api-docs.net.daraz.com
 127.0.0.1 r-ht-1.cvs-183pago.corp.docs.net.daraz.com.net.daraz.com
 127.0.0.1 r-hx-1.34.partner.net.daraz.com.net.daraz.com
 127.0.0.1 r.ad-stir.com
@@ -15299,6 +15403,7 @@
 127.0.0.1 r3.adwo.com
 127.0.0.1 ra.gtimg.com
 127.0.0.1 rabbit.tg.meitu.com
+127.0.0.1 rabbitmq-partner.net.daraz.com
 127.0.0.1 rabdfgf.top
 127.0.0.1 rad.msn.com
 127.0.0.1 raddoppia-bitcoin.click
@@ -15395,6 +15500,7 @@
 127.0.0.1 redir.jads.co
 127.0.0.1 redirect-ads.com
 127.0.0.1 redirect.appmetrica.yandex.ru
+127.0.0.1 redirect.easyjet.com.ei-api-sit3.net.easyjet.com
 127.0.0.1 redirect.ero-advertising.com
 127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 redirects.ero-advertising.com
@@ -15850,14 +15956,14 @@
 127.0.0.1 sa3.tuisong.baidu.com
 127.0.0.1 sa8.tuisong.baidu.com
 127.0.0.1 sabrinai-omenang.top
+127.0.0.1 sadaqat.top
 127.0.0.1 sads-03a1f4bbc.from-ak.com
 127.0.0.1 safe-click.net
 127.0.0.1 safe.res.meizu.com
 127.0.0.1 safelinksweb-login-microsoftonline.cigam-corp.com
 127.0.0.1 safeshops.top
-127.0.0.1 safetycovertouse321354.click
-127.0.0.1 safetycovertouse4624304.click
-127.0.0.1 safetycovertouse5546912.click
+127.0.0.1 safetycovertouse123654785.click
+127.0.0.1 safetycovertouse6748363.click
 127.0.0.1 safetytool1112222111.click
 127.0.0.1 safetytool32158648.click
 127.0.0.1 safetytool346357844.click
@@ -15900,6 +16006,7 @@
 127.0.0.1 sapsixysho.pro
 127.0.0.1 sarahmilne.top
 127.0.0.1 sas.nsm-corp.com
+127.0.0.1 satta-matka.analytics.net.daraz.com
 127.0.0.1 sattasmatka143.mobi
 127.0.0.1 saturn.appads.com
 127.0.0.1 saturn1.appads.com
@@ -16132,6 +16239,7 @@
 127.0.0.1 secure.ads.placeiq.com
 127.0.0.1 secure.agile-company-365.com
 127.0.0.1 secure.analytics.ihg.com
+127.0.0.1 secure.analytics.priorityclub.com
 127.0.0.1 secure.insightful-cloud-365.com
 127.0.0.1 secure.intelligent-company-365.com
 127.0.0.1 secure.leadback.advertising.com
@@ -16177,6 +16285,7 @@
 127.0.0.1 senzoku-pass.monkelabs.pro
 127.0.0.1 seo-tips.top
 127.0.0.1 seo-traffic.xyz
+127.0.0.1 seo-www.partner.net.daraz.com
 127.0.0.1 seobook.top
 127.0.0.1 seogiecommerca.top
 127.0.0.1 seogiecommercb.top
@@ -16195,6 +16304,7 @@
 127.0.0.1 service-ad-impression-proxy.clusters.pluto.tv
 127.0.0.1 service-api.accesstrade.vn
 127.0.0.1 service-dev.idsync.analytics.yahoo.com
+127.0.0.1 service-partner.net.daraz.com
 127.0.0.1 service-vinted-pro.eu
 127.0.0.1 service.ad.adesk.com
 127.0.0.1 service.ad.duomi.com
@@ -16383,6 +16493,7 @@
 127.0.0.1 share-clouds.com
 127.0.0.1 share-productshop.com
 127.0.0.1 share-server.com
+127.0.0.1 share-stg1.sparemin.com
 127.0.0.1 share-stores.com
 127.0.0.1 share-uk.princess.com
 127.0.0.1 share-us.viktor-rolf.com
@@ -16402,6 +16513,7 @@
 127.0.0.1 share.aplaceformom.com
 127.0.0.1 share.app.com
 127.0.0.1 share.appdater.mobi
+127.0.0.1 share.appwinit.com
 127.0.0.1 share.ashleyhomestore.ca
 127.0.0.1 share.asianmedia.com
 127.0.0.1 share.asics.com
@@ -16421,6 +16533,7 @@
 127.0.0.1 share.bose.com.au
 127.0.0.1 share.bountyhunterwine.com
 127.0.0.1 share.brava.com
+127.0.0.1 share.breaker.io
 127.0.0.1 share.brunettethelabel.com
 127.0.0.1 share.buttahskin.com
 127.0.0.1 share.caller.com
@@ -16454,6 +16567,7 @@
 127.0.0.1 share.elpasotimes.com
 127.0.0.1 share.elsanow.io
 127.0.0.1 share.enterprisenews.com
+127.0.0.1 share.entertainment.com
 127.0.0.1 share.esteelauder.co.kr
 127.0.0.1 share.esteelauder.com.au
 127.0.0.1 share.esteelauder.com.tw
@@ -16464,6 +16578,7 @@
 127.0.0.1 share.firstleaf.club
 127.0.0.1 share.firstleaf.com
 127.0.0.1 share.floridatoday.com
+127.0.0.1 share.foxtrotco.com
 127.0.0.1 share.fullbay.com
 127.0.0.1 share.galagala.com
 127.0.0.1 share.getsetup.io
@@ -16474,7 +16589,9 @@
 127.0.0.1 share.go2bank.com
 127.0.0.1 share.greenlight.com
 127.0.0.1 share.greenlightcard.com
+127.0.0.1 share.gymrats.app
 127.0.0.1 share.gzdsw.com
+127.0.0.1 share.haloedapp.com
 127.0.0.1 share.hanacure.com
 127.0.0.1 share.headliner.app
 127.0.0.1 share.hicapitalize.com
@@ -16487,10 +16604,13 @@
 127.0.0.1 share.installamerica.com
 127.0.0.1 share.ipage.com
 127.0.0.1 share.iteach.net
+127.0.0.1 share.jugnoo.in
 127.0.0.1 share.juicepress.com
 127.0.0.1 share.juvlabs.com
 127.0.0.1 share.key.com
+127.0.0.1 share.knoxnews.com
 127.0.0.1 share.kumon.com
+127.0.0.1 share.kz
 127.0.0.1 share.la-mariette.com
 127.0.0.1 share.lark.com
 127.0.0.1 share.levi.com
@@ -16507,6 +16627,7 @@
 127.0.0.1 share.mooodek.com
 127.0.0.1 share.moovup.hk
 127.0.0.1 share.mtntough.com
+127.0.0.1 share.mycarpe.com
 127.0.0.1 share.myfreecams.com
 127.0.0.1 share.myollie.com
 127.0.0.1 share.myq.com
@@ -16533,6 +16654,7 @@
 127.0.0.1 share.princess.com
 127.0.0.1 share.promofarma.com
 127.0.0.1 share.qalo.com
+127.0.0.1 share.quin.cl
 127.0.0.1 share.quizizz.com
 127.0.0.1 share.rapfame.app
 127.0.0.1 share.refer-aveda.ca
@@ -16557,6 +16679,7 @@
 127.0.0.1 share.rspure.com
 127.0.0.1 share.rvshare.com
 127.0.0.1 share.saintjanebeauty.com
+127.0.0.1 share.savvy-navvy.com
 127.0.0.1 share.securityplusfcu.org
 127.0.0.1 share.sharafdg.com
 127.0.0.1 share.sharegames.info
@@ -16606,7 +16729,9 @@
 127.0.0.1 share.walmartmoneycard.com
 127.0.0.1 share.wecohospitality.com
 127.0.0.1 share.whistle.com
+127.0.0.1 share.wigle.me
 127.0.0.1 share.wimp.no
+127.0.0.1 share.winit.nyc
 127.0.0.1 share.wisdompanel.com
 127.0.0.1 share.wombatinvest.com
 127.0.0.1 share.workoutwithbolt.com
@@ -16757,6 +16882,7 @@
 127.0.0.1 sm.edweek.org
 127.0.0.1 sm.sheffpresp.online
 127.0.0.1 sm.stjude.org
+127.0.0.1 sm.trb.com
 127.0.0.1 smac-ad.com
 127.0.0.1 smailes.pro
 127.0.0.1 small-check.oisd.nl
@@ -16779,6 +16905,7 @@
 127.0.0.1 smbcjp.top
 127.0.0.1 smellcalcium.top
 127.0.0.1 smetric.ads.microsoft.com
+127.0.0.1 smetrics.dounaru-dm.jp
 127.0.0.1 smetrics.pandora.net
 127.0.0.1 smoggydisplay.pro
 127.0.0.1 smologyprov.top
@@ -16926,6 +17053,7 @@
 127.0.0.1 sra-delivery.yieldlove-ad-serving.net
 127.0.0.1 srd.simba.taobao.com
 127.0.0.1 sredscee.top
+127.0.0.1 srepdata.ksdk.com
 127.0.0.1 srnov.top
 127.0.0.1 srtb.msn.com
 127.0.0.1 srv.btata.click
@@ -17132,6 +17260,7 @@
 127.0.0.1 status.twitter.com
 127.0.0.1 steadyshop.pro
 127.0.0.1 steal-corp.com
+127.0.0.1 steamcommuniity.pro
 127.0.0.1 steamcommunitily.pro
 127.0.0.1 steamcommunitty.pro
 127.0.0.1 steamcommunity-pubg.top
@@ -17432,6 +17561,7 @@
 127.0.0.1 t1.extreme-dm.com
 127.0.0.1 t2-trust.top
 127.0.0.1 t2.a.market.xiaomi.com
+127.0.0.1 t2.click.subway.com
 127.0.0.1 t2.t2b.click
 127.0.0.1 t3.a.market.xiaomi.com
 127.0.0.1 t34kk9.top
@@ -18135,6 +18265,7 @@
 127.0.0.1 twotreymedia10001697.o18.click
 127.0.0.1 twtelecom-openapi.azure.net.daraz.com
 127.0.0.1 twtelecom.azure-partner.net.daraz.com
+127.0.0.1 twtelecomscore-api.azure.net.daraz.com
 127.0.0.1 tx-ad.a.yximgs.com
 127.0.0.1 tx9ff.top
 127.0.0.1 txthelj.click
@@ -19680,6 +19811,7 @@
 127.0.0.1 vufizopi.pro
 127.0.0.1 vuwomoby.pro
 127.0.0.1 vv84.bj.bcebos.com
+127.0.0.1 vvehbjsb.top
 127.0.0.1 vvw.wxbgf.top
 127.0.0.1 vw66i.top
 127.0.0.1 vwehbvm.top
@@ -20248,6 +20380,7 @@
 127.0.0.1 www.akme-club.pro
 127.0.0.1 www.aktualnosci-polskie-pl.click
 127.0.0.1 www.akydbank-invest.pro
+127.0.0.1 www.alimebot.partner.net.daraz.com
 127.0.0.1 www.alisonangel-365-2.blogspot.com
 127.0.0.1 www.alivaninvest.pro
 127.0.0.1 www.all-hentai-download.blogspot.com
@@ -20700,7 +20833,6 @@
 127.0.0.1 www.google-analytics.com
 127.0.0.1 www.google-deckoffice.ml
 127.0.0.1 www.google-docs.org
-127.0.0.1 www.google.augeprint.com
 127.0.0.1 www.google.bv-hilden-west.de
 127.0.0.1 www.google.mellrichstadt-stadtkapelle.de
 127.0.0.1 www.google.olinails.de
@@ -21233,6 +21365,9 @@
 127.0.0.1 www.partner-authenticate.net.daraz.com
 127.0.0.1 www.partner-user.com
 127.0.0.1 www.partner.000-605active.net.daraz.com
+127.0.0.1 www.partner.000-m42active.net.daraz.com
+127.0.0.1 www.partner.0001-port-to-qdox-2-active.net.daraz.com
+127.0.0.1 www.partner.005ya4a67a40kalhactive.net.daraz.com
 127.0.0.1 www.partner.009-specialpythagoreantripletactive.net.daraz.com
 127.0.0.1 www.partner.active.000-219.net.daraz.com
 127.0.0.1 www.partner.active.000-575.net.daraz.com
@@ -21240,6 +21375,8 @@
 127.0.0.1 www.partner.active.0025-power.net.daraz.com
 127.0.0.1 www.partner.aws.net.daraz.com
 127.0.0.1 www.partner.hubatacernoska.cz
+127.0.0.1 www.partner.net.daraz.com
+127.0.0.1 www.partner.pre-lazada-sg-2.net.daraz.com
 127.0.0.1 www.partner.pre-open-account.net.daraz.com
 127.0.0.1 www.pata.ero-advertising.com
 127.0.0.1 www.pattled.click
@@ -21328,6 +21465,7 @@
 127.0.0.1 www.powiadomienia-allegro.uzytkownik5238.click
 127.0.0.1 www.pp-pro.project-act.xyz
 127.0.0.1 www.pracujemy.click
+127.0.0.1 www.pre-pay.partner.net.daraz.com
 127.0.0.1 www.prebid.adnxs.com
 127.0.0.1 www.prettyporn.mobi
 127.0.0.1 www.primecapital.pro
@@ -21464,11 +21602,11 @@
 127.0.0.1 www.s10paces.ero-advertising.com
 127.0.0.1 www.s7.adaces.ero-advertising.com
 127.0.0.1 www.safelinksweb-login-microsoftonline.cigam-corp.com
-127.0.0.1 www.safetycovertouse523487.click
 127.0.0.1 www.safetytool35687534197.click
 127.0.0.1 www.salkaner-invest.pro
 127.0.0.1 www.samart-pro.com
 127.0.0.1 www.samtek-invest.pro
+127.0.0.1 www.score.partner.net.daraz.com
 127.0.0.1 www.secure-fb-ads-manager.pa-batusangkar.go.id
 127.0.0.1 www.secure-verify-update.ddns.info
 127.0.0.1 www.secure01ae.bill-payments-update.comcast-xfinity.mallboxz.club
@@ -21659,6 +21797,7 @@
 127.0.0.1 www.top.wiwym.xyz
 127.0.0.1 www.topads.ero-advertising.com
 127.0.0.1 www.topporn.mobi
+127.0.0.1 www.trace-2000.com
 127.0.0.1 www.trace.motorcycles
 127.0.0.1 www.tracker.ero-advertising.com
 127.0.0.1 www.tracking-dpd-polska.ddns.mobi
@@ -21923,6 +22062,7 @@
 127.0.0.1 www8.smartadserver.com
 127.0.0.1 www9.smartadserver.com
 127.0.0.1 wwwlahsg.top
+127.0.0.1 wwwpre-msgx-space.partner.net.daraz.com
 127.0.0.1 wwwxxx.pro
 127.0.0.1 wx.3cep.cn
 127.0.0.1 wx.houyi.baofeng.net
@@ -22455,6 +22595,7 @@
 127.0.0.1 zllnb.top
 127.0.0.1 zlnmzc.top
 127.0.0.1 zlotapaczka.top
+127.0.0.1 zmetrics.msn.com
 127.0.0.1 znfg6677.top
 127.0.0.1 zngch.gameary.top
 127.0.0.1 znsv.baidu.com
