@@ -334,6 +334,7 @@ cat << "key" >> "$file"
 @@||dragate.dc.oppomobile.com^$important
 @@||client-uc.heytapmobi.com^$important
 @@||dragate-cn.dc.heytapmobi.com^$important
+@@||sdkconfig.ad.xiaomi.com^$important
 
 
 key
