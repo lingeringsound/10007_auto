@@ -330,11 +330,17 @@ cat << "key" >> "$file"
 @@||ulog*.*.com^$important
 @@||toblog.ctobsnssdk.com^$important
 @@||mmstat.com^$important
-@@||360.cn^$important
 @@||dragate.dc.oppomobile.com^$important
 @@||client-uc.heytapmobi.com^$important
 @@||dragate-cn.dc.heytapmobi.com^$important
 @@||sdkconfig.ad.xiaomi.com^$important
+@@||360.cn^
+! 添加一些规则
+||s.360.cn^$important
+||p.s.360.cn^$important
+||sconf.f.360.cn^$important
+||qurl.f.360.cn^$important
+
 
 
 key
