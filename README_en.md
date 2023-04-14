@@ -3,8 +3,8 @@
 
 ## count
 ```
-all: 22827
-reward: 22794
+all: 22864
+reward: 22831
 ```
 ### ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007&left_color=green&right_color=red)
 
