@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2023-09-29 12:51:48 
+#更新时间: 2023-09-29 22:12:29 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:30826
+#规则数量:30833
 ##################
 
 123.6.13.6 bigota.d.miui.com
@@ -2643,6 +2643,8 @@
 1.1.1.1 ads-go.adroi.com.cn
 1.1.1.1 ads-i2i.jp
 1.1.1.1 ads-im-netz.de
+1.1.1.1 ads-img-al.xhscdn.com
+1.1.1.1 ads-img-qc.xhscdn.com
 1.1.1.1 ads-infineon.ge.tt.omtrdc.net
 1.1.1.1 ads-interfaces.sc-cdn.net
 1.1.1.1 ads-ios-sdk.ogury.co
@@ -2693,6 +2695,8 @@
 1.1.1.1 ads-us.tt.omtrdc.net
 1.1.1.1 ads-v-darwin.hulu.com
 1.1.1.1 ads-verify.flurry.com
+1.1.1.1 ads-video-al.xhscdn.com
+1.1.1.1 ads-video-qc.xhscdn.com
 1.1.1.1 ads-wc.adaptv.advertising.com
 1.1.1.1 ads-wc.v.ssp.yahoo.com
 1.1.1.1 ads-wordego.azureedge.net
@@ -3531,6 +3535,7 @@
 1.1.1.1 ads.mucunki.com
 1.1.1.1 ads.multimania.lycos.fr
 1.1.1.1 ads.museum.or.jp
+1.1.1.1 ads.music.126.net
 1.1.1.1 ads.muslimehelfen.org
 1.1.1.1 ads.mustangworks.com
 1.1.1.1 ads.mvscoelho.com
@@ -5489,6 +5494,7 @@
 1.1.1.1 analytics-yanntp1ncook.net.daraz.com
 1.1.1.1 analytics-zone-1.api.leadfamly.com
 1.1.1.1 analytics.112.2o7.net
+1.1.1.1 analytics.126.com
 1.1.1.1 analytics.126.net
 1.1.1.1 analytics.163.com
 1.1.1.1 analytics.247sports.com
@@ -27540,6 +27546,7 @@
 1.1.1.1 www.blackpig-corp.site
 1.1.1.1 www.blanddish.pro
 1.1.1.1 www.blatfee.ero-advertising.com
+1.1.1.1 www.blissfulclick.pro
 1.1.1.1 www.blockchain-ads.com
 1.1.1.1 www.blodgeninvesting.pro
 1.1.1.1 www.blog-g.pro-fit.host
