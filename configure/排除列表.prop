@@ -215,13 +215,6 @@
 ^127.0.0.1[[:space:]]tracker.ai.xiaomi.com$
 #小米主题设计师注册
 ^127.0.0.1[[:space:]]market.xiaomi.com$
-#QQ/腾讯收集隐私/统计
-#重定向域名情况下，耗电情况有所增加，故剔除
-^127.0.0.1[[:space:]]android.rqd.qq.com$
-^127.0.0.1[[:space:]]otheve.beacon.qq.com$
-#百度广告/输入法热门动图下载
-#重定向域名情况下，耗电情况有所增加，故剔除
-^127.0.0.1[[:space:]]nsclick.baidu.com$
 #百度贴吧表情误杀
 ^127.0.0.1[[:space:]]static.tieba.baidu.com$
 ^127.0.0.1[[:space:]]gsp0.baidu.com$
@@ -265,16 +258,10 @@
 ^127.0.0.1[[:space:]]dragate-cn.dc.heytapmobi.com$
 #网易云音乐 音效下载
 ^127.0.0.1[[:space:]]d[0-9].music.126.net$
-
-
-
-
-
-
-
-
-
-
+#新浪新闻网页误杀
+^127.0.0.1[[:space:]]mix.sina.com.cn$
+^127.0.0.1[[:space:]]cre.dp.sina.cn$
+^127.0.0.1[[:space:]]gk.sina.cn$
 
 
 
@@ -310,3 +297,4 @@ p[[:digit:]].*[[:digit:]]\.ahcdn\.com$
 fra.*[[:digit:]].ib.adnxs.com$
 bank.*[[:digit:]].*mp.mydas.mobi$
 www\.[[:alpha:]].*[[:alpha:]].*\.top$
+#\.net\.daraz\.com$
