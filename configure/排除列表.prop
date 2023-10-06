@@ -258,14 +258,10 @@
 ^127.0.0.1[[:space:]]dragate-cn.dc.heytapmobi.com$
 #网易云音乐 音效下载
 ^127.0.0.1[[:space:]]d[0-9].music.126.net$
-
-
-
-
-
-
-
-
+#新浪新闻网页误杀
+^127.0.0.1[[:space:]]mix.sina.com.cn$
+^127.0.0.1[[:space:]]cre.dp.sina.cn$
+^127.0.0.1[[:space:]]gk.sina.cn$
 
 
 
@@ -301,4 +297,4 @@ p[[:digit:]].*[[:digit:]]\.ahcdn\.com$
 fra.*[[:digit:]].ib.adnxs.com$
 bank.*[[:digit:]].*mp.mydas.mobi$
 www\.[[:alpha:]].*[[:alpha:]].*\.top$
-
+#\.net\.daraz\.com$
