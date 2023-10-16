@@ -3,7 +3,7 @@
 
 ## count
 ```
-All of rules: 58947
+All of rules: 58934
 ```
 
 ## SwitchHosts
