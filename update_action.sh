@@ -264,6 +264,12 @@ $(cat "$target" 2>/dev/null )
 key
 }
 
+function transfer_localhosts_to_adguard(){
+if test -f "${1}" ;then
+	sed -i "s|^127.0.0.1|94.140.14.33|g" "${1}" && echo -e "[$(date +%y-%m-%d-%T)] ※已将127.0.0.1替换成94.140.14.33\n"
+fi
+}
+
 #写入信息
 function write_head() {
 local target_file="${1}"
@@ -317,6 +323,7 @@ exclude_value `pwd`/configure/排除列表.prop `pwd`/all
 exclude_value `pwd`/configure/保留奖励.prop `pwd`/all
 modtifly `pwd`/all
 remove_ad `pwd`/configure/广告奖励.prop `pwd`/result/广告奖励.conf `pwd`/all
+transfer_localhosts_to_adguard `pwd`/all
 write_head `pwd`/all
 }
 
@@ -327,6 +334,7 @@ combine_file `pwd`/result `pwd`/reward
 exclude_value `pwd`/configure/排除列表.prop `pwd`/reward
 exclude_value `pwd`/configure/保留奖励.prop `pwd`/reward
 modtifly `pwd`/reward
+transfer_localhosts_to_adguard `pwd`/reward
 write_head `pwd`/reward
 }
 
