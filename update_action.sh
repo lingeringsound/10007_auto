@@ -7,6 +7,7 @@ dos2unix `pwd`/* >/dev/null 2>&1
 dos2unix `pwd`/*/* >/dev/null 2>&1
 }
 
+
 function Do_detect_hosts(){
 local file="`pwd`/result/test.conf"
 
@@ -153,7 +154,17 @@ function grep_value_file() {
 local value="${2}"
 local file="${3}"
 local word="${1}"
-test $word == 1 && word='-iw' || word='-i'
+case $word in
+1)
+word='-iw'
+;;
+E)
+word='-iE'
+;;
+*)
+word='-i'
+;;
+esac
 local targetdir="`pwd`/result"
 if test -e "${file}" ;then 
 	mkdir -p "${targetdir}"
@@ -255,7 +266,7 @@ key
 
 function transfer_localhosts_to_adguard(){
 if test -f "${1}" ;then
-	sed -i "s|^127.0.0.1|1.1.1.1|g" "${1}" && echo -e "[$(date +%y-%m-%d-%T)] ※已将127.0.0.1替换成1.1.1.1\n"
+	sed -i "s|^127.0.0.1|1.1.1.1|g" "${1}" && echo -e "[$(date +%y-%m-%d-%T)] ※已将127.0.0.1替换成94.140.14.33\n"
 fi
 }
 
@@ -278,61 +289,8 @@ sed -i '11i ##################\n' "${target_file}"
 
 function write_ad_block_reward_rules(){
 file="${1}"
-cat << "key" > "$file"
-
-!爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。^
-||t7z.cupid.iqiyi.com^
-||mdevstat.qqlive.qq.com^
-
-||adsmind.gdtimg.com^
-||c.gdt.qq.com^
-||d.gdt.qq.com^
-||gw.365you.com^
-||i.gdt.qq.com^
-||ii.gdt.qq.com^
-||ipv4.gdt.qq.com^
-||m.gdt.qq.com^
-||mi.gdt.qq.com^
-||nc.gdt.qq.com^
-||pv.sohu.com^
-||q.i.gdt.qq.com^
-||rm.gdt.qq.com^
-||rpt.gdt.qq.com^
-||v.gdt.qq.com^
-||vr.gdt.qq.com^
-||x.adnet.qq.com^
-||pgdt.ugdtimg.com^
-||xc.gdt.qq.com^
-||v2.gdt.qq.com^
-||sdk.e.qq.com^
-||t.gdt.qq.com^
-!QQ广告奖励^
-||win.gdt.qq.com^
-!抖音广告奖励^
-!||is.snssdk.com^
-!微信广告奖励^
-!||wxsnsad.tc.qq.com^
-!||wxsnsdy.tc.qq.com^
-!||wxsnsdy.video.qq.com^
-!||wxsnsdy.wxs.qq.com^
-!||wxsnsdythumb.wxs.qq.com^
-!百度云视频广告奖励^
-!||nadvideo.baidu.com^
-!||nadvideo2.baidu.com^
-!快手支持^
-!删掉会使得部分开屏广告复燃^
-||open.e.kuaishou.com^
-||e.kuaishou.com^
-||api2.e.kuaishou.com^
-||api.e.kuaishou.com^
-!APP分享^
-!注释掉可获得广告奖励^
-!但是也会有部广告重新出现，毕竟穿山甲是目前最恶心的广告联盟^
-||log-api.pangolin-sdk-toutiao-b.com^
-||log-api.pangolin-sdk-toutiao.com^
-||api-access.pangolin-sdk-toutiao.com^
-||api-access.pangolin-sdk-toutiao-b.com^
-
+cat << key >> "$file"
+$(cat "`pwd`/configure/add.prop")
 key
 }
 
@@ -340,20 +298,20 @@ function adblock() {
 echo -e "[$(date +%y-%m-%d-%T)] ※制作Adblock规则……※\n"
 local old_file="${1}"
 local file="${old_file%/*}/adb.txt"
-write_ad_block_reward_rules "${file}"
-echo "$(cat $old_file )" >> "${file}"
+echo "$(cat $old_file )" > "${file}"
 if test -f "$file" ;then
 	sed -i "s|^#|!|g" "$file"
-	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d" "$file"
+	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d;/hugeota.d.miui.com/d;/bigota.d.miui.com/d" "$file"
 	sed -i "s/127.0.0.1[[:space:]]localhost//g" "$file"
 	sed -i "s/127.0.0.1 /||/g;s|$|^|g" "$file"
 	sed -i "s/^\^//g" "$file"
 	sed -i "1i [Host 10007]" "$file"
-        sed -i "1i [Adblock Plus 2.0]" "$file"
-        sed -i "2i ! Title: Host 10007" "$file"
-        sed -i "3i ! Homepage: https://github.com/lingeringsound/10007_auto " "$file"
-        sed -i "3i ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto " "$file"
-        sed -i "4i ! Last modified: `date +'%F %T'`" "$file"
+	sed -i "1i [Adblock Plus 2.0]" "$file"
+	sed -i "2i ! Title: Host 10007" "$file"
+	sed -i "3i ! Homepage: https://github.com/lingeringsound/10007_auto " "$file"
+	sed -i "3i ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto " "$file"
+	sed -i "4i ! Last modified: `date +'%F %T'`" "$file"
+	write_ad_block_reward_rules "${file}"
 fi
 }
 
@@ -401,17 +359,17 @@ grep_value_file '1' 'JUNKY' "${hosts_file}"
 grep_value_file '1' 'TRAFFIC' "${hosts_file}"
 grep_value_file '1' 'TRAFFIC.*JUNKY' "${hosts_file}"
 grep_value_file '1' '[[:alpha:]]ad' "${hosts_file}"
-grep_value_file '1' '[[:alpha:]]ads' "${hosts_file}"
+grep_value_file 'E' '[[:alpha:]]?ads' "${hosts_file}"
 grep_value_file '1' '[[:alpha:]]cdn' "${hosts_file}"
-grep_value_file '1' '[[:alpha:]]sdk' "${hosts_file}"
+grep_value_file 'E' '[[:alpha:]]+sdk' "${hosts_file}"
 grep_value_file '1' '[[:digit:]]ad' "${hosts_file}"
-grep_value_file '1' '[[:digit:]]ads' "${hosts_file}"
+grep_value_file 'E' '[[:digit:]]?ads' "${hosts_file}"
 grep_value_file '1' 'ad' "${hosts_file}"
 grep_value_file '1' 'ad.*cdn' "${hosts_file}"
 grep_value_file '1' 'ad.*service' "${hosts_file}"
 grep_value_file '1' 'ad.*services' "${hosts_file}"
 grep_value_file '1' 'ad[[:alpha:]]' "${hosts_file}"
-grep_value_file '1' 'ad[[:alpha:]][[:digit:]]' "${hosts_file}"
+grep_value_file 'E' 'ad[[:alpha:]]?[[:digit:]]' "${hosts_file}"
 grep_value_file '1' 'ad[[:digit:]]' "${hosts_file}"
 grep_value_file '1' 'adapi' "${hosts_file}"
 grep_value_file '1' 'adbana' "${hosts_file}"
@@ -424,7 +382,7 @@ grep_value_file '1' 'adobe' "${hosts_file}"
 grep_value_file '1' 'adpush' "${hosts_file}"
 grep_value_file '1' 'ads' "${hosts_file}"
 grep_value_file '1' 'ads.*cdn' "${hosts_file}"
-grep_value_file '1' 'ads[[:alpha:]][[:digit:]]' "${hosts_file}"
+grep_value_file 'E' 'ads[[:alpha:]]?[[:digit:]]+' "${hosts_file}"
 grep_value_file '1' 'ads[[:digit:]]' "${hosts_file}"
 grep_value_file '1' 'adsage' "${hosts_file}"
 grep_value_file '1' 'adsame' "${hosts_file}"
@@ -622,7 +580,6 @@ grep_value_file "0" 'adv.' "$hosts_file"
 grep_value_file "1" 'adv-' "$hosts_file"
 #BeiZi 广告
 grep_value_file "1" 'BeiZi' "$hosts_file"
-
 
 
 
