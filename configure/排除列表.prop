@@ -262,8 +262,10 @@
 ^127.0.0.1[[:space:]]mix.sina.com.cn$
 ^127.0.0.1[[:space:]]cre.dp.sina.cn$
 ^127.0.0.1[[:space:]]gk.sina.cn$
-
-
+#头条授权登陆
+^127.0.0.1[[:space:]]open.snssdk.com$
+#网易年度总结
+^127.0.0.1[[:space:]]count.mail.163.com$
 
 
 #放到iptables屏蔽的域名
