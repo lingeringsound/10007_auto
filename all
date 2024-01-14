@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2024-01-13 22:13:28 
+#更新时间: 2024-01-14 08:43:54 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:29860
+#规则数量:29882
 ##################
 
 123.6.13.6 bigota.d.miui.com
@@ -4862,6 +4862,7 @@
 127.0.0.1 adx.hupu.com
 127.0.0.1 adx.pro.cn
 127.0.0.1 adx.proadscdn.com
+127.0.0.1 adx.sogaha.cn
 127.0.0.1 adx1.com
 127.0.0.1 adx2.adform.net
 127.0.0.1 adx3.iq39.com
@@ -6368,6 +6369,7 @@
 127.0.0.1 api-brave.net.daraz.com
 127.0.0.1 api-bugsfreya.net.daraz.com
 127.0.0.1 api-cdn-print-mo-mo.net.daraz.com
+127.0.0.1 api-cn.store.heytapmobi.com
 127.0.0.1 api-corp-appddiction1-dev-au1l4s-1559054343.net.daraz.com
 127.0.0.1 api-csprodocsns2.twtelecom.net.daraz.com
 127.0.0.1 api-csr11.net.daraz.com
@@ -6984,6 +6986,7 @@
 127.0.0.1 api.huashuge8.com
 127.0.0.1 api.huq.io
 127.0.0.1 api.huqindustries.co.uk
+127.0.0.1 api.hzsanjiaomao.com
 127.0.0.1 api.i8bet.org
 127.0.0.1 api.i99903.com
 127.0.0.1 api.i99908.com
@@ -8519,6 +8522,8 @@
 127.0.0.1 browser.pipe.aria.microsoft.com
 127.0.0.1 browser.sensorbuqnn.pro
 127.0.0.1 browser.sentry-cdn.com
+127.0.0.1 browsercfg-drcn.cloud.dbankcloud.cn
+127.0.0.1 browsercfg-drcn.cloud.dbankcloud.eu
 127.0.0.1 browserkernel.baidu.com
 127.0.0.1 browserr.top
 127.0.0.1 brvkzwjrjzzav.top
@@ -9910,7 +9915,6 @@
 127.0.0.1 counciladvertising.net
 127.0.0.1 count.advanseads.com
 127.0.0.1 count.channeladvisor.com
-127.0.0.1 count.mail.163.com
 127.0.0.1 count.video.sina.com.cn
 127.0.0.1 counter.adultrevenueservice.com
 127.0.0.1 counter.advancewebhosting.com
@@ -10720,6 +10724,8 @@
 127.0.0.1 dnasmart.mllight.top
 127.0.0.1 dndj.dddplat.top
 127.0.0.1 dndnha.mobi
+127.0.0.1 dnkeeper.platform.dbankcloud.cn
+127.0.0.1 dnkeeper.platform.dbankcloud.eu
 127.0.0.1 dnn1300.top
 127.0.0.1 dno.tentaklsistem.click
 127.0.0.1 dns-analytics.com
@@ -11087,6 +11093,8 @@
 127.0.0.1 dsp-impr.youdao.com
 127.0.0.1 dsp-impr2.youdao.com
 127.0.0.1 dsp-lb.mediav.com
+127.0.0.1 dsp-x.jd.com
+127.0.0.1 dsp-x.jd.com.gslb.qianxun.com
 127.0.0.1 dsp.ads.umeng.com
 127.0.0.1 dsp.adviad.com
 127.0.0.1 dsp.api.vungle.com
@@ -12953,6 +12961,8 @@
 127.0.0.1 grownbake.pro
 127.0.0.1 groxton-invest.pro
 127.0.0.1 grq.lifepeoplexf.top
+127.0.0.1 grs.dbankcloud.cn
+127.0.0.1 grs.dbankcloud.eu
 127.0.0.1 grs.hicloud.com
 127.0.0.1 grtob94fmo5esaqy.partner.net.daraz.com
 127.0.0.1 gruesome-comfortable.pro
@@ -15976,6 +15986,7 @@
 127.0.0.1 m28458.top
 127.0.0.1 m2m-api.inmarket.com
 127.0.0.1 m2m1.inner-active.mobi
+127.0.0.1 m3.ad.10010.com
 127.0.0.1 ma.programtts.top
 127.0.0.1 ma1169-r.analytics.edgekey.net
 127.0.0.1 ma1226-r.analytics.edgekey.net
@@ -16403,6 +16414,8 @@
 127.0.0.1 metrics.tbs.com
 127.0.0.1 metrics.wildadventures.com
 127.0.0.1 metrics.workingadvantage.com
+127.0.0.1 metrics1-drcn.dt.dbankcloud.cn
+127.0.0.1 metrics1-drcn.dt.dbankcloud.eu
 127.0.0.1 metrics1.data.hicloud.com
 127.0.0.1 metrics2.data.hicloud.com
 127.0.0.1 metrics3.data.hicloud.com
@@ -18036,7 +18049,6 @@
 127.0.0.1 open.oneplus.net
 127.0.0.1 open.phone.igexin.com
 127.0.0.1 open.play.cn
-127.0.0.1 open.snssdk.com
 127.0.0.1 open.snssdk.com.bytedns.net
 127.0.0.1 open.speeko.co
 127.0.0.1 open.swapu.app
@@ -20575,7 +20587,14 @@
 127.0.0.1 rere.worldpeoplefx.top
 127.0.0.1 reroplittrewheck.pro
 127.0.0.1 res-push.ad.jiguang.cn
+127.0.0.1 res.hubcloud.com.cn
 127.0.0.1 res.mmstat.com
+127.0.0.1 res1.hubcloud.com.cn
+127.0.0.1 res2.hubcloud.com.cn
+127.0.0.1 res3.hubcloud.com.cn
+127.0.0.1 res4.hubcloud.com.cn
+127.0.0.1 res5.hubcloud.com.cn
+127.0.0.1 res9.hubcloud.com.cn
 127.0.0.1 rescn.u3.ucweb.com
 127.0.0.1 reselling-corp.com
 127.0.0.1 reserved-pl.top
@@ -21865,6 +21884,7 @@
 127.0.0.1 smart-name.pro
 127.0.0.1 smart-odkurzacz.top
 127.0.0.1 smart-placements-sdk.ex.co
+127.0.0.1 smartad.10010.com
 127.0.0.1 smartadserver.com
 127.0.0.1 smartadv.ru
 127.0.0.1 smartdating.top
@@ -22929,7 +22949,6 @@
 127.0.0.1 tm.ad-srv.net
 127.0.0.1 tm.r-ad.ne.jp
 127.0.0.1 tm2.r-ad.ne.jp
-127.0.0.1 tmeadcomm.y.qq.com
 127.0.0.1 tmk.smartadserver.com
 127.0.0.1 tmwet.takilon.top
 127.0.0.1 tn.forrum.top
@@ -29835,6 +29854,8 @@
 127.0.0.1 zzyy18.top
 127.0.0.1 zzyy19.top
 127.0.0.1 zzyy20.top
+183.136.207.132 bigota.d.miui.com
+183.136.207.132 hugeota.d.miui.com
 23.202.34.138 bigota.d.miui.com
 23.202.34.138 hugeota.d.miui.com
 #广告奖励
@@ -29871,4 +29892,5 @@
 127.0.0.1 v.gdt.qq.com
 127.0.0.1 c.gdt.qq.com
 127.0.0.1 tmead.y.qq.com
+127.0.0.1 tmeadcomm.y.qq.com
 #END
