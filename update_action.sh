@@ -152,7 +152,17 @@ function grep_value_file() {
 local value="${2}"
 local file="${3}"
 local word="${1}"
-test $word == 1 && word='-iw' || word='-i'
+case $word in
+1)
+word='-iw'
+;;
+E)
+word='-iE'
+;;
+*)
+word='-i'
+;;
+esac
 local targetdir="`pwd`/result"
 if test -e "${file}" ;then 
 	mkdir -p "${targetdir}"
@@ -407,17 +417,17 @@ grep_value_file '1' 'JUNKY' "${hosts_file}"
 grep_value_file '1' 'TRAFFIC' "${hosts_file}"
 grep_value_file '1' 'TRAFFIC.*JUNKY' "${hosts_file}"
 grep_value_file '1' '[[:alpha:]]ad' "${hosts_file}"
-grep_value_file '1' '[[:alpha:]]ads' "${hosts_file}"
+grep_value_file 'E' '[[:alpha:]]?ads' "${hosts_file}"
 grep_value_file '1' '[[:alpha:]]cdn' "${hosts_file}"
-grep_value_file '1' '[[:alpha:]]sdk' "${hosts_file}"
+grep_value_file 'E' '[[:alpha:]]+sdk' "${hosts_file}"
 grep_value_file '1' '[[:digit:]]ad' "${hosts_file}"
-grep_value_file '1' '[[:digit:]]ads' "${hosts_file}"
+grep_value_file 'E' '[[:digit:]]?ads' "${hosts_file}"
 grep_value_file '1' 'ad' "${hosts_file}"
 grep_value_file '1' 'ad.*cdn' "${hosts_file}"
 grep_value_file '1' 'ad.*service' "${hosts_file}"
 grep_value_file '1' 'ad.*services' "${hosts_file}"
 grep_value_file '1' 'ad[[:alpha:]]' "${hosts_file}"
-grep_value_file '1' 'ad[[:alpha:]][[:digit:]]' "${hosts_file}"
+grep_value_file 'E' 'ad[[:alpha:]]?[[:digit:]]' "${hosts_file}"
 grep_value_file '1' 'ad[[:digit:]]' "${hosts_file}"
 grep_value_file '1' 'adapi' "${hosts_file}"
 grep_value_file '1' 'adbana' "${hosts_file}"
@@ -430,7 +440,7 @@ grep_value_file '1' 'adobe' "${hosts_file}"
 grep_value_file '1' 'adpush' "${hosts_file}"
 grep_value_file '1' 'ads' "${hosts_file}"
 grep_value_file '1' 'ads.*cdn' "${hosts_file}"
-grep_value_file '1' 'ads[[:alpha:]][[:digit:]]' "${hosts_file}"
+grep_value_file 'E' 'ads[[:alpha:]]?[[:digit:]]+' "${hosts_file}"
 grep_value_file '1' 'ads[[:digit:]]' "${hosts_file}"
 grep_value_file '1' 'adsage' "${hosts_file}"
 grep_value_file '1' 'adsame' "${hosts_file}"
@@ -575,7 +585,7 @@ grep_value_file '1' 'tongji' "${hosts_file}"
 grep_value_file '1' 'top' "${hosts_file}"
 grep_value_file '1' 'tos' "${hosts_file}"
 grep_value_file '1' 'toutiao' "${hosts_file}"
-grep_value_file '1' 'tpns' "${hosts_file}"
+#grep_value_file '1' 'tpns' "${hosts_file}"
 grep_value_file '1' 'trace' "${hosts_file}"
 grep_value_file '1' 'twitter' "${hosts_file}"
 grep_value_file '1' 'uc' "${hosts_file}"
@@ -610,14 +620,16 @@ grep_value_file '1' 'zijieapi' "${hosts_file}"
 grep_value_file '1' 'zzd' "${hosts_file}"
 #22.09.26
 grep_value_file '1' 'yandex' "${hosts_file}"
-#22.10.13
-grep_value_file '1' 'xyz' "${hosts_file}"
+#22.10.06
+#华为隐私收集和部分广告
+grep_value_file '1' 'hicloud' "${hosts_file}"
+#yandex广告
+grep_value_file '1' 'yandexadexchange' "${hosts_file}"
 #22.10.24 网易邮箱
 grep_value_file '1' '163' "${hosts_file}"
 #22.10.25 恢复QQ相关域名拦截，可能会有大量误杀
 grep_value_file '1' 'qq' "`pwd`/tmp_hosts/yhost"
 grep_value_file '1' 'qq' "`pwd`/tmp_hosts/大圣净化"
-
 #虎扑 2022.11.20
 grep_value_file '1' 'hupu' "${hosts_file}"
 #Hub 联盟
