@@ -124,12 +124,16 @@ mkdir -p "${tmp_DIR}"
 
 #adhost 禁用 2022.11.20
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts|AdHost
+#oisd 失效2024.01.15
+#https://hosts.oisd.nl/basic|oisd
+#StevenBlack 去除订阅porn拦截
+#https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts|StevenBlack
 
 
 local hosts_list='
 https://hblock.molinero.dev/hosts|hblock
 https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts|1024
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts|StevenBlack
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts|StevenBlack
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts|大圣净化
 https://hosts.oisd.nl/basic|oisd
