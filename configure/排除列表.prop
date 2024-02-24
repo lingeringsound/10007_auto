@@ -22,6 +22,7 @@
 #^127.0.0.1[[:space:]]t7z.cupid.iqiyi.com$
 #抖音小程序、今日头条搜索
 ^127.0.0.1[[:space:]]is.snssdk.com$
+^127.0.0.1[[:space:]]i[a-z].snssdk.com$
 #QQ邮箱
 ^127.0.0.1[[:space:]]iwx.mail.qq.com$
 #腾讯活动
@@ -266,6 +267,10 @@
 ^127.0.0.1[[:space:]]open.snssdk.com$
 #网易年度总结
 ^127.0.0.1[[:space:]]count.mail.163.com$
+#360翻译
+^127.0.0.1[[:space:]]gw.shouji.360.cn$
+
+
 
 
 #放到iptables屏蔽的域名
