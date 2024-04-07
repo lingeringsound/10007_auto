@@ -96,7 +96,7 @@
 127.0.0.1 erebor.douban.com
 #127.0.0.1 static-verify.sec.xiaomi.com
 127.0.0.1 amonsul.douban.com
-127.0.0.1 msedown.360safe.com
+#127.0.0.1 msedown.360safe.com
 
 #腾讯22.03.18
 127.0.0.1 qzs.gdtimg.com
@@ -662,6 +662,11 @@
 
 #谷歌翻译 23.04.10
 #禁用，因为目前来说貌似已经废了
+#142.250.0.90 translate.googleapis.com
+#142.250.10.90 translate.googleapis.com
+#142.250.12.90 translate.googleapis.com
+#142.250.9.90 translate.googleapis.com
+
 
 #22.11.05
 #coolapk
@@ -742,6 +747,14 @@
 23.202.34.138 hugeota.d.miui.com
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
+110.43.121.249 bigota.d.miui.com
+110.43.121.249 hugeota.d.miui.com
+110.43.121.13 bigota.d.miui.com
+110.43.121.13 hugeota.d.miui.com
+47.74.196.250 bigota.d.miui.com
+47.74.196.250 hugeota.d.miui.com
+
+
 
 #来自酷友
 #不确定后续是否会误杀
@@ -779,3 +792,21 @@
 127.0.0.1 kl.67it.com
 
 
+#蓝奏云
+127.0.0.1 kl.67it.com
+127.0.0.1 statics.woozooo.com
+127.0.0.1 analytics.woozooo.com
+127.0.0.1 analytic.woozooo.com
+127.0.0.1 crbug.com
+127.0.0.1 wer.qdwght.com
+127.0.0.1 hm.woozooo.com
+127.0.0.1 sanme2.taisantech.com
+127.0.0.1 glores2.taisantech.com
+
+
+#123pan
+127.0.0.1 ssp.1rtb.com
+127.0.0.1 sdk.1rtb.net
+127.0.0.1 mssdk.volces.com
+127.0.0.1 sdk.mobads.adwangmai.com
+127.0.0.1 mobads.adwangmai.com
