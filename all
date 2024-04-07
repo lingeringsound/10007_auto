@@ -2,14 +2,18 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2024-04-07 22:38:37 
+#更新时间: 2024-04-07 23:11:37 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:35783
+#规则数量:35793
 ##################
 
+110.43.121.13 bigota.d.miui.com
+110.43.121.13 hugeota.d.miui.com
+110.43.121.249 bigota.d.miui.com
+110.43.121.249 hugeota.d.miui.com
 123.6.13.6 bigota.d.miui.com
 123.6.13.6 hugeota.d.miui.com
 127.0.0.1 0-5-wechat-0.net.daraz.com
@@ -18776,6 +18780,7 @@
 127.0.0.1 mob.trdingplatform.xyz
 127.0.0.1 mobad.ijinshan.com
 127.0.0.1 mobads-pre-config.cdn.bcebos.com
+127.0.0.1 mobads.adwangmai.com
 127.0.0.1 mobads.baidu.com
 127.0.0.1 mobgames.mobi
 127.0.0.1 mobi-bobi.info
@@ -19074,7 +19079,6 @@
 127.0.0.1 msdk-files.webengage.com
 127.0.0.1 msdk.qq.com
 127.0.0.1 msdk.rqmob.com
-127.0.0.1 msedown.360safe.com
 127.0.0.1 msetup.pro
 127.0.0.1 msg.cn.miaozhen.com
 127.0.0.1 msg.iqiyi.com
@@ -19120,6 +19124,7 @@
 127.0.0.1 mssdk-sg.tiktok.com
 127.0.0.1 mssdk-va.byteoversea.com
 127.0.0.1 mssdk.bytedance.com
+127.0.0.1 mssdk.volces.com
 127.0.0.1 mssk.btspolsky.top
 127.0.0.1 mssk.maskproj.click
 127.0.0.1 mssp.baidu.com
@@ -24311,6 +24316,7 @@
 127.0.0.1 sdk-open-phone.getui.com
 127.0.0.1 sdk-orion.appboy.com
 127.0.0.1 sdk-services.appsflyer.com
+127.0.0.1 sdk.1rtb.net
 127.0.0.1 sdk.51.la
 127.0.0.1 sdk.ad.smaato.net
 127.0.0.1 sdk.adbuddiz.com
@@ -24366,6 +24372,7 @@
 127.0.0.1 sdk.loveota.net
 127.0.0.1 sdk.mediav.com
 127.0.0.1 sdk.mobad.ijinshan.com
+127.0.0.1 sdk.mobads.adwangmai.com
 127.0.0.1 sdk.native123.com
 127.0.0.1 sdk.open.amp.igexin.com
 127.0.0.1 sdk.open.inc2.igexin.com
@@ -25320,6 +25327,7 @@
 127.0.0.1 ssp-api.mobadvent.com
 127.0.0.1 ssp-csync.smartadserver.com
 127.0.0.1 ssp-res.flyme.cn
+127.0.0.1 ssp.1rtb.com
 127.0.0.1 ssp.ads.betweendigital.com
 127.0.0.1 ssp.advenuemedia.co.uk
 127.0.0.1 ssp.advertising.com
@@ -35759,6 +35767,8 @@
 183.136.207.132 hugeota.d.miui.com
 23.202.34.138 bigota.d.miui.com
 23.202.34.138 hugeota.d.miui.com
+47.74.196.250 bigota.d.miui.com
+47.74.196.250 hugeota.d.miui.com
 #广告奖励
 127.0.0.1 d.gdt.qq.com
 127.0.0.1 gw.365you.com
