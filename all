@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2024-04-09 09:05:16 
+#更新时间: 2024-04-09 22:14:04 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:40885
+#规则数量:41160
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -58,6 +58,7 @@
 94.140.14.33 00-api-docsfreya.0-astrologie-api1webw17sellerpackaging-profile-pay.net.daraz.com
 94.140.14.33 00-api-docsprint-mo.0-132.net.daraz.com
 94.140.14.33 00-api-localhost.0-132.net.daraz.com
+94.140.14.33 00-api-static-stage.0-132.net.daraz.com
 94.140.14.33 00-api.dcsportal.0-astrologie.net.daraz.com
 94.140.14.33 00-api.net.daraz.com
 94.140.14.33 00-bootst00proplus3xnap-16-partner.net.daraz.com
@@ -109,13 +110,16 @@
 94.140.14.33 00gvi0boz4vbyqhl.partner.net.daraz.com
 94.140.14.33 00h.browser.eu.eu.tt.omtrdc.net
 94.140.14.33 00i5gbh4ohk8seli.partner-pay.net.daraz.com
+94.140.14.33 00kube-partner.net.daraz.com
 94.140.14.33 00propluploads3xn.net.daraz.com
+94.140.14.33 00proplus3xn-api-pluto.net.daraz.com
 94.140.14.33 00proplus3xn-spyder-api-stage.net.daraz.com
 94.140.14.33 00proplus3xnfrontpage-partner.net.daraz.com
 94.140.14.33 00pspyder-api-prodoplus3xn.net.daraz.com
 94.140.14.33 01-adr21c-f8.net.daraz.com
 94.140.14.33 01-api-oa-1-cf23region.net.daraz.com
 94.140.14.33 01-api-xspace-admin8.net.daraz.com
+94.140.14.33 01-caauthenticate21-10-authenticate-oa-1-mta.net.daraz.com
 94.140.14.33 01-caauthenticate21-partner-authenticate-oa-1.net.daraz.com
 94.140.14.33 01-cadr21-web-wwww11node-webadpp.net.daraz.com
 94.140.14.33 01-car21-10-r-oa-1.kube-partner.net.daraz.com
@@ -135,8 +139,10 @@
 94.140.14.33 01-car21-web-wwww11node-webapp-www.dmetric-partner.net.daraz.com
 94.140.14.33 01-car21-web-wwww11node-webapp.click.net.daraz.com
 94.140.14.33 01-car21-web-wwww11node-webapp.partner.net.daraz.com
+94.140.14.33 01-car21-web-wwww11node-webappwww.partner.net.daraz.com
 94.140.14.33 01-car21c-f8-ebs-partner.net.daraz.com
 94.140.14.33 01-car21c-f8.kube-partner.net.daraz.com
+94.140.14.33 01-car21c-f8ebs-partner.net.daraz.com
 94.140.14.33 01-cdownload21-web-wwww0node.net.daraz.com
 94.140.14.33 01-downloadsar21-web-wwww11node-webapp.net.daraz.com
 94.140.14.33 01-ebs-partner-10-r-oa-1.net.daraz.com
@@ -150,10 +156,12 @@
 94.140.14.33 01-lib-ads-1-cf23region.net.daraz.com
 94.140.14.33 01-lib-mta-1-cf23region.net.daraz.com
 94.140.14.33 01-lib-oa-1-ad01-caauthenticate21-10-authenticate-oa-1in8.net.daraz.com
+94.140.14.33 01-lib-oa-1-admin8-stage-spyder-api.net.daraz.com
 94.140.14.33 01-lib-oa-1-admin8-www.partner.net.daraz.com
 94.140.14.33 01-lib-oa-1-administrators-csr40-partner.net.daraz.com
 94.140.14.33 01-lib-oa-1-administrators-csr40.click.net.daraz.com
 94.140.14.33 01-lib-oa-1-adswitchin8.net.daraz.com
+94.140.14.33 01-lib-oa-1-api-pluto28.net.daraz.com
 94.140.14.33 01-lib-oa-1-cf23region.kube-partner.net.daraz.com
 94.140.14.33 01-lib-oa-1-cf23regionchd-www.partner.net.daraz.com
 94.140.14.33 01-lib-oads-1-cf23region.net.daraz.com
@@ -162,6 +170,8 @@
 94.140.14.33 01-spyder-api-stage-cf23region.net.daraz.com
 94.140.14.33 01-spyder-api-stage-f8.net.daraz.com
 94.140.14.33 01-stage-spyder-api-admin8.net.daraz.com
+94.140.14.33 01-stage-spyder-api-web-wwww11node-webapp.net.daraz.com
+94.140.14.33 01-www.partner.net.daraz.com
 94.140.14.33 01.partner.net.daraz.com
 94.140.14.33 0128a416b2fd48d3bc948ad91cb3e74e.fp.measure.office.com
 94.140.14.33 012ada4f70c94cd6bf7a1217ce281ce7.fp.measure.office.com
@@ -172,6 +182,7 @@
 94.140.14.33 015215dadce0994ad81d476df1beb120.fp.measure.office.com
 94.140.14.33 0192s.byseniscon.top
 94.140.14.33 01chd-www.partner.net.daraz.com
+94.140.14.33 01e08075-f68e-4c1a-ad01-9b9d96a102d3.oms.opinsights.azure.com
 94.140.14.33 01kube-partner.net.daraz.com
 94.140.14.33 02-keele-partner-prod-leis-mc-leis.net.daraz.com
 94.140.14.33 0205bymilyo6.pro
@@ -262,6 +273,7 @@
 94.140.14.33 0iymahji16e86wif.partner.net.daraz.com
 94.140.14.33 0jcn4veha2oz.top
 94.140.14.33 0kal38g35ctc.top
+94.140.14.33 0kube-partner-car2kube-partner-kube-partner0-r-oa-kube-partner.net.daraz.com
 94.140.14.33 0l1201s548b2.top
 94.140.14.33 0latfee.ero-advertising.com
 94.140.14.33 0lx-pl.id-dostawa342789.top
@@ -275,6 +287,8 @@
 94.140.14.33 0psdadj3szljo593-admin-csr34.net.daraz.com
 94.140.14.33 0psdadj3szljo593-n11x0211.net.daraz.com
 94.140.14.33 0psdadj3szljo593-web-vpnlax-17.net.daraz.com
+94.140.14.33 0psdadj3szljo5933m13yvxopdq95yt0.net.daraz.com
+94.140.14.33 0psdadj3szljo593ae22.net.daraz.com
 94.140.14.33 0psdadj3szljo593com12sandbox.net.daraz.com
 94.140.14.33 0psdadj3szljo593web-devusers-mirror.net.daraz.com
 94.140.14.33 0psdadj3szljo593web-workstation-com-12.net.daraz.com
@@ -309,6 +323,7 @@
 94.140.14.33 1.tslprofai.top
 94.140.14.33 10-foxentertainment.hb-api.tt.omtrdc.net
 94.140.14.33 10-kube-partner.net.daraz.com
+94.140.14.33 10-marketing-partner.net.daraz.com
 94.140.14.33 10.31.17.182abcnews.hb-api.tt.omtrdc.net
 94.140.14.33 10.32.15.182abcnews.hb-api.tt.omtrdc.net
 94.140.14.33 10.32.16.182abcnews.hb-api.tt.omtrdc.net
@@ -396,6 +411,7 @@
 94.140.14.33 123pago-loginvc.doclogin.api-static-stage.net.daraz.com
 94.140.14.33 123pago-svc.api-pluto2-docs.net.daraz.com
 94.140.14.33 123pago.corp-docs.net.daraz.com
+94.140.14.33 123pago.docspre-api-xspace.net.daraz.com
 94.140.14.33 123pago.pre-api-xspacedocs.net.daraz.com
 94.140.14.33 123vay.top
 94.140.14.33 123win.pro
@@ -415,6 +431,7 @@
 94.140.14.33 13gtest.bj2cu.u3.ucweb.com
 94.140.14.33 14-bskyb.hb-api.tt.omtrdc.net
 94.140.14.33 14-dishpurchasingcorporation.hb-api.tt.omtrdc.net
+94.140.14.33 14-partner.net.daraz.com.00d300000000t9beau.net.daraz.com
 94.140.14.33 14.182abcnews.hb-api.tt.omtrdc.net
 94.140.14.33 1401a.fin-advisr.store
 94.140.14.33 1401e.fin-advisr.skin
@@ -600,6 +617,7 @@
 94.140.14.33 2131.startone.top
 94.140.14.33 213b190979803fb8b1816ab7a130ad8f.grotusiaw.pl
 94.140.14.33 216.88.110.63.torrance.google-ggc.tt.omtrdc.net
+94.140.14.33 219ad63133111491b7424a50ddfdef41.grops.pl
 94.140.14.33 219gladstone.treker.fun
 94.140.14.33 21gtest.bj2cu.u3.ucweb.com
 94.140.14.33 2207baxutyy1.pro
@@ -680,6 +698,7 @@
 94.140.14.33 2c3bad5b99f38ee36fa6e4c3fad53321.serswise.pl
 94.140.14.33 2c4p24o6zp0y.top
 94.140.14.33 2d03f1b1397fe68ba461fdacee512ad5.ntfws.pl
+94.140.14.33 2d67115d-58c5-4fe3-b7c3-5804c70ad1bb.oms.opinsights.azure.com
 94.140.14.33 2daa3fc4541c1f2bb56a4ef219c0ad6c.twojedom.pl
 94.140.14.33 2dance.services-ai-tech.click
 94.140.14.33 2ds.ero-advertising.com
@@ -783,6 +802,7 @@
 94.140.14.33 360.munion.mediav.com
 94.140.14.33 360ads.com
 94.140.14.33 360adshost.com
+94.140.14.33 360baosdk.net.daraz.com
 94.140.14.33 360dianjing.agrantsem.com
 94.140.14.33 360fenxi.mediav.com
 94.140.14.33 360popads.com
@@ -799,6 +819,7 @@
 94.140.14.33 393b5bada74c2b932b737b0dc246d405.danychs.pl
 94.140.14.33 393c0-uppps.click
 94.140.14.33 397c0.admaster.com.cn
+94.140.14.33 3a62dc7f-d995-42aa-ab01-0ad921cd102d.oms.opinsights.azure.com
 94.140.14.33 3a69ac9c73dbad306bc78fe41172dda5.nmdj.pl
 94.140.14.33 3a9651b8e5695fe5ad2941325364cc13.twojedom.pl
 94.140.14.33 3ad5iot.com
@@ -832,7 +853,6 @@
 94.140.14.33 3m.mediav.com
 94.140.14.33 3molublxkcgizb75.partner-pay.net.daraz.com
 94.140.14.33 3molublxkcgizb75.partner.net.daraz.com
-94.140.14.33 3mpf4tmst.crossroads-cars.com
 94.140.14.33 3o3.ezjv.top
 94.140.14.33 3qmcpe17ho.hb-api.tt.omtrdc.net
 94.140.14.33 3xbrh4rxsvbl.top
@@ -872,6 +892,7 @@
 94.140.14.33 4988.idmapper.api.api.tt.omtrdc.net
 94.140.14.33 49gw5gonj143k.click
 94.140.14.33 4ac51f78c5dabafadd06a919ba2b86a2.sirss.pl
+94.140.14.33 4ad49158-499c-4672-9c65-c78ddddc09b7.oms.opinsights.azure.com
 94.140.14.33 4ad6.com
 94.140.14.33 4adf99b61a54762fd67533af09ad8d18.vrlis.pl
 94.140.14.33 4ae3b0089af2814ffbaeabadf3996b08.serswise.pl
@@ -941,6 +962,7 @@
 94.140.14.33 52041ccb-3008-42b2-ab25-60c8a2827ad5.oms.opinsights.azure.com
 94.140.14.33 522b3ef17f2f77383badf69ef267f25b.dopla.com.pl
 94.140.14.33 523.cht-tslx.top
+94.140.14.33 52mq149igyae4df0.partner.net.daraz.com
 94.140.14.33 53.corp-clients.corp.tt.omtrdc.net
 94.140.14.33 534.idmapper.api.api.tt.omtrdc.net
 94.140.14.33 53c2dtzsj7t1.top
@@ -1114,6 +1136,7 @@
 94.140.14.33 7r76oa.vyk.admaster.com.cn
 94.140.14.33 7r8a9a.viqiyi.admaster.com.cn
 94.140.14.33 7sweawircpfznv2e.partner-bamboo.net.daraz.com
+94.140.14.33 7toshz05hjgowk0p.partner.net.daraz.com
 94.140.14.33 7tt.ner9.top
 94.140.14.33 7ubnaqapq05p9au8.partner.net.daraz.com
 94.140.14.33 7uivel6j0po21504.production-documentsns.partner-pay.net.daraz.com
@@ -1224,6 +1247,7 @@
 94.140.14.33 92f2m.top
 94.140.14.33 92lottery.mobi
 94.140.14.33 9308935.com
+94.140.14.33 939d80943b3f908ad020bf46f61148e0.rtyr.pl
 94.140.14.33 93ad4ed813ea0b93a0eca3548813b133.twojedom.pl
 94.140.14.33 9420c4fad58d6f806768304f7eafc257.urszulaprzymuszala.net.pl
 94.140.14.33 94gxne5dhth961ii.partner.net.daraz.com
@@ -1548,12 +1572,14 @@
 94.140.14.33 accountsbskyb.hb-api.tt.omtrdc.net
 94.140.14.33 accounttemp-v1db2-corp.tt.omtrdc.net
 94.140.14.33 accounttestjpmedia.hb-api.tt.omtrdc.net
+94.140.14.33 accountupdate-ing.top
 94.140.14.33 accscdn.m.taobao.com
 94.140.14.33 acct-api-dev.net.daraz.com
 94.140.14.33 acct.autotrdes.top
 94.140.14.33 acdn.adnxs-simple.com
 94.140.14.33 acdn.adnxs.com
 94.140.14.33 ace-tag.advertising.com
+94.140.14.33 acead4674056ac1f6e66503833984dbf.apgr.pl
 94.140.14.33 aceadsys.net
 94.140.14.33 acecashexpress.tt.hb-api.tt.omtrdc.net
 94.140.14.33 acemof.top
@@ -2347,6 +2373,7 @@
 94.140.14.33 ad.ru.doubleclick.net
 94.140.14.33 ad.sacitaslan.com
 94.140.14.33 ad.samsungadhub.com
+94.140.14.33 ad.savesecretsforyou.com
 94.140.14.33 ad.se.doubleclick.net
 94.140.14.33 ad.search.ch
 94.140.14.33 ad.searchhound.com
@@ -2499,7 +2526,9 @@
 94.140.14.33 ad.yourquickquest.com
 94.140.14.33 ad.yourtranquiltales.com
 94.140.14.33 ad.yourvitalityvoyage.com
+94.140.14.33 ad.yourwaywardwisdom.com
 94.140.14.33 ad.yourwellguide.com
+94.140.14.33 ad.youryouthinsider.com
 94.140.14.33 ad.yourzenithwellness.com
 94.140.14.33 ad.yun.wifi8.com
 94.140.14.33 ad.za.doubleclick.net
@@ -2688,6 +2717,8 @@
 94.140.14.33 ad28digital.checkm8.com
 94.140.14.33 ad29.checkm8.com
 94.140.14.33 ad29digital.checkm8.com
+94.140.14.33 ad2a15da-7150-4361-b776-26e26c032307.oms.opinsights.azure.com
+94.140.14.33 ad2aaa0a-1f61-4feb-8280-c8a41487afe3.oms.opinsights.azure.com
 94.140.14.33 ad2adnetwork.biz
 94.140.14.33 ad2b20b975ee8a62cd6cd758d5500bf0.noktsa.pl
 94.140.14.33 ad2bitcoin.com
@@ -2812,6 +2843,7 @@
 94.140.14.33 ad52cf44f994c9e8e2aaef58e81f208b.napiszawiado.pl
 94.140.14.33 ad56d286df3f7422ee933f377d3e40c9.nmdj.pl
 94.140.14.33 ad5digital.checkm8.com
+94.140.14.33 ad5f5dc98c0b28647947cc215c6b3c32.rtyr.pl
 94.140.14.33 ad5track.com
 94.140.14.33 ad5ynb8oyuqanpai.tester-partner-assets.net.daraz.com
 94.140.14.33 ad6.bannerbank.ru
@@ -2890,6 +2922,7 @@
 94.140.14.33 adashbc.ut.taobao.com
 94.140.14.33 adashx.m.taobao.com
 94.140.14.33 adashx.ut.taobao.com
+94.140.14.33 adashx.www.partner.net.daraz.com
 94.140.14.33 adashx4ae.ut.taobao.com
 94.140.14.33 adashx4yt.m.taobao.com
 94.140.14.33 adashxgc.ut.taobao.com
@@ -2960,6 +2993,7 @@
 94.140.14.33 adf0f4a2a087650548efa6fdb3c07bf1.tracisa.pl
 94.140.14.33 adf4fdd723.com
 94.140.14.33 adf92353150fd7e79f86ad6c0af40d93.aols.pl
+94.140.14.33 adf9f9f7-71c5-46a4-b0f3-620896df5902.oms.opinsights.azure.com
 94.140.14.33 adfill.adview.cn
 94.140.14.33 adfilter.imtt.qq.com
 94.140.14.33 adfinity.pro
@@ -3035,7 +3069,6 @@
 94.140.14.33 admin-prod-saa-sip.hb-api.tt.omtrdc.net
 94.140.14.33 admin-prod-saa-sipthe.hb-api.tt.omtrdc.net
 94.140.14.33 admin-u-tsrv-laproductionthe.hb-api.tt.omtrdc.net
-94.140.14.33 admin-usuario.top
 94.140.14.33 admin.adsplay.net
 94.140.14.33 admin.api.plat-qa.tt.omtrdc.net
 94.140.14.33 admin.update.cochat.tt.omtrdc.net
@@ -3942,6 +3975,7 @@
 94.140.14.33 ads.laodongnghean.vn
 94.140.14.33 ads.lapalingo.com
 94.140.14.33 ads.layer-ad.org
+94.140.14.33 ads.lbtrack.com
 94.140.14.33 ads.leadboltads.net
 94.140.14.33 ads.lemmatechnologies.com
 94.140.14.33 ads.leovegas.com
@@ -6226,6 +6260,7 @@
 94.140.14.33 advit.it
 94.140.14.33 advitronics-we-p-aks-portadial-dns-7c7bb33c.hb-fa-dev.tt.omtrdc.net
 94.140.14.33 adviva.net
+94.140.14.33 advixio.com
 94.140.14.33 advizion.org
 94.140.14.33 advkino.ru
 94.140.14.33 advmaker.net
@@ -6346,11 +6381,14 @@
 94.140.14.33 ae13.br01.mad1.tfbnw.net
 94.140.14.33 ae13.pr01.iad3.tfbnw.net
 94.140.14.33 ae2-api-pluto2-dr02.net.daraz.com
+94.140.14.33 ae2-chd-www.partner.net.daraz.com
 94.140.14.33 ae2-dfw3-dr02-ebs-partner.net.daraz.com
 94.140.14.33 ae2-dfw3-dr02.ad.net.daraz.com
+94.140.14.33 ae2-dfw3-dr02.api-static-stage.net.daraz.com
 94.140.14.33 ae2-dfw3-dr02.chd-www.partner.net.daraz.com
 94.140.14.33 ae2-partner-dr02.net.daraz.com
 94.140.14.33 ae29-sjc12-dr01-spyder-api-prod.net.daraz.com
+94.140.14.33 ae29-sjc12-dr01www.partner.net.daraz.com
 94.140.14.33 ae29.frontpage-partner.net.daraz.com
 94.140.14.33 ae29ebs-partner.net.daraz.com
 94.140.14.33 ae3888.top
@@ -6411,6 +6449,7 @@
 94.140.14.33 agma-analytics.de
 94.140.14.33 agn.aty.cp45.ott.cibntv.net
 94.140.14.33 agneticsnif.top
+94.140.14.33 agonizing-price.pro
 94.140.14.33 agresywneczworonogi.click
 94.140.14.33 agresywnytyp.click
 94.140.14.33 agroindustrial.pro
@@ -6538,6 +6577,7 @@
 94.140.14.33 aliexshop.top
 94.140.14.33 alimama.alicdn.com
 94.140.14.33 alimama.com
+94.140.14.33 alimebot-kube-partner.net.daraz.com
 94.140.14.33 alinstante-app.top
 94.140.14.33 aliordokumenty.top
 94.140.14.33 alisa.tentaklsistem.click
@@ -6604,6 +6644,8 @@
 94.140.14.33 alquilermx.top
 94.140.14.33 als.baidu.com
 94.140.14.33 alt-ad.mail.ru
+94.140.14.33 alt1-partner.net.daraz.com
+94.140.14.33 alt1.chd-www.partner.net.daraz.com
 94.140.14.33 altaicunwired.top
 94.140.14.33 altairaquilae.top
 94.140.14.33 altcoin-metamask.pro
@@ -6729,6 +6771,7 @@
 94.140.14.33 analytics-gateway.delta.dp.lightricks.com
 94.140.14.33 analytics-gw.games.wanmei.com
 94.140.14.33 analytics-hub.3plearning.com
+94.140.14.33 analytics-ingestion.pbpms.de
 94.140.14.33 analytics-ingestion.production-public.tubi.io
 94.140.14.33 analytics-ingress-global.bitmovin.com
 94.140.14.33 analytics-ingress.bitmovin.com
@@ -6744,6 +6787,7 @@
 94.140.14.33 analytics-prod2.glance-internal.inmobi.com
 94.140.14.33 analytics-production.hapyak.com
 94.140.14.33 analytics-proxy.springboard.com
+94.140.14.33 analytics-r-ln-2.net.daraz.com
 94.140.14.33 analytics-script.ad-shield.io
 94.140.14.33 analytics-scripts.cablelabs.com
 94.140.14.33 analytics-sdk.yle.fi
@@ -7288,6 +7332,7 @@
 94.140.14.33 analytics.ncaa.com
 94.140.14.33 analytics.neoogilvy.uy
 94.140.14.33 analytics.net.dz.jumia.com
+94.140.14.33 analytics.net.iberia.com
 94.140.14.33 analytics.netkeiba.com
 94.140.14.33 analytics.netsyms.net
 94.140.14.33 analytics.newscred.com
@@ -7725,6 +7770,7 @@
 94.140.14.33 anconespulpier.top
 94.140.14.33 ancry.masteryu.top
 94.140.14.33 and-ads.pulse.weatherbug.net
+94.140.14.33 and.roasrocknroll.click
 94.140.14.33 andguitarbookdailyes.pro
 94.140.14.33 andoveradvertiser-gb.andoveradvertiser.co.uk
 94.140.14.33 andr0id.traffic-smart.com
@@ -7828,6 +7874,7 @@
 94.140.14.33 ap2.idmapper.api.tt.omtrdc.net
 94.140.14.33 apac-ads.flurry.com
 94.140.14.33 apac-cfspyder-api-prod-c2s-01-n6x026.net.daraz.com
+94.140.14.33 apac-cfw-c2s-01-n6x026-spyder-api-stage.net.daraz.com
 94.140.14.33 apac-cfw-c2s-01-n6x026.stage-spyder-api.net.daraz.com
 94.140.14.33 apac-pro.blog.tt.omtrdc.net
 94.140.14.33 apac-sg-ad-track.aralego.com
@@ -7974,7 +8021,6 @@
 94.140.14.33 api-cdn-stage.net.daraz.com
 94.140.14.33 api-cloudfront-stage.net.daraz.com
 94.140.14.33 api-cn.store.heytapmobi.com
-94.140.14.33 api-community.org
 94.140.14.33 api-contacttatic-contacttage.net.daraz.com
 94.140.14.33 api-csprodocsns2.twtelecom.net.daraz.com
 94.140.14.33 api-csr11.net.daraz.com
@@ -7989,6 +8035,7 @@
 94.140.14.33 api-defensie-test.tt.omtrdc.net
 94.140.14.33 api-dev.uat.tt.omtrdc.net
 94.140.14.33 api-devel.tt.omtrdc.net
+94.140.14.33 api-development.net.daraz.com
 94.140.14.33 api-devs.net.daraz.com
 94.140.14.33 api-docs-containercar13.net.daraz.com
 94.140.14.33 api-docs-csr11.net.daraz.com
@@ -7996,6 +8043,7 @@
 94.140.14.33 api-docs-lib-ln-2.net.daraz.com
 94.140.14.33 api-docs-lib-oa-1.net.daraz.com
 94.140.14.33 api-docs-marketing.net.daraz.com
+94.140.14.33 api-docs-patner-ssl.net.daraz.com
 94.140.14.33 api-docs-patner.net.daraz.com
 94.140.14.33 api-docs.10-marketing.net.daraz.com
 94.140.14.33 api-docs.application-spring.net.daraz.com
@@ -8045,6 +8093,7 @@
 94.140.14.33 api-docsprint-mohwcdn.ns.emailvision.net.daraz.com
 94.140.14.33 api-docsr-ln-1.net.daraz.com
 94.140.14.33 api-docsr-ln-2.net.daraz.com
+94.140.14.33 api-docsseason.net.daraz.com
 94.140.14.33 api-docsstaff.w-htgb-a.net.daraz.com
 94.140.14.33 api-docsstgx-c.net.daraz.com
 94.140.14.33 api-eaccess-stage.net.daraz.com
@@ -8145,13 +8194,16 @@
 94.140.14.33 api-pluto2.assets.net.daraz.com
 94.140.14.33 api-pluto2.emailvision.us.net.daraz.com
 94.140.14.33 api-pluto2.k8s-prd.patner.net.daraz.com
+94.140.14.33 api-pluto2.kubemarketing.net.daraz.com
 94.140.14.33 api-pluto2.localhost.payment.net.daraz.com
 94.140.14.33 api-pluto2dssl.ns.emailvision.authenticate.net.daraz.com
 94.140.14.33 api-pluto2ebs-partner.net.daraz.com
+94.140.14.33 api-pluto2ebs.10-marketing.net.daraz.com
 94.140.14.33 api-pluto2ingpush.net.daraz.com
 94.140.14.33 api-pluto2ube-partner.net.daraz.com
 94.140.14.33 api-plutoauthenticate.net.daraz.com
 94.140.14.33 api-plutocsr41.application.net.daraz.com
+94.140.14.33 api-plutons3.mobilecl.bellsouth.net.daraz.com
 94.140.14.33 api-plutothenticate.net.daraz.com
 94.140.14.33 api-portal.ouigo-preprod.tt.omtrdc.net
 94.140.14.33 api-portal.sqills-deep-x-test.tt.omtrdc.net
@@ -8187,14 +8239,18 @@
 94.140.14.33 api-static-chat.net.daraz.com
 94.140.14.33 api-static-de.net.daraz.com
 94.140.14.33 api-static-disabledpartner.net.daraz.com
+94.140.14.33 api-static-emailvision.net.daraz.com
+94.140.14.33 api-static-f8.net.daraz.com
 94.140.14.33 api-static-live.net.daraz.com
 94.140.14.33 api-static-merchant.net.daraz.com
 94.140.14.33 api-static-mozi.net.daraz.com
 94.140.14.33 api-static-networks.net.daraz.com
+94.140.14.33 api-static-pluto.net.daraz.com
 94.140.14.33 api-static-r.net.daraz.com
 94.140.14.33 api-static-search.net.daraz.com
 94.140.14.33 api-static-sjc12.net.daraz.com
 94.140.14.33 api-static-stafaqe.net.daraz.com
+94.140.14.33 api-static-stage-01-car21-web-wwww11node-webapp.net.daraz.com
 94.140.14.33 api-static-stage-01-lib-oa-1-admin8.net.daraz.com
 94.140.14.33 api-static-stage-123pago.net.daraz.com
 94.140.14.33 api-static-stage-3arketing.net.daraz.com
@@ -8206,13 +8262,16 @@
 94.140.14.33 api-static-stage-ek8s-devvision.net.daraz.com
 94.140.14.33 api-static-stage-engineapplication-spring.net.daraz.com
 94.140.14.33 api-static-stage-k8s-prd.n-switch.net.daraz.com
+94.140.14.33 api-static-stage-kube-partner.net.daraz.com
 94.140.14.33 api-static-stage-lib-ht-2.net.daraz.com
 94.140.14.33 api-static-stage-n6x026.net.daraz.com
 94.140.14.33 api-static-stage-netscaler.net.daraz.com
 94.140.14.33 api-static-stage-pop3.net.daraz.com
 94.140.14.33 api-static-stage-postgresql.net.daraz.com
+94.140.14.33 api-static-stage-retail.net.daraz.com
 94.140.14.33 api-static-stage-sjc12.net.daraz.com
 94.140.14.33 api-static-stage-ssh.net.daraz.com
+94.140.14.33 api-static-stage-switch.net.daraz.com
 94.140.14.33 api-static-stage-testing.applications.net.daraz.com
 94.140.14.33 api-static-stage-wordpress.net.daraz.com
 94.140.14.33 api-static-stage-wwwtoolbar.applications.net.daraz.com
@@ -8221,21 +8280,30 @@
 94.140.14.33 api-static-stage.crm.net.daraz.com
 94.140.14.33 api-static-stage.frontpage-partner.net.daraz.com
 94.140.14.33 api-static-stage.ghcpicsr21.net.daraz.com
+94.140.14.33 api-static-stage.kube-partner.net.daraz.com
 94.140.14.33 api-static-stage.kubectl.net.daraz.com
 94.140.14.33 api-static-stage.lib-ln-1.net.daraz.com
 94.140.14.33 api-static-stage.loginvc.net.daraz.com
 94.140.14.33 api-static-stage.mx.net.daraz.com
+94.140.14.33 api-static-stage.net.daraz.com
 94.140.14.33 api-static-stage.oapi.net.daraz.com
 94.140.14.33 api-static-stage.pluto.net.daraz.com
 94.140.14.33 api-static-stage.rg-sg.net.daraz.com
+94.140.14.33 api-static-stage.stage.net.daraz.com
 94.140.14.33 api-static-stage01-car21-web-wwww0node.net.daraz.com
+94.140.14.33 api-static-stage01-lib-oa-1-admin8.net.daraz.com
 94.140.14.33 api-static-stage23pago.docs.net.daraz.com
+94.140.14.33 api-static-stageachoice.net.daraz.com
+94.140.14.33 api-static-stagebd.net.daraz.com
+94.140.14.33 api-static-stagemanagement-application-spring.net.daraz.com
 94.140.14.33 api-static-stagemc.net.daraz.com
 94.140.14.33 api-static-stagen.net.daraz.com
 94.140.14.33 api-static-stagenet.net.daraz.com
 94.140.14.33 api-static-stageorg.net.daraz.com
 94.140.14.33 api-static-stagepatner.net.daraz.com
+94.140.14.33 api-static-stagepre-msgx-space.net.daraz.com
 94.140.14.33 api-static-stagepre-rg-sg.net.daraz.com
+94.140.14.33 api-static-stagesellerpackaging.net.daraz.com
 94.140.14.33 api-static-stagestage-topup.net.daraz.com
 94.140.14.33 api-static-stagewc.net.daraz.com
 94.140.14.33 api-static-stasharepointe.net.daraz.com
@@ -8260,26 +8328,33 @@
 94.140.14.33 api-us.appodealx.com
 94.140.14.33 api-usa.gsa.gov.tt.omtrdc.net
 94.140.14.33 api-usent.kampyle.com
+94.140.14.33 api-v2-interaction-stage.net.daraz.com
 94.140.14.33 api-v3.tinypass.com
 94.140.14.33 api-verify.flurry.com
 94.140.14.33 api-vision-production.tt.omtrdc.net
+94.140.14.33 api-webapp-stage.net.daraz.com
 94.140.14.33 api-wlan-switch.net.daraz.com
 94.140.14.33 api-wolken-cms.01.tt.omtrdc.net
 94.140.14.33 api-www.partner.net.daraz.com
 94.140.14.33 api-xbellsouthwww.partner.net.daraz.com
 94.140.14.33 api-xspace-bellsouth.administrator.net.daraz.com
 94.140.14.33 api-xspace-berndpulchmedotcom.net.daraz.com
+94.140.14.33 api-xspace-doitruy.emailvision.net.daraz.com
 94.140.14.33 api-xspace-marketing.net.daraz.com
 94.140.14.33 api-xspace-ns2.viviotech.net.daraz.com
+94.140.14.33 api-xspace-partner.net.daraz.com
 94.140.14.33 api-xspace.kubemarketing.net.daraz.com
+94.140.14.33 api-xspace.lib-oa-1.net.daraz.com
 94.140.14.33 api-xspace.net.daraz.com
 94.140.14.33 api-xspaceauthorization-car21.partner.net.daraz.com
 94.140.14.33 api-xspacebeta-interaction.net.daraz.com
+94.140.14.33 api-xspacechd-www.partner.net.daraz.com
 94.140.14.33 api-xspacecloudfrontcar31.net.daraz.com
 94.140.14.33 api-xspacectl-car21ctl-car21ctl-car21.partner.net.daraz.com
 94.140.14.33 api-xspaceellsouth.northamerica.net.daraz.com
 94.140.14.33 api-xspaceproplus3xn.net.daraz.com
 94.140.14.33 api-z-origin.tt.omtrdc.net
+94.140.14.33 api.0-030.net.daraz.com
 94.140.14.33 api.0530hz.cn
 94.140.14.33 api.066hjkl.com
 94.140.14.33 api.078uijy.com
@@ -8288,6 +8363,7 @@
 94.140.14.33 api.118kbet.com
 94.140.14.33 api.11h5.com
 94.140.14.33 api.11zalo.com
+94.140.14.33 api.12345proxy.net.daraz.com
 94.140.14.33 api.123bhh.com
 94.140.14.33 api.140proof.com
 94.140.14.33 api.22zalo.com
@@ -8496,6 +8572,7 @@
 94.140.14.33 api.dabet.club
 94.140.14.33 api.dable.io
 94.140.14.33 api.danmu.tv.sohu.com
+94.140.14.33 api.daraz.com.00d4o000001nalzeag.net.daraz.com
 94.140.14.33 api.data-analytics.pokemon.com
 94.140.14.33 api.dataroid.com
 94.140.14.33 api.datatrics.com
@@ -8579,6 +8656,7 @@
 94.140.14.33 api.growthbeat.com
 94.140.14.33 api.growthpush.com
 94.140.14.33 api.grumft.com
+94.140.14.33 api.guardkava.club
 94.140.14.33 api.h2.he7ll.com
 94.140.14.33 api.hairlie-stg.tt.omtrdc.net
 94.140.14.33 api.hb.tt.omtrdc.net
@@ -8820,6 +8898,7 @@
 94.140.14.33 api.relaido.jp
 94.140.14.33 api.relevantonline.eu
 94.140.14.33 api.repro.io
+94.140.14.33 api.restricted-r-ht-2.net.daraz.com
 94.140.14.33 api.ria.tt.omtrdc.net
 94.140.14.33 api.rlcdn.com
 94.140.14.33 api.rollbar.com
@@ -9107,6 +9186,7 @@
 94.140.14.33 appleworldwidedeveloper.hb-api.omtrdc.net
 94.140.14.33 appleworldwidedeveloper.hb-api.tt.omtrdc.net
 94.140.14.33 application.hb-api.tt.omtrdc.net
+94.140.14.33 application.partner.net.daraz.com
 94.140.14.33 applicationnoisy.top
 94.140.14.33 applink.mob.com
 94.140.14.33 applocalads.site
@@ -9308,6 +9388,7 @@
 94.140.14.33 assessagra.top
 94.140.14.33 asset.adserver.vrizead.com
 94.140.14.33 assetaccelerator.click
+94.140.14.33 assets-ebs-partner.net.daraz.com
 94.140.14.33 assets.account-jpmedia-en-api.hb-api.tt.omtrdc.net
 94.140.14.33 assets.adspruce.com
 94.140.14.33 assets.adstage.io
@@ -9407,8 +9488,10 @@
 94.140.14.33 auth2.cityads.com
 94.140.14.33 authbe.sec.intl.miui.com
 94.140.14.33 authe.update.tt.omtrdc.net
+94.140.14.33 authenticate-api-static-stage.net.daraz.com
 94.140.14.33 authenticate.partner.net.daraz.com
 94.140.14.33 authenticateeappsvision.partner.net.daraz.com
+94.140.14.33 authenticatefrontpage-partner.net.daraz.com
 94.140.14.33 authenticatemail.partner-cgi-emailvision.net.daraz.com
 94.140.14.33 authlmsticatemail.partner.net.daraz.com
 94.140.14.33 author.bloggerads.net
@@ -9420,7 +9503,9 @@
 94.140.14.33 authorization.summer-pre-api-xspace.net.daraz.com
 94.140.14.33 authorization.summer-spyder-api.net.daraz.com
 94.140.14.33 authorization.suspyder-api-proder.net.daraz.com
+94.140.14.33 authorizationscore-api.summer.net.daraz.com
 94.140.14.33 authpadr02tnedr02.net.daraz.com
+94.140.14.33 authpartnerebs-partner.net.daraz.com
 94.140.14.33 auto.maximm.top
 94.140.14.33 autoads.asia
 94.140.14.33 autobild.adsame.com
@@ -9443,6 +9528,7 @@
 94.140.14.33 ava.trprogonline.top
 94.140.14.33 avads.co.uk
 94.140.14.33 available-partner.net.daraz.com
+94.140.14.33 available.www.partner.net.daraz.com
 94.140.14.33 avajwlwlwkkmb.top
 94.140.14.33 avanade12go.tt.tt.omtrdc.net
 94.140.14.33 avanade2abnamro.tt.tt.omtrdc.net
@@ -9676,6 +9762,7 @@
 94.140.14.33 balit.takilon.top
 94.140.14.33 balopwe.click
 94.140.14.33 balt.online-cashhh.top
+94.140.14.33 balt1c.b4engalqt3bj.click
 94.140.14.33 balt1c.rep1gn4zzss.click
 94.140.14.33 baltic-pipe-pro.site
 94.140.14.33 baltic-pro.gertrader.xyz
@@ -9920,6 +10007,7 @@
 94.140.14.33 bb.newprogram.top
 94.140.14.33 bb.pro1wrld.top
 94.140.14.33 bb.progrr.top
+94.140.14.33 bb13f83f-2471-4ad6-be27-69776caa8bde.oms.opinsights.azure.com
 94.140.14.33 bba.liopah.top
 94.140.14.33 bbads.sv.publicus.com
 94.140.14.33 bbads.sx.atl.publicus.com
@@ -10015,16 +10103,20 @@
 94.140.14.33 bellaads.com
 94.140.14.33 bellown.top
 94.140.14.33 bellsouth-api-pluto.administrator.net.daraz.com
+94.140.14.33 bellsouth-api-static-stage.administrators.net.daraz.com
 94.140.14.33 bellsouth-partner.administrator.net.daraz.com
 94.140.14.33 bellsouth-spyder-api-stage.administrator.net.daraz.com
 94.140.14.33 bellsouth.adb1ministrators.net.daraz.com
 94.140.14.33 bellsouth.administrator-partner.net.daraz.com
 94.140.14.33 bellsouth.administrator-score-api.net.daraz.com
+94.140.14.33 bellsouth.administrator-stage-spyder-api.net.daraz.com
 94.140.14.33 bellsouth.administrators-kube-partner.net.daraz.com
 94.140.14.33 bellsouth.administrators.spyder-api-stage.net.daraz.com
 94.140.14.33 bellsouth.adversion2inistrators.net.daraz.com
+94.140.14.33 bellsouth.api-static-stage.northamerica.net.daraz.com
 94.140.14.33 bellsouth.northamericaebs-partner.net.daraz.com
 94.140.14.33 bellsouth.nospyder-api-prodthamespyder-api-prodica.net.daraz.com
+94.140.14.33 bellsouth.score-api-administrator.net.daraz.com
 94.140.14.33 bellsouth.wps.net.daraz.com
 94.140.14.33 bellsouthspyder-api-prod.administrator.net.daraz.com
 94.140.14.33 bellspre-api-xspaceuth.administratpre-api-xspacers.net.daraz.com
@@ -10086,6 +10178,7 @@
 94.140.14.33 bestsellerdnia.click
 94.140.14.33 bestwithdrawal.pro
 94.140.14.33 bet-x.heavycloud.top
+94.140.14.33 bet3gr.api.net.daraz.com
 94.140.14.33 beta-cds-api.net.daraz.com
 94.140.14.33 beta.acj-api.w.tt.omtrdc.net
 94.140.14.33 beta.ads.zalo.me
@@ -10230,6 +10323,7 @@
 94.140.14.33 bittads.com
 94.140.14.33 bitterborder.pro
 94.140.14.33 bittoday.pro
+94.140.14.33 bittrafficads.com
 94.140.14.33 bitz.cashhs-news.top
 94.140.14.33 biuletynmiasta.click
 94.140.14.33 biunialpawnie.top
@@ -10409,6 +10503,8 @@
 94.140.14.33 bmjlzyjwwmwyk.top
 94.140.14.33 bmodelawaretrust.hb-api.tt.omtrdc.net
 94.140.14.33 bmonesbittburns.com.insight.hb-api.tt.omtrdc.net
+94.140.14.33 bms-kube-partner.net.daraz.com
+94.140.14.33 bms-partner.net.daraz.com
 94.140.14.33 bms.wlan.partner-bamboo.net.daraz.com
 94.140.14.33 bmvip.alimama.cn
 94.140.14.33 bmvmkp3.dilemmyggs.click
@@ -10618,7 +10714,6 @@
 94.140.14.33 browser.events.data.msn.cn
 94.140.14.33 browser.events.data.msn.com
 94.140.14.33 browser.gamingqogs.life
-94.140.14.33 browser.lol
 94.140.14.33 browser.pipe.aria.microsoft.com
 94.140.14.33 browser.sensorbuqnn.pro
 94.140.14.33 browser.sentry-cdn.com
@@ -10957,6 +11052,7 @@
 94.140.14.33 ca4-bid.adsrvr.org
 94.140.14.33 ca9295aca2944edad5e800d8a358e8c5.niflos.pl
 94.140.14.33 caauthenticate21.partner.net.daraz.com
+94.140.14.33 caauthenticate21.www.partner.net.daraz.com
 94.140.14.33 caaw.interfoxprog.click
 94.140.14.33 cableddubbeh.top
 94.140.14.33 caboverride.top
@@ -11000,6 +11096,7 @@
 94.140.14.33 calluspyjamas.top
 94.140.14.33 calmdown.pro
 94.140.14.33 calve.pro
+94.140.14.33 calyclewi.top
 94.140.14.33 cam.hb-api-stage.tt.omtrdc.net
 94.140.14.33 camads.net
 94.140.14.33 camp247adventure.com
@@ -11054,6 +11151,7 @@
 94.140.14.33 cards.twitter.com
 94.140.14.33 care.help.360.cn
 94.140.14.33 careers-saa-sip-ipen.api.hb-api.tt.omtrdc.net
+94.140.14.33 careers-www.partner.net.daraz.com
 94.140.14.33 careers.partner.net.daraz.com
 94.140.14.33 carefoxhired.top
 94.140.14.33 carefree-ship.pro
@@ -11125,6 +11223,7 @@
 94.140.14.33 cc.propl.top
 94.140.14.33 cc.sys.intl.xiaomi.com
 94.140.14.33 cc.sys.miui.com
+94.140.14.33 cc2779b3-d4d3-44bf-9a04-141dad719851.oms.opinsights.azure.com
 94.140.14.33 cc73af692b1bdfadf81b244cd931e6a6.dopla.com.pl
 94.140.14.33 cca-iad2.rubiconproject.com
 94.140.14.33 cca-iad3.rubiconproject.com
@@ -11474,6 +11573,7 @@
 94.140.14.33 chd-outgoing.partner.net.daraz.com
 94.140.14.33 chd-promotionw.partner.net.daraz.com
 94.140.14.33 chd-www-bellsouth.partner.net.daraz.com
+94.140.14.33 chd-www-f8.partner.net.daraz.com
 94.140.14.33 chd-www-pre-ai.partner.net.daraz.com
 94.140.14.33 chd-www-push-de-drzlive.partner.net.daraz.com
 94.140.14.33 chd-www-qr.partner.net.daraz.com
@@ -11484,8 +11584,10 @@
 94.140.14.33 chd-www.elb.partner.net.daraz.com
 94.140.14.33 chd-www.elk.partner.net.daraz.com
 94.140.14.33 chd-www.emailvision-partner.net.daraz.com
+94.140.14.33 chd-www.emailvision.partner.net.daraz.com
 94.140.14.33 chd-www.job-partner.net.daraz.com
 94.140.14.33 chd-www.mx0-partner.net.daraz.com
+94.140.14.33 chd-www.pakube-partnertnekube-partner.net.daraz.com
 94.140.14.33 chd-www.partner-alt.net.daraz.com
 94.140.14.33 chd-www.partner-bootstrap.net.daraz.com
 94.140.14.33 chd-www.partner-careers.net.daraz.com
@@ -11496,8 +11598,12 @@
 94.140.14.33 chd-www.partner-oaas.net.daraz.com
 94.140.14.33 chd-www.partner-pre-connected.net.daraz.com
 94.140.14.33 chd-www.partner-pre-web.net.daraz.com
+94.140.14.33 chd-www.partner-procurement.net.daraz.com
 94.140.14.33 chd-www.partner-push-drzlive.net.daraz.com
+94.140.14.33 chd-www.partner-restricted.net.daraz.com
 94.140.14.33 chd-www.partner-ssh.net.daraz.com
+94.140.14.33 chd-www.partner.administrators.net.daraz.com
+94.140.14.33 chd-www.partner.assets.net.daraz.com
 94.140.14.33 chd-www.partner.drzlive.net.daraz.com
 94.140.14.33 chd-www.partner.getter.net.daraz.com
 94.140.14.33 chd-www.partner.manager.net.daraz.com
@@ -11506,17 +11612,25 @@
 94.140.14.33 chd-www.partner.sexxdesi.net.daraz.com
 94.140.14.33 chd-www.partner.stage-spyder-api.net.daraz.com
 94.140.14.33 chd-www.postgresql.partner.net.daraz.com
+94.140.14.33 chd-www.pre-msgx-space.partner.net.daraz.com
+94.140.14.33 chd-www.pre-pull-drzlive-partner.net.daraz.com
 94.140.14.33 chd-www.pull-pk-local-drzlive-partner.net.daraz.com
 94.140.14.33 chd-www.rating-partner.net.daraz.com
+94.140.14.33 chd-www.rg-sg-partner.net.daraz.com
 94.140.14.33 chd-www.s-partner.net.daraz.com
 94.140.14.33 chd-www.sandbox-partner.net.daraz.com
+94.140.14.33 chd-www.score-api-partner.net.daraz.com
 94.140.14.33 chd-www.secure-partner.net.daraz.com
 94.140.14.33 chd-www.spyder-api-prodpartner.net.daraz.com
 94.140.14.33 chd-www.time-partner.net.daraz.com
+94.140.14.33 chd-www.uat-partner.net.daraz.com
 94.140.14.33 chd-www.wc.partner.net.daraz.com
+94.140.14.33 chd-www.winter-partner.net.daraz.com
+94.140.14.33 chd-www.zigzagstr-partner.net.daraz.com
 94.140.14.33 chd-wwwgermany.partner.net.daraz.com
 94.140.14.33 chd-wwwmb.partner.net.daraz.com
 94.140.14.33 chd-wwwmissions.partner.net.daraz.com
+94.140.14.33 chd-wwwmta.partner.net.daraz.com
 94.140.14.33 chd-wwwpull-bd-aka-drzlive.partner.net.daraz.com
 94.140.14.33 chd-wwwrj82p.partner.net.daraz.com
 94.140.14.33 chd-wwwshare.partner.net.daraz.com
@@ -11552,6 +11666,9 @@
 94.140.14.33 che.ch-perj.top
 94.140.14.33 che.ch-pesr.top
 94.140.14.33 che.ch-pobv.top
+94.140.14.33 che.ch-pocd.top
+94.140.14.33 che.ch-podm.top
+94.140.14.33 che.ch-poha.top
 94.140.14.33 che.ch-pohs.top
 94.140.14.33 che.ch-poix.top
 94.140.14.33 che.ch-polh.top
@@ -11613,6 +11730,7 @@
 94.140.14.33 chiulong.top
 94.140.14.33 chk.goxsite.top
 94.140.14.33 chlmpost.top
+94.140.14.33 chmarketingpush-www.partner.net.daraz.com
 94.140.14.33 chnmating.top
 94.140.14.33 choicedorm.top
 94.140.14.33 choingay11b.mobi
@@ -11624,7 +11742,6 @@
 94.140.14.33 chori3oiwtb.click
 94.140.14.33 chpre-pull-alt2-drzlive-www.partner.net.daraz.com
 94.140.14.33 chpush-pk-drzlive-www.partner.net.daraz.com
-94.140.14.33 chrdgle.top
 94.140.14.33 christianbusinessadvertising.com
 94.140.14.33 chronicads.com
 94.140.14.33 chsvn-www.partner.net.daraz.com
@@ -11707,7 +11824,6 @@
 94.140.14.33 cl0ms.top
 94.140.14.33 cladsneezesugar.com
 94.140.14.33 claim-token.top
-94.140.14.33 claimadvocate.us
 94.140.14.33 claimdelude.top
 94.140.14.33 clanpasta.click
 94.140.14.33 classicguarantee.pro
@@ -11727,6 +11843,7 @@
 94.140.14.33 cleverads.vn
 94.140.14.33 clgserv.pro
 94.140.14.33 clic.newlvlpro.top
+94.140.14.33 click-00proplus3xn.net.daraz.com
 94.140.14.33 click-allow.top
 94.140.14.33 click-ang4.tt.omtrdc.net
 94.140.14.33 click-car21c-f8.net.daraz.com
@@ -11772,6 +11889,7 @@
 94.140.14.33 click.amazingfacts.org
 94.140.14.33 click.americasaving.com
 94.140.14.33 click.appinthestore.com
+94.140.14.33 click.artysavvy.com
 94.140.14.33 click.assistanceforamericans.org
 94.140.14.33 click.assistingamericans.org
 94.140.14.33 click.atdmt.com
@@ -11869,6 +11987,7 @@
 94.140.14.33 click.howdoesin.net
 94.140.14.33 click.hqbath.net
 94.140.14.33 click.i.southwesternrailway.com
+94.140.14.33 click.iamdomain.xyz
 94.140.14.33 click.icptrack.com
 94.140.14.33 click.infoblox.com
 94.140.14.33 click.instacartemail.com
@@ -12080,6 +12199,7 @@
 94.140.14.33 cloudfadserverontcaadserver31.net.daraz.com
 94.140.14.33 cloudfastads.ru
 94.140.14.33 cloudfront.mclick.mobi
+94.140.14.33 cloudfrontcar31-frontpage-partner.net.daraz.com
 94.140.14.33 cloudpsh.top
 94.140.14.33 cloudpush.iqiyi.com
 94.140.14.33 cloudsystemscorp.click
@@ -12310,6 +12430,7 @@
 94.140.14.33 connectedtwtelecom.api-pluto2azure.net.daraz.com
 94.140.14.33 connectedtwtelecom.api-static-stage.net.daraz.com
 94.140.14.33 connectedtwtelecom.azure-api-pluto.net.daraz.com
+94.140.14.33 connectedtwtelecom.azure.api-static-stage.net.daraz.com
 94.140.14.33 connectedtwtelecom.azure.spyder-api-stage.net.daraz.com
 94.140.14.33 connectedtwtelecom.azureuploads.net.daraz.com
 94.140.14.33 conreoargertlio.top
@@ -12425,11 +12546,9 @@
 94.140.14.33 correos22.top
 94.140.14.33 correos24.top
 94.140.14.33 correos25.top
-94.140.14.33 correos27.top
 94.140.14.33 correos68.top
 94.140.14.33 correos8.top
 94.140.14.33 correos88.top
-94.140.14.33 correosa-hfd.top
 94.140.14.33 correosargentin.top
 94.140.14.33 correoscgob-sv.top
 94.140.14.33 correosdeliverc-sv.top
@@ -12675,7 +12794,9 @@
 94.140.14.33 csr110112203eur.click
 94.140.14.33 csr110112204eur.click
 94.140.14.33 csr40-partner.net.daraz.com
+94.140.14.33 csr41-frontpage-partner.application.net.daraz.com
 94.140.14.33 csr41.application.ebs-partner.net.daraz.com
+94.140.14.33 csr41.mta.net.daraz.com
 94.140.14.33 csrich.pro
 94.140.14.33 css.bloggerads.net
 94.140.14.33 cstm.baidu.com
@@ -12690,6 +12811,7 @@
 94.140.14.33 ctt-dispositivo.top
 94.140.14.33 ctt-pt.mobi
 94.140.14.33 ctt-security.top
+94.140.14.33 cttptapp.top
 94.140.14.33 ctx.matchads.net
 94.140.14.33 ctyusif.top
 94.140.14.33 cubeworld-download.org
@@ -12800,6 +12922,7 @@
 94.140.14.33 d.exit-ad.com
 94.140.14.33 d.image-ad.jp
 94.140.14.33 d.mob.com
+94.140.14.33 d.ns.analytics.net.daraz.com
 94.140.14.33 d.ns.eiadvision.net.daraz.com
 94.140.14.33 d.polskitred.top
 94.140.14.33 d.toutiao.com
@@ -12843,6 +12966,8 @@
 94.140.14.33 d4zfhaorlv9je4zw.partner.nautilus.net.daraz.com
 94.140.14.33 d5.adsplay.net
 94.140.14.33 d5.sina.com.cn
+94.140.14.33 d55fd562-d2e3-48eb-bdc4-fa1ad671886d.oms.opinsights.azure.com
+94.140.14.33 d5a3a23f-3a05-496f-ad01-256e7ff9bd89.oms.opinsights.azure.com
 94.140.14.33 d6.adsplay.net
 94.140.14.33 d6.c5.b0.a2.top.mail.ru
 94.140.14.33 d6.sina.com.cn
@@ -13105,6 +13230,7 @@
 94.140.14.33 db-tan-update.app
 94.140.14.33 db.kube-partner.net.daraz.com
 94.140.14.33 db853ad0.kortfilmfestivalen.no
+94.140.14.33 dba8a87d-ada4-4c6d-81a1-65bbc0fb1d09.oms.opinsights.azure.com
 94.140.14.33 dbadmin-www.partner.net.daraz.com
 94.140.14.33 dbamyociebie.click
 94.140.14.33 dbg52463.moatads.com
@@ -13346,13 +13472,13 @@
 94.140.14.33 devops-google.viviotech.net.daraz.com
 94.140.14.33 devops-ns2-frontpage-partner.net.daraz.com
 94.140.14.33 devops-ns2.open-viviotech.net.daraz.com
+94.140.14.33 devops-ns2.viviotech.frontpage-partner.net.daraz.com
 94.140.14.33 devops-nsfrontpage-partner.viviotech.net.daraz.com
 94.140.14.33 devops-spyder-api.viviotech.net.daraz.com
 94.140.14.33 devops-www.partner.net.daraz.com
 94.140.14.33 devopsnsspyder-api.twtelecom.net.daraz.com
 94.140.14.33 devs.data.mob.com
 94.140.14.33 devs.partner-paygh2.cl.bellsouth.net.daraz.com
-94.140.14.33 devueltaclasesabcdelbcp.top
 94.140.14.33 devvision.cs-utils-rtr.analytics.net.daraz.com
 94.140.14.33 dew.comfirty.top
 94.140.14.33 dew.partner-payseller.net.daraz.com
@@ -13405,7 +13531,6 @@
 94.140.14.33 dhl-home-mx.top
 94.140.14.33 dhl-pts.top
 94.140.14.33 dhl-sx.top
-94.140.14.33 dhl-xia.top
 94.140.14.33 dhl24.top
 94.140.14.33 dhlahdetour.top
 94.140.14.33 dhlmx-eshome.top
@@ -13484,6 +13609,7 @@
 94.140.14.33 disastrous-change.pro
 94.140.14.33 disastrousfinal.pro
 94.140.14.33 discdanot.pro
+94.140.14.33 discord.misakamikoto.top
 94.140.14.33 discountads.net
 94.140.14.33 discovery-ssl.hb-api.tt.omtrdc.net
 94.140.14.33 discussions-api-perf.net.daraz.com
@@ -13695,10 +13821,12 @@
 94.140.14.33 doclogin.www.partner.net.daraz.com
 94.140.14.33 doclopre-api-xspacein.net.daraz.com
 94.140.14.33 docomo-analytics.com
+94.140.14.33 docs-api-static-stage.net.daraz.com
 94.140.14.33 docs.www.partner.net.daraz.com
 94.140.14.33 docsapispring-staff-partner.net.daraz.com
 94.140.14.33 docsdropb.ns.mta.emailvision.net.daraz.com
 94.140.14.33 docsdropr-api-xspacex-1.net.daraz.com
+94.140.14.33 docsnewnautilus12345proxy3kube-partner.net.daraz.com
 94.140.14.33 documentation-ns2.cl.partner-authenticate.bellsouth.net.daraz.com
 94.140.14.33 documentr-corp-spring-1-2.net.daraz.com
 94.140.14.33 doczesnerzeczy.click
@@ -14030,7 +14158,6 @@
 94.140.14.33 dpd-polska.pay-id42554.top
 94.140.14.33 dpd-polska.pay-id956278.top
 94.140.14.33 dpd-polska.pay-id97514.top
-94.140.14.33 dpd-us.top
 94.140.14.33 dpd.confiirmdeliveery.top
 94.140.14.33 dpd.europedelivery.top
 94.140.14.33 dpd.maxpeoplepl.top
@@ -14046,7 +14173,6 @@
 94.140.14.33 dpdpladvw.tomhighcallfranmum.cf
 94.140.14.33 dpdpostelb.top
 94.140.14.33 dpdposteli.top
-94.140.14.33 dpdpostepo.top
 94.140.14.33 dpflyingoncs.top
 94.140.14.33 dpjsfrhklu.top
 94.140.14.33 dpro.pro-activprofit.site
@@ -14059,9 +14185,12 @@
 94.140.14.33 dr.api.useinsider.com
 94.140.14.33 dr.newplatf.top
 94.140.14.33 dr01-partner.net.daraz.com
+94.140.14.33 dr01.kube-partner.net.daraz.com
+94.140.14.33 dr02-partner.net.daraz.com
 94.140.14.33 dr02.chd-www.partner.net.daraz.com
 94.140.14.33 dra.amazon-adsystem.com
 94.140.14.33 draftyreview.pro
+94.140.14.33 draganddropobjects-api.net.daraz.com
 94.140.14.33 draganddropobjects.api-pluto2.net.daraz.com
 94.140.14.33 draganddropobjects.ebs-partner.net.daraz.com
 94.140.14.33 draganddropobjectsdraganddropobjectsdraganddropobjects.draganddropobjectslan.partner-bamboo.net.daraz.com
@@ -14129,6 +14258,7 @@
 94.140.14.33 drukujemyprawde.click
 94.140.14.33 drupal.www.partner.net.daraz.com
 94.140.14.33 drzlivew.partner.net.daraz.com
+94.140.14.33 drzliving.chd-www.partner.net.daraz.com
 94.140.14.33 drzliving.mgmt.partner.net.daraz.com
 94.140.14.33 ds-api-public.addthis.com.edgekey.net
 94.140.14.33 ds.advg.jp
@@ -14189,6 +14319,7 @@
 94.140.14.33 dssl.ns.emailvision.authenticate.open.net.daraz.com
 94.140.14.33 dssl.ns.emailvision.authenticate.stage-spyder-api.net.daraz.com
 94.140.14.33 dssl.ns.emailvision.authentispyder-api-stageate.net.daraz.com
+94.140.14.33 dssl.ns.emailvision.kube-partner.authenticate.net.daraz.com
 94.140.14.33 dssl.ns.emailvision.score-api-authenticate.net.daraz.com
 94.140.14.33 dssl.ns.emailvision.spyder-api-prod.authenticate.net.daraz.com
 94.140.14.33 dssl.ns.emailvision.stage-spyder-api.net.daraz.com
@@ -14363,7 +14494,9 @@
 94.140.14.33 e8de3381129db280aceeb80bf707ad97.spgros.pl
 94.140.14.33 e8euo7dmx90sq6ad.tester-partner-assets.net.daraz.com
 94.140.14.33 e8ogh1jm8xqdiaon.partner.net.daraz.com
+94.140.14.33 e91c1bf9-bad5-46bf-a4d8-4a68e231df3d.oms.opinsights.azure.com
 94.140.14.33 e9ioamig8do4qdta.partner.net.daraz.com
+94.140.14.33 ea2ad31d-41d1-4c8b-bdcc-1b408f4cd420.oms.opinsights.azure.com
 94.140.14.33 eaccountss-partner.net.daraz.com
 94.140.14.33 eads-com01.webtrekk.net
 94.140.14.33 eadsenergy.com
@@ -14388,6 +14521,7 @@
 94.140.14.33 earthshaper.top
 94.140.14.33 easelserenade.click
 94.140.14.33 east.ads.simpli.fi
+94.140.14.33 east.linktdar.click
 94.140.14.33 eastads.simpli.fi
 94.140.14.33 easter-analytics.com
 94.140.14.33 easy-ad.no
@@ -14429,6 +14563,7 @@
 94.140.14.33 ebs-partner-ae2.net.daraz.com
 94.140.14.33 ebs-partner-aka.net.daraz.com
 94.140.14.33 ebs-partner-allseason.engine.net.daraz.com
+94.140.14.33 ebs-partner-apac-cfw-c2s-01-n6x026.net.daraz.com
 94.140.14.33 ebs-partner-application.net.daraz.com
 94.140.14.33 ebs-partner-bellsouth.northamerica.net.daraz.com
 94.140.14.33 ebs-partner-customers.net.daraz.com
@@ -14449,14 +14584,19 @@
 94.140.14.33 ebs-partner.10.net.daraz.com
 94.140.14.33 ebs-partner.123pago.docs.net.daraz.com
 94.140.14.33 ebs-partner.apps.net.daraz.com
+94.140.14.33 ebs-partner.authpartner.net.daraz.com
+94.140.14.33 ebs-partner.be.net.daraz.com
 94.140.14.33 ebs-partner.doclogin.net.daraz.com
 94.140.14.33 ebs-partner.enterpriseregistration.net.daraz.com
 94.140.14.33 ebs-partner.jenkins.net.daraz.com
 94.140.14.33 ebs-partner.latinamerica.net.daraz.com
 94.140.14.33 ebs-partner.mobilecl.bellsouth.net.daraz.com
+94.140.14.33 ebs-partner.net.daraz.com
 94.140.14.33 ebs-partner.ns3.mobilecl.bellsouth.net.daraz.com
 94.140.14.33 ebs-partner.outgoing.net.daraz.com
+94.140.14.33 ebs-partner.stage-trucking.net.daraz.com
 94.140.14.33 ebs-partner.svc.net.daraz.com
+94.140.14.33 ebs-partner.twtelecom.azure.net.daraz.com
 94.140.14.33 ebs-partner.web1.net.daraz.com
 94.140.14.33 ebs-partner.wwww11node.net.daraz.com
 94.140.14.33 ebs-partnerebs-partnerebs-partner.staff-partner.net.daraz.com
@@ -14466,6 +14606,7 @@
 94.140.14.33 ebs.10-marketing.open.net.daraz.com
 94.140.14.33 ebs.10-uploadsing.net.daraz.com
 94.140.14.33 ebs.adserver0-marketing.net.daraz.com
+94.140.14.33 ebs.kube-partner.net.daraz.com
 94.140.14.33 ebtools-partner.net.daraz.com
 94.140.14.33 ec-dishpurchasingcorporation.hb-api.tt.omtrdc.net
 94.140.14.33 ec0adn1ure.quest
@@ -14746,9 +14887,11 @@
 94.140.14.33 email-partner-payithub.email-partner-paylobal.ssl.fastly.net.daraz.com
 94.140.14.33 email-partner-payreset-lib-ht-1.net.daraz.com
 94.140.14.33 email-partner-payspring.net.daraz.com
+94.140.14.33 email-partner.net.daraz.com
 94.140.14.33 email.atachment.click
 94.140.14.33 email.cbs.hb-api.tt.omtrdc.net
 94.140.14.33 email.corp-spring.freya.net.daraz.com
+94.140.14.33 email.ebs-partner.net.daraz.com
 94.140.14.33 email.headsuphealth.com
 94.140.14.33 email.molly-9982.pro
 94.140.14.33 email.partner.net.daraz.com
@@ -14833,6 +14976,7 @@
 94.140.14.33 ena-native-ads4.com
 94.140.14.33 enalzlw.top
 94.140.14.33 enatyl.top
+94.140.14.33 enchanted-forest.openai6.top
 94.140.14.33 enchanted-stretch.pro
 94.140.14.33 enchantedechoescam.click
 94.140.14.33 encom-corp.com
@@ -14911,10 +15055,8 @@
 94.140.14.33 eonads.com
 94.140.14.33 eos-sis.click
 94.140.14.33 eosads.com
-94.140.14.33 ep-correoos.top
 94.140.14.33 epe.tradelifeworld.top
 94.140.14.33 eph-adsjutarnji.cdn.sysbee.net
-94.140.14.33 ephvv.top
 94.140.14.33 epic-drop.top
 94.140.14.33 epicgameads.com
 94.140.14.33 epicsacred.pro
@@ -15030,7 +15172,6 @@
 94.140.14.33 ethereumads.com
 94.140.14.33 ethicalads.io
 94.140.14.33 etienlw.top
-94.140.14.33 etinalsenta.phaihhuxindi.top
 94.140.14.33 etl-xlmc-ssl.xunlei.com
 94.140.14.33 etl.xlmc.sec.miui.com
 94.140.14.33 etnxhu3ant0cdxyy.partner.net.daraz.com
@@ -15270,6 +15411,7 @@
 94.140.14.33 f42fc1f181320389f92c8ad5e23b5083.magazynsz.pl
 94.140.14.33 f53ad9059d.com
 94.140.14.33 f54.ner9.top
+94.140.14.33 f5f83482-2bef-4c75-a3a1-6408ad3136f6.oms.opinsights.azure.com
 94.140.14.33 f5w.as12df.top
 94.140.14.33 f6163szt1pu7vlzj.test.partner.net.daraz.com
 94.140.14.33 f6dbadf1-b025-4999-824e-7fdd429d8075.oms.opinsights.azure.com
@@ -15348,6 +15490,7 @@
 94.140.14.33 fantasticdiet.pro
 94.140.14.33 fantasticgap.pro
 94.140.14.33 fantasy-partner.net.daraz.com
+94.140.14.33 fantasychd-www.partner.net.daraz.com
 94.140.14.33 fap.onlineprogram.click
 94.140.14.33 fapagaineryx8.pro
 94.140.14.33 fapw.cashhs-news.top
@@ -15409,6 +15552,7 @@
 94.140.14.33 fcanr.tracking.miui.com
 94.140.14.33 fcb8.mobi
 94.140.14.33 fcb8.top
+94.140.14.33 fcbadd37-4a0b-4259-80df-689a6ba4eb07.oms.opinsights.azure.com
 94.140.14.33 fcd.autoads.asia
 94.140.14.33 fcg-api.exponea.com
 94.140.14.33 fclick.baidu.com
@@ -15489,6 +15633,8 @@
 94.140.14.33 fifa19.mobi
 94.140.14.33 figuraebeak.top
 94.140.14.33 fiiod.papiashvili.top
+94.140.14.33 fiko.cpm-toohigh.click
+94.140.14.33 fiko2.skin-squad.click
 94.140.14.33 fikz.malza.top
 94.140.14.33 fil.folos.top
 94.140.14.33 file-share.pl
@@ -15851,13 +15997,18 @@
 94.140.14.33 frontier-toutiao.snssdk.com
 94.140.14.33 frontj-partner.net.daraz.com
 94.140.14.33 frontpage-padservertner.net.daraz.com
+94.140.14.33 frontpage-partner-bellsouth.northamerica.net.daraz.com
 94.140.14.33 frontpage-partner-csr41.net.daraz.com
 94.140.14.33 frontpage-partner-ns.emailvision.panel.net.daraz.com
 94.140.14.33 frontpage-partner-pull-pk-local-drzlive.net.daraz.com
+94.140.14.33 frontpage-partner-rg-sg.net.daraz.com
+94.140.14.33 frontpage-partner-rg.net.daraz.com
 94.140.14.33 frontpage-partner-rj82p.net.daraz.com
 94.140.14.33 frontpage-partner-sftp.net.daraz.com
 94.140.14.33 frontpage-partner.aka.net.daraz.com
+94.140.14.33 frontpage-partner.discover.net.daraz.com
 94.140.14.33 frontpage-partner.n6x026.net.daraz.com
+94.140.14.33 frontpage-partner.net.daraz.com
 94.140.14.33 frontpage-partner.pre-workstation.net.daraz.com
 94.140.14.33 frontpage-partner.resources.net.daraz.com
 94.140.14.33 frontpage-partner.uploads.net.daraz.com
@@ -16250,6 +16401,7 @@
 94.140.14.33 ginads.com
 94.140.14.33 ginkscarnal.top
 94.140.14.33 ginnytors.top
+94.140.14.33 gionee.analytics.glance.inmobi.com
 94.140.14.33 girls-tube.mobi
 94.140.14.33 girlwallpaper.pro
 94.140.14.33 gistat7qeocevuf5.partner-bamboo.net.daraz.com
@@ -16496,7 +16648,6 @@
 94.140.14.33 goingsbluffed.top
 94.140.14.33 gokal.everadpro.click
 94.140.14.33 goladsor.win
-94.140.14.33 gold-beard.top
 94.140.14.33 gold-line.click
 94.140.14.33 gold.beneffit.top
 94.140.14.33 goldendownloads247.com
@@ -16745,6 +16896,7 @@
 94.140.14.33 gutterdogs-partner.tt.tt.omtrdc.net
 94.140.14.33 gutycu.top
 94.140.14.33 gutyvashx7hlzafj.wlan-switch.partner.nautilus.net.daraz.com
+94.140.14.33 guvixyaqa.top
 94.140.14.33 guxiezhuang.top
 94.140.14.33 gv1.xdrig.com
 94.140.14.33 gvfyy.mmtsa.top
@@ -16771,6 +16923,7 @@
 94.140.14.33 gydt4j60g2ce6vtx.tester-partner-assets.net.daraz.com
 94.140.14.33 gyhsok-invest.pro
 94.140.14.33 gynicsperdy.top
+94.140.14.33 gytapoebuo.top
 94.140.14.33 gz.eutrty.top
 94.140.14.33 gzads.com
 94.140.14.33 gzexsc.top
@@ -16780,6 +16933,7 @@
 94.140.14.33 h-adashx.ut.taobao.com
 94.140.14.33 h-adashx4ae.ut.taobao.com
 94.140.14.33 h-adashx4yt.ut.taobao.com
+94.140.14.33 h-adashxfrontpage-partner.net.daraz.com
 94.140.14.33 h-adashxmgmt.partner.net.daraz.com
 94.140.14.33 h-afnetwww.adshuffle.com
 94.140.14.33 h-kube-partner.net.daraz.com
@@ -16963,7 +17117,6 @@
 94.140.14.33 hecubaagush.top
 94.140.14.33 hed.programtts.top
 94.140.14.33 hedgehogturnovering.pro
-94.140.14.33 hedwfvc.top
 94.140.14.33 heeet.top
 94.140.14.33 heftygift.pro
 94.140.14.33 hegarberetrof.pro
@@ -16981,6 +17134,7 @@
 94.140.14.33 help-center-ads-th-gey45.netlify.app
 94.140.14.33 help-center-ads-tt-zja83.netlify.app
 94.140.14.33 help-keele-api-static-stage-leis-mc-leis.net.daraz.com
+94.140.14.33 help.analytics.net.daraz.com
 94.140.14.33 help.cnzz.com
 94.140.14.33 help.juicyads.com
 94.140.14.33 hemle8oplxhjoe3r.partner.net.daraz.com
@@ -18072,9 +18226,11 @@
 94.140.14.33 inpost-ad.top
 94.140.14.33 inpost-ai.top
 94.140.14.33 inpost-apply.top
+94.140.14.33 inpost-bs.top
 94.140.14.33 inpost-bvt.top
 94.140.14.33 inpost-cex.top
 94.140.14.33 inpost-ck.top
+94.140.14.33 inpost-cm.top
 94.140.14.33 inpost-courier.top
 94.140.14.33 inpost-ctq.top
 94.140.14.33 inpost-cya.top
@@ -18363,6 +18519,7 @@
 94.140.14.33 inpost-pro-pl.requestr.store
 94.140.14.33 inpost-ps.top
 94.140.14.33 inpost-pt.top
+94.140.14.33 inpost-py.top
 94.140.14.33 inpost-qyx.top
 94.140.14.33 inpost-rmq.top
 94.140.14.33 inpost-sg.top
@@ -18386,6 +18543,7 @@
 94.140.14.33 inpost-verify.top
 94.140.14.33 inpost-vks.top
 94.140.14.33 inpost-vy.top
+94.140.14.33 inpost-wr.top
 94.140.14.33 inpost-xcn.top
 94.140.14.33 inpost-xta.top
 94.140.14.33 inpost-yda.top
@@ -18918,6 +19076,7 @@
 94.140.14.33 isiso.vertysbos.top
 94.140.14.33 isite.baidu.com
 94.140.14.33 isksss.top
+94.140.14.33 isl.caminos.click
 94.140.14.33 islbaho.top
 94.140.14.33 isna.top
 94.140.14.33 isna9.papiashvili.top
@@ -19100,6 +19259,7 @@
 94.140.14.33 jenkinstest.partner-pay-europewest.net.daraz.com
 94.140.14.33 jenno.adsb4all.com
 94.140.14.33 jenwyrjbvvlrl.top
+94.140.14.33 jeoawamjbblkq.top
 94.140.14.33 jeoawamjbrvkb.top
 94.140.14.33 jeqjawqoeraab.top
 94.140.14.33 jerjrqqzmzkzy.top
@@ -19623,6 +19783,7 @@
 94.140.14.33 kkkkla.everadpro.click
 94.140.14.33 kkkln.tentaklsistem.click
 94.140.14.33 kkmsa.top
+94.140.14.33 kkrtai.top
 94.140.14.33 kksjsa.top
 94.140.14.33 kl.67it.com
 94.140.14.33 kl3o8d5gyq9npm5z.partner.net.daraz.com
@@ -19819,6 +19980,7 @@
 94.140.14.33 ku11.pro
 94.140.14.33 ku6.cnzz.com
 94.140.14.33 kuadministrator-partner.net.daraz.com
+94.140.14.33 kube-ebs-partner.net.daraz.com
 94.140.14.33 kube-partner-00proplus3xn.net.daraz.com
 94.140.14.33 kube-partner-01-car21c-f8.net.daraz.com
 94.140.14.33 kube-partner-1.net.daraz.com
@@ -19831,14 +19993,18 @@
 94.140.14.33 kube-partner-authorization.summer.net.daraz.com
 94.140.14.33 kube-partner-broadcast-ip.net.daraz.com
 94.140.14.33 kube-partner-club.net.daraz.com
+94.140.14.33 kube-partner-d.net.daraz.com
 94.140.14.33 kube-partner-developer.net.daraz.com
 94.140.14.33 kube-partner-engima.net.daraz.com
 94.140.14.33 kube-partner-engineapplication.net.daraz.com
 94.140.14.33 kube-partner-f8.net.daraz.com
 94.140.14.33 kube-partner-gmail.net.daraz.com
 94.140.14.33 kube-partner-open.net.daraz.com
+94.140.14.33 kube-partner-push.net.daraz.com
 94.140.14.33 kube-partner-r-ht-2.net.daraz.com
+94.140.14.33 kube-partner-stg.net.daraz.com
 94.140.14.33 kube-partner-svn.net.daraz.com
+94.140.14.33 kube-partner-uac-pre.net.daraz.com
 94.140.14.33 kube-partner-up.net.daraz.com
 94.140.14.33 kube-partner-webmail2.net.daraz.com
 94.140.14.33 kube-partner-wwww11node.net.daraz.com
@@ -19893,6 +20059,8 @@
 94.140.14.33 kuosxe-partner.net.daraz.com
 94.140.14.33 kupre-livekit-partner.net.daraz.com
 94.140.14.33 kupujzglowa.click
+94.140.14.33 kupush-pk-drzlive-partner.net.daraz.com
+94.140.14.33 kuqr-partner.net.daraz.com
 94.140.14.33 kusecops-partner.net.daraz.com
 94.140.14.33 kuskiteblets.top
 94.140.14.33 kusports-partner.net.daraz.com
@@ -20310,6 +20478,7 @@
 94.140.14.33 links.www.partner.net.daraz.com
 94.140.14.33 linkt-help.top
 94.140.14.33 linkt-transport.top
+94.140.14.33 linkup.top
 94.140.14.33 lintensciurid.top
 94.140.14.33 linux.partner.net.daraz.com
 94.140.14.33 linuxchd-www.partner.net.daraz.com
@@ -20486,6 +20655,7 @@
 94.140.14.33 local-analytics.uberinternal.com
 94.140.14.33 local-download.com
 94.140.14.33 localhost.google.com.twenteen.com
+94.140.14.33 localhostchd-www.partner.net.daraz.com
 94.140.14.33 localityforeheadrutabagaar.pro
 94.140.14.33 localitymeantimeheirlooming.pro
 94.140.14.33 localitymeantimerutabagaes.pro
@@ -20522,7 +20692,7 @@
 94.140.14.33 login.blocchain.pro
 94.140.14.33 login.orangesys.pro
 94.140.14.33 login.www.partner.net.daraz.com
-94.140.14.33 loginonline.pro
+94.140.14.33 loginform.pro
 94.140.14.33 loginpl-nawezamanager.wwadvocaten.be
 94.140.14.33 loginvc-chd-www.partner.net.daraz.com
 94.140.14.33 loginvc-kube-partner.net.daraz.com
@@ -20801,6 +20971,7 @@
 94.140.14.33 m.game.weibo.cn
 94.140.14.33 m.giroud.top
 94.140.14.33 m.glarespongy.top
+94.140.14.33 m.gw.l.google.com.trustbank.it
 94.140.14.33 m.haoweb.top
 94.140.14.33 m.heavenwil.top
 94.140.14.33 m.hehongmei.top
@@ -21035,13 +21206,16 @@
 94.140.14.33 manage.juicyads.com
 94.140.14.33 manage.lib-oa-1-api-docs.net.daraz.com
 94.140.14.33 manage.lib-oa-1-pre-api-xspace.net.daraz.com
+94.140.14.33 manage.lib-oa-1ebs-partner.net.daraz.com
 94.140.14.33 manage.lib-oa-api-static-stage.net.daraz.com
 94.140.14.33 manage.lib-oa-spyder-api.net.daraz.com
 94.140.14.33 manage.lib-partner-1.net.daraz.com
 94.140.14.33 manage.spyder-api-prod-lib-oa-1.net.daraz.com
 94.140.14.33 manageadv.cblogs.eu
 94.140.14.33 management-application-pre-api-xspace.net.daraz.com
+94.140.14.33 management-application-spring-kube-partner.net.daraz.com
 94.140.14.33 management-application-spring-spyder-api-stage.net.daraz.com
+94.140.14.33 management-application-springebs-partner.net.daraz.com
 94.140.14.33 management-application-springstage-spyder-api.net.daraz.com
 94.140.14.33 management-application-spyder-api-stagering.net.daraz.com
 94.140.14.33 management-appspyder-api-stageication-spring.net.daraz.com
@@ -21394,6 +21568,7 @@
 94.140.14.33 mell.meetttaa-prog.top
 94.140.14.33 mellowads.com
 94.140.14.33 meloads.com
+94.140.14.33 melonedtunees.pro
 94.140.14.33 melr5fizv0dl11jv.production-documentsns.partner-pay.net.daraz.com
 94.140.14.33 melredirnxt.top
 94.140.14.33 melyapons.top
@@ -21500,15 +21675,22 @@
 94.140.14.33 mgmt-pass.partner.net.daraz.com
 94.140.14.33 mgmt-pluto.partner.net.daraz.com
 94.140.14.33 mgmt-poczta.partner.net.daraz.com
+94.140.14.33 mgmt-qlikview.partner.net.daraz.com
 94.140.14.33 mgmt-relay.partner.net.daraz.com
+94.140.14.33 mgmt-skidoitruy.partner.net.daraz.com
 94.140.14.33 mgmt-skins.partner.net.daraz.com
+94.140.14.33 mgmt-stage-spyder-api.partner.net.daraz.com
 94.140.14.33 mgmt-status.partner.net.daraz.com
 94.140.14.33 mgmt-stream.partner.net.daraz.com
 94.140.14.33 mgmt-www0.partner.net.daraz.com
+94.140.14.33 mgmt-xspace.partner.net.daraz.com
+94.140.14.33 mgmt.01-car21-10-r-oa-1-partner.net.daraz.com
+94.140.14.33 mgmt.10-partner.net.daraz.com
 94.140.14.33 mgmt.2021.partner.net.daraz.com
 94.140.14.33 mgmt.ad.partner.net.daraz.com
 94.140.14.33 mgmt.alt2-partner.net.daraz.com
 94.140.14.33 mgmt.apidocs-partner.net.daraz.com
+94.140.14.33 mgmt.assets-partner.net.daraz.com
 94.140.14.33 mgmt.authenticate-partner.net.daraz.com
 94.140.14.33 mgmt.b.partner.net.daraz.com
 94.140.14.33 mgmt.cas-partner.net.daraz.com
@@ -21516,6 +21698,7 @@
 94.140.14.33 mgmt.dev1.partner.net.daraz.com
 94.140.14.33 mgmt.devops-partner.net.daraz.com
 94.140.14.33 mgmt.dhar-partner.net.daraz.com
+94.140.14.33 mgmt.ebs.partner.net.daraz.com
 94.140.14.33 mgmt.engine-partner.net.daraz.com
 94.140.14.33 mgmt.fantasy-partner.net.daraz.com
 94.140.14.33 mgmt.gateway.partner.net.daraz.com
@@ -21526,9 +21709,11 @@
 94.140.14.33 mgmt.management.partner.net.daraz.com
 94.140.14.33 mgmt.mx1-partner.net.daraz.com
 94.140.14.33 mgmt.node-partner.net.daraz.com
+94.140.14.33 mgmt.northamerica-partner.net.daraz.com
 94.140.14.33 mgmt.nov-partner.net.daraz.com
 94.140.14.33 mgmt.omp-partner.net.daraz.com
 94.140.14.33 mgmt.pages-partner.net.daraz.com
+94.140.14.33 mgmt.papre-api-xspacetnepre-api-xspace.net.daraz.com
 94.140.14.33 mgmt.partner-123pago.net.daraz.com
 94.140.14.33 mgmt.partner-administrators.net.daraz.com
 94.140.14.33 mgmt.partner-ae2-dfw3-dr02.net.daraz.com
@@ -21546,6 +21731,7 @@
 94.140.14.33 mgmt.partner-newsite.net.daraz.com
 94.140.14.33 mgmt.partner-orion.net.daraz.com
 94.140.14.33 mgmt.partner-pass.net.daraz.com
+94.140.14.33 mgmt.partner-pre-alicert-admin.net.daraz.com
 94.140.14.33 mgmt.partner-procurement.net.daraz.com
 94.140.14.33 mgmt.partner-remote.net.daraz.com
 94.140.14.33 mgmt.partner-restricted-r-ht-2.net.daraz.com
@@ -21563,12 +21749,17 @@
 94.140.14.33 mgmt.partner.exchange.net.daraz.com
 94.140.14.33 mgmt.partner.jenkinstest.net.daraz.com
 94.140.14.33 mgmt.partner.net.daraz.com
+94.140.14.33 mgmt.partner.net.net.daraz.com
 94.140.14.33 mgmt.partner.ns.net.daraz.com
+94.140.14.33 mgmt.partner.pre-msgx-space.net.daraz.com
 94.140.14.33 mgmt.partner.pre-push-drzlive.net.daraz.com
 94.140.14.33 mgmt.partner.reviews.net.daraz.com
+94.140.14.33 mgmt.partner.sftp.net.daraz.com
 94.140.14.33 mgmt.partner.staff.net.daraz.com
+94.140.14.33 mgmt.partner.topup.net.daraz.com
 94.140.14.33 mgmt.partner.ws.net.daraz.com
 94.140.14.33 mgmt.postgresql-partner.net.daraz.com
+94.140.14.33 mgmt.pre-dhar-partner.net.daraz.com
 94.140.14.33 mgmt.proxy-partner.net.daraz.com
 94.140.14.33 mgmt.pull-bd-aka-drzlive.partner.net.daraz.com
 94.140.14.33 mgmt.pull-bd-drzlive-partner.net.daraz.com
@@ -21582,12 +21773,14 @@
 94.140.14.33 mgmt.tool-partner.net.daraz.com
 94.140.14.33 mgmt.tpeprint.partner.net.daraz.com
 94.140.14.33 mgmt.training.partner.net.daraz.com
+94.140.14.33 mgmt.uat-oneloadpk-partner.net.daraz.com
 94.140.14.33 mgmt.vpdp.partner.net.daraz.com
 94.140.14.33 mgmt.vps1.partner.net.daraz.com
 94.140.14.33 mgmt.w-partner.net.daraz.com
 94.140.14.33 mgmt.zegh8zvf4s4axcm6-partner.net.daraz.com
 94.140.14.33 mgmt1.partner.net.daraz.com
 94.140.14.33 mgmtalicert-admin.partner.net.daraz.com
+94.140.14.33 mgmtaliexam.partner.net.daraz.com
 94.140.14.33 mgmtapi-pluto.partner.net.daraz.com
 94.140.14.33 mgmtapidocs.partner.net.daraz.com
 94.140.14.33 mgmtapplication.partner.net.daraz.com
@@ -21602,6 +21795,7 @@
 94.140.14.33 mgmtlegacy.partner.net.daraz.com
 94.140.14.33 mgmtlib-oa-1.partner.net.daraz.com
 94.140.14.33 mgmtmember.partner.net.daraz.com
+94.140.14.33 mgmtnews.partner.net.daraz.com
 94.140.14.33 mgmtpre-alicert-admin.partner.net.daraz.com
 94.140.14.33 mgmtpreferences.partner.net.daraz.com
 94.140.14.33 mgmtpt.partner.net.daraz.com
@@ -21732,6 +21926,7 @@
 94.140.14.33 minipage.2345.com
 94.140.14.33 minkarinvest.pro
 94.140.14.33 minor-api-os.hoyoverse.com
+94.140.14.33 mintingmakees.pro
 94.140.14.33 minube.click
 94.140.14.33 minusodprawy.click
 94.140.14.33 mio.progrbest.top
@@ -21798,6 +21993,7 @@
 94.140.14.33 mmk.browser-app.atlassian-app.tt.omtrdc.net
 94.140.14.33 mmn811.top
 94.140.14.33 mmnb.formpr.top
+94.140.14.33 mmo2350.top
 94.140.14.33 mms.deadspin.com
 94.140.14.33 mms2017.admaster.com.cn
 94.140.14.33 mmsk.polskitred.top
@@ -22099,6 +22295,7 @@
 94.140.14.33 mowimyprawde.click
 94.140.14.33 mox-a.makedol.top
 94.140.14.33 mozemyrazemtu.click
+94.140.14.33 mozi.frontpage-partner.net.daraz.com
 94.140.14.33 mp.cmllw.iego.net
 94.140.14.33 mp.progrbest.top
 94.140.14.33 mp.teads.tv
@@ -22163,8 +22360,10 @@
 94.140.14.33 msgul3t.click
 94.140.14.33 msgwfl-upqs.click
 94.140.14.33 msgx-mgmt.partner.net.daraz.com
+94.140.14.33 msgx-partner.net.daraz.com
 94.140.14.33 msgx-space.partner.net.daraz.com
 94.140.14.33 msgx-spacechd-www.partner.net.daraz.com
+94.140.14.33 msgx.chd-www.partner.net.daraz.com
 94.140.14.33 mshoppinglstage.partner.net.daraz.com
 94.140.14.33 msite.baidu.com
 94.140.14.33 msk.activpl-pro.site
@@ -22231,6 +22430,7 @@
 94.140.14.33 mta-sts.milenvases.com
 94.140.14.33 mta-sts.suntoryhotel.com.br
 94.140.14.33 mta-wellness.wellness.tt.omtrdc.net
+94.140.14.33 mta.administrator.net.daraz.com
 94.140.14.33 mta.funnelconsultants.com
 94.140.14.33 mta.mta-sts.tt.omtrdc.net
 94.140.14.33 mta.partner.net.daraz.com
@@ -22242,6 +22442,7 @@
 94.140.14.33 mta66-163.muc.bh-mail.com
 94.140.14.33 mta67-163.muc.bh-mail.com
 94.140.14.33 mtaha.ad1.tt.omtrdc.net
+94.140.14.33 mtamgmt.partner.net.daraz.com
 94.140.14.33 mtaplatform.mlnone.top
 94.140.14.33 mtapro.nimprove.top
 94.140.14.33 mtawrld.mlnone.top
@@ -22383,7 +22584,6 @@
 94.140.14.33 myads.net
 94.140.14.33 myads.ru
 94.140.14.33 myads.telkomsel.com
-94.140.14.33 myadsaccntsaftycheck00.publicvm.com
 94.140.14.33 myadsserver.com
 94.140.14.33 myaliamusties.top
 94.140.14.33 mybb.ero-advertising.com
@@ -22416,7 +22616,6 @@
 94.140.14.33 myslipozytywne.click
 94.140.14.33 myslsamodzielnie.click
 94.140.14.33 mysql.chd-www.partner.net.daraz.com
-94.140.14.33 mystcs.top
 94.140.14.33 mystory.inprog.top
 94.140.14.33 mytourism.top
 94.140.14.33 myvinted.kontynuowac67462.click
@@ -22447,6 +22646,7 @@
 94.140.14.33 n-ad.work
 94.140.14.33 n-analytics.io
 94.140.14.33 n-api-pluto2.net.daraz.com
+94.140.14.33 n-partner.net.daraz.com
 94.140.14.33 n-switch.dns.net.daraz.com
 94.140.14.33 n-switch.partner.net.daraz.com
 94.140.14.33 n.3g.163.com
@@ -22972,6 +23172,7 @@
 94.140.14.33 normyuliczne.click
 94.140.14.33 northamerica.partner.net.daraz.com
 94.140.14.33 northamericamail.signed.partner.net.daraz.com
+94.140.14.33 northamericamgmt.partner.net.daraz.com
 94.140.14.33 nota.click
 94.140.14.33 notablenephew.top
 94.140.14.33 notads.1gi3rir.xyz
@@ -23053,11 +23254,14 @@
 94.140.14.33 ns.aws-emailtomcat-partner-payision.net.daraz.com
 94.140.14.33 ns.betalibuploadsemailvision.net.daraz.com
 94.140.14.33 ns.emadb2lvdb2sdb2on.panel.net.daraz.com
+94.140.14.33 ns.emailvision-api.panel.net.daraz.com
+94.140.14.33 ns.emailvision.api-static-stage.panel.net.daraz.com
 94.140.14.33 ns.emailvision.spyder-api-prod.net.daraz.com
 94.140.14.33 ns.emailvision.spyder-api-produs.net.daraz.com
 94.140.14.33 ns.emailvision.spyder-api-stagepanel.net.daraz.com
 94.140.14.33 ns.emailvision.us-api-xspace.net.daraz.com
 94.140.14.33 ns.emailvision.us-ebs-partner.net.daraz.com
+94.140.14.33 ns.emailvision.us.open.net.daraz.com
 94.140.14.33 ns.emailvisispyder-api-prod.panel.net.daraz.com
 94.140.14.33 ns.gitlabremailvision.partner.net.daraz.com
 94.140.14.33 ns.htgbemailvision.partner.net.daraz.com
@@ -23084,6 +23288,7 @@
 94.140.14.33 ns3.kube-partner.bellsouth.net.daraz.com
 94.140.14.33 ns3.mobilecl-click.bellsouth.net.daraz.com
 94.140.14.33 ns3.mobilecl.bellsouth-ebs-partner.net.daraz.com
+94.140.14.33 ns3.mobilecl.bellsouthscore-api.net.daraz.com
 94.140.14.33 ns7.adk2x.com
 94.140.14.33 ns8.adk2x.com
 94.140.14.33 ns91.partner.net.daraz.com
@@ -23096,6 +23301,7 @@
 94.140.14.33 nsgd94bejaq352og.partner-bamboo.net.daraz.com
 94.140.14.33 nslyetnm.top
 94.140.14.33 nsmetrics.geelongadvertiser.com.au
+94.140.14.33 nspre-api-xspace.emailvision.ebs.net.daraz.com
 94.140.14.33 nspt.bdstatic.com
 94.140.14.33 nssi92.byseniscon.top
 94.140.14.33 nssoahlyadvb.xyz
@@ -23150,7 +23356,6 @@
 94.140.14.33 nzpost-my-co-nz.top
 94.140.14.33 nzpost-vbn.top
 94.140.14.33 nzprvdn54fqtn53r.partner.nautilus.net.daraz.com
-94.140.14.33 nztatollraods.top
 94.140.14.33 nzv.tesxprofit.top
 94.140.14.33 o-project.top
 94.140.14.33 o.cityads.com
@@ -23732,6 +23937,7 @@
 94.140.14.33 open-api.htgb-a.europewest.net.daraz.com
 94.140.14.33 open-gifts.com
 94.140.14.33 open-iflow.meizu.com
+94.140.14.33 open-manage.lib-oa-1.net.daraz.com
 94.140.14.33 open-new.newplx.site
 94.140.14.33 open-office.fr
 94.140.14.33 open-oproc24.ru
@@ -23882,6 +24088,7 @@
 94.140.14.33 ordern23943-impoct.plakaty.top
 94.140.14.33 ordes4470-ollox.burnfrost.top
 94.140.14.33 ore.valuez.top
+94.140.14.33 orebuthehadsta.info
 94.140.14.33 oreiletfortify.top
 94.140.14.33 orencia.pflexads.com
 94.140.14.33 oreng.byseniscon.top
@@ -24244,19 +24451,24 @@
 94.140.14.33 parterking.click
 94.140.14.33 partial-pair.pro
 94.140.14.33 partitedene.top
+94.140.14.33 partner-00-bootstrap.net.daraz.com
 94.140.14.33 partner-acc.net.daraz.com
 94.140.14.33 partner-ads.com
 94.140.14.33 partner-affilbox.telly.cz
 94.140.14.33 partner-api.jobbio.com
 94.140.14.33 partner-app.softwareselect.com
+94.140.14.33 partner-assets.net.daraz.com
 94.140.14.33 partner-bamboo.net.daraz.com
 94.140.14.33 partner-dashboard.net.daraz.com
 94.140.14.33 partner-dr01.net.daraz.com
+94.140.14.33 partner-dssl.ns.emailvision.authenticate.net.daraz.com
 94.140.14.33 partner-earning.com
 94.140.14.33 partner-image.net.daraz.com
 94.140.14.33 partner-lab.net.daraz.com
 94.140.14.33 partner-more.co
+94.140.14.33 partner-pay.dcloud.net.daraz.com
 94.140.14.33 partner-pay.net.daraz.com
+94.140.14.33 partner-raw.net.daraz.com
 94.140.14.33 partner-shop.net.daraz.com
 94.140.14.33 partner-staging.miso.kr
 94.140.14.33 partner-stats.net.daraz.com
@@ -24278,6 +24490,7 @@
 94.140.14.33 partner.2din.cz
 94.140.14.33 partner.accesstrade.vn
 94.140.14.33 partner.active.000-606.net.daraz.com
+94.140.14.33 partner.active.09patner.net.daraz.com
 94.140.14.33 partner.ads.placeiq.com
 94.140.14.33 partner.aerium.sk
 94.140.14.33 partner.aeriumshop.nl
@@ -24361,7 +24574,9 @@
 94.140.14.33 partner.designturnaj.cz
 94.140.14.33 partner.detskyeshop.cz
 94.140.14.33 partner.dfprsteny.cz
+94.140.14.33 partner.digitalacademy.net.daraz.com
 94.140.14.33 partner.directalpine.cz
+94.140.14.33 partner.dmetrictestapi.net.daraz.com
 94.140.14.33 partner.doleo.cz
 94.140.14.33 partner.domaca-pivoteka.sk
 94.140.14.33 partner.domaci-pivoteka.cz
@@ -24499,6 +24714,7 @@
 94.140.14.33 partner.net.fidor.de
 94.140.14.33 partner.net.iberia.com
 94.140.14.33 partner.net.idealo-partner.com
+94.140.14.33 partner.net.jumia.com
 94.140.14.33 partner.net.performance360.de
 94.140.14.33 partner.neviditelnepradlo.cz
 94.140.14.33 partner.nextwood.cz
@@ -24566,6 +24782,7 @@
 94.140.14.33 partner.spokojenypes.cz
 94.140.14.33 partner.sporthangar.cz
 94.140.14.33 partner.spyder-vpdp.net.daraz.com
+94.140.14.33 partner.stage-oaas.net.daraz.com
 94.140.14.33 partner.stavario.com
 94.140.14.33 partner.strendem.cz
 94.140.14.33 partner.summermyles.cz
@@ -24587,6 +24804,7 @@
 94.140.14.33 partner.umio.eu
 94.140.14.33 partner.umio.sk
 94.140.14.33 partner.unuo.de
+94.140.14.33 partner.us.net.daraz.com
 94.140.14.33 partner.v1.net.daraz.com
 94.140.14.33 partner.vataonline.cz
 94.140.14.33 partner.vecteezy.com
@@ -24653,11 +24871,13 @@
 94.140.14.33 patrolujemysiec.click
 94.140.14.33 patroposalun.pro
 94.140.14.33 pattled.click
+94.140.14.33 paul.best-conversions.click
 94.140.14.33 pausepost.top
 94.140.14.33 pautina.mobi
 94.140.14.33 pav.programtts.top
 94.140.14.33 pavanaiglets.top
 94.140.14.33 paviestrewel.top
+94.140.14.33 pavle.exclusive-offers-su.click
 94.140.14.33 pavte.gradspeeches.com
 94.140.14.33 paw.jerat.top
 94.140.14.33 pax.programtts.top
@@ -24759,7 +24979,6 @@
 94.140.14.33 pernodkelder.top
 94.140.14.33 pero.papiashvili.top
 94.140.14.33 persgroepadvertising.nl
-94.140.14.33 peru-poste.top
 94.140.14.33 peru-posts.top
 94.140.14.33 peru-spost.top
 94.140.14.33 pervas.top
@@ -25023,7 +25242,6 @@
 94.140.14.33 pl.caiop.corrz.top
 94.140.14.33 pl.cattat.top
 94.140.14.33 pl.eluecl.top
-94.140.14.33 pl.inparytop.top
 94.140.14.33 pl.olx.oferta-payment.pro
 94.140.14.33 pl.pdne2.top
 94.140.14.33 pl.pl-correopl88.top
@@ -25559,7 +25777,6 @@
 94.140.14.33 poscigzadanymi.click
 94.140.14.33 positive-ads.com
 94.140.14.33 posmy.top
-94.140.14.33 posmymylink.top
 94.140.14.33 posnif.top
 94.140.14.33 possiblebasket.pro
 94.140.14.33 posstasks.top
@@ -25604,17 +25821,16 @@
 94.140.14.33 post-query.top
 94.140.14.33 post-royal.cre8a.top
 94.140.14.33 post-ruzei1.top
-94.140.14.33 post-ruzei10.top
 94.140.14.33 post-ruzei12.top
 94.140.14.33 post-ruzei15.top
 94.140.14.33 post-ruzei16.top
 94.140.14.33 post-ruzei17.top
 94.140.14.33 post-ruzei19.top
 94.140.14.33 post-ruzei20.top
-94.140.14.33 post-ruzei5.top
 94.140.14.33 post-sl.top
 94.140.14.33 post-tel-me.top
 94.140.14.33 post-tyz.top
+94.140.14.33 post-u.top
 94.140.14.33 post-yx.top
 94.140.14.33 post.norddk.top
 94.140.14.33 post.tex-prog.top
@@ -25624,7 +25840,6 @@
 94.140.14.33 posta-dhl.top
 94.140.14.33 posta-is.top
 94.140.14.33 posta-post.top
-94.140.14.33 posta-zasebno.top
 94.140.14.33 posta-zip.top
 94.140.14.33 postaa-romana.click
 94.140.14.33 postaaui.top
@@ -25647,9 +25862,9 @@
 94.140.14.33 postawaspoleczna.click
 94.140.14.33 postawmynowe.click
 94.140.14.33 postcbj.top
-94.140.14.33 postcche.top
 94.140.14.33 postccn.top
 94.140.14.33 postccq.top
+94.140.14.33 postccu.top
 94.140.14.33 postccv.top
 94.140.14.33 postcec.top
 94.140.14.33 postcek.top
@@ -25669,13 +25884,14 @@
 94.140.14.33 postcoa.top
 94.140.14.33 postcoj.top
 94.140.14.33 postcor.top
+94.140.14.33 postcpe.top
 94.140.14.33 postcphe.top
+94.140.14.33 postcpv.top
 94.140.14.33 postcsx.top
 94.140.14.33 postcte.top
 94.140.14.33 postcth.top
 94.140.14.33 postctn.top
 94.140.14.33 postcts.top
-94.140.14.33 postcus.top
 94.140.14.33 postcxc.top
 94.140.14.33 postcxo.top
 94.140.14.33 postcxz.top
@@ -25746,7 +25962,6 @@
 94.140.14.33 postnine.top
 94.140.14.33 postnord-se-c.top
 94.140.14.33 postnordb.top
-94.140.14.33 postoch.top
 94.140.14.33 postoffic-za.top
 94.140.14.33 postoffioeulw.top
 94.140.14.33 postoot.top
@@ -25798,9 +26013,7 @@
 94.140.14.33 poszukuj24pls.click
 94.140.14.33 poszukujemyinfo.click
 94.140.14.33 pot-ua.top
-94.140.14.33 pot-ub.top
 94.140.14.33 pot-ui.top
-94.140.14.33 pot-uu.top
 94.140.14.33 pot-uv.top
 94.140.14.33 pot-za.top
 94.140.14.33 pot-zb.top
@@ -25842,11 +26055,9 @@
 94.140.14.33 pottex-user.top
 94.140.14.33 pottexinfo.top
 94.140.14.33 pottexsever.top
-94.140.14.33 potus-ub.top
 94.140.14.33 potus-ug.top
 94.140.14.33 potus-uh.top
 94.140.14.33 potus-ui.top
-94.140.14.33 potus-uj.top
 94.140.14.33 potus-ul.top
 94.140.14.33 potus-um.top
 94.140.14.33 potus-up.top
@@ -25941,6 +26152,7 @@
 94.140.14.33 prd.ads.aws.fwmrm.net
 94.140.14.33 pre-ad.alimama.com
 94.140.14.33 pre-adv.alimama.com
+94.140.14.33 pre-alicert-adminfrontpage-partner.net.daraz.com
 94.140.14.33 pre-api-xspace-elasticbeanstalkyancancook.net.daraz.com
 94.140.14.33 pre-api-xspace-k8s-prd.n-switch.net.daraz.com
 94.140.14.33 pre-api-xspace.00-bootstrap.net.daraz.com
@@ -25951,9 +26163,12 @@
 94.140.14.33 pre-mgmt.partner.net.daraz.com
 94.140.14.33 pre-mpnewyear.uc.cn
 94.140.14.33 pre-msgx-space-partner.net.daraz.com
+94.140.14.33 pre-msgx-space.chd-www.partner.net.daraz.com
+94.140.14.33 pre-msgx-space.partner.net.daraz.com
 94.140.14.33 pre-pull-aka-drzlive.chd-www.partner.net.daraz.com
 94.140.14.33 pre-pull-alt2-drzlive.mail.partner-assets.net.daraz.com
 94.140.14.33 pre-pull-drzlive.partner.net.daraz.com
+94.140.14.33 pre-push-drzlive-partner.net.daraz.com
 94.140.14.33 pre-push-drzlive.frontpage-partner.net.daraz.com
 94.140.14.33 pre-retailfrontpage-partner.net.daraz.com
 94.140.14.33 pre-rg-sg-partner.net.daraz.com
@@ -25996,7 +26211,6 @@
 94.140.14.33 prenup.top
 94.140.14.33 preprod-www.partner.net.daraz.com
 94.140.14.33 prestadsng.com
-94.140.14.33 prestamo.zoneseqvrab1tabcp-app.top
 94.140.14.33 prestamoseguro.consultaabrildigital.top
 94.140.14.33 preston-grasshoppers-production-api.net.daraz.com
 94.140.14.33 pretty-size.pro
@@ -26216,6 +26430,7 @@
 94.140.14.33 prodns1.partner.net.daraz.com
 94.140.14.33 produ.kube-partner.net.daraz.com
 94.140.14.33 production-documentsns.partner-pay.net.daraz.com
+94.140.14.33 production.partner-pay.net.daraz.com
 94.140.14.33 productionproductionproduction.partner-alpha.net.daraz.com
 94.140.14.33 proeroclips.pro
 94.140.14.33 prof-neurf.ofishlprog1.click
@@ -26290,6 +26505,7 @@
 94.140.14.33 promocyjnezakupy.click
 94.140.14.33 promoheads.com
 94.140.14.33 promote.biz.weibo.cn
+94.140.14.33 promotion.www.partner.net.daraz.com
 94.140.14.33 promotionalads.yahoo.co.jp
 94.140.14.33 promotionbiz.top
 94.140.14.33 pron.pro
@@ -26401,6 +26617,7 @@
 94.140.14.33 ptadsrv.de
 94.140.14.33 ptaumoadsovu.com
 94.140.14.33 ptbus.com
+94.140.14.33 ptctt.top
 94.140.14.33 ptersudisurvey.top
 94.140.14.33 ptokp.pro
 94.140.14.33 ptr.valuez.top
@@ -26439,6 +26656,7 @@
 94.140.14.33 pub-17aad5d26bf84ddba6972fbe377f30e7.r2.dev
 94.140.14.33 pub-1838a3297d9f406395fecd08ad9c402a.r2.dev
 94.140.14.33 pub-1928a4c961774b91ad404094fecbb39f.r2.dev
+94.140.14.33 pub-1936b1d3ad084d3db021f7b5754f052d.r2.dev
 94.140.14.33 pub-1ac19a00c9e04830ad36f2845b5722d2.r2.dev
 94.140.14.33 pub-1b0adb2146a640a0b0ec2645f84b6a9a.r2.dev
 94.140.14.33 pub-1b39f72729884926bead5824a75c8a28.r2.dev
@@ -26520,7 +26738,6 @@
 94.140.14.33 pub-61969838711a419ca2ebbc1ad39b85cc.r2.dev
 94.140.14.33 pub-619e745ad87f42189637ce47d055a610.r2.dev
 94.140.14.33 pub-61cc331a04ca488f8a544b40ad7ff227.r2.dev
-94.140.14.33 pub-62ab5408551c4686a03b696ad48acb89.r2.dev
 94.140.14.33 pub-6333aad39c1b419dac951c1b8b83fa34.r2.dev
 94.140.14.33 pub-64d10ad2310f489594f573af678a80e4.r2.dev
 94.140.14.33 pub-682ad3b65d944376b919745aae3c56d4.r2.dev
@@ -26703,13 +26920,17 @@
 94.140.14.33 puk.autotrdes.top
 94.140.14.33 pull-bd-alt1-drzlive-partner.net.daraz.com
 94.140.14.33 pull-bd-alt1-drzliveontpage-partner.net.daraz.com
+94.140.14.33 pull-bd-drzlive-partner.net.daraz.com
 94.140.14.33 pull-bd-drzlive.api-static-stage.net.daraz.com
 94.140.14.33 pull-de-drzlive-mgmt.partner.net.daraz.com
+94.140.14.33 pull-de-drzlive.chd-www.partner.net.daraz.com
+94.140.14.33 pull-drzlive-www.partner.net.daraz.com
 94.140.14.33 pull-pk-aka-drzlive-api-static-stage.net.daraz.com
 94.140.14.33 pull-pk-aka-drzlive-chd-www.partner.net.daraz.com
 94.140.14.33 pull-pk-aka-drzlive-partner.net.daraz.com
 94.140.14.33 pull-pk-aka-drzlive.mgmt.partner.net.daraz.com
 94.140.14.33 pull-pk-alt1-drzlive-partner.net.daraz.com
+94.140.14.33 pull-pk-drzlive-mgmt.partner.net.daraz.com
 94.140.14.33 pull-pk-local-drzlivehd-www.partner.net.daraz.com
 94.140.14.33 pull.beneffit.top
 94.140.14.33 pullchd-www.partner.net.daraz.com
@@ -26852,6 +27073,7 @@
 94.140.14.33 qipostpl.top
 94.140.14.33 qiqimprove.mllight.top
 94.140.14.33 qiuv.maxprogt.top
+94.140.14.33 qiye-netease.com
 94.140.14.33 qjb12aj2s9kztsp3.frontpage-partner.net.daraz.com
 94.140.14.33 qjjuxiwe2usv7ydv.wlan.partner-bamboo.net.daraz.com
 94.140.14.33 qjnvp6v6teroqme8.partner.net.daraz.com
@@ -27373,6 +27595,7 @@
 94.140.14.33 restoring.top
 94.140.14.33 restricted-r-dns-2.net.daraz.com
 94.140.14.33 restricted-r-ht-2-frontpage-partner.net.daraz.com
+94.140.14.33 restricted-r-ht-2-mgmt.partner.net.daraz.com
 94.140.14.33 restricted-r-ht-2.adserver.net.daraz.com
 94.140.14.33 restricted-r-open-2.net.daraz.com
 94.140.14.33 restricted-r-spyder-api-2.net.daraz.com
@@ -27386,6 +27609,7 @@
 94.140.14.33 restrictespyder-api-stage-r-ht-2.net.daraz.com
 94.140.14.33 restrictfoxentertainment.hb-api.tt.omtrdc.net
 94.140.14.33 retail-chd-www.partner.net.daraz.com
+94.140.14.33 retail-ebs-partner.net.daraz.com
 94.140.14.33 retail-eu.productads.hlserve.com
 94.140.14.33 retailads.net
 94.140.14.33 retailnext.top
@@ -27580,6 +27804,7 @@
 94.140.14.33 rpt-gdt.play.t002.ottcn.com
 94.140.14.33 rqejawwqzawev.top
 94.140.14.33 rqfu3sykuazfdufs.partner.net.daraz.com
+94.140.14.33 rqgourxmjie.click
 94.140.14.33 rqm.i9ki.top
 94.140.14.33 rrd.newlvlpro.top
 94.140.14.33 rrmlejvyqebk.top
@@ -28147,6 +28372,7 @@
 94.140.14.33 score-api-r-ht-2.net.daraz.com
 94.140.14.33 score-api-stgx-cisco-capwap-controller.net.daraz.com
 94.140.14.33 score-api-supportfreya.net.daraz.com
+94.140.14.33 score-api.assets.net.daraz.com
 94.140.14.33 score-api.frontpage-partner.net.daraz.com
 94.140.14.33 score-api.net.daraz.com
 94.140.14.33 score-api.partner.net.daraz.com
@@ -28318,6 +28544,7 @@
 94.140.14.33 se.adserver.yahoo.com
 94.140.14.33 se.api.agrantsem.com
 94.140.14.33 se.progofficial.top
+94.140.14.33 se35y38xsolkg47i.partner.net.daraz.com
 94.140.14.33 se4f.top
 94.140.14.33 sea.advertising.yahoo.com
 94.140.14.33 sea.napi.ucweb.com
@@ -28331,6 +28558,7 @@
 94.140.14.33 search.anonymous.ads.brave.com
 94.140.14.33 search.onolm.click
 94.140.14.33 search.twitter.com
+94.140.14.33 search.unation.top
 94.140.14.33 search2.twitter.com
 94.140.14.33 searchadv.com
 94.140.14.33 searchfreya-api-docsfreya.net.daraz.com
@@ -28792,6 +29020,7 @@
 94.140.14.33 silpost.top
 94.140.14.33 silpostinost.top
 94.140.14.33 silpostinpost.top
+94.140.14.33 siltagefutiley.top
 94.140.14.33 silver-pen.pro
 94.140.14.33 silvercoin.click
 94.140.14.33 simarsbisect.top
@@ -28852,6 +29081,7 @@
 94.140.14.33 skeet.advetime.ru
 94.140.14.33 skeetads.com
 94.140.14.33 skeletal-if.pro
+94.140.14.33 skidoitruy-doitruy-partner.net.daraz.com
 94.140.14.33 skidoitruy-doitruy.downloadsvision.net.daraz.com
 94.140.14.33 skidoitruy-doitruy.emailvisiads.net.daraz.com
 94.140.14.33 skidoitruy-doitruy.emailvision-spyder-api-prod.net.daraz.com
@@ -29027,6 +29257,7 @@
 94.140.14.33 smtp.hadsel.bluehornet.com
 94.140.14.33 smtp.leadville.bluehornet.com
 94.140.14.33 smtp.meadville.bluehornet.com
+94.140.14.33 smtp.partner.net.jumia.com
 94.140.14.33 smutnahistoria.click
 94.140.14.33 smutnawzmianka.click
 94.140.14.33 smutneczasy.click
@@ -29068,6 +29299,7 @@
 94.140.14.33 social-traffic-7.xyz
 94.140.14.33 socialadvertise.com
 94.140.14.33 socialx.frontpage-partner.net.daraz.com
+94.140.14.33 socialxwww.partner.net.daraz.com
 94.140.14.33 socjalnyproblem.click
 94.140.14.33 socjalrozdawany.click
 94.140.14.33 sod91.papiashvili.top
@@ -29203,7 +29435,6 @@
 94.140.14.33 splash.appsgeyser.com
 94.140.14.33 splashelicit.top
 94.140.14.33 splendidfeel.pro
-94.140.14.33 splonlinre.top
 94.140.14.33 spojrznaswiat.click
 94.140.14.33 spokojmiejski.click
 94.140.14.33 spokojnydzien.click
@@ -29253,6 +29484,7 @@
 94.140.14.33 sprawypolskie.click
 94.140.14.33 sprawyrozwiazanie.click
 94.140.14.33 spring-frontpage-partner.net.daraz.com
+94.140.14.33 springchd-www.partner.net.daraz.com
 94.140.14.33 springclick-ads.s3.amazonaws.com
 94.140.14.33 springdetect.top
 94.140.14.33 sprostowania.click
@@ -29263,20 +29495,24 @@
 94.140.14.33 spxcq0vfs43ptrf5.partner.net.daraz.com
 94.140.14.33 spxcq0vfs43ptrf5.test.partner.net.daraz.com
 94.140.14.33 spyder-api-authpartner.net.daraz.com
+94.140.14.33 spyder-api-patner.net.daraz.com
 94.140.14.33 spyder-api-prod-mgmt.partner.net.daraz.com
 94.140.14.33 spyder-api-prod.01-car21-web-wwww0node.net.daraz.com
+94.140.14.33 spyder-api-prod.assets.net.daraz.com
 94.140.14.33 spyder-api-prod.cloudfrontcar31.net.daraz.com
 94.140.14.33 spyder-api-prod.marketingpush.net.daraz.com
 94.140.14.33 spyder-api-prod.net.daraz.com
 94.140.14.33 spyder-api-prodcsr41.application.net.daraz.com
 94.140.14.33 spyder-api-stage-ns2.viviotech.net.daraz.com
 94.140.14.33 spyder-api-stage-partner.net.daraz.com
+94.140.14.33 spyder-api-stage-prd.n-switch.net.daraz.com
 94.140.14.33 spyder-api-stage.3arketing.net.daraz.com
 94.140.14.33 spyder-api-stageatner.net.daraz.com
 94.140.14.33 spyder-api-stageauthenticate.net.daraz.com
 94.140.14.33 spyder-api-stageauthorization.summer.net.daraz.com
 94.140.14.33 spyder-api.ebs-partner.net.daraz.com
 94.140.14.33 spyder-api.net.daraz.com
+94.140.14.33 spyder-api.ns.emailvision.authenticate.net.daraz.com
 94.140.14.33 spyder-pdpkube-partner.net.daraz.com
 94.140.14.33 spyder-vpdp.api-docsns2.twtelecom.net.daraz.com
 94.140.14.33 spyder-vpdp.kube-partner.net.daraz.com
@@ -29378,10 +29614,12 @@
 94.140.14.33 staff-partner-nnw-leis-mc-leis.net.daraz.com
 94.140.14.33 staff-partner.00d20000000lgfveaa.net.daraz.com
 94.140.14.33 staff-partner.lib-oa-2.staff.net.daraz.com
+94.140.14.33 staff-partner.net.daraz.com
 94.140.14.33 staff-partner.ns.emailvision.net.daraz.com
 94.140.14.33 stage-cs-utils-rtr.analytics.net.daraz.com
 94.140.14.33 stage-nhentai-wakfutemporada2subs-stage.net.daraz.com
 94.140.14.33 stage-oaas-mgmt.partner.net.daraz.com
+94.140.14.33 stage-oaas.partner.net.daraz.com
 94.140.14.33 stage-spyder-api-available.net.daraz.com
 94.140.14.33 stage-spyder-api.123pago-loginvc.doclogin.net.daraz.com
 94.140.14.33 stage-spyder-pdp-api-static-stage.net.daraz.com
@@ -29392,6 +29630,7 @@
 94.140.14.33 staggieousters.top
 94.140.14.33 staging-ads.flurry.com
 94.140.14.33 staging-e-vcdn.anthill.vn
+94.140.14.33 staging-frontpage-partner.net.daraz.com
 94.140.14.33 staging.api.adtimaserver.vn
 94.140.14.33 staging.sdkconfig.ad.xiaomi.srv
 94.140.14.33 stancehd.top
@@ -29543,6 +29782,7 @@
 94.140.14.33 stenadewy.pro
 94.140.14.33 stg-data.ads.heytapmobi.com
 94.140.14.33 stg-partner.net.daraz.com
+94.140.14.33 stg.frontpage-partner.net.daraz.com
 94.140.14.33 stg.partner.net.daraz.com
 94.140.14.33 stgami-o.top
 94.140.14.33 stgowan.com
@@ -29670,7 +29910,6 @@
 94.140.14.33 sugestiawidzow.click
 94.140.14.33 sugs.m.sm.cn
 94.140.14.33 sugukasegu.top
-94.140.14.33 suhealves.top
 94.140.14.33 sukienka-tos-nevada-white-cid87-idleszg1.id8341.me
 94.140.14.33 sultansamidone.top
 94.140.14.33 sum.folos.top
@@ -29759,6 +29998,7 @@
 94.140.14.33 sv1.yg3y.top
 94.140.14.33 sv388.mobi
 94.140.14.33 svastx.moatads.com
+94.140.14.33 svc-frontpage-partner.net.daraz.com
 94.140.14.33 svcgateway.api-docsfreya.net.daraz.com
 94.140.14.33 svdvd.inventnamb.click
 94.140.14.33 svk.sv-peun.top
@@ -29774,6 +30014,7 @@
 94.140.14.33 sweatytraining.pro
 94.140.14.33 swedenpost.top
 94.140.14.33 sweepadstoday.click
+94.140.14.33 sweet-discount.pro
 94.140.14.33 sweet-marriage.pro
 94.140.14.33 sweethadstoranlin.tk
 94.140.14.33 swelteringcrazy.pro
@@ -29808,6 +30049,7 @@
 94.140.14.33 swigethinyl.top
 94.140.14.33 swingerads.com
 94.140.14.33 swissadserver.ch
+94.140.14.33 switch-www.partner.net.daraz.com
 94.140.14.33 switch.partner.net.daraz.com
 94.140.14.33 swmg.top
 94.140.14.33 swojas.top
@@ -30116,6 +30358,7 @@
 94.140.14.33 taxitesgyal.top
 94.140.14.33 taxmenredug.top
 94.140.14.33 taybmmc3j7i2i4bj.partner.net.daraz.com
+94.140.14.33 tayemcser.top
 94.140.14.33 taymade1991.com
 94.140.14.33 tbb0001.top
 94.140.14.33 tbm.snssdk.com
@@ -30221,6 +30464,7 @@
 94.140.14.33 telegmga-gtg.top
 94.140.14.33 telegmga-yio.top
 94.140.14.33 telegmgf-xvb.top
+94.140.14.33 telegram-top.top
 94.140.14.33 telegram.web-tgg.top
 94.140.14.33 telegram.webaaa.top
 94.140.14.33 telegram.webaba.top
@@ -30455,6 +30699,7 @@
 94.140.14.33 thin-hold.pro
 94.140.14.33 thind-gke-euw.prd.data.corp.unity3d.com
 94.140.14.33 thind.unityads.unity3d.com
+94.140.14.33 thinkedtuneing.pro
 94.140.14.33 thinssence.top
 94.140.14.33 this.content.served.by.adshuffle.com
 94.140.14.33 thissubdomainshouldonlyresolveifwildcard.cbs-dev.hb-api.tt.omtrdc.net
@@ -30558,6 +30803,7 @@
 94.140.14.33 tmk.smartadserver.com
 94.140.14.33 tmwet.takilon.top
 94.140.14.33 tn.forrum.top
+94.140.14.33 tnalzli.top
 94.140.14.33 tnc16-alisg.isnssdk.com
 94.140.14.33 tnc16-useast1a.isnssdk.com
 94.140.14.33 tnc3-aliec2.snssdk.com
@@ -30898,11 +31144,14 @@
 94.140.14.33 track.adstrk.co
 94.140.14.33 track.adwo.com
 94.140.14.33 track.analytics.novafam.hu
+94.140.14.33 track.appsclub.mobi
 94.140.14.33 track.bcvc.mobi
 94.140.14.33 track.bellajoy.pro
 94.140.14.33 track.buybox.click
+94.140.14.33 track.careerseekers.pro
 94.140.14.33 track.diegesuntheit.click
 94.140.14.33 track.eadv.it
+94.140.14.33 track.earnoppcenter.pro
 94.140.14.33 track.ebs-partner.net.daraz.com
 94.140.14.33 track.excitingadventurestoday.com
 94.140.14.33 track.eyeviewads.com
@@ -30938,6 +31187,9 @@
 94.140.14.33 track.nomadsvertise.com
 94.140.14.33 track.popadvertising.it
 94.140.14.33 track.push-ad.com
+94.140.14.33 track.sample-hunters.pro
+94.140.14.33 track.sample-spotlight.pro
+94.140.14.33 track.samplescenter.pro
 94.140.14.33 track.searchinginfo.pro
 94.140.14.33 track.seniorsadvisor.org
 94.140.14.33 track.superad2.com.sg
@@ -31243,8 +31495,10 @@
 94.140.14.33 trk.hot-mob.com
 94.140.14.33 trk.indoleads.com
 94.140.14.33 trk.lifesavingadviceus.com
+94.140.14.33 trk.mosa-lts.pro
 94.140.14.33 trk.obix.pro
 94.140.14.33 trk.pro-activ.com
+94.140.14.33 trk.promos-flash.fr
 94.140.14.33 trk.share.healthc2u.com
 94.140.14.33 trk.slcbs-api.com
 94.140.14.33 trk.superads.cn
@@ -31273,6 +31527,7 @@
 94.140.14.33 trrk8.pointpointiklo.pro
 94.140.14.33 trrk9.pointpointiklo.pro
 94.140.14.33 trs.newlvlpro.top
+94.140.14.33 trucking-partner.net.daraz.com
 94.140.14.33 trudnadecyzja.click
 94.140.14.33 trudnehistorie.click
 94.140.14.33 trudnepowiesci.click
@@ -31436,11 +31691,13 @@
 94.140.14.33 twotreymedia10001697.o18.click
 94.140.14.33 twshopeee.top
 94.140.14.33 twt1.aconitem.top
+94.140.14.33 twtelecom-ebs-partner.net.daraz.com
 94.140.14.33 twtelecom.api.net.daraz.com
 94.140.14.33 twtelecom.azure-ebs-partner.net.daraz.com
 94.140.14.33 twtelecom.azure-score-api.net.daraz.com
 94.140.14.33 twtelecom.azure.mta.net.daraz.com
 94.140.14.33 twtelecom.azure.spyder-api-prod.net.daraz.com
+94.140.14.33 twtelecom.ebs-partner.net.daraz.com
 94.140.14.33 twtelecom.kube-partner.net.daraz.com
 94.140.14.33 twtelecom.open.net.daraz.com
 94.140.14.33 twtelecom.score-api-azure.net.daraz.com
@@ -31524,7 +31781,6 @@
 94.140.14.33 uads.store
 94.140.14.33 uadv.net.daraz.com
 94.140.14.33 uae.aramexptccc.top
-94.140.14.33 uae.aramexrmxb.top
 94.140.14.33 uae.emiratesdbhv.top
 94.140.14.33 uae.emiratesrewps.top
 94.140.14.33 uae.emiratesskto.top
@@ -32040,7 +32296,6 @@
 94.140.14.33 usp.usspjf.top
 94.140.14.33 usp.usspjg.top
 94.140.14.33 usp.usspji.top
-94.140.14.33 usp.usspjq.top
 94.140.14.33 usp.usspjv.top
 94.140.14.33 usp.usspjx.top
 94.140.14.33 usp.usspkf.top
@@ -32281,6 +32536,7 @@
 94.140.14.33 uspc.uspsfn.top
 94.140.14.33 uspc.uspsft.top
 94.140.14.33 uspc.uspsfu.top
+94.140.14.33 uspc.uspsfx.top
 94.140.14.33 uspc.uspsgd.top
 94.140.14.33 uspc.uspsgk.top
 94.140.14.33 uspc.uspsgm.top
@@ -32403,7 +32659,6 @@
 94.140.14.33 uspk.uspsld.top
 94.140.14.33 uspk.uspsmo.top
 94.140.14.33 uspk.uspsno.top
-94.140.14.33 uspk.uspsnv.top
 94.140.14.33 uspl.usspoc.top
 94.140.14.33 usplcd.top
 94.140.14.33 usplvq.top
@@ -32415,7 +32670,6 @@
 94.140.14.33 uspm.usspyv.top
 94.140.14.33 uspm.usspzc.top
 94.140.14.33 uspm.usspze.top
-94.140.14.33 uspm.usspzg.top
 94.140.14.33 uspm.usspzi.top
 94.140.14.33 uspn.usspawy.top
 94.140.14.33 uspo.usspbm.top
@@ -32503,7 +32757,6 @@
 94.140.14.33 usps.bbbcvcv.top
 94.140.14.33 usps.bbbmnmc.top
 94.140.14.33 usps.bbntnczlrw.top
-94.140.14.33 usps.bixhnlihrg.top
 94.140.14.33 usps.bnwwjpateq.top
 94.140.14.33 usps.cdeyjjsdaf.top
 94.140.14.33 usps.checkshipusn.top
@@ -32550,7 +32803,6 @@
 94.140.14.33 usps.kaiqgaryfo.top
 94.140.14.33 usps.klhewggqou.top
 94.140.14.33 usps.kludjrlpcu.top
-94.140.14.33 usps.konmdwnhpc.top
 94.140.14.33 usps.lfyocggajr.top
 94.140.14.33 usps.lrasepnskc.top
 94.140.14.33 usps.lrxfghvavf.top
@@ -32695,6 +32947,7 @@
 94.140.14.33 usps.pdjozmxzfm.top
 94.140.14.33 usps.pnpackege.top
 94.140.14.33 usps.post-yy.top
+94.140.14.33 usps.post-zm.top
 94.140.14.33 usps.post-zn.top
 94.140.14.33 usps.post-zv.top
 94.140.14.33 usps.postdb.top
@@ -32713,6 +32966,7 @@
 94.140.14.33 usps.postnq.top
 94.140.14.33 usps.postqal.top
 94.140.14.33 usps.privacy-postalpro.click
+94.140.14.33 usps.psutou.top
 94.140.14.33 usps.pvgqinqibs.top
 94.140.14.33 usps.pxzpbljuzi.top
 94.140.14.33 usps.qlamgjrwqw.top
@@ -32740,8 +32994,6 @@
 94.140.14.33 usps.sskrtypkpk.top
 94.140.14.33 usps.stqwmgybuf.top
 94.140.14.33 usps.suupcixfoq.top
-94.140.14.33 usps.tahflrtmiu.top
-94.140.14.33 usps.tcsocqzpfh.top
 94.140.14.33 usps.teamepei.top
 94.140.14.33 usps.teamtvpei.top
 94.140.14.33 usps.ticmliizkm.top
@@ -32773,7 +33025,6 @@
 94.140.14.33 usps.xrtmduqvdp.top
 94.140.14.33 usps.ybapyvgrqk.top
 94.140.14.33 usps.ycrehbjmzr.top
-94.140.14.33 usps.yhbdqkalzs.top
 94.140.14.33 usps.ywmkoaqayq.top
 94.140.14.33 usps.zlnwqwoloa.top
 94.140.14.33 usps.zobavguvzx.top
@@ -32792,10 +33043,8 @@
 94.140.14.33 uspsukd.top
 94.140.14.33 uspsukk.top
 94.140.14.33 uspsupc.top
-94.140.14.33 uspsuxy.top
 94.140.14.33 uspsuyw.top
 94.140.14.33 uspsv.top
-94.140.14.33 uspsviper.top
 94.140.14.33 uspsyrfg.top
 94.140.14.33 uspt.usspaev.top
 94.140.14.33 uspt.usspaqa.top
@@ -32998,7 +33247,6 @@
 94.140.14.33 uspz.usspaoa.top
 94.140.14.33 uspz.usspaob.top
 94.140.14.33 uspz.usspaoc.top
-94.140.14.33 uspz.usspaod.top
 94.140.14.33 uspz.usspaoe.top
 94.140.14.33 uspz.usspaof.top
 94.140.14.33 uspz.usspaog.top
@@ -33023,7 +33271,6 @@
 94.140.14.33 uspz.usspayh.top
 94.140.14.33 uspz.usspayj.top
 94.140.14.33 uspz.usspayp.top
-94.140.14.33 uspz.usspjc.top
 94.140.14.33 uspzfaqz.top
 94.140.14.33 uspzllyb.top
 94.140.14.33 usqa.usspljc.top
@@ -33210,6 +33457,7 @@
 94.140.14.33 v1.browser-tools.systems
 94.140.14.33 v1.cnzz.com
 94.140.14.33 v1.extreme-dm.com
+94.140.14.33 v1.offres-speciales.click
 94.140.14.33 v10-ad.ixigua.com
 94.140.14.33 v10.cnzz.com
 94.140.14.33 v11-ad.ixigua.com
@@ -33233,9 +33481,12 @@
 94.140.14.33 v2-interactiadsn.net.daraz.com
 94.140.14.33 v2-interaction-frontpage-partner.net.daraz.com
 94.140.14.33 v2-interaction-partner.net.daraz.com
+94.140.14.33 v2-interaction-stage-spyder-api.net.daraz.com
 94.140.14.33 v2-interaction.click.net.daraz.com
+94.140.14.33 v2-interaction.pre-api-xspace.net.daraz.com
 94.140.14.33 v2-interactionebs-partner.net.daraz.com
 94.140.14.33 v2-interactionwww.wlan.partner-bamboo.net.daraz.com
+94.140.14.33 v2-kube-partner.net.daraz.com
 94.140.14.33 v2.adsbookie.com
 94.140.14.33 v2.api.adflex.vn
 94.140.14.33 v2.cnzz.com
@@ -33438,6 +33689,7 @@
 94.140.14.33 vib-tindung.click
 94.140.14.33 vib.mobi
 94.140.14.33 vibber.download
+94.140.14.33 vicanerly.top
 94.140.14.33 vice-ads-cdn.vice.com
 94.140.14.33 vicious-instruction.pro
 94.140.14.33 victoriaadvocate.112.2o7.net
@@ -34230,7 +34482,6 @@
 94.140.14.33 vkxuo277yccei30j.partner.net.daraz.com
 94.140.14.33 vkxuo277yccei30j.production-documentsns.partner-pay.net.daraz.com
 94.140.14.33 vlad1.redirtt.online
-94.140.14.33 vlad2.researchtik.site
 94.140.14.33 vlad3.redirtt.online
 94.140.14.33 vlad4.redirtt.online
 94.140.14.33 vlad5.redirtt.online
@@ -34860,6 +35111,7 @@
 94.140.14.33 west.ads.simpli.fi
 94.140.14.33 westads.simpli.fi
 94.140.14.33 westeurope-www.partner.net.daraz.com
+94.140.14.33 westeuropewww-6latinamerica-mirror.0psdadj3szljo593.net.daraz.com
 94.140.14.33 westloft.click
 94.140.14.33 westtiling.click
 94.140.14.33 wet-maybe.pro
@@ -35159,6 +35411,7 @@
 94.140.14.33 worksbiz.top
 94.140.14.33 workstation-com7-server.0psdadj3szljo593.net.daraz.com
 94.140.14.33 workstation-com7sandbox.0psdadj3szljo593.net.daraz.com
+94.140.14.33 workstation-partner.net.daraz.com
 94.140.14.33 world-ad.jp
 94.140.14.33 world.activeprog2.top
 94.140.14.33 world.ex-advantage.jp
@@ -35388,6 +35641,8 @@
 94.140.14.33 www-oauth2.partner.net.daraz.com
 94.140.14.33 www-office.partner.net.daraz.com
 94.140.14.33 www-office2.partner.net.daraz.com
+94.140.14.33 www-pay.partner.net.daraz.com
+94.140.14.33 www-pre-web.partner.net.daraz.com
 94.140.14.33 www-prod.partner.net.daraz.com
 94.140.14.33 www-pull-bd-drzlive.partner.net.daraz.com
 94.140.14.33 www-redirector-keele-nnw-leis-mc-leis.production.partner-pay.net.daraz.com
@@ -35453,6 +35708,7 @@
 94.140.14.33 www.20c61c4eaa76acf04ad2ab93d4293353.vrlis.pl
 94.140.14.33 www.21.coddes.top
 94.140.14.33 www.2131.startone.top
+94.140.14.33 www.219ad63133111491b7424a50ddfdef41.grops.pl
 94.140.14.33 www.222631c9544b3ae064879f8d493ad0cd.vistvx.pl
 94.140.14.33 www.23.trdechat.top
 94.140.14.33 www.2345.com
@@ -35826,6 +36082,7 @@
 94.140.14.33 www.advisorybros.com
 94.140.14.33 www.advisorycouncil.xyz
 94.140.14.33 www.advisoryhub69site.online
+94.140.14.33 www.advixio.com
 94.140.14.33 www.advizion.org
 94.140.14.33 www.advocatemy.org
 94.140.14.33 www.advocatenkantoormaastricht.com
@@ -35959,6 +36216,7 @@
 94.140.14.33 www.authorization-partner-pay.net.daraz.com
 94.140.14.33 www.autoads.asia
 94.140.14.33 www.autoconfig-wlan.partner-bamboo.net.daraz.com
+94.140.14.33 www.autodiscoveriad.partner-pay.net.daraz.com
 94.140.14.33 www.autoinsuranceadviser.net
 94.140.14.33 www.autornieznany.click
 94.140.14.33 www.autosmierc.click
@@ -35991,6 +36249,7 @@
 94.140.14.33 www.balansartykulu.click
 94.140.14.33 www.baliadventurestour.com
 94.140.14.33 www.balopwe.click
+94.140.14.33 www.balt1c.b4engalqt3bj.click
 94.140.14.33 www.balt1c.rep1gn4zzss.click
 94.140.14.33 www.baltic.postm4ofzdo.click
 94.140.14.33 www.balticpipe.adsquiz.io
@@ -36025,6 +36284,7 @@
 94.140.14.33 www.bdwads.com
 94.140.14.33 www.bearloner.click
 94.140.14.33 www.beginads.com
+94.140.14.33 www.bellsouth.partner.net.daraz.com
 94.140.14.33 www.bemydate.mobi
 94.140.14.33 www.bengalqtbj.click
 94.140.14.33 www.bent2bent.pro
@@ -36300,6 +36560,7 @@
 94.140.14.33 www.cs2take.pro
 94.140.14.33 www.cs2wincase.pro
 94.140.14.33 www.csr12ontroller.partner.net.daraz.com
+94.140.14.33 www.csr40-partner.net.daraz.com
 94.140.14.33 www.ctl.partner-pay.testing.net.daraz.com
 94.140.14.33 www.ctl.partner-payuat.net.daraz.com
 94.140.14.33 www.ctlregister.partner-pay.net.daraz.com
@@ -37316,7 +37577,6 @@
 94.140.14.33 www.link-d.click
 94.140.14.33 www.linkplat.click
 94.140.14.33 www.links-and-traffic.com
-94.140.14.33 www.linkzau.click
 94.140.14.33 www.lioweny.click
 94.140.14.33 www.lislend.click
 94.140.14.33 www.list2list.pro
@@ -37373,6 +37633,7 @@
 94.140.14.33 www.magazynfaktow.click
 94.140.14.33 www.magellanadvocacy.com
 94.140.14.33 www.magento-analytics.com
+94.140.14.33 www.mail.partner.net.daraz.com
 94.140.14.33 www.mailhostwlan.partner-bamboo.net.daraz.com
 94.140.14.33 www.mailman-partner.net.daraz.com
 94.140.14.33 www.mailserveraff-partner.net.daraz.com
@@ -37437,6 +37698,7 @@
 94.140.14.33 www.melanka.click
 94.140.14.33 www.meldunki24h.click
 94.140.14.33 www.mellowads.com
+94.140.14.33 www.melonedtunees.pro
 94.140.14.33 www.member-partner.net.daraz.com
 94.140.14.33 www.membranewind.click
 94.140.14.33 www.mememakers.mobi
@@ -37491,9 +37753,11 @@
 94.140.14.33 www.mieszkancyprzekazuja.click
 94.140.14.33 www.milosciupadek.click
 94.140.14.33 www.minkarinvest.pro
+94.140.14.33 www.mintingmakees.pro
 94.140.14.33 www.minusodprawy.click
 94.140.14.33 www.mipoqua4.pro
 94.140.14.33 www.miradoks-investing.pro
+94.140.14.33 www.missions-partner.net.daraz.com
 94.140.14.33 www.mmnetwork.mobi
 94.140.14.33 www.mnetads.com
 94.140.14.33 www.mniejszoscspoleczna.click
@@ -37798,6 +38062,7 @@
 94.140.14.33 www.okropnyciekawe.click
 94.140.14.33 www.okropnyinfo.click
 94.140.14.33 www.oksioninvest.pro
+94.140.14.33 www.old-partner.net.daraz.com
 94.140.14.33 www.oldsite.partner-bamboo.net.daraz.com
 94.140.14.33 www.olgin-investing.pro
 94.140.14.33 www.olx-check.pl
@@ -37916,7 +38181,9 @@
 94.140.14.33 www.partner-barcodes.net.daraz.com
 94.140.14.33 www.partner-bgu-ssogh.net.daraz.com
 94.140.14.33 www.partner-caauthenticate21.net.daraz.com
+94.140.14.33 www.partner-digitalacademy.net.daraz.com
 94.140.14.33 www.partner-dl.net.daraz.com
+94.140.14.33 www.partner-dr01.net.daraz.com
 94.140.14.33 www.partner-fb.net.daraz.com
 94.140.14.33 www.partner-fs.net.daraz.com
 94.140.14.33 www.partner-help.net.daraz.com
@@ -37956,11 +38223,13 @@
 94.140.14.33 www.partner-staff.net.daraz.com
 94.140.14.33 www.partner-tunnel.net.daraz.com
 94.140.14.33 www.partner-user.com
+94.140.14.33 www.partner-x-space.net.daraz.com
 94.140.14.33 www.partner.00-bootstrap.net.daraz.com
 94.140.14.33 www.partner.000-038-active.net.daraz.com
 94.140.14.33 www.partner.000-188-active.net.daraz.com
 94.140.14.33 www.partner.000-606active.net.daraz.com
 94.140.14.33 www.partner.000-m44active.net.daraz.com
+94.140.14.33 www.partner.000-m68-active.net.daraz.com
 94.140.14.33 www.partner.000.net.daraz.com
 94.140.14.33 www.partner.000001.net.daraz.com
 94.140.14.33 www.partner.0001-port-to-qdox-2-active.net.daraz.com
@@ -38548,6 +38817,7 @@
 94.140.14.33 www.rozwiazujemyproblem.click
 94.140.14.33 www.rozwijamysie.click
 94.140.14.33 www.rp-site2.click
+94.140.14.33 www.rqgourxmjie.click
 94.140.14.33 www.rs.ero-advertising.com
 94.140.14.33 www.rs2.ero-advertising.com
 94.140.14.33 www.rtb-adsterra.flshtrk.store
@@ -38949,6 +39219,7 @@
 94.140.14.33 www.thegroup.click
 94.140.14.33 www.thepl-winna.click
 94.140.14.33 www.thimarconnect.click
+94.140.14.33 www.thinkedtuneing.pro
 94.140.14.33 www.threads.net
 94.140.14.33 www.threadsdownloaderr.com
 94.140.14.33 www.threadss.info
@@ -39763,6 +40034,7 @@
 94.140.14.33 www8.smartadserver.com
 94.140.14.33 www9.smartadserver.com
 94.140.14.33 wwwae2-dfw3-dr02.partner.net.daraz.com
+94.140.14.33 wwwapi-xspace.partner.net.daraz.com
 94.140.14.33 wwwapi11-dev48gh.0psdadj3szljo593.net.daraz.com
 94.140.14.33 wwwasset.partner.net.daraz.com
 94.140.14.33 wwwbackend.partner.net.daraz.com
@@ -39842,6 +40114,8 @@
 94.140.14.33 wwwiimg1.partner-pay.net.daraz.com
 94.140.14.33 wwwimage.tomcat-partner-pay.net.daraz.com
 94.140.14.33 wwwk8s-prod.partner-pay.v1.net.daraz.com
+94.140.14.33 wwwkube-partner.net.daraz.com
+94.140.14.33 wwwkube-partner.partner.net.daraz.com
 94.140.14.33 wwwla.partner.net.daraz.com
 94.140.14.33 wwwlabs.wlan.partner-bamboo.net.daraz.com
 94.140.14.33 wwwlazada-sg-2.partner.net.daraz.com
@@ -39883,6 +40157,7 @@
 94.140.14.33 wwwweb0.partner.net.daraz.com
 94.140.14.33 wwwwndings.click
 94.140.14.33 wwwwp.partner.net.daraz.com
+94.140.14.33 wwwwwww11node.partner.net.daraz.com
 94.140.14.33 wwwwzeraqvlqk.top
 94.140.14.33 wwwwzeraqvmkw.top
 94.140.14.33 wx.houyi.baofeng.net
@@ -39954,6 +40229,7 @@
 94.140.14.33 wzorowezachowanie.click
 94.140.14.33 x-ip-adv.com
 94.140.14.33 x-photobucket.top
+94.140.14.33 x-spacefrontpage-partner.net.daraz.com
 94.140.14.33 x.headmny.top
 94.140.14.33 x.jd.com
 94.140.14.33 x.masstort.click
@@ -40117,7 +40393,6 @@
 94.140.14.33 xn--wxtr9fwyxk9c.top
 94.140.14.33 xneighsan.top
 94.140.14.33 xneilzsan.top
-94.140.14.33 xneiopsan.top
 94.140.14.33 xngg1wuiogpnhqaf.partner-pay.net.daraz.com
 94.140.14.33 xngg1wuiogpnhqaf.production-documentsns.partner-pay.net.daraz.com
 94.140.14.33 xnrbkzici6cn5y8q.partner.net.daraz.com
@@ -40184,7 +40459,6 @@
 94.140.14.33 xxx-download-0979.tempis-meble.pl
 94.140.14.33 xxz8kifja3qn25ku.lib-api-1.net.daraz.com
 94.140.14.33 xy-log2.tagtic.cn
-94.140.14.33 xy-z0-ra-had0.com
 94.140.14.33 xy36cz1wbhdpg6hp.test.partner.net.daraz.com
 94.140.14.33 xy36cz1wbhdpg6hp.tester-partner-assets.net.daraz.com
 94.140.14.33 xynter-invest.pro
@@ -40653,6 +40927,7 @@
 94.140.14.33 ziezf2pyv94bgy9c.wlan.partner-bamboo.net.daraz.com
 94.140.14.33 zifyeldq.top
 94.140.14.33 zigzag-ruin.pro
+94.140.14.33 zigzagstr-partner.net.daraz.com
 94.140.14.33 zigzagstr-twtelecompre-api-xspace.azure.net.daraz.com
 94.140.14.33 zigzagstrmgmt.partner.net.daraz.com
 94.140.14.33 ziipo.byseniscon.top
