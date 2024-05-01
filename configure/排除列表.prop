@@ -226,6 +226,7 @@
 ^127.0.0.1[[:space:]]resolver.msg.xiaomi.net$
 ^127.0.0.1[[:space:]]register.xmpush.xiaomi.com$
 ^127.0.0.1[[:space:]]app.chat.xiaomi.net$
+^127.0.0.1[[:space:]]cn.app.chat.xiaomi.net$
 #部分设备的小米云服务
 ^127.0.0.1[[:space:]]api.g.micloud.xiaomi.net$
 #QQ浏览器插件误杀
@@ -270,8 +271,17 @@
 #360翻译
 ^127.0.0.1[[:space:]]gw.shouji.360.cn$
 ^127.0.0.1[[:space:]]msedown.360safe.com$
-
-
+#移动一键登录
+^127.0.0.1[[:space:]]da.mmarket.com$
+#OPPO应用配置
+^127.0.0.1[[:space:]]appconf.heytapdownload.com$
+#京东
+^127.0.0.1[[:space:]]gia.jd.com$
+^127.0.0.1[[:space:]]me-api.jd.com$
+^127.0.0.1[[:space:]]api.m.jd.com$
+^127.0.0.1[[:space:]]ms.jr.jd.com$
+^127.0.0.1[[:space:]]active.jd.com$
+^127.0.0.1[[:space:]]pro.m.jd.com$
 
 
 #放到iptables屏蔽的域名
