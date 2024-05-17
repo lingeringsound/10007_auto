@@ -28,7 +28,10 @@
 #腾讯活动
 ^127.0.0.1[[:space:]]aegis.qq.com$
 ^127.0.0.1[[:space:]]ios.bugly.qq.com$
+^127.0.0.1[[:space:]]msdk.qq.com$
+^127.0.0.1[[:space:]]ssl.msdk.qq.com$
 ^127.0.0.1[[:space:]]img.ssl.msdk.qq.com$
+^127.0.0.1[[:space:]]ap6.ssl.msdk.qq.com$
 #QQ微信小(程序)游戏
 ^127.0.0.1[[:space:]]game.weixin.qq.com$
 #^127.0.0.1[[:space:]]dir.minigame.qq.com$
@@ -282,6 +285,7 @@
 ^127.0.0.1[[:space:]]ms.jr.jd.com$
 ^127.0.0.1[[:space:]]active.jd.com$
 ^127.0.0.1[[:space:]]pro.m.jd.com$
+
 
 
 #放到iptables屏蔽的域名
