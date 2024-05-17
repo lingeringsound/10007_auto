@@ -50,6 +50,12 @@
 ||log-api.pangolin-sdk-toutiao.com^
 ||api-access.pangolin-sdk-toutiao.com^
 ||api-access.pangolin-sdk-toutiao-b.com^
+! QQ音乐广告奖励
+||adstats.tencentmusic.com^
+||adsmind.gdtimg.com^
+||tmead.y.qq.com^
+||tmeadcomm.y.qq.com^
+
 
 ! 放行一些规则防止误杀
 ! 日志收集，禁用会占用大量CPU
@@ -276,6 +282,28 @@
 @@||gk.sina.cn^
 @@||cre.dp.sina.cn^
 @@||mix.sina.com.cn^
+! 头条授权登陆
+@@||open.snssdk.com^$document
+! 网易年度总结
+@@||count.mail.163.com^$document
+! 360翻译
+@@||gw.shouji.360.cn^$document
+! 移动一键登录
+@@||da.mmarket.com^$document
+! OPPO应用配置
+@@||appconf.heytapdownload.com^$document
+! 京东
+@@||gia.jd.com^$document
+@@||me-api.jd.com^$document
+@@||api.m.jd.com^$document
+@@||ms.jr.jd.com^$document
+@@||active.jd.com^$document
+@@||pro.m.jd.com^$document
+! 王者活动
+@@||msdk.qq.com^
+@@||ssl.msdk.qq.com^$document
+@@||img.ssl.msdk.qq.com^$document
+@@||ap6.ssl.msdk.qq.com^$document
 
 
 ! 添加一些规则
@@ -283,4 +311,6 @@
 ||p.s.360.cn^$important
 ||sconf.f.360.cn^$important
 ||qurl.f.360.cn^$important
+
+
 
