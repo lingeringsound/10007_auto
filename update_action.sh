@@ -642,6 +642,10 @@ grep_value_file "0" 'adv.' "$hosts_file"
 grep_value_file "1" 'adv-' "$hosts_file"
 #BeiZi 广告
 grep_value_file "1" 'BeiZi' "$hosts_file"
+#anythinktech
+grep_value_file "1" 'anythinktech' "$hosts_file"
+#toponad
+grep_value_file "1" 'toponad' "$hosts_file"
 
 
 
