@@ -128,12 +128,14 @@ mkdir -p "${tmp_DIR}"
 #https://hosts.oisd.nl/basic|oisd
 #StevenBlack 去除订阅porn拦截
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts|StevenBlack
+#StevenBlack 去除媒体订阅
+#https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts
 
 
 local hosts_list='
 https://hblock.molinero.dev/hosts|hblock
 https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts|1024
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts|StevenBlack
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts|StevenBlack
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts|大圣净化
 https://hosts.oisd.nl/basic|oisd
