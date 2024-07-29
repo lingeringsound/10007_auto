@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2024-07-29 13:34:09 
+#更新时间: 2024-07-29 22:16:12 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:21869
+#规则数量:21878
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -438,6 +438,7 @@
 127.0.0.1 ad-cdn.bilgin.pro
 127.0.0.1 ad-cdn.qingting.fm
 127.0.0.1 ad-cdn.technoratimedia.com
+127.0.0.1 ad-channel.diwodiwo.xyz
 127.0.0.1 ad-channel.wikawika.xyz
 127.0.0.1 ad-cheers.com
 127.0.0.1 ad-clcount.com
@@ -450,6 +451,7 @@
 127.0.0.1 ad-cupid.com
 127.0.0.1 ad-delivery.net
 127.0.0.1 ad-dev.globalnoticias.pt
+127.0.0.1 ad-display.diwodiwo.xyz
 127.0.0.1 ad-display.wikawika.xyz
 127.0.0.1 ad-drcn.dt.dbankcloud.com
 127.0.0.1 ad-drop.jp
@@ -12612,7 +12614,9 @@
 127.0.0.1 p0.tribution.mobi
 127.0.0.1 p1-ad-sign.byteimg.com
 127.0.0.1 p1-be-endcard.pglstatp-toutiao.com
+127.0.0.1 p1-jx.adukwai.com
 127.0.0.1 p1-lm.adkwai.com
+127.0.0.1 p1-lm.adukwai.com
 127.0.0.1 p1-orange.byteorge.com
 127.0.0.1 p1.adkwai.com
 127.0.0.1 p1.tribution.mobi
@@ -12638,6 +12642,8 @@
 127.0.0.1 p19-ad-sign.byteimg.com
 127.0.0.1 p19-orange.byteorge.com
 127.0.0.1 p2-ad-sign.byteimg.com
+127.0.0.1 p2-jx.adukwai.com
+127.0.0.1 p2-lm.adukwai.com
 127.0.0.1 p2-orange.byteorge.com
 127.0.0.1 p2.l.qq.com
 127.0.0.1 p2.tribution.mobi
@@ -16600,6 +16606,7 @@
 127.0.0.1 v1-ad.ixigua.com
 127.0.0.1 v1-be-pack.pglstatp-toutiao.com
 127.0.0.1 v1-fe-pack.pglstatp-toutiao.com
+127.0.0.1 v1-lm.adukwai.com
 127.0.0.1 v1.browser-tools.systems
 127.0.0.1 v1.cnzz.com
 127.0.0.1 v1.extreme-dm.com
@@ -16621,6 +16628,7 @@
 127.0.0.1 v19-ad.ixigua.com
 127.0.0.1 v1cdn.snmovie.com
 127.0.0.1 v2-ad.ixigua.com
+127.0.0.1 v2-lm.adukwai.com
 127.0.0.1 v2.api.adflex.vn
 127.0.0.1 v2.cnzz.com
 127.0.0.1 v2.yieldlove-ad-serving.net
@@ -16643,6 +16651,7 @@
 127.0.0.1 v30-ad.ixigua.com
 127.0.0.1 v31-ad.ixigua.com
 127.0.0.1 v4-ad.ixigua.com
+127.0.0.1 v4-lm.adukwai.com
 127.0.0.1 v4.cnzz.com
 127.0.0.1 v5-ad.ixigua.com
 127.0.0.1 v5.cnzz.com
