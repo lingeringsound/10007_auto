@@ -4,7 +4,7 @@
 ## count
 ```
 all: 26151
-reward: 26117
+reward: 26104
 ```
 ### ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007&left_color=green&right_color=red)
 
