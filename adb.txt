@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2024-11-06 22:17:14
+! Last modified: 2024-11-07 09:22:56
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2024-11-06 22:17:14 ^
+!更新时间: 2024-11-07 09:22:56 ^
 
 !规则数量:26100^
 !#################^
@@ -26107,40 +26107,41 @@
 @@||mdevstat.qqlive.qq.com^$document
 
 ||adsmind.gdtimg.com^
-||c.gdt.qq.com^
+||c2.gdt.qq.com^
 ||d.gdt.qq.com^
 ||gw.365you.com^
+||h5.gdt.qq.com^
 ||i.gdt.qq.com^
 ||ii.gdt.qq.com^
 ||ipv4.gdt.qq.com^
 ||m.gdt.qq.com^
 ||mi.gdt.qq.com^
 ||nc.gdt.qq.com^
+||pgdt.ugdtimg.com^
+||pgdt.gtimg.cn^
 ||pv.sohu.com^
 ||q.i.gdt.qq.com^
 ||rm.gdt.qq.com^
-||rpt.gdt.qq.com^
-||v.gdt.qq.com^
-||vr.gdt.qq.com^
-||x.adnet.qq.com^
-||pgdt.ugdtimg.com^
-||xc.gdt.qq.com^
-||v2.gdt.qq.com^
 ||sdk.e.qq.com^
 ||t.gdt.qq.com^
+||v2.gdt.qq.com^
+||v3.gdt.qq.com^
+||vr.gdt.qq.com^
+||x.adnet.qq.com^
+||xc.gdt.qq.com^
 ! QQ广告奖励
 ||win.gdt.qq.com^
 ! 抖音广告奖励
-!||is.snssdk.com^
+! ||is.snssdk.com^
 ! 微信广告奖励
-!||wxsnsad.tc.qq.com^
-!||wxsnsdy.tc.qq.com^
-!||wxsnsdy.video.qq.com^
-!||wxsnsdy.wxs.qq.com^
-!||wxsnsdythumb.wxs.qq.com^
+! ||wxsnsad.tc.qq.com^
+! ||wxsnsdy.tc.qq.com^
+! ||wxsnsdy.video.qq.com^
+! ||wxsnsdy.wxs.qq.com^
+! ||wxsnsdythumb.wxs.qq.com^
 ! 百度云视频广告奖励
-!||nadvideo.baidu.com^
-!||nadvideo2.baidu.com^
+! ||nadvideo.baidu.com^
+! ||nadvideo2.baidu.com^
 ! 快手支持
 ! 删掉会使得部分开屏广告复燃
 ||open.e.kuaishou.com^
@@ -26154,11 +26155,25 @@
 ||log-api.pangolin-sdk-toutiao.com^
 ||api-access.pangolin-sdk-toutiao.com^
 ||api-access.pangolin-sdk-toutiao-b.com^
-! QQ音乐广告奖励
+! QQ音乐免费时长广告奖励
 ||adstats.tencentmusic.com^
+||ad.tencentmusic.com^
+||adexpo.tencentmusic.com^
+||adcdn.tencentmusic.com^
+||adclick.tencentmusic.com^
 ||adsmind.gdtimg.com^
+||rpt.gdt.qq.com^
+||v.gdt.qq.com^
+||c.gdt.qq.com^
 ||tmead.y.qq.com^
 ||tmeadcomm.y.qq.com^
+! QQ音乐广告奖励检测
+||oth.eve.mdt.qq.com^
+||oth.str.mdt.qq.com^
+||oth.update.mdt.qq.com^
+||mtt.eve.mdt.qq.com^
+||mtt.str.mdt.qq.com^
+
 
 
 ! 放行一些规则防止误杀
