@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2024-11-07 22:17:04
+! Last modified: 2024-11-08 09:23:14
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2024-11-07 22:17:03 ^
+!更新时间: 2024-11-08 09:23:13 ^
 
-!规则数量:26099^
+!规则数量:26110^
 !#################^
 
 ||0.r.msn.com^
@@ -71,6 +71,7 @@
 ||11.advizion.org^
 ||1105hofanoe4.pro^
 ||1109cygipeta4.pro^
+||116.205.193.167^
 ||118ad81b2a58b54a18825dc8d8988395.watchdene.pl^
 ||11a5ade414a6a4b9969685db9e96b193.com^
 ||11bet.mobi^
@@ -6928,7 +6929,6 @@
 ||api-app.ants.vn^
 ||api-app.coocaa.ottcn.com^
 ||api-apsx.com^
-||api-cn.store.heytapmobi.com^
 ||api-es.doglobal.net^
 ||api-eu.bidmachine.io^
 ||api-exp.dfs.uk^
@@ -8759,6 +8759,7 @@
 ||c.deployads.com^
 ||c.dk.msn.com^
 ||c.es.msn.com^
+||c.etoolads.cn^
 ||c.fi.msn.com^
 ||c.fr.msn.com^
 ||c.gr.msn.com^
@@ -8786,6 +8787,7 @@
 ||c.se.msn.com^
 ||c.sg.msn.com^
 ||c.th.msn.com^
+||c.tobidad.cn^
 ||c.tr.msn.com^
 ||c.tw.msn.com^
 ||c.uaa.iqiyi.com^
@@ -11346,6 +11348,9 @@
 ||etl.xlmc.sec.miui.com^
 ||etoads.net^
 ||etomalyknaey.everadpro.click^
+||etoolads.cn^
+||etoolads.cn.com^
+||etoolads.com^
 ||etrade24.site^
 ||etsllx.activpl-pro.site^
 ||ettsl.activpl-pro.site^
@@ -19247,6 +19252,7 @@
 ||sdkapi.dsp-api.moloco.com^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
+||sdkcfg.adintl.cn^
 ||sdkclick.mobile.sina.cn^
 ||sdkconfig.play.aiseet.atianqi.com^
 ||sdkconfig.play.cp81.ott.cibntv.net^
@@ -20419,6 +20425,7 @@
 ||sv-static-lottery.headlines.pw^
 ||sv-static1-lottery.headlines.pw^
 ||sv.51niu.pro^
+||sv.adintl.cn^
 ||sv388.mobi^
 ||svastx.moatads.com^
 ||svdvd.inventnamb.click^
@@ -20985,6 +20992,9 @@
 ||toads.osdn.com^
 ||toadynewnewscoiy.click^
 ||tob-cms.bj.bcebos.com^
+||tobidad.cn^
+||tobidad.cn.com^
+||tobidad.com^
 ||toboads.com^
 ||togyzii4.pro^
 ||tohedau7.pro^
@@ -21927,6 +21937,7 @@
 ||uzasadnijpowod.click^
 ||uzmyslawianie.click^
 ||uznajmyprawde.click^
+||v.adintl.cn^
 ||v.admaster.com.cn^
 ||v.adsrvr.org^
 ||v.adx.hubcloud.com.cn^
@@ -26443,6 +26454,9 @@
 @@||err.taobao.com^$document
 @@||tunion-api.m.taobao.com^$document
 @@||zconfig.alibabausercontent.com^$document
+! OPPO 应用商店 主题 开屏广告
+@@||api-cn.store.heytapmobi.com^$document
+@@||api-cn.theme.heytapmobi.com^$document
 
 
 ! 添加一些规则
