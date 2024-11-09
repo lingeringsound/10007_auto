@@ -348,12 +348,16 @@
 ! 感谢[@niani2](https://github.com/niani2)反馈
 @@||fp-upload.dun.163.com^$document
 
-
 ! 添加一些规则
 ||s.360.cn^$important
 ||p.s.360.cn^$important
 ||sconf.f.360.cn^$important
 ||qurl.f.360.cn^$important
 
+! 酷安重写
+! 手机壳推广
+||api2.coolapk.com/v6/feed/replyList$replace=/"entities":/"10007":/
+! 优惠券领取
+||api2.coolapk.com/v6/feed/detail$replace=/"detailSponsorCard":/"10007":/
 
 
