@@ -1,17 +1,25 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2024-11-10 12:55:57
+! Last modified: 2024-11-10 19:17:14
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
-!例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
+!例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。^
 !在相应行的开头加个"#"号^
-!更新时间: 2024-11-10 12:55:57 ^
+!更新时间: 2024-11-10 19:17:14^
 
-!规则数量:26185^
-!#################^
+!提速测试^
+127.0.0.2 localhost^
+127.0.0.3 localhost^
+::2 ip6-localhost^
+::3 ip6-localhost^
+127.0.1.1 hostname^
+127.0.1.2 hostname^
+127.0.1.3 hostname^
+!规则数量:26173^
+!GIthub订阅主页: https://github.com/lingeringsound/10007_auto^
 
 ||0.r.msn.com^
 ||009.itpolska.click^
@@ -1194,7 +1202,6 @@
 ||ad.dongdong.madserving.com^
 ||ad.doorigo.co.kr^
 ||ad.doubanio.com^
-||ad.doubleclick.net^
 ||ad.doublemax.net^
 ||ad.douga-kan.com^
 ||ad.download.cnet.com^
@@ -9420,9 +9427,6 @@
 ||click.affiliate.ameba.jp^
 ||click.airmalta-mail.com^
 ||click.alibaba.com^
-||click.aliexpress.com^
-||click.allkeyshop.com^
-||click.alternate.de^
 ||click.amazingfacts.org^
 ||click.appinthestore.com^
 ||click.atdmt.com^
@@ -9456,7 +9460,6 @@
 ||click.dice.com^
 ||click.digiato.com^
 ||click.digital.metaquestmail.com^
-||click.discord.com^
 ||click.drizly.com^
 ||click.dtiserv2.com^
 ||click.duga.jp^
@@ -9465,14 +9468,12 @@
 ||click.e.progressive.com^
 ||click.e.tdbank.com^
 ||click.e.zoom.us^
-||click.em.blizzard.com^
 ||click.em.soothe.com^
 ||click.email.bbc.com^
 ||click.email.chope.co^
 ||click.email.houndapp.com^
 ||click.email.lhh.com^
 ||click.email.microsoftemail.com^
-||click.email.sonos.com^
 ||click.email.soundhound.com^
 ||click.email.strawberry.no^
 ||click.emails.argos.co.uk^
@@ -9500,7 +9501,6 @@
 ||click.hooligapps.com^
 ||click.howdoesin.net^
 ||click.i.southwesternrailway.com^
-||click.icptrack.com^
 ||click.infoblox.com^
 ||click.instacartemail.com^
 ||click.interactivebrands.com^
@@ -9508,7 +9508,6 @@
 ||click.j-a-net.jp^
 ||click.jasmin.com^
 ||click.jr.jd.com^
-||click.justwatch.com^
 ||click.jve.net^
 ||click.kataweb.it^
 ||click.khingtracking.com^
@@ -9528,7 +9527,6 @@
 ||click.mail.salesforce.com^
 ||click.mail.thecarousell.com^
 ||click.mail.theknot.com^
-||click.mailing.ticketmaster.com^
 ||click.marketing.carousell.com^
 ||click.mediav.com^
 ||click.meetwo.de^
@@ -9554,7 +9552,6 @@
 ||click.qianqian.com^
 ||click.quickenloansnow.com^
 ||click.readme.ru^
-||click.redditmail.com^
 ||click.rfp.fout.jp^
 ||click.rollouki.com^
 ||click.runcpa.com^
@@ -9603,7 +9600,6 @@
 ||click.zerobot.delivery^
 ||click.zipcodez.com^
 ||click.zmctrack.net^
-||click.zoom.us^
 ||click.zoominformation.com^
 ||click1forhz.adsmogo.com^
 ||click2forhz.adsmogo.com^
@@ -26535,6 +26531,65 @@
 ! 网易光遇 sky 登录
 ! 感谢[@niani2](https://github.com/niani2)反馈
 @@||fp-upload.dun.163.com^$document
+! 放行一堆click
+@@||click-trk.com^$document
+@@||clickcease.com^$document
+@@||clickdimensions.com^$document
+@@||clickiocdn.com^$document
+@@||clicktale.net^$document
+@@||intercom-clicks.com^$document
+@@||klclick*.com^$document
+@@||personaclick.com^$document
+@@||click.aliexpress.com^$document
+@@||click.allkeyshop.com^$document
+@@||click.alternate.de^$document
+@@||click.member.americanexpress.com^$document
+@@||click.appcast.io^$document
+@@||clicks.aweber.com^$document
+@@||click.emcom.bankofamerica.com^$document
+@@||click.em.blizzard.com^$document
+@@||click.myctm.canadiantire.ca^$document
+@@||target.clickfunnels.com^$document
+@@||click.cptrack.de^$document
+@@||click.mc.crimsontrace.com^$document
+@@||clickserve.dartsearch.net^$document
+@@||click.o.delta.com^$document
+@@||click.discord.com^$document
+@@||click.dji.com^$document
+@@||ad.doubleclick.net^$document
+@@||click.*.experian.com^$document
+@@||click.fidelityinvestments.com^$document
+@@||click.holidayinnclubemail.com^$document
+@@||click.instantink.hpsmart.com^$document
+@@||click.icptrack.com^$document
+@@||click.email.jcpenney.com^$document
+@@||click.justwatch.com^$document
+@@||click.klarna.de^$document
+@@||click.chp.kohls.com^$document
+@@||click.s.kohls.com^$document
+@@||click.e.krogermail.com^$document
+@@||click.landsend.com^$document
+@@||click.linksynergy.com^$document
+@@||click.e.lowes.com^$document
+@@||click.mail.macmillan.com^$document
+@@||click.microsoft*.com^$document
+@@||click.mlsend.com^$document
+@@||click.email.newegg.com^$document
+@@||click.members.nra.org^$document
+@@||clicks.pipaffiliates.com^$document
+@@||click.pstmrk.it^$document
+@@||click.redditmail.com^$document
+@@||click.royalcaribbeanmarketing.com^$document
+@@||click.e.safelite.com^$document
+@@||click.em.samsclub.com^$document
+@@||click.e.sees.com^$document
+@@||click.snapshat.com^$document
+@@||click.email.sonos.com^$document
+@@||click*.taobao.com^$document
+@@||click.mailing.ticketmaster.com^$document
+@@||clicks.trx-hub.com^$document
+@@||cdn.webclicks24.com^$document
+@@||click.zoom.us^$document
 
 ! 添加一些规则
 ||s.360.cn^$important
