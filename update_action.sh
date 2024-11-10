@@ -316,7 +316,7 @@ local file="${old_file%/*}/adb.txt"
 echo "$(cat $old_file )" > "${file}"
 if test -f "$file" ;then
 	sed -i "s|^#|!|g" "$file"
-	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d;/hugeota.d.miui.com/d;/bigota.d.miui.com/d" "$file"
+	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d;/hugeota.d.miui.com/d;/bigota.d.miui.com/d;/[[:space:]]ip6-localhost/d;/[[:space:]]hostname/d" "$file"
 	sed -i "s/127.0.0.1[[:space:]]localhost//g" "$file"
 	sed -i "s/127.0.0.1 /||/g;s|$|^|g" "$file"
 	sed -i "s/^\^//g" "$file"
