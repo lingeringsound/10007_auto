@@ -273,20 +273,33 @@ key
 }
 
 #写入信息
-function write_head() {
+function write_head () {
 local target_file="${1}"
-local total_count="$(cat ${target_file} 2>/dev/null | sed '/^#/d;/^[[:space:]]*$/d' | wc -l )"
-sed -i "1i #@coolapk 1007" "${target_file}"
-sed -i "2i #有问题可以在文件里搜索关键词" "${target_file}"
-sed -i "3i #例如\"toutiao(头条)\"，\"MIUI xiaomi (小米)\"，\"reward(奖励)\"" "${target_file}"
-sed -i "4i #在相应行的开头加个\"\#\"号" "${target_file}"
-sed -i "5i #更新时间: $(date '+%F %T') " "${target_file}"
-sed -i "6i 127.0.0.1 localhost" "${target_file}"
-sed -i "7i ::1 localhost" "${target_file}"
-sed -i "8i ::1 ip6-loopback" "${target_file}"
-sed -i "9i ::1 ip6-localhost" "${target_file}"
-sed -i "10i #规则数量:${total_count}" "${target_file}"
-sed -i '11i ##################\n' "${target_file}"
+local original_file_content="$(cat ${target_file} 2>/dev/null | sed '/^#/d;/^[[:space:]]*$/d')"
+local total_count="$(echo "${original_file_content}" | wc -l )"
+cat << KEY > "${target_file}"
+#@coolapk 1007
+#有问题可以在文件里搜索关键词
+#例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
+#在相应行的开头加个"#"号
+#更新时间: $(date '+%F %T')
+127.0.0.1 localhost
+::1 localhost
+::1 ip6-loopback
+::1 ip6-localhost
+#提速测试
+127.0.0.2 localhost
+127.0.0.3 localhost
+::2 ip6-localhost
+::3 ip6-localhost
+127.0.1.1 hostname
+127.0.1.2 hostname
+127.0.1.3 hostname
+#规则数量:${total_count}
+#GIthub订阅主页: https://github.com/lingeringsound/10007_auto
+
+KEY
+echo "${original_file_content}" >> "${target_file}"
 }
 
 function write_ad_block_reward_rules(){
