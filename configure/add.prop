@@ -359,5 +359,14 @@
 ||api2.coolapk.com/v6/feed/replyList$replace=/"entities":/"10007":/
 ! 优惠券领取
 ||api2.coolapk.com/v6/feed/detail$replace=/"detailSponsorCard":/"10007":/
-
-
+! 提到的好物
+||api2.coolapk.com/v6/feed/detail$replace=/"include_goods":/"10007":/
+! 囧次元
+/app/loadAdPositionConfig?app_id=
+! 豆瓣
+/app_ads/splash_show
+/app_ads/splash_preload
+/static/upload/ads
+/api/index/splash_ad
+||frodo.douban.com/api/v2/erebor/feed_ad
+||douban.com/count/
