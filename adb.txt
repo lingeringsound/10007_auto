@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2024-11-15 18:41:52
+! Last modified: 2024-11-15 22:18:36
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。^
 !在相应行的开头加个"#"号^
-!更新时间: 2024-11-15 18:41:52^
+!更新时间: 2024-11-15 22:18:36^
 
 !提速测试^
 127.0.0.2 localhost^
 127.0.0.3 localhost^
-!规则数量:26177^
+!规则数量:26186^
 !GIthub订阅主页: https://github.com/lingeringsound/10007_auto^
 
 ||0.r.msn.com^
@@ -5546,6 +5546,7 @@
 ||adx-os.anythinktech.com^
 ||adx-static.ksosoft.com^
 ||adx.adk2x.com^
+||adx.admaster.com.cn^
 ||adx.adnxs.com^
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
@@ -11440,6 +11441,7 @@
 ||eurorefund.pro^
 ||eurybiont.pro^
 ||euw.adserver.snapads.com^
+||ev.ads.pointroll.com^
 ||ev.api.bdg.com^
 ||ev2.api.bdg.com^
 ||eva-ad.24hstatic.com^
@@ -11970,6 +11972,7 @@
 ||fulvideozrt.click^
 ||fulwads.uno^
 ||fumiad.dxys.pro^
+||fun-adx.admaster.com.cn^
 ||fun-comu.click^
 ||fun-mobi.pl^
 ||fun.adx.admaster.com.cn^
@@ -13458,6 +13461,7 @@
 ||ip1.ads.stickyadstv.com.akadns.net^
 ||ip1.cdn.stickyadstv.com.akadns.net^
 ||ip2.ads.stickyadstv.com.akadns.net^
+||ipinyou.cm.admaster.com.cn^
 ||ipinyou.com^
 ||ipinyou.com.cn^
 ||ipipipi.inventnamb.click^
@@ -18422,6 +18426,7 @@
 ||re.taobao.com^
 ||reachableads.com^
 ||reachadv.it^
+||reachmax-cm.admaster.com.cn^
 ||reactads.cdn.adglare.net^
 ||reactads.com^
 ||reactads.engine.adglare.net^
@@ -19945,6 +19950,7 @@
 ||sogo.uc.continuefaf.top^
 ||sohiads.shop^
 ||sohu-dtv.m.cn.miaozhen.com^
+||sohutv.cm.admaster.com.cn^
 ||sohutv.m.cn.miaozhen.com^
 ||sokmil-ad.com^
 ||solads.media^
@@ -20821,6 +20827,7 @@
 ||teaserleads.com^
 ||tech1gn1te.click^
 ||techadv.actonservice.com^
+||techain.baidu.com^
 ||techfreeze.click^
 ||techhandle.click^
 ||techheadsoftware.net^
@@ -22727,6 +22734,7 @@
 ||walkaoprawde.click^
 ||walkawieczorna.click^
 ||walkazczasem.click^
+||walle.bayescom.com^
 ||walledup.pro^
 ||wallet.advcash.com^
 ||wallstrads.com^
@@ -25896,6 +25904,7 @@
 ||youworklike.click^
 ||yovoads.com^
 ||yoyadsdom.com^
+||yoyi-cm.admaster.com.cn^
 ||ys2000.cdn.bcebos.com^
 ||ysdk.qq.com^
 ||yt-adv.bn.netease.com^
@@ -26617,3 +26626,5 @@
 /api/index/splash_ad
 ||frodo.douban.com/api/v2/erebor/feed_ad
 ||douban.com/count/
+! 网易
+! ||interface*.music.163.com/eapi/ad/
