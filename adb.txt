@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2024-11-19 16:17:35
+! Last modified: 2024-11-19 22:21:58
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。^
 !在相应行的开头加个"#"号^
-!更新时间: 2024-11-19 16:17:35^
+!更新时间: 2024-11-19 22:21:58^
 
 !提速测试^
 127.0.0.2 localhost^
 127.0.0.3 localhost^
-!规则数量:26228^
+!规则数量:26239^
 !GIthub订阅主页: https://github.com/lingeringsound/10007_auto^
 
 ||0.r.msn.com^
@@ -1034,6 +1034,9 @@
 ||ad.adsmart.net^
 ||ad.adsniper.ru^
 ||ad.adsrvmedia.adk2x.com^
+||ad.adsrvr.cn^
+||ad.adsrvr.cn.com^
+||ad.adsrvr.com^
 ||ad.adsrvr.org^
 ||ad.adstract.adk2x.com^
 ||ad.adtegrity.net^
@@ -5241,6 +5244,7 @@
 ||advercab.com^
 ||adverdata.net^
 ||adverdirect.com^
+||adverpub.com^
 ||adversal.com^
 ||adversaldisplay.com^
 ||adversalservers.com^
@@ -9716,7 +9720,11 @@
 ||cn-da.anythinktech.com^
 ||cn-p.ofisls-pro.xyz^
 ||cn.adserver.yahoo.com^
+||cn1-bid.adsrvr.cn^
+||cn2-bid.adsrvr.cn^
 ||cn2.adserver.yahoo.com^
+||cn3-bid.adsrvr.cn^
+||cn9-bid.adsrvr.cn^
 ||cndynza.click^
 ||cnf.adbana.com^
 ||cnf.adshuffle.com^
@@ -16686,6 +16694,7 @@
 ||p31-ad-sign.byteimg.com^
 ||p31-be-pack-sign.pglstatp-toutiao.com^
 ||p31-orange.byteorge.com^
+||p33-ad.adkwai.com^
 ||p3p.mmstat.com^
 ||p4-ad-sign.byteimg.com^
 ||p4-be-pack-sign.pglstatp-toutiao.com^
@@ -16702,6 +16711,7 @@
 ||p6-be-pack-sign.pglstatp-toutiao.com^
 ||p6-orange.byteorge.com^
 ||p6.tribution.mobi^
+||p66-ad.adkwai.com^
 ||p7-ad-sign.byteimg.com^
 ||p7-be-pack-sign.pglstatp-toutiao.com^
 ||p7-orange.byteorge.com^
@@ -22047,6 +22057,7 @@
 ||uznajmyprawde.click^
 ||v.adintl.cn^
 ||v.admaster.com.cn^
+||v.adsrvr.cn^
 ||v.adsrvr.org^
 ||v.adx.hubcloud.com.cn^
 ||v.extreme-dm.com^
