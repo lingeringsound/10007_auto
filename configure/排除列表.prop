@@ -377,6 +377,11 @@
 ^127.0.0.1[[:space:]]clicks.trx-hub.com$
 ^127.0.0.1[[:space:]]cdn.webclicks24.com$
 ^127.0.0.1[[:space:]]click.zoom.us$
+! 抖音小程序
+#^127.0.0.1[[:space:]]pitaya.bytedance.com$
+
+
+
 
 
 #放到iptables屏蔽的域名
@@ -390,24 +395,20 @@
 \.analytics\.mobilegamestats\.com$
 \.sprout-ad\.com
 \.log\.optimizely\.com$
-\.v\.admaster\.com\.cn$
-\.ads\.tremorhub\.com$
-\.ad\.corp\.appnexus\.com$
+#\.v\.admaster\.com\.cn$
+#\.ads\.tremorhub\.com$
+#\.ad\.corp\.appnexus\.com$
 \.api-05\.com$
 \.log\.xoalt\.com$
 \.api\.splkmobile\.com$
 \.api\.botman\.ninja$
 \.api\.5rocks\.io$
 \.api\.pushwoosh\.com$
-\.c\.admaster\.com\.cn$
+#\.c\.admaster\.com\.cn$
 xvideos.*cdn
 p[[:digit:]].*[[:digit:]]\.ahcdn\.com$
 .*net\.zooplus\.[[:alpha:]].*[[:alpha:]]$
-#.*net\.zooplus\.com$
-#.*net\.zooplus\.it$
-#.*net\.zooplus\.nl$
-#ad.*[[:digit:]]m.adk2.co$
 fra.*[[:digit:]].ib.adnxs.com$
 bank.*[[:digit:]].*mp.mydas.mobi$
 www\.[[:alpha:]].*[[:alpha:]].*\.top$
-#\.net\.daraz\.com$
+
