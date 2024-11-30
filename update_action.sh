@@ -272,6 +272,36 @@ $(cat "$target" 2>/dev/null )
 key
 }
 
+#制作Adaway白名单
+function white_list_Maker_Adaway(){
+local target_file="${1}"
+local file="`pwd`/Adaway_white_list.prop"
+cp -rf "${target_file}" "${file}"
+test ! -f "${file}" && return 0
+sed -i -E -e 's/\^127.0.0.1\[\[:space:\]\]//g' \
+-e 's/\$$//g' \
+-e 's/\\\./\./g' \
+-e 's/\[.*\]/\*/g' \
+-e 's/\.\*/\*/g' \
+-e 's/\+/\?/g' \
+-e '/\#放到iptables屏蔽的域名/,/^[[:space:]]$/d' \
+-e '/^[[:space:]]*$/d' "${file}"
+local original="$(cat "${file}")"
+cat << key > "${file}" 
+#########
+#Adaway专用白名单
+#禁止用在拦截黑名单或者Adguard订阅
+# _  ___   ___ _____ 
+#/ |/ _ \ / _ \___  |
+#| | | | | | | | / / 
+#| | |_| | |_| |/ /  
+#|_|\___/ \___//_/   
+#                    
+###########
+key
+echo "${original}" >> "${file}"
+}
+
 #写入信息
 function write_head () {
 local target_file="${1}"
@@ -616,6 +646,8 @@ mktouch_host
 mktouch_no_host
 #制作adblock规则
 adblock `pwd`/reward
+#制作Adaway白名单
+white_list_Maker_Adaway `pwd`/configure/排除列表.prop
 #统计
 rm -rf `pwd`/result `pwd`/host `pwd`/tmp_hosts
 test -f `pwd`/reward && echo "文件大小 $( du -sh `pwd`/reward )，hosts数量: $(cat `pwd`/reward | wc -l ) "
