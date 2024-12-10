@@ -44,6 +44,10 @@ do
 
 echo "
 127.0.0.1 p$i-ad-sign.byteimg.com
+127.0.0.1 p${i}-ad.byteimg.com
+127.0.0.1 p${i}-ad.adkwai.com
+127.0.0.1 p${i}-ad.adukwai.com
+127.0.0.1 p${i}-ad.adbkwai.com
 127.0.0.1 vs$i.bj2cm.u3.ucweb.com
 127.0.0.1 vs$i.bj2cu.u3.ucweb.com
 127.0.0.1 vs$i.bj2ct.u3.ucweb.com
