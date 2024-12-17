@@ -459,6 +459,8 @@
 
 
 #放到iptables屏蔽的域名
+#或者不要的网页广告
+#网页建议用专门的网页规则
 ^[0-9].*\.fls.doubleclick
 \.302br\.net$
 ^[0-9].*\.api.swrve.com
@@ -478,6 +480,14 @@
 \.api\.botman\.ninja$
 \.api\.5rocks\.io$
 \.api\.pushwoosh\.com$
+^127.0.0.1[[:space:]][0-9].*\..*\.pl$
+^127.0.0.1[[:space:]]d[0-9]*\..*\.pl$
+^127.0.0.1[[:space:]]a[0-9]*\..*\.pl$
+^127.0.0.1[[:space:]]a[a-c]*\..*\.pl$
+^127.0.0.1[[:space:]]c[0-9]*\..*\.pl$
+^127.0.0.1[[:space:]]pub-.*\.*2\.dev$
+^127.0.0.1[[:space:]]www\.pub-.*\.*2\.dev$
+^127.0.0.1[[:space:]].*\.goonline.*pl\.
 #\.c\.admaster\.com\.cn$
 xvideos.*cdn
 p[[:digit:]].*[[:digit:]]\.ahcdn\.com$
