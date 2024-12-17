@@ -392,7 +392,7 @@ echo "$(cat $old_file )" > "${file}"
 if test -f "$file" ;then
 	sed -i "/^#/d" "$file"
 	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d;/hugeota.d.miui.com/d;/bigota.d.miui.com/d;/[[:space:]]ip6-localhost/d;/[[:space:]]hostname/d;/localhost/d" "$file"
-	sed -i "s/127.0.0.1 /domain, /g" "$file"
+	sed -i "s/127.0.0.1 /Domain, /g" "$file"
 	sed -i "s/^\^//g" "$file"
 local file_content="$(cat "${file}")"
 local filter_count="$(echo "${file_content}" | sed '/^[[:space:]]*$/d' | wc -l)"
