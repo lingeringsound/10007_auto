@@ -9,6 +9,9 @@
 ^127.0.0.1[[:space:]]api.miui.security.xiaomi.com$
 ^127.0.0.1[[:space:]]api.sec.intl.miui.com$
 ^127.0.0.1[[:space:]]api.sec.miui.com$
+#涉及流量校正以及应用列表上传
+^127.0.0.1[[:space:]]adv.sec.miui.com$
+^127.0.0.1[[:space:]]flash.sec.miui.com$
 #QQ直播
 ^127.0.0.1[[:space:]]livew.l.qq.com$
 ^127.0.0.1[[:space:]]l.qq.com$
@@ -453,8 +456,10 @@
 ^127.0.0.1[[:space:]]mobile.pipe.aria.microsoft.com$
 #mytvsuper
 ^127.0.0.1[[:space:]]imasdk.googleapis.com$
-
-
+#123云盘卡开屏
+^127.0.0.1[[:space:]]sdk-api.beizi.biz$
+#快手送礼物
+^127.0.0.1[[:space:]]w1.kskwai.com$
 
 
 
