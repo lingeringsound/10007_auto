@@ -3,8 +3,8 @@
 ! Title: Host 10007
 ! Homepage: https://github.com/lingeringsound/10007_auto
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto
-! Last modified: 2024-12-20 22:17:03
-! 规则数量: 26699
+! Last modified: 2024-12-21 09:23:15
+! 规则数量: 26762
 
 ! 爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
 ! 这两没用了
@@ -6018,14 +6018,30 @@
 ||adx-drcn.op.hihonorcloud.cn^
 ||adx-drcn.op.hihonorcloud.com^
 ||adx-dre.op.hicloud.com^
+||adx-f.ads.heytapmobi.com^
+||adx-f.ads.heytapmobile.com^
+||adx-id.ads.heytapmobi.com^
+||adx-id.ads.heytapmobile.com^
+||adx-id.ads.oppomobile.com^
+||adx-in.ads.heytapmobi.com^
 ||adx-in.ads.heytapmobile.com^
+||adx-in.ads.oppomobile.com^
+||adx-kh.ads.heytapmobile.com^
+||adx-mm.ads.heytapmobile.com^
+||adx-my.ads.heytapmobile.com^
 ||adx-open-service.youku.com^
 ||adx-os-req.anythinktech.com^
 ||adx-os.anythinktech.com^
 ||adx-os.bridgeoos.com^
 ||adx-os.toponadss.com^
+||adx-ph.ads.heytapmobile.com^
 ||adx-sg-req.bridgeoos.com^
+||adx-sg.ads.heytapmobi.com^
+||adx-sg.ads.heytapmobile.com^
 ||adx-static.ksosoft.com^
+||adx-th.ads.heytapmobile.com^
+||adx-tw.ads.heytapmobile.com^
+||adx-vn.ads.heytapmobile.com^
 ||adx.adk2x.com^
 ||adx.admaster.com.cn^
 ||adx.adnxs.com^
@@ -8283,6 +8299,7 @@
 ||apistat.adbana.com^
 ||apistats-static.propellerads.com^
 ||apistats.propellerads.com^
+||aplpost-pl.click^
 ||aplysialors.click^
 ||apm-volcano.zuoyebang.com^
 ||apo.ero-advertising.com^
@@ -8878,7 +8895,14 @@
 ||bd1.click.com.cn^
 ||bd5fc22af608adf84f5ed0559a117820.serswise.pl^
 ||bdapi-ads.realmemobile.com^
+||bdapi-id.ads.heytapmobi.com^
+||bdapi-id.ads.heytapmobile.com^
+||bdapi-id.ads.oppomobile.com^
 ||bdapi-in-ads.realmemobile.com^
+||bdapi-in.ads.heytapmobi.com^
+||bdapi-in.ads.heytapmobile.com^
+||bdapi-in.ads.oppomobile.com^
+||bdapi.ads.heytapmobi.com^
 ||bdapi.ads.oppomobile.com^
 ||bdcode.2345.com^
 ||bdg-analytics.appspot.com^
@@ -9968,6 +9992,7 @@
 ||cje6h.lp.g.tech.downloads.pos.fs.account.azure.on.t.instagram.cp.acbhk0.gbc.criteo.com^
 ||cjhd.mediav.com^
 ||cjhq.baidu.com^
+||ck.ads.heytapmobi.com^
 ||ck.ads.oppomobile.com^
 ||ck.jads.co^
 ||ck.juicyads.com^
@@ -9975,6 +10000,17 @@
 ||ckxxbao.com^
 ||cl-997764a8.gcdn.co^
 ||cl-ad.x-flow.app^
+||cl-data-f.ads.heytapmobi.com^
+||cl-data-f.ads.heytapmobile.com^
+||cl-data-id.ads.heytapmobi.com^
+||cl-data-id.ads.heytapmobile.com^
+||cl-data-in.ads.heytapmobi.com^
+||cl-data-in.ads.heytapmobile.com^
+||cl-data-my.ads.heytapmobile.com^
+||cl-data-sg.ads.heytapmobi.com^
+||cl-data-sg.ads.heytapmobile.com^
+||cl-data-vn.ads.heytapmobile.com^
+||cl-data.ads.heytapmobi.com^
 ||clanpasta.click^
 ||claroconm.click^
 ||classicguarantee.pro^
@@ -10853,16 +10889,20 @@
 ||darowanezycie.click^
 ||dart.l.doubleclick.net^
 ||dartledbailed.click^
+||darvin-ec.ads.heytapmobi.com^
 ||dash.blast-ggesports.pro^
 ||dash.finalsblast.pro^
 ||dat2.ero-advertising.com^
 ||data-canary.flurry.com^
 ||data-ero-advertising.com^
+||data-f.ads.oppomobile.com^
 ||data-failover.eroadvertising.com^
 ||data-id.ads.oppomobile.com^
+||data-in.ads.oppomobile.com^
 ||data-ipv6.flurry.com^
 ||data-k8s.flurry.com^
 ||data.ad-score.com^
+||data.ads.heytapmobi.com^
 ||data.ads.oppomobile.com^
 ||data.adsrvr.org^
 ||data.aem-sites-internal.adobe.com^
@@ -12427,6 +12467,7 @@
 ||ficyveu3.pro^
 ||fidz.dazll.click^
 ||fifa19.mobi^
+||file-download.bytez.cloud^
 ||file-download.estudiosparrow.com^
 ||file-download.importadorachr.cl^
 ||file.autoads.asia^
@@ -19873,6 +19914,7 @@
 ||sanme2.taisantech.com^
 ||santander-wywiad2023.com^
 ||sap-traffic.com^
+||sapi.ads.oppomobile.com^
 ||sapphire-api.target.com^
 ||sarcasmadvisor.com^
 ||sas.nsm-corp.com^
@@ -20761,6 +20803,7 @@
 ||sms-check.info^
 ||sms-olx.dns-live.shop^
 ||sms-pro.pw^
+||sms-sg.ads.heytapmobile.com^
 ||sms.ads.heytapmobi.com^
 ||sms.ads.oppomobile.com^
 ||sms.email-disney.cjm.adobe.com^
@@ -21231,6 +21274,22 @@
 ||steenbergen.web.ero-advertising.com^
 ||stemmedgerres.click^
 ||stenadewy.pro^
+||stg-data-f.ads.heytapmobi.com^
+||stg-data-f.ads.heytapmobile.com^
+||stg-data-id.ads.heytapmobi.com^
+||stg-data-id.ads.heytapmobile.com^
+||stg-data-in.ads.heytapmobi.com^
+||stg-data-in.ads.heytapmobile.com^
+||stg-data-kh.ads.heytapmobile.com^
+||stg-data-mm.ads.heytapmobile.com^
+||stg-data-my.ads.heytapmobile.com^
+||stg-data-ph.ads.heytapmobile.com^
+||stg-data-ru.ads.heytapmobile.com^
+||stg-data-sg.ads.heytapmobi.com^
+||stg-data-sg.ads.heytapmobile.com^
+||stg-data-th.ads.heytapmobile.com^
+||stg-data-tw.ads.heytapmobile.com^
+||stg-data-vn.ads.heytapmobile.com^
 ||stg-data.ads.heytapmobi.com^
 ||stgowan.com^
 ||stickmessiahstick.pro^
@@ -21571,6 +21630,8 @@
 ||t-dsp.pinduoduo.com^
 ||t-e.flyme.cn^
 ||t-flow.flyme.cn^
+||t-id.ads.heytapmobile.com^
+||t-in.ads.heytapmobile.com^
 ||t-l.play.aiseet.atianqi.com^
 ||t-l.play.cp81.ott.cibntv.net^
 ||t-pro.online-one.site^
@@ -23891,6 +23952,7 @@
 ||wiescwojewodzka.click^
 ||wiezidomaslonce.click^
 ||wifescamara.click^
+||wifi.ads.oppomobile.com^
 ||wifiads.cleverads.vn^
 ||wigesyu0.pro^
 ||wijypea1.click^
@@ -24494,6 +24556,7 @@
 ||www.api.webhop.me^
 ||www.api.wutensor.com^
 ||www.api.xibitrs.com^
+||www.aplpost-pl.click^
 ||www.aponia.wildcatler.click^
 ||www.appeal-open-case.appealforpages3z.one^
 ||www.appeal-open-case.updateappealv8.biz^
