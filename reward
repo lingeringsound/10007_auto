@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2024-12-20 22:16:58 
+#更新时间: 2024-12-21 09:23:05 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:26941
+#规则数量:27007
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -3065,6 +3065,7 @@
 94.140.14.33 ads.heroldonline.com
 94.140.14.33 ads.hexun.com
 94.140.14.33 ads.heytapmobi.com
+94.140.14.33 ads.heytapmobile.com
 94.140.14.33 ads.heyzap.com
 94.140.14.33 ads.highdefdigest.com
 94.140.14.33 ads.hitbox.com
@@ -5620,10 +5621,26 @@
 94.140.14.33 adx-cn.anythinktech.com
 94.140.14.33 adx-drcn.op.dbankcloud.cn
 94.140.14.33 adx-dre.op.hicloud.com
+94.140.14.33 adx-f.ads.heytapmobi.com
+94.140.14.33 adx-f.ads.heytapmobile.com
+94.140.14.33 adx-id.ads.heytapmobi.com
+94.140.14.33 adx-id.ads.heytapmobile.com
+94.140.14.33 adx-id.ads.oppomobile.com
+94.140.14.33 adx-in.ads.heytapmobi.com
 94.140.14.33 adx-in.ads.heytapmobile.com
+94.140.14.33 adx-in.ads.oppomobile.com
+94.140.14.33 adx-kh.ads.heytapmobile.com
+94.140.14.33 adx-mm.ads.heytapmobile.com
+94.140.14.33 adx-my.ads.heytapmobile.com
 94.140.14.33 adx-open-service.youku.com
 94.140.14.33 adx-os.anythinktech.com
+94.140.14.33 adx-ph.ads.heytapmobile.com
+94.140.14.33 adx-sg.ads.heytapmobi.com
+94.140.14.33 adx-sg.ads.heytapmobile.com
 94.140.14.33 adx-static.ksosoft.com
+94.140.14.33 adx-th.ads.heytapmobile.com
+94.140.14.33 adx-tw.ads.heytapmobile.com
+94.140.14.33 adx-vn.ads.heytapmobile.com
 94.140.14.33 adx.adk2x.com
 94.140.14.33 adx.admaster.com.cn
 94.140.14.33 adx.adnxs.com
@@ -7868,6 +7885,7 @@
 94.140.14.33 apistat.adbana.com
 94.140.14.33 apistats-static.propellerads.com
 94.140.14.33 apistats.propellerads.com
+94.140.14.33 aplpost-pl.click
 94.140.14.33 aplysialors.click
 94.140.14.33 apm-volcano.zuoyebang.com
 94.140.14.33 apo.ero-advertising.com
@@ -8470,7 +8488,14 @@
 94.140.14.33 bd1.click.com.cn
 94.140.14.33 bd5fc22af608adf84f5ed0559a117820.serswise.pl
 94.140.14.33 bdapi-ads.realmemobile.com
+94.140.14.33 bdapi-id.ads.heytapmobi.com
+94.140.14.33 bdapi-id.ads.heytapmobile.com
+94.140.14.33 bdapi-id.ads.oppomobile.com
 94.140.14.33 bdapi-in-ads.realmemobile.com
+94.140.14.33 bdapi-in.ads.heytapmobi.com
+94.140.14.33 bdapi-in.ads.heytapmobile.com
+94.140.14.33 bdapi-in.ads.oppomobile.com
+94.140.14.33 bdapi.ads.heytapmobi.com
 94.140.14.33 bdapi.ads.oppomobile.com
 94.140.14.33 bdcode.2345.com
 94.140.14.33 bdg-analytics.appspot.com
@@ -9555,6 +9580,7 @@
 94.140.14.33 cje6h.lp.g.tech.downloads.pos.fs.account.azure.on.t.instagram.cp.acbhk0.gbc.criteo.com
 94.140.14.33 cjhd.mediav.com
 94.140.14.33 cjhq.baidu.com
+94.140.14.33 ck.ads.heytapmobi.com
 94.140.14.33 ck.ads.oppomobile.com
 94.140.14.33 ck.jads.co
 94.140.14.33 ck.juicyads.com
@@ -9562,6 +9588,17 @@
 94.140.14.33 ckxxbao.com
 94.140.14.33 cl-997764a8.gcdn.co
 94.140.14.33 cl-ad.x-flow.app
+94.140.14.33 cl-data-f.ads.heytapmobi.com
+94.140.14.33 cl-data-f.ads.heytapmobile.com
+94.140.14.33 cl-data-id.ads.heytapmobi.com
+94.140.14.33 cl-data-id.ads.heytapmobile.com
+94.140.14.33 cl-data-in.ads.heytapmobi.com
+94.140.14.33 cl-data-in.ads.heytapmobile.com
+94.140.14.33 cl-data-my.ads.heytapmobile.com
+94.140.14.33 cl-data-sg.ads.heytapmobi.com
+94.140.14.33 cl-data-sg.ads.heytapmobile.com
+94.140.14.33 cl-data-vn.ads.heytapmobile.com
+94.140.14.33 cl-data.ads.heytapmobi.com
 94.140.14.33 clanpasta.click
 94.140.14.33 claroconm.click
 94.140.14.33 classicguarantee.pro
@@ -10448,16 +10485,20 @@
 94.140.14.33 darowanezycie.click
 94.140.14.33 dart.l.doubleclick.net
 94.140.14.33 dartledbailed.click
+94.140.14.33 darvin-ec.ads.heytapmobi.com
 94.140.14.33 dash.blast-ggesports.pro
 94.140.14.33 dash.finalsblast.pro
 94.140.14.33 dat2.ero-advertising.com
 94.140.14.33 data-canary.flurry.com
 94.140.14.33 data-ero-advertising.com
+94.140.14.33 data-f.ads.oppomobile.com
 94.140.14.33 data-failover.eroadvertising.com
 94.140.14.33 data-id.ads.oppomobile.com
+94.140.14.33 data-in.ads.oppomobile.com
 94.140.14.33 data-ipv6.flurry.com
 94.140.14.33 data-k8s.flurry.com
 94.140.14.33 data.ad-score.com
+94.140.14.33 data.ads.heytapmobi.com
 94.140.14.33 data.ads.oppomobile.com
 94.140.14.33 data.adsrvr.org
 94.140.14.33 data.aem-sites-internal.adobe.com
@@ -12019,6 +12060,7 @@
 94.140.14.33 ficyveu3.pro
 94.140.14.33 fidz.dazll.click
 94.140.14.33 fifa19.mobi
+94.140.14.33 file-download.bytez.cloud
 94.140.14.33 file-download.estudiosparrow.com
 94.140.14.33 file-download.importadorachr.cl
 94.140.14.33 file.autoads.asia
@@ -19589,6 +19631,7 @@
 94.140.14.33 sanme2.taisantech.com
 94.140.14.33 santander-wywiad2023.com
 94.140.14.33 sap-traffic.com
+94.140.14.33 sapi.ads.oppomobile.com
 94.140.14.33 sapphire-api.target.com
 94.140.14.33 sarcasmadvisor.com
 94.140.14.33 sas.nsm-corp.com
@@ -20458,6 +20501,8 @@
 94.140.14.33 sms-check.info
 94.140.14.33 sms-olx.dns-live.shop
 94.140.14.33 sms-pro.pw
+94.140.14.33 sms-sg.ads.heytapmobile.com
+94.140.14.33 sms.ads.heytapmobi.com
 94.140.14.33 sms.ads.oppomobile.com
 94.140.14.33 sms.email-disney.cjm.adobe.com
 94.140.14.33 sms.email-mobiledx.cjm.adobe.com
@@ -20730,6 +20775,7 @@
 94.140.14.33 ssp-ads.us5.us.criteo.com
 94.140.14.33 ssp-ads.us5.vip.prod.criteo.com
 94.140.14.33 ssp-adsvip.gbc.criteo.com
+94.140.14.33 ssp-adx.ads.heytapmobi.com
 94.140.14.33 ssp-api.domob.cn
 94.140.14.33 ssp-api.mobadvent.com
 94.140.14.33 ssp-bidder-maaads-1prod.gbc.criteo.com
@@ -20923,6 +20969,22 @@
 94.140.14.33 steenbergen.web.ero-advertising.com
 94.140.14.33 stemmedgerres.click
 94.140.14.33 stenadewy.pro
+94.140.14.33 stg-data-f.ads.heytapmobi.com
+94.140.14.33 stg-data-f.ads.heytapmobile.com
+94.140.14.33 stg-data-id.ads.heytapmobi.com
+94.140.14.33 stg-data-id.ads.heytapmobile.com
+94.140.14.33 stg-data-in.ads.heytapmobi.com
+94.140.14.33 stg-data-in.ads.heytapmobile.com
+94.140.14.33 stg-data-kh.ads.heytapmobile.com
+94.140.14.33 stg-data-mm.ads.heytapmobile.com
+94.140.14.33 stg-data-my.ads.heytapmobile.com
+94.140.14.33 stg-data-ph.ads.heytapmobile.com
+94.140.14.33 stg-data-ru.ads.heytapmobile.com
+94.140.14.33 stg-data-sg.ads.heytapmobi.com
+94.140.14.33 stg-data-sg.ads.heytapmobile.com
+94.140.14.33 stg-data-th.ads.heytapmobile.com
+94.140.14.33 stg-data-tw.ads.heytapmobile.com
+94.140.14.33 stg-data-vn.ads.heytapmobile.com
 94.140.14.33 stg-data.ads.heytapmobi.com
 94.140.14.33 stgowan.com
 94.140.14.33 stickmessiahstick.pro
@@ -21263,6 +21325,8 @@
 94.140.14.33 t-dsp.pinduoduo.com
 94.140.14.33 t-e.flyme.cn
 94.140.14.33 t-flow.flyme.cn
+94.140.14.33 t-id.ads.heytapmobile.com
+94.140.14.33 t-in.ads.heytapmobile.com
 94.140.14.33 t-l.play.aiseet.atianqi.com
 94.140.14.33 t-l.play.cp81.ott.cibntv.net
 94.140.14.33 t-pro.online-one.site
@@ -23575,6 +23639,7 @@
 94.140.14.33 wiescwojewodzka.click
 94.140.14.33 wiezidomaslonce.click
 94.140.14.33 wifescamara.click
+94.140.14.33 wifi.ads.oppomobile.com
 94.140.14.33 wifiads.cleverads.vn
 94.140.14.33 wigesyu0.pro
 94.140.14.33 wijypea1.click
@@ -24178,6 +24243,7 @@
 94.140.14.33 www.api.webhop.me
 94.140.14.33 www.api.wutensor.com
 94.140.14.33 www.api.xibitrs.com
+94.140.14.33 www.aplpost-pl.click
 94.140.14.33 www.aponia.wildcatler.click
 94.140.14.33 www.appeal-open-case.appealforpages3z.one
 94.140.14.33 www.appeal-open-case.updateappealv8.biz
