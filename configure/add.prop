@@ -500,6 +500,8 @@
 @@||sdk-api.beizi.biz^$document
 ! 快手送礼
 @@||w1.kskwai.com^$app=com.smile.gifmaker
+! 唯品会APP
+@@||api.union.vip.com^$document
 
 
 ! 添加一些规则
@@ -540,5 +542,7 @@
 ||mddcloud.com.cn/adApi
 ! 部分广告开屏
 ||ib.snssdk.com/api/ad
+! 唯品会
+||api.union.vip.com/*/advert
 
 
