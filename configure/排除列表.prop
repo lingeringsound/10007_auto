@@ -203,8 +203,8 @@
 ^127.0.0.1[[:space:]]tracking\..*miui\.com$
 ^127.0.0.1[[:space:]]www\.tracking\..*miui\.com$
 #小米广告配置文件
-#^127.0.0.1[[:space:]]sdkconfig\.ad.*\.xiaomi\.com$
-#^127.0.0.1[[:space:]]www\.sdkconfig\.ad.*\.xiaomi\.com$
+^127.0.0.1[[:space:]]sdkconfig\.ad.*\.xiaomi\.com$
+^127.0.0.1[[:space:]]www\.sdkconfig\.ad.*\.xiaomi\.com$
 #MIUI手机管家
 ^127.0.0.1[[:space:]]data\.sec.*\.miui\.com$
 ^127.0.0.1[[:space:]]www\.data\.sec.*\.miui\.com$
