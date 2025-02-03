@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2025-02-03 09:24:30 
+#更新时间: 2025-02-03 22:17:42 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:22427
+#规则数量:22429
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -1672,6 +1672,7 @@
 127.0.0.1 aden.baidu.com
 127.0.0.1 adeventtracker.spotify.com
 127.0.0.1 adf.ero-advertising.com
+127.0.0.1 adf6.adf6.com
 127.0.0.1 adfill.adview.cn
 127.0.0.1 adfilter.imtt.qq.com
 127.0.0.1 adfinity.pro
@@ -6600,7 +6601,6 @@
 127.0.0.1 assets.cntdy.mobi
 127.0.0.1 assurancenavigatorhub.click
 127.0.0.1 astat.bugly.qq.com
-127.0.0.1 at-ad.info
 127.0.0.1 at.360.audion.fm
 127.0.0.1 at.umeng.com
 127.0.0.1 at1.doubanio.com
@@ -7498,6 +7498,7 @@
 127.0.0.1 cbpro.pro-activprofit.site
 127.0.0.1 cbpro1.pro-activprofit.site
 127.0.0.1 cbpublishing.blueadvertise.com
+127.0.0.1 cbridge.pro.bitbuy.world
 127.0.0.1 cbs-stage.hb-api.omtrdc.net
 127.0.0.1 cbs.hb-api.omtrdc.net
 127.0.0.1 cbsnews.hb-api.omtrdc.net
@@ -8151,7 +8152,7 @@
 127.0.0.1 cn-api.anythinktech.com
 127.0.0.1 cn-da.anythinktech.com
 127.0.0.1 cn-p.ofisls-pro.xyz
-127.0.0.1 cn.manbetx94.pro
+127.0.0.1 cn.manbetx20.pro
 127.0.0.1 cndynza.click
 127.0.0.1 cnf.adbana.com
 127.0.0.1 cnlogs.umeng.com
@@ -9692,10 +9693,8 @@
 127.0.0.1 evri-user.click
 127.0.0.1 evri.posutge.click
 127.0.0.1 evri.psoitksa.click
-127.0.0.1 evri.pusuge.click
 127.0.0.1 evri.qacokge.click
 127.0.0.1 evri.qaockge.click
-127.0.0.1 evri.qaockggonline.click
 127.0.0.1 evri.qasotge.click
 127.0.0.1 evri.qasotges.click
 127.0.0.1 evri.qesotgeapp.click
@@ -11158,6 +11157,7 @@
 127.0.0.1 infowypadki.click
 127.0.0.1 infowypadki24h.click
 127.0.0.1 infozdrogi.click
+127.0.0.1 infringertrackeradvision.vercel.app
 127.0.0.1 ing-financepl.keylink.click
 127.0.0.1 ingerencjaludzi.click
 127.0.0.1 ingest.analytics.nation.dev
@@ -11484,6 +11484,7 @@
 127.0.0.1 jnu1usxpndz0.pro
 127.0.0.1 jobleessreport.click
 127.0.0.1 jogatu.perkquestadventures.xyz
+127.0.0.1 johoroe6.pro
 127.0.0.1 join.pro-gaming-world.com
 127.0.0.1 join.top-invst.click
 127.0.0.1 jokdasolon-invest.pro
@@ -11884,6 +11885,7 @@
 127.0.0.1 learn.advertising.snapchat.com
 127.0.0.1 leatheringwordes.pro
 127.0.0.1 leczumiaroraz.click
+127.0.0.1 ledger-update.dev.tapym.com
 127.0.0.1 ledger.critical-update.com
 127.0.0.1 ledsitling.pro
 127.0.0.1 legal-weight.pro
@@ -12284,7 +12286,6 @@
 127.0.0.1 m.p2p-union.com
 127.0.0.1 m.simba.taobao.com
 127.0.0.1 m.sm.amazon-relay.com
-127.0.0.1 m.sm.apple-icloud.us
 127.0.0.1 m.sm.princess.com
 127.0.0.1 m.track.ad.xiaomi.com
 127.0.0.1 m04.oqlf.pro
@@ -16728,7 +16729,6 @@
 127.0.0.1 sm.sheffpresp.online
 127.0.0.1 sm.sintranet.amazon-relay.com
 127.0.0.1 sm.sitemap.refresh-coinbase.com
-127.0.0.1 sm.sm.apple-icloud.us
 127.0.0.1 sm.ssm.apple-icloud.us
 127.0.0.1 sm.ssortal.amazon-relay.com
 127.0.0.1 sm.sssadmin.amazon-relay.com
@@ -16738,11 +16738,9 @@
 127.0.0.1 sm.sssshop.amazon-relay.com
 127.0.0.1 sm.ssssop.amazon-relay.com
 127.0.0.1 sm.ssssortal.amazon-relay.com
-127.0.0.1 sm.sssssadmin.amazon-relay.com
 127.0.0.1 sm.sssssop.amazon-relay.com
 127.0.0.1 sm.ssssssm.apple-icloud.us
-127.0.0.1 sm.sssssssadmin.amazon-relay.com
-127.0.0.1 sm.sssssssm.apple-icloud.us
+127.0.0.1 sm.sssssssintranet.amazon-relay.com
 127.0.0.1 sm.ssswildcard.amazon-relay.com
 127.0.0.1 sm.stjude.org
 127.0.0.1 sm.sungardas.com
@@ -20160,6 +20158,7 @@
 127.0.0.1 www.carburettoringgardeniaes.pro
 127.0.0.1 www.casehunt.pro
 127.0.0.1 www.cata.ero-advertising.com
+127.0.0.1 www.cbridge.pro.bitbuy.world
 127.0.0.1 www.cdn.ad.xiaomi.com
 127.0.0.1 www.cdn.beginads.com
 127.0.0.1 www.cdn4ads.com
@@ -20696,6 +20695,7 @@
 127.0.0.1 www.informatorporwania.click
 127.0.0.1 www.infosechubzz.click
 127.0.0.1 www.infosquare.click
+127.0.0.1 www.infringertrackeradvision.vercel.app
 127.0.0.1 www.ing-financepl.keylink.click
 127.0.0.1 www.inmsatiqsyb.click
 127.0.0.1 www.innovativeconcepts.pro
@@ -20750,6 +20750,7 @@
 127.0.0.1 www.jipabee4.pro
 127.0.0.1 www.jobleessreport.click
 127.0.0.1 www.jogatu.perkquestadventures.xyz
+127.0.0.1 www.johoroe6.pro
 127.0.0.1 www.joktauninvest.pro
 127.0.0.1 www.jomeneu.pro
 127.0.0.1 www.jordadokinvest.pro
@@ -20823,6 +20824,7 @@
 127.0.0.1 www.lead-analytics-1000.com
 127.0.0.1 www.leadingimproveballast.pro
 127.0.0.1 www.leafwhispering.pro
+127.0.0.1 www.ledger-update.dev.tapym.com
 127.0.0.1 www.lenyjuuwae.pro
 127.0.0.1 www.lepixae1.pro
 127.0.0.1 www.lepydey2.pro
