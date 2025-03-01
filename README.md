@@ -1,10 +1,10 @@
 ## 去广告订阅自动更新
 ## [English](./README_en.md)
 
-## 统计 (2025-03-01 09:39:30)
+## 统计 (2025-03-01 22:16:34)
 ```
-完整版累积拦截域名: 29043
-保留广告奖励累积拦截域名: 28975
+完整版累积拦截域名: 44929
+保留广告奖励累积拦截域名: 44861
 ```
 ### 访问量 : ![visitors](http://006.freecounters.co.uk/count-133.pl?count=qe1milbo7p68gg219fmj&type=links&prog=unique)
 
@@ -31,6 +31,7 @@
 | [yhost](https://github.com/VeleSila/yhosts) | ❤感谢！❤ |
 | [Steven Black](https://github.com/StevenBlack/hosts) | ❤感谢！❤ |
 | [oisd](https://oisd.nl/howto) | ❤感谢！❤ |
+| [neodevhost](https://raw.githubusercontent.com/neodevpro/neodevhost/master/host) | ❤感谢！❤ |
 | [1024](https://github.com/Goooler/1024_hosts) | ❤感谢！❤ |
 | [adhost](https://github.com/E7KMbb/AD-hosts) | ❤感谢！❤ |
 | [hblock](https://hblock.molinero.dev/hosts) | ❤感谢！❤ |
