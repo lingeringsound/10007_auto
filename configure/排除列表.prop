@@ -479,8 +479,13 @@
 #网页建议用专门的网页规则
 ^[0-9].*\.fls.doubleclick
 \.302br\.net$
+\.pl$
 ^[0-9].*\.api.swrve.com
 ^[0-9].*\.eu-api.swrve.com
+safeframe\.googlesyndication\.com$
+\.adswizz.com$
+\.serswise\.pl$
+\.distil\.ninja$
 \.adj\.st$
 \.live\.api\.drift\.com$
 \.chat\.api\.drift\.com$
@@ -502,6 +507,9 @@
 ^127.0.0.1[[:space:]]a[a-c]*\..*\.pl$
 ^127.0.0.1[[:space:]]c[0-9]*\..*\.pl$
 ^127.0.0.1[[:space:]]pub-.*\.*2\.dev$
+^127.0.0.1[[:space:]].*-.*\.appsflyersdk\.com$
+^127.0.0.1[[:space:]]thetollroads
+^127.0.0.1[[:space:]].*-.*\.amazonaws.com$
 ^127.0.0.1[[:space:]]www\.pub-.*\.*2\.dev$
 ^127.0.0.1[[:space:]].*\.goonline.*pl\.
 #\.c\.admaster\.com\.cn$
