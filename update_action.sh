@@ -685,7 +685,7 @@ grep_value_file "1" 'anythinktech' "$hosts_file"
 #toponad
 grep_value_file "1" 'toponad' "$hosts_file"
 #neodev 
-grep_value_file "E" '[[:space:]]ad\.|ad[vsx]|[[:space:]]ad[0-9]|ads[0-9]|sdk\.|[[:space:]]api\.' "`pwd`/tmp_hosts/neodev"
+grep_value_file "E" '[[:space:]]ad\.|ad[vsx]|[[:space:]]ad[0-9]|ads[0-9]|sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/neodev"
 
 
 
