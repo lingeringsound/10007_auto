@@ -159,10 +159,11 @@ https://raw.githubusercontent.com/neodevpro/neodevhost/master/host|neodev
 
 echo -e "\n※下载hosts中……"
 for i in ${hosts_list}
-do
+do 
 	HostURL="$(echo "${i}" | cut -d'|' -f1)"
 	Hostname="$(echo "${i}" | cut -d'|' -f2)"
 	curl -k -L -o "${tmp_DIR}/$Hostname" "${HostURL}" >/dev/null 2>&1 && echo -e "※[ ${Hostname} ] 下载成功！" || echo -e "[ ${Hostname} ]下载失败！"
+	test "$(echo "${Hostname}" | grep 'neodev')" != "" && continue
 	hosts_original="$(cat ${tmp_DIR}/$Hostname 2>/dev/null )"
 	echo -e "${hosts_original}" >> "${file}"
 done
@@ -259,7 +260,7 @@ test -e "${output}" && rm -rf "${output}"
 if test -e "${target_dir}" ;then
 	echo -e "[$(date +%y-%m-%d-%T)] ※合并规则中……※\n"
 for i in ${target_dir}/*.conf ;do
-echo -e "$(cat $i 2>/dev/null )" >>"${output}"
+echo -e "$(cat "$i" 2>/dev/null )" >>"${output}"
 done && echo -e "[$(date +%y-%m-%d-%T)] ※完成合并规则！※\n" || echo -e "[$(date +%y-%m-%d-%T)] ※合并失败！※\n"
 	if test -e "${output}" ;then
 		echo -e "[$(date +%y-%m-%d-%T)] ※筛选重复项中……※\n"
@@ -680,7 +681,8 @@ grep_value_file "1" 'BeiZi' "$hosts_file"
 grep_value_file "1" 'anythinktech' "$hosts_file"
 #toponad
 grep_value_file "1" 'toponad' "$hosts_file"
-
+#neodev 
+grep_value_file "E" '[[:space:]]ad\.|ad[vsx]|[[:space:]]ad[0-9]|ads[0-9]|sdk\.|[[:space:]]api\.' "`pwd`/tmp_hosts/neodev"
 
 
 
