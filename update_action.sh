@@ -163,7 +163,10 @@ do
 	HostURL="$(echo "${i}" | cut -d'|' -f1)"
 	Hostname="$(echo "${i}" | cut -d'|' -f2)"
 	curl -k -L -o "${tmp_DIR}/$Hostname" "${HostURL}" >/dev/null 2>&1 && echo -e "※[ ${Hostname} ] 下载成功！" || echo -e "[ ${Hostname} ]下载失败！"
-	test "$(echo "${Hostname}" | grep 'neodev')" != "" && continue
+	test "$(echo "${Hostname}" | grep 'neodev')" != "" && {
+	wipe_value "${tmp_DIR}/$Hostname"
+	continue
+	}
 	hosts_original="$(cat ${tmp_DIR}/$Hostname 2>/dev/null )"
 	echo -e "${hosts_original}" >> "${file}"
 done
