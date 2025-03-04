@@ -475,6 +475,13 @@
 #百度部分UI图标
 ^127.0.0.1[[:space:]]gips1.baidu.com$
 ^127.0.0.1[[:space:]]gips2.baidu.com$
+#抖音人脸验证
+^127.0.0.1[[:space:]]saveu.*.zijieapi.com$
+^127.0.0.1[[:space:]]saveu.zijieapi.com$
+^127.0.0.1[[:space:]]mcs.zijieapi.com$
+^127.0.0.1[[:space:]]rcs.cmpassport.com$
+^127.0.0.1[[:space:]]saveu3-normal-lq.zijieapi.com$
+^127.0.0.1[[:space:]]saveu5-normal-lq.zijieapi.com$
 
 
 #放到iptables屏蔽的域名
