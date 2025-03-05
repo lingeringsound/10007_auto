@@ -3,8 +3,8 @@
 ! Title: Host 10007
 ! Homepage: https://github.com/lingeringsound/10007_auto
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto
-! Last modified: 2025-03-05 14:02:22
-! 规则数量: 35339
+! Last modified: 2025-03-05 21:59:12
+! 规则数量: 35336
 
 ! 爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
 ! 这两没用了
@@ -522,6 +522,9 @@
 @@||rcs.cmpassport.com^$document
 @@||saveu3-normal-lq.zijieapi.com^$document
 @@||saveu5-normal-lq.zijieapi.com^$document
+! MIUI在线权限管理器服务获取
+@@||srv.sec.miui.com^$document
+@@||srv.sec.intl.miui.com^$document
 
 
 ! 添加一些规则
@@ -6896,7 +6899,6 @@
 ||adskom.com^
 ||adskp.org^
 ||adskpak.com^
-||adsks.io^
 ||adslanding.com^
 ||adslidango.com^
 ||adslivecorp.com^
@@ -7808,7 +7810,6 @@
 ||advertising.yahoo.com^
 ||advertising.yahooinc.com^
 ||advertising.yandex.ru^
-||advertising.yandex.uluphill.com^
 ||advertising365.com^
 ||advertisingagencyinfaridabad.com^
 ||advertisingbait.postaffiliatepro.com^
@@ -9140,6 +9141,7 @@
 ||analytics.mindjolt.com^
 ||analytics.ml.homedepot.ca^
 ||analytics.mlstatic.com^
+||analytics.mng.ninlaunches.appsflyersdk.com^
 ||analytics.mobadme.jp^
 ||analytics.mobiedu.vn^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -11759,7 +11761,6 @@
 ||b42.dcntr-ads.com^
 ||b43.dcntr-ads.com^
 ||b43ad69b542.johncornell.com^
-||b45.dcntr-ads.com^
 ||b52.8hwo.pro^
 ||b52.mobi^
 ||b5cecad47f.com^
@@ -16576,7 +16577,6 @@
 ||fei.pro-market.net^
 ||feline-angle.pro^
 ||felisinvest.pro^
-||fenlandbaitsandleads.com^
 ||fenomeninformacyjny.click^
 ||feodzebecks.click^
 ||fert.ofishlprog1.click^
@@ -18857,6 +18857,7 @@
 ||insurance.leads360.com^
 ||int-trade.pro^
 ||int.gen.adsrvr.org^
+||intadx.com^
 ||intake-analytics.wikimedia.org^
 ||integ.naiadsystems.com^
 ||integralwall.baidu.com^
@@ -19618,6 +19619,7 @@
 ||l3.aaxads.com^
 ||l4.adsco.re^
 ||l6urqh27.sina.cn^
+||la-appsflyersdk.com^
 ||lab3.adserve.zone^
 ||labanquepostale.jupiter-analytics.com^
 ||laccidisme.pro^
@@ -19881,7 +19883,6 @@
 ||lf29-common-ckv-tos.pstatp.com^
 ||lf3-ad-platform.byteadverts.com^
 ||lf3-ad-union-sdk.pglstatp-toutiao.com^
-||lf3-ad-union-sdk.uinoa-personal-identify-prod.sense360eng.com^
 ||lf3-common-ckv-tos.pstatp.com^
 ||lf3-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf30-common-ckv-tos.pstatp.com^
@@ -23112,7 +23113,6 @@
 ||padspms.com^
 ||padssup.com^
 ||padsthai.com^
-||padstm.com^
 ||padsw.polaeva.fun^
 ||padv.co.il^
 ||paets.advertising.amazon.dev^
@@ -24256,7 +24256,6 @@
 ||profitmax-pl.click^
 ||profitmax.techlanding.pro^
 ||profitmaximazer.pro^
-||profiwww.doubleadserve.com^
 ||profs-mastr.ofishlprog3.click^
 ||prog1.activpl-pro.site^
 ||progizwalniajace.click^
@@ -25513,6 +25512,7 @@
 ||s.mixadvert.com^
 ||s.moatads.com^
 ||s.ortb.unoadsrv.com^
+||s.richaudience.cappsflyersdk.com^
 ||s.rocoads.net^
 ||s.sbt.smartyads.com^
 ||s.union.360.cn^
@@ -32790,6 +32790,7 @@
 ||www.encyclopediacriminalleads.com^
 ||www.energydrinkadverts.com^
 ||www.enjoyadsplatform.com^
+||www.enue.appsflyersdk.com^
 ||www.eonads.com^
 ||www.epargnez.adp.ca^
 ||www.epe.whkiyvzt.click^
@@ -32894,7 +32895,6 @@
 ||www.fireworkadservices1.com^
 ||www.firstclick.pro^
 ||www.fiscalfocus.click^
-||www.fivetrafficroads.com^
 ||www.fixly.pro^
 ||www.fizzymingle.pro^
 ||www.flagads.net^
@@ -33318,6 +33318,7 @@
 ||www.instinctiveads.com^
 ||www.insulevel24.pro^
 ||www.insurads.com^
+||www.intadx.com^
 ||www.intelligenceadx.com^
 ||www.inter1ads.com^
 ||www.interactiveads.ai^
@@ -33404,7 +33405,6 @@
 ||www.k9offh-upqs.click^
 ||www.kagurmicro.pro^
 ||www.kaivina25.click^
-||www.kajads.com^
 ||www.kajnicte.click^
 ||www.kds.ero-advertising.com^
 ||www.kefereo4.pro^
