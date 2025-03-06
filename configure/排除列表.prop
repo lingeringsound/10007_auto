@@ -485,6 +485,12 @@
 #MIUI在线权限管理器服务获取
 ^127.0.0.1[[:space:]]srv.sec.miui.com$
 ^127.0.0.1[[:space:]]srv.sec.intl.miui.com$
+#美图在线聊天
+^127.0.0.1[[:space:]]api.neixin.cn$
+#神马搜索建议
+^127.0.0.1[[:space:]]sugs.m.sm.cn$
+#奇异果Tv
+^127.0.0.1[[:space:]]sdk.ptqy.gitv.tv$
 
 
 #放到iptables屏蔽的域名
