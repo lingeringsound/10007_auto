@@ -153,7 +153,6 @@ https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts|1024
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts|StevenBlack
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts|大圣净化
-https://hosts.oisd.nl/basic|oisd
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/host|neodev
 '
 
@@ -163,7 +162,7 @@ do
 	HostURL="$(echo "${i}" | cut -d'|' -f1)"
 	Hostname="$(echo "${i}" | cut -d'|' -f2)"
 	curl -k -L -o "${tmp_DIR}/$Hostname" "${HostURL}" >/dev/null 2>&1 && echo -e "※[ ${Hostname} ] 下载成功！" || echo -e "[ ${Hostname} ]下载失败！"
-	test "$(echo "${Hostname}" | grep 'neodev')" != "" && {
+	test "$(echo "${Hostname}" | grep -E 'neodev|hblock')" != "" && {
 	wipe_value "${tmp_DIR}/$Hostname"
 	continue
 	}
@@ -685,8 +684,9 @@ grep_value_file "1" 'anythinktech' "$hosts_file"
 #toponad
 grep_value_file "1" 'toponad' "$hosts_file"
 #neodev 
-grep_value_file "E" '[[:space:]]ad\.|ad[vsx]|[[:space:]]ad[0-9]|ads[0-9]|sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/neodev"
-
+grep_value_file "E" '[[:space:]]ad\.|(-)?ad[vsx-]|[[:space:]]ad[0-9]|ads[0-9]{1,2}|[[:space:]]([a-z]{2,8}|-)?sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/neodev"
+#hblock
+grep_value_file "E" '[[:space:]]ad\.|(-)?ad[vsx-]|[[:space:]]ad[0-9]|ads[0-9]{1,2}|[[:space:]]([a-z]{2,8}|-)?sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/hblock"
 
 
 
