@@ -3,8 +3,8 @@
 
 ## count
 ```
-all: 17955
-reward: 17887
+all: 19621
+reward: 19553
 ```
 ### ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007&left_color=green&right_color=red)
 
@@ -26,4 +26,5 @@ reward: 17887
 | [1024](https://github.com/Goooler/1024_hosts) | ❤感谢！❤ |
 | [adhost](https://github.com/E7KMbb/AD-hosts) | ❤感谢！❤ |
 | [hlock](https://hblock.molinero.dev/hosts) | ❤感谢！❤ |
+| [1Host](https://o0.pages.dev/Lite/hosts.txt) | ❤感谢！❤ |
 
