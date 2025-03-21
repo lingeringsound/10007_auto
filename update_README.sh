@@ -70,6 +70,7 @@ cat << "key" >> `pwd`/README.md
 | [1024](https://github.com/Goooler/1024_hosts) | ❤感谢！❤ |
 | [adhost](https://github.com/E7KMbb/AD-hosts) | ❤感谢！❤ |
 | [hblock](https://hblock.molinero.dev/hosts) | ❤感谢！❤ |
+| [1Host](https://o0.pages.dev/Lite/hosts.txt) | ❤感谢！❤ |
 
 key
 cat << "key" >> `pwd`/README_en.md
@@ -84,6 +85,7 @@ cat << "key" >> `pwd`/README_en.md
 | [1024](https://github.com/Goooler/1024_hosts) | ❤感谢！❤ |
 | [adhost](https://github.com/E7KMbb/AD-hosts) | ❤感谢！❤ |
 | [hlock](https://hblock.molinero.dev/hosts) | ❤感谢！❤ |
+| [1Host](https://o0.pages.dev/Lite/hosts.txt) | ❤感谢！❤ |
 
 key
 }

@@ -154,6 +154,7 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-g
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts|大圣净化
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/host|neodev
+https://o0.pages.dev/Lite/hosts.txt|1Host
 '
 
 echo -e "\n※下载hosts中……"
@@ -162,7 +163,7 @@ do
 	HostURL="$(echo "${i}" | cut -d'|' -f1)"
 	Hostname="$(echo "${i}" | cut -d'|' -f2)"
 	curl -k -L -o "${tmp_DIR}/$Hostname" "${HostURL}" >/dev/null 2>&1 && echo -e "※[ ${Hostname} ] 下载成功！" || echo -e "[ ${Hostname} ]下载失败！"
-	test "$(echo "${Hostname}" | grep -E 'neodev|hblock')" != "" && {
+	test "$(echo "${Hostname}" | grep -E 'neodev|hblock|1Host')" != "" && {
 	wipe_value "${tmp_DIR}/$Hostname"
 	continue
 	}
@@ -687,7 +688,8 @@ grep_value_file "1" 'toponad' "$hosts_file"
 grep_value_file "E" '[[:space:]]ad\.|(-)?ad[vsx-]|[[:space:]]ad[0-9]|ads[0-9]{1,2}|[[:space:]]([a-z]{2,8}|-)?sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/neodev"
 #hblock
 grep_value_file "E" '[[:space:]]ad\.|(-)?ad[vsx-]|[[:space:]]ad[0-9]|ads[0-9]{1,2}|[[:space:]]([a-z]{2,8}|-)?sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/hblock"
-
+#1Host
+grep_value_file "E" '[[:space:]]ad\.|(-)?ad[vsx-]|[[:space:]]ad[0-9]|ads[0-9]{1,2}|[[:space:]]([a-z]{2,8}|-)?sdk\.|[[:space:]]([a-z]{2,5})?api\.' "`pwd`/tmp_hosts/1Host"
 
 
 }
