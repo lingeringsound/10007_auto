@@ -1,5 +1,6 @@
 name: add_hosts_master
 on:
+  workflow_dispatch:
   watch:
     types: [started]
   schedule:
