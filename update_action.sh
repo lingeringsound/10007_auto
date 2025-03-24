@@ -44,43 +44,43 @@ do
 #127.0.0.1 tnc3-bjlgy.bytedance.com
 
 echo "
-127.0.0.1 p$i-ad-sign.byteimg.com
-127.0.0.1 p${i}-ad.byteimg.com
-127.0.0.1 p${i}-ad.adkwai.com
-127.0.0.1 p${i}-ad.adukwai.com
-127.0.0.1 p${i}-ad.adbkwai.com
-127.0.0.1 vs$i.bj2cm.u3.ucweb.com
-127.0.0.1 vs$i.bj2cu.u3.ucweb.com
-127.0.0.1 vs$i.bj2ct.u3.ucweb.com
-127.0.0.1 vs${i}.bj2.u3.ucweb.com
-127.0.0.1 vs$i.gzct.u3.ucweb.com
-127.0.0.1 vs$i.gzcu.u3.ucweb.com
-127.0.0.1 vs$i.gzcm.u3.ucweb.com
-127.0.0.1 ${i}gtest.bj2cu.u3.ucweb.com
-127.0.0.1 ads$i-normal-lq.zijieapi.com
-127.0.0.1 ads$i-normal-lf.zijieapi.com
-127.0.0.1 ads$i-normal-hl.zijieapi.com
-127.0.0.1 ads$i-normal.zijieapi.com
-127.0.0.1 p$i-orange.byteorge.com
-127.0.0.1 p${i}-be-pack-sign.pglstatp-toutiao.com
-127.0.0.1 lf$i-common-ckv-tos.pstatp.com
-127.0.0.1 v$i-ad.ixigua.com
-127.0.0.1 api-access.pangolin-sdk-toutiao${i}.com
-127.0.0.1 api-access.pangolin-sdk-toutiao${i}-b.com
-127.0.0.1 xn--pan-ei"$i"e.xn--baidu-jm6h.com
-127.0.0.1 w${i}.gskwai.com
+0.0.0.0 p$i-ad-sign.byteimg.com
+0.0.0.0 p${i}-ad.byteimg.com
+0.0.0.0 p${i}-ad.adkwai.com
+0.0.0.0 p${i}-ad.adukwai.com
+0.0.0.0 p${i}-ad.adbkwai.com
+0.0.0.0 vs$i.bj2cm.u3.ucweb.com
+0.0.0.0 vs$i.bj2cu.u3.ucweb.com
+0.0.0.0 vs$i.bj2ct.u3.ucweb.com
+0.0.0.0 vs${i}.bj2.u3.ucweb.com
+0.0.0.0 vs$i.gzct.u3.ucweb.com
+0.0.0.0 vs$i.gzcu.u3.ucweb.com
+0.0.0.0 vs$i.gzcm.u3.ucweb.com
+0.0.0.0 ${i}gtest.bj2cu.u3.ucweb.com
+0.0.0.0 ads$i-normal-lq.zijieapi.com
+0.0.0.0 ads$i-normal-lf.zijieapi.com
+0.0.0.0 ads$i-normal-hl.zijieapi.com
+0.0.0.0 ads$i-normal.zijieapi.com
+0.0.0.0 p$i-orange.byteorge.com
+0.0.0.0 p${i}-be-pack-sign.pglstatp-toutiao.com
+0.0.0.0 lf$i-common-ckv-tos.pstatp.com
+0.0.0.0 v$i-ad.ixigua.com
+0.0.0.0 api-access.pangolin-sdk-toutiao${i}.com
+0.0.0.0 api-access.pangolin-sdk-toutiao${i}-b.com
+0.0.0.0 xn--pan-ei"$i"e.xn--baidu-jm6h.com
+0.0.0.0 w${i}.gskwai.com
 " >> "${file}"
 done
 
 #蓝奏云拦截域名
 for i in s d z ;do
 cat <<key >> "${file}"
-127.0.0.1 lanzou$i.com
-127.0.0.1 cbzhk.lanzou$i.com
-127.0.0.1 wwa.lanzou$i.com
-127.0.0.1 wws.lanzou$i.com
-127.0.0.1 www.lanzou$i.com
-127.0.0.1 wwe.lanzou$i.com
+0.0.0.0 lanzou$i.com
+0.0.0.0 cbzhk.lanzou$i.com
+0.0.0.0 wwa.lanzou$i.com
+0.0.0.0 wws.lanzou$i.com
+0.0.0.0 www.lanzou$i.com
+0.0.0.0 wwe.lanzou$i.com
 key
 done
 }
@@ -104,23 +104,23 @@ function wipe_value() {
 	sed -i 's|[[:space:]]$||g' "${file}"
 	#去除特殊的0.0.0.0符号
 	echo -e "\n去除特殊0.0.0.0符号……"
-	sed -i 's|^0.0.0.0[[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^0.0.0.0	|127.0.0.1 |g' "${file}"
-	sed -i 's|^0.0.0.0[[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^0.0.0.0[[:space:]][[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^0.0.0.0[[:space:]][[:space:]][[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
+	sed -i 's|^0.0.0.0[[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^0.0.0.0	|0.0.0.0 |g' "${file}"
+	sed -i 's|^0.0.0.0[[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^0.0.0.0[[:space:]][[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^0.0.0.0[[:space:]][[:space:]][[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
 	#去除特殊的127.0.0.1符号
 	echo -e "\n去除特殊127.0.0.1符号……"
-	sed -i 's|^127.0.0.1	|127.0.0.1 |g' "${file}"
+	sed -i 's|^127.0.0.1	|0.0.0.0 |g' "${file}"
 	sed -i '/^127.0.0.1[[:space:]]#/d;/^[[:space:]]*$/d' "${file}"
-	sed -i 's|^127.0.0.1[[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^127.0.0.1[[:space:]][[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^127.0.0.1[[:space:]][[:space:]][[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^127.0.0.1    |127.0.0.1 |g' "${file}"
+	sed -i 's|^127.0.0.1[[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^127.0.0.1[[:space:]][[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^127.0.0.1[[:space:]][[:space:]][[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^127.0.0.1    |0.0.0.0 |g' "${file}"
 	#去除"::"回环
 	echo -e "\n去除回环符号……"
-	sed -i 's|^::[[:space:]]|127.0.0.1 |g' "${file}"
-	sed -i 's|^::[[:space:]][[:space:]]|127.0.0.1 |g' "${file}"
+	sed -i 's|^::[[:space:]]|0.0.0.0 |g' "${file}"
+	sed -i 's|^::[[:space:]][[:space:]]|0.0.0.0 |g' "${file}"
 }
 
 #Host去重
@@ -282,6 +282,7 @@ sed -i '/\]/d' "${targetfile}"
 sed -i '/\[/d' "${targetfile}"
 sed -i '/(/d' "${targetfile}"
 sed -i '/)/d' "${targetfile}"
+sed -i 's|127.0.0.1|0.0.0.0|g' "${targetfile}"
 }
 
 function remove_ad() {
@@ -290,7 +291,7 @@ local target="$2"
 local local_host_file="$3"
 test -f "${target}" && rm -rf "${target}"
 cat "${file}" 2>/dev/null | sed '/^#/d;/^[[:space:]]*$/d' | while read host ;do
-echo -e "127.0.0.1 $host" >> "$target"
+echo -e "0.0.0.0 $host" >> "$target"
 done
 cat <<key >> $local_host_file
 #广告奖励
@@ -305,7 +306,7 @@ local target_file="${1}"
 local file="`pwd`/Adaway_white_list.prop"
 cp -rf "${target_file}" "${file}"
 test ! -f "${file}" && return 0
-sed -i -E -e 's/\^127.0.0.1\[\[:space:\]\]//g' \
+sed -i -E -e 's/\^0.0.0.0\[\[:space:\]\]//g' \
 -e 's/\$$//g' \
 -e 's/\\\./\./g' \
 -e 's/\[.*\]/\*/g' \
@@ -367,7 +368,7 @@ echo "$(cat $old_file )" > "${file}"
 if test -f "$file" ;then
 	sed -i "/^#/d" "$file"
 	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d;/hugeota.d.miui.com/d;/bigota.d.miui.com/d;/[[:space:]]ip6-localhost/d;/[[:space:]]hostname/d;/localhost/d" "$file"
-	sed -i "s/127.0.0.1 /||/g;s|$|^|g" "$file"
+	sed -i "s/0.0.0.0 /||/g;s|$|^|g" "$file"
 	sed -i "s/^\^//g" "$file"
 local file_content="$(cat "${file}")"
 local filter_count="$(echo "${file_content}" | sed '/^[[:space:]]*$/d' | wc -l)"
@@ -396,7 +397,7 @@ echo "$(cat $old_file )" > "${file}"
 if test -f "$file" ;then
 	sed -i "/^#/d" "$file"
 	sed -i "/^::1/d;/translate.google.com/d;/translate.googleapis.com/d;/hugeota.d.miui.com/d;/bigota.d.miui.com/d;/[[:space:]]ip6-localhost/d;/[[:space:]]hostname/d;/localhost/d" "$file"
-	sed -i "s/127.0.0.1 /Domain, /g" "$file"
+	sed -i "s/0.0.0.0 /Domain, /g" "$file"
 	sed -i "s/^\^//g" "$file"
 local file_content="$(cat "${file}")"
 local filter_count="$(echo "${file_content}" | sed '/^[[:space:]]*$/d' | wc -l)"
