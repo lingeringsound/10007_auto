@@ -548,9 +548,14 @@
 /static/upload/ads
 /api/index/splash_ad
 ||frodo.douban.com/api/v2/erebor/feed_ad
+||douban.com/v2/app_ads
+||douban.com/*/*_ads
+||douban.com/api/v2/home_ads
 ||douban.com/count/
 ! 网易云音乐
 ||interface*.music.163.com/eapi/ad
+||interface.music.163.com/eapi/ad
+||interface3.music.163.com/eapi/ad
 ! 书旗小说
 ||shuqireader.com/api/ad/adserver
 /api/ad/adserver/
@@ -565,5 +570,13 @@
 ||ib.snssdk.com/api/ad
 ! 唯品会
 ||api.union.vip.com/*/advert
+! bilibili
+||app.bilibili.com/x/v2/feed/index?$replace=/ad_info//
+||app.bilibili.com/x/v2/view?$replace=/ad_info//
+||app.bilibili.com/x/v2/splash/show
+||app.bilibili.com/x/v2/splash/list
+||api.bilibili.com/x/v2/dm/ad
+||api.bilibili.com/x/vip/ads
+||api.bilibili.com/pgc/season/player/cards
 
 

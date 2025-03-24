@@ -79,8 +79,13 @@ KeyWord, /static/upload/ads
 KeyWord, /api/index/splash_ad
 KeyWord, /api/ad/adserver/
 URL, https://frodo.douban.com/api/v2/erebor/feed_ad
+URL, https://douban.com/v2/app_ads
+URL, https://douban.com/*/*_ads
+URL, https://douban.com/api/v2/home_ads
 URL, https://douban.com/count/
 URL, https://interface*.music.163.com/eapi/ad
+URL, https://interface.music.163.com/eapi/ad
+URL, https://interface3.music.163.com/eapi/ad
 URL, https://shuqireader.com/api/ad/adserver
 URL, https://mp.weixin.qq.com/mp/advertisement
 URL, https://mp.weixin.qq.com/mp/getappmsgad
@@ -89,4 +94,9 @@ URL, https://mp.weixin.qq.com/mp/ad_biz_info
 URL, https://mddcloud.com.cn/adApi
 URL, https://ib.snssdk.com/api/ad
 URL, https://api.union.vip.com/*/advert
+URL, https://app.bilibili.com/x/v2/splash/show
+URL, https://app.bilibili.com/x/v2/splash/list
+URL, https://api.bilibili.com/x/v2/dm/ad
+URL, https://api.bilibili.com/x/vip/ads
+URL, https://api.bilibili.com/pgc/season/player/cards
 #END
