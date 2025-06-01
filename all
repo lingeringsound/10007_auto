@@ -2,7 +2,7 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
 #在相应行的开头加个"#"号
-#更新时间: 2025-06-01 10:03:49
+#更新时间: 2025-06-01 22:18:57
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
@@ -15,7 +15,7 @@
 127.0.1.1 hostname
 127.0.1.2 hostname
 127.0.1.3 hostname
-#规则数量:50007
+#规则数量:50027
 #GIthub订阅主页: https://github.com/lingeringsound/10007_auto
 
 0.0.0.0 0.r.msn.com
@@ -758,6 +758,7 @@
 0.0.0.0 ad-logging2.ap-northeast-2.elasticbeanstalk.com
 0.0.0.0 ad-m.asia
 0.0.0.0 ad-mapps.com
+0.0.0.0 ad-material.ys7.com
 0.0.0.0 ad-maven.com
 0.0.0.0 ad-maven.fs.ak-is2.net
 0.0.0.0 ad-maven.xml-eu.ak-is2.net
@@ -2380,6 +2381,7 @@
 0.0.0.0 ads-metadata-prod.zeustechnology.com
 0.0.0.0 ads-mobile.jiwire.com
 0.0.0.0 ads-nd85c.ortb.adelement.com
+0.0.0.0 ads-nd85d.ortb.adelement.com
 0.0.0.0 ads-nd8iv.ortb.adelement.com
 0.0.0.0 ads-nd8lj.ortb.adelement.com
 0.0.0.0 ads-nd9kh.ortb.adelement.com
@@ -3285,6 +3287,7 @@
 0.0.0.0 ads.livetv794.me
 0.0.0.0 ads.livetv806.me
 0.0.0.0 ads.livetv852.me
+0.0.0.0 ads.livetv853.me
 0.0.0.0 ads.lmmob.com
 0.0.0.0 ads.localnow.api.cms.amdvids.com
 0.0.0.0 ads.localyokelmedia.com
@@ -3789,6 +3792,7 @@
 0.0.0.0 ads.tarrobads.com
 0.0.0.0 ads.tbs.com
 0.0.0.0 ads.tcsemotion.com
+0.0.0.0 ads.teads.tv
 0.0.0.0 ads.technoratimedia.com
 0.0.0.0 ads.techvibes.com
 0.0.0.0 ads.techweb.com
@@ -5486,6 +5490,7 @@
 0.0.0.0 adspserving.com
 0.0.0.0 adspsp.com
 0.0.0.0 adspublicidades.agency
+0.0.0.0 adspy.hdthot.com
 0.0.0.0 adspy.javrank.com
 0.0.0.0 adspygl.xyz
 0.0.0.0 adspyglass.com
@@ -5798,6 +5803,7 @@
 0.0.0.0 adv2.rcspubblicita.it
 0.0.0.0 advack.net
 0.0.0.0 advaction.ru
+0.0.0.0 advally-audizine-tagan.adlightning.com
 0.0.0.0 advally-baseballamerica-tagan.adlightning.com
 0.0.0.0 advally-mcm-tagan.adlightning.com
 0.0.0.0 advally-rogerebert-tagan.adlightning.com
@@ -5840,6 +5846,7 @@
 0.0.0.0 advancedworld.site
 0.0.0.0 advancelocal.blueconic.net
 0.0.0.0 advancelocalmediallc-clevelandcom.adsbynimbus.com
+0.0.0.0 advancelocalmediallc-lehighvalleylivecom.adsbynimbus.com
 0.0.0.0 advancelocalmediallc-mlivecom.adsbynimbus.com
 0.0.0.0 advancelocalmediallc-njcom.adsbynimbus.com
 0.0.0.0 advancelocalmediallc-oregonlivecom.adsbynimbus.com
@@ -6051,7 +6058,6 @@
 0.0.0.0 adverty.com
 0.0.0.0 adverum.lt
 0.0.0.0 advg.agency
-0.0.0.0 advg.jp
 0.0.0.0 advgalaxy.com
 0.0.0.0 advgame.org
 0.0.0.0 adviad.com
@@ -7552,6 +7558,7 @@
 0.0.0.0 api.areametrics.com
 0.0.0.0 api.areyouwatchingthis.com
 0.0.0.0 api.arity.com
+0.0.0.0 api.around.xxx
 0.0.0.0 api.asia-se1gcp1.pubnative.net
 0.0.0.0 api.asiatone.net
 0.0.0.0 api.atas.io
@@ -8001,6 +8008,7 @@
 0.0.0.0 api.nend.net
 0.0.0.0 api.netcoresmartech.com
 0.0.0.0 api.network.exponea.com
+0.0.0.0 api.networkbench.com
 0.0.0.0 api.neuro-id.com
 0.0.0.0 api.newad.ifeng.com
 0.0.0.0 api.news-headlines.co
@@ -10896,6 +10904,7 @@
 0.0.0.0 celiacontr.pro
 0.0.0.0 cell001.us-east-1.prod.entry.video-ads.a2z.com
 0.0.0.0 cell7001.iad.pg.event-na.ads.aps.amazon-adsystem.com
+0.0.0.0 cell7002.pdx.pg.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8001.iad.pg.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8001.iad.pg.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.pg.bid-na.ads.aps.amazon-adsystem.com
@@ -12913,6 +12922,7 @@
 0.0.0.0 dcp-923.ads-dev.sportradar.com
 0.0.0.0 dcp-946.ads-dev.sportradar.com
 0.0.0.0 dcp-970.ads-dev.sportradar.com
+0.0.0.0 dcp.ads.sportradar.com
 0.0.0.0 dcrfnt-us.adsmoloco.com
 0.0.0.0 dcsdk.100ulife.com
 0.0.0.0 dd.toponad.com
@@ -14175,6 +14185,7 @@
 0.0.0.0 dvb.pandora.xiaomi.com
 0.0.0.0 dw-collect.ksosoft.com
 0.0.0.0 dw-online.ksosoft.com
+0.0.0.0 dxiodc.skadsdkless.appsflyersdk.com
 0.0.0.0 dyastinfro.pro
 0.0.0.0 dycemediluv.pro
 0.0.0.0 dyematoluo.pro
@@ -18075,6 +18086,7 @@
 0.0.0.0 ingesslipk.pro
 0.0.0.0 ingest-dr.vfw.prod.skywave.jetstream.advertising.a2z.com
 0.0.0.0 ingest.eu-west-1.prod.skywave.jetstream.advertising.a2z.com
+0.0.0.0 ingest.grupoadslzone.es
 0.0.0.0 ingest.us-east-1.prod.skywave.jetstream.advertising.a2z.com
 0.0.0.0 ingest.us-west-2.prod.skywave.jetstream.advertising.a2z.com
 0.0.0.0 ingest.vfw.prod.skywave.jetstream.advertising.a2z.com
@@ -18211,6 +18223,7 @@
 0.0.0.0 insulevel24.pro
 0.0.0.0 insulpecil.pro
 0.0.0.0 insurads.com
+0.0.0.0 int-cdn.adsrvr.org
 0.0.0.0 intabmitic.pro
 0.0.0.0 intabprote.pro
 0.0.0.0 intadx.com
@@ -23867,6 +23880,7 @@
 0.0.0.0 qiytximmzayf.pro
 0.0.0.0 qkjfdqqxnnkj.pro
 0.0.0.0 qkztpx.pro
+0.0.0.0 qlj12-njv3l.ads.tremorhub.com
 0.0.0.0 qmsdk.shouji.sogou.com
 0.0.0.0 qoguhuo4.pro
 0.0.0.0 qohemoe7.pro
@@ -24412,6 +24426,7 @@
 0.0.0.0 rcm-eu.amazon-adsystem.com
 0.0.0.0 rcm-fe.amazon-adsystem.com
 0.0.0.0 rcm-na.amazon-adsystem.com
+0.0.0.0 rcni.advertserve.com
 0.0.0.0 rcv.a-i-ad.com
 0.0.0.0 rcv.aiclk.com
 0.0.0.0 rcv.mobad.ijinshan.com
@@ -24883,6 +24898,7 @@
 0.0.0.0 riccosuper.pro
 0.0.0.0 ricenzuppi.pro
 0.0.0.0 ricetpoper.pro
+0.0.0.0 rich-media.v3.awesomeads.superawesome.tv
 0.0.0.0 richads.com
 0.0.0.0 richemater.pro
 0.0.0.0 richibis.pro
@@ -25715,6 +25731,7 @@
 0.0.0.0 s28.cnzz.com
 0.0.0.0 s29.cnzz.com
 0.0.0.0 s2s-iad.pg.bid-na.ads.aps.amazon-adsystem.com
+0.0.0.0 s2s-pdx.pg.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 s2s-sc-main-was.adservrs.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 s2s.pg.bid-na.ads.aps.amazon-adsystem.com
@@ -25984,6 +26001,7 @@
 0.0.0.0 sax8.sina.com.cn
 0.0.0.0 sax9.sina.com.cn
 0.0.0.0 saxn.sina.com.cn
+0.0.0.0 saxon.iad-03.appboy.com
 0.0.0.0 saxs.sina.cn
 0.0.0.0 saxs.sina.com.cn
 0.0.0.0 sb.goadserver.com
@@ -26910,6 +26928,8 @@
 0.0.0.0 sfummcapti.pro
 0.0.0.0 sfummsonor.pro
 0.0.0.0 sg-ali-ad-track-sdk.mtgglobals.com
+0.0.0.0 sg-gcp-ad-mof-sdk-asia-southeast1-b.rayjump.com
+0.0.0.0 sg-gcp-ad-mof-sdk-asia-southeast1-c.rayjump.com
 0.0.0.0 sg-gcp-ad-track-adx-asia-southeast1-a.rayjump.com
 0.0.0.0 sg-gcp-ad-track-adx-asia-southeast1-b.rayjump.com
 0.0.0.0 sg-gcp-ad-track-sdk-asia-southeast1-b.mtgglobals.com
