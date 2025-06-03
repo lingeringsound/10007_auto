@@ -1,9 +1,9 @@
 ## 去广告订阅自动更新
 ## [English](./README_en.md)
 
-## 统计 (2025-06-02 22:22:08)
+## 统计 (2025-06-03 09:48:19)
 ```
-累积拦截域名: 77864
+累积拦截域名: 77865
 ```
 ## 访问量 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007_auto&left_color=green&right_color=red)
 
