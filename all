@@ -2,7 +2,7 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
 #在相应行的开头加个"#"号
-#更新时间: 2025-06-08 09:55:57
+#更新时间: 2025-06-08 22:18:11
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
@@ -15,7 +15,7 @@
 127.0.1.1 hostname
 127.0.1.2 hostname
 127.0.1.3 hostname
-#规则数量:50706
+#规则数量:50713
 #GIthub订阅主页: https://github.com/lingeringsound/10007_auto
 
 0.0.0.0 0.r.msn.com
@@ -974,6 +974,7 @@
 0.0.0.0 ad.api.attribuly.com
 0.0.0.0 ad.api.fello.net
 0.0.0.0 ad.api.kaffnet.com
+0.0.0.0 ad.api.looker.com
 0.0.0.0 ad.api.moji.com
 0.0.0.0 ad.api.stax.kr
 0.0.0.0 ad.api.youshiad.cn
@@ -1082,6 +1083,7 @@
 0.0.0.0 ad.dedicatedmedia.com
 0.0.0.0 ad.deepthought.industries
 0.0.0.0 ad.depositfiles.com
+0.0.0.0 ad.dev-cloud2.starleaf.com
 0.0.0.0 ad.dev.360.cn
 0.0.0.0 ad.dev.smartnews.net
 0.0.0.0 ad.deviantart.com
@@ -1733,7 +1735,6 @@
 0.0.0.0 ad19digital.checkm8.com
 0.0.0.0 ad1digital.checkm8.com
 0.0.0.0 ad1game.ru
-0.0.0.0 ad1x7.mea5ms.com
 0.0.0.0 ad2.360yield.com
 0.0.0.0 ad2.ad-srv.net
 0.0.0.0 ad2.adecn.com
@@ -2321,12 +2322,14 @@
 0.0.0.0 ads-bilek.com
 0.0.0.0 ads-bitcoin.com
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
+0.0.0.0 ads-buf-nfl.yinzcam.com
 0.0.0.0 ads-by.madadsmedia.com
 0.0.0.0 ads-by.yieldselect.com
 0.0.0.0 ads-candid.adhese.com
 0.0.0.0 ads-cdn.fptplay.net
 0.0.0.0 ads-cdn.loopaautomate.com
 0.0.0.0 ads-cdn.tenmax.io
+0.0.0.0 ads-chi-nfl.yinzcam.com
 0.0.0.0 ads-cloud.rovio.com
 0.0.0.0 ads-collector.luizalabs.com
 0.0.0.0 ads-colruytgroup.adhese.com
@@ -3949,6 +3952,7 @@
 0.0.0.0 ads.videoadvertising.com
 0.0.0.0 ads.videofen.com
 0.0.0.0 ads.videohub.tv
+0.0.0.0 ads.videomaker.com
 0.0.0.0 ads.videosz.com
 0.0.0.0 ads.videy.co
 0.0.0.0 ads.vidoomy.com
@@ -5131,7 +5135,6 @@
 0.0.0.0 adserverxxl.de
 0.0.0.0 adservetx.media.net
 0.0.0.0 adservex.media.net
-0.0.0.0 adservf.com
 0.0.0.0 adservfnt-asia.adsmoloco.com
 0.0.0.0 adservg.com
 0.0.0.0 adservice.aiyouaiyou.cn
@@ -5564,6 +5567,7 @@
 0.0.0.0 adstat.izuiyou.com
 0.0.0.0 adstat.moyu88.xyz
 0.0.0.0 adstat.ziyemy.shop
+0.0.0.0 adstat2.ziyemy.shop
 0.0.0.0 adstatic.b-cdn.net
 0.0.0.0 adstatic.zhihu.com
 0.0.0.0 adstatistics.av380.net
@@ -5592,6 +5596,7 @@
 0.0.0.0 adstore-1252524079.file.myqcloud.com
 0.0.0.0 adstore-index-1252524079.file.myqcloud.com
 0.0.0.0 adstore.jp
+0.0.0.0 adstorebluebird.cy
 0.0.0.0 adstory.gotrackier.com
 0.0.0.0 adstosearch.com
 0.0.0.0 adstrack-meta-id29217.vercel.app
@@ -7441,7 +7446,6 @@
 0.0.0.0 api.ad.yipinread.com
 0.0.0.0 api.ad4game.com
 0.0.0.0 api.adaether.com
-0.0.0.0 api.adalytics.adastra.digital
 0.0.0.0 api.adapty.io
 0.0.0.0 api.adbana.com
 0.0.0.0 api.adblockfast.com
@@ -7647,7 +7651,6 @@
 0.0.0.0 api.ca.looker.com
 0.0.0.0 api.cactusglobal.io
 0.0.0.0 api.callget.cn
-0.0.0.0 api.campaigns.notino.com
 0.0.0.0 api.caroda.io
 0.0.0.0 api.cartsee.cartx.cloud
 0.0.0.0 api.cazamba.com
@@ -7721,6 +7724,7 @@
 0.0.0.0 api.deep.bi
 0.0.0.0 api.demand.supply
 0.0.0.0 api.demandbase.com
+0.0.0.0 api.dev-cloud2.starleaf.com
 0.0.0.0 api.dev.acxsparkpost.acxiom.com
 0.0.0.0 api.dev.looker.com
 0.0.0.0 api.devatics.io
@@ -7747,7 +7751,6 @@
 0.0.0.0 api.dtk.abtasty.com
 0.0.0.0 api.dttrk.com
 0.0.0.0 api.duapp.com
-0.0.0.0 api.e-pfg.ca
 0.0.0.0 api.e.mi.com
 0.0.0.0 api.eaglem.net
 0.0.0.0 api.eagllwin.com
@@ -9731,6 +9734,7 @@
 0.0.0.0 blotcmelam.pro
 0.0.0.0 blowcbrogl.pro
 0.0.0.0 blowlsagri.pro
+0.0.0.0 blpciu.skadsdkless.appsflyersdk.com
 0.0.0.0 blu.mobileads.msn.com
 0.0.0.0 blucher.iad-03.braze.com
 0.0.0.0 blue-ad.ad-stir.com
@@ -26282,6 +26286,7 @@
 0.0.0.0 sacraperse.pro
 0.0.0.0 sacrishebe.pro
 0.0.0.0 sad-g.com
+0.0.0.0 sad-sandwich.pro
 0.0.0.0 sad.adsgram.ai
 0.0.0.0 sadc1.outbrain.org
 0.0.0.0 sadn48dsam.cc
@@ -31419,6 +31424,7 @@
 0.0.0.0 us-geo.cityads.com
 0.0.0.0 us-mad-king.cell.us.nr-data.net
 0.0.0.0 us-notify.bidagent.xad.com
+0.0.0.0 us-sad-sandwich.cell.us.nr-data.net
 0.0.0.0 us-sad-trombone.cell.us.nr-data.net
 0.0.0.0 us-vast.unoadsrv.com
 0.0.0.0 us-west-2.ads.digital.disneyadvertising.com
@@ -33595,6 +33601,7 @@
 0.0.0.0 www.adstaces.ero-advertising.com
 0.0.0.0 www.adstargetx.com
 0.0.0.0 www.adstogo.com
+0.0.0.0 www.adstorebluebird.cy
 0.0.0.0 www.adstosearch.com
 0.0.0.0 www.adstrack-meta-id29217.vercel.app
 0.0.0.0 www.adstract.adk2x.com
