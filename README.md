@@ -3,8 +3,8 @@
 
 ## 统计
 ```
-完整版累积拦截域名: 76533
-保留广告奖励累积拦截域名: 76486
+完整版累积拦截域名: 76462
+保留广告奖励累积拦截域名: 76415
 ```
 ## 访问量 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007_auto&left_color=green&right_color=red)
 
