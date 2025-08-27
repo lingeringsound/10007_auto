@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2025-08-27 09:43:02
+! Last modified: 2025-08-27 22:21:08
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2025-08-27 09:43:02 ^
+!更新时间: 2025-08-27 22:21:08 ^
 
-!规则数量:72524^
+!规则数量:72584^
 !#################^
 
 110.43.121.13 bigota.d.miui.com^
@@ -468,7 +468,6 @@
 ||acadiannaturecruises.mobi^
 ||acantcocco.pro^
 ||acarprassa.pro^
-||acbhk0-corp.gbc.criteo.com^
 ||accagpries.pro^
 ||accalbarat.pro^
 ||accalbeati.pro^
@@ -2157,6 +2156,7 @@
 ||ads-816899299.ap-southeast-1.elb.amazonaws.com^
 ||ads-a.juicyads.com^
 ||ads-abc.com^
+||ads-acb.gbc.criteo.com^
 ||ads-admin.hubs.vn^
 ||ads-adv.top^
 ||ads-alpha.ewscloud.com^
@@ -2172,6 +2172,7 @@
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
 ||ads-api.videy.co^
+||ads-appnexusprod.gbc.criteo.com^
 ||ads-b-480313385.us-west-1.elb.amazonaws.com^
 ||ads-backend.chaincliq.com^
 ||ads-bi.zenkube.com^
@@ -2235,6 +2236,7 @@
 ||ads-portal-cdn.vidaatv.net^
 ||ads-portal.net^
 ||ads-preads-previewprodiewprod.gbc.criteo.com^
+||ads-preiniewprod.gbc.criteo.com^
 ||ads-preview.as.criteo.com^
 ||ads-preview.criteo.com^
 ||ads-preview.da.us.criteo.com^
@@ -2245,15 +2247,14 @@
 ||ads-preview.fr3.eu.criteo.com^
 ||ads-preview.fr3.vip.prod.criteo.com^
 ||ads-preview.jp2.as.criteo.com^
-||ads-preview.jp2.vip.prod.criteo.com^
 ||ads-preview.nl3.eu.criteo.com^
 ||ads-preview.nl3.vip.prod.criteo.com^
 ||ads-preview.sg1.as.criteo.com^
 ||ads-preview.sg1.vip.prod.criteo.com^
 ||ads-preview.us.criteo.com^
-||ads-preview.us5.us.criteo.com^
 ||ads-preview.us5.vip.prod.criteo.com^
 ||ads-previewprod.gbc.criteo.com^
+||ads-prewwwiewprod.gbc.criteo.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||ads-query.luizalabs.com^
 ||ads-redis.ecn.cl^
@@ -7208,7 +7209,6 @@
 ||api-analytics.rozetka.com.ua^
 ||api-analytics.sazka.cz^
 ||api-analytics.t-mobile.cz^
-||api-analytics.telekom.sk^
 ||api-analytics.topankovo.sk^
 ||api-app.ants.vn^
 ||api-app.coocaa.ottcn.com^
@@ -8153,7 +8153,6 @@
 ||api.ngamgaixinh.art^
 ||api.ning.com^
 ||api.ninjabrasilstore.com.br^
-||api.nl3.eu.criteo.com^
 ||api.nopbreak.ru^
 ||api.notionconcurseiro.com.br^
 ||api.nrelate.com^
@@ -8588,18 +8587,27 @@
 ||app.advertisingsolutions.att-mail.com^
 ||app.adviad.com^
 ||app.ajudacomcompra.click^
-||app.ajudaresgate.click^
+||app.ajudanoresgate.click^
+||app.ajudanoseuresgat.click^
+||app.ajudanoseuresgate.click^
+||app.ajudatotal.click^
+||app.ajudcompleta.click^
 ||app.atendimentoajuda.click^
+||app.atendimentochat.click^
 ||app.atendimentocliente.click^
 ||app.atendimentopersonalizado.click^
 ||app.atendimentosac.click^
 ||app.auge.pro.br^
 ||app.beneficiocampanha.click^
+||app.beneficionotif.click^
+||app.beneficioprogr.click^
 ||app.beneficioresgat.click^
-||app.bonificacaocompleta.click^
 ||app.cancelar.click^
 ||app.centralaviso.click^
+||app.centralresgat.click^
+||app.centralresgate.click^
 ||app.chat.global.xiaomi.net.iberostar.com^
+||app.chatcorporativo.click^
 ||app.clickrenova.click^
 ||app.clientpremiado.click^
 ||app.comunicamilhas.click^
@@ -8608,24 +8616,37 @@
 ||app.flurry.com^
 ||app.investmentadvisors.53.com^
 ||app.marketing.pro.sony.eu^
+||app.mensagemcliente.click^
 ||app.notificampanhabeneficio.click^
 ||app.notificaratendresgate.click^
 ||app.notificarcliqueajuda.click^
 ||app.notificarresgateclique.click^
+||app.notifresgata.click^
 ||app.partner.fisglobal.com^
+||app.pedidoderesgate.click^
 ||app.presenteresgat.click^
-||app.presenteresgate.click^
 ||app.pro-vision.com^
 ||app.programaresgat.click^
 ||app.programaresgate.click^
 ||app.promobeneficio.click^
+||app.promosatend.click^
 ||app.push-ad.com^
+||app.recompensaclient.click^
 ||app.resgat-completo.click^
+||app.resgatcliente.click^
+||app.resgate-sac.click^
+||app.resgateclient.click^
+||app.resgatecliente.click^
+||app.resgatesac.click^
 ||app.scene7info.adobe.com^
+||app.segurancacomp.click^
 ||app.seuresgate.click^
+||app.solucaoresgat.click^
+||app.solucaoresgate.click^
 ||app.toponad.com^
 ||app.tr.adjust.com^
 ||app.trocabeneficio.click^
+||app.trocabeneficios.click^
 ||app.update.lenovo.com^
 ||app.update.vodafone.co.uk^
 ||app.us.adjust.com^
@@ -8933,6 +8954,7 @@
 ||artioforfe.pro^
 ||artizpapil.pro^
 ||artlyhapu.click^
+||artvisualinstall.click^
 ||arukesusor.pro^
 ||arundfisht.pro^
 ||as.ad.impact-ad.jp^
@@ -9082,6 +9104,7 @@
 ||astontrifl.pro^
 ||astraappre.pro^
 ||astraferru.pro^
+||astragale.click^
 ||astralplanedreaming.pro^
 ||astralprojectiontravel.pro^
 ||astraltravelerjourneys.pro^
@@ -9419,6 +9442,7 @@
 ||azadv.co.il^
 ||azarlive-branch.vsohu.admaster.com.cn^
 ||azilianmazy.click^
+||azodalukikakeb.pro^
 ||azotiviagr.pro^
 ||azotospill.pro^
 ||azureangelfish.pro^
@@ -9868,6 +9892,7 @@
 ||bearclawstrength.pro^
 ||bearhugsgivenfreely.pro^
 ||bearisnode.pro^
+||bearnova-xyron.pro^
 ||beatiserfd.pro^
 ||beaufgiugu.pro^
 ||beautifullyrebird.pro^
@@ -10676,6 +10701,7 @@
 ||breadglute.pro^
 ||breakingbuzzwire.pro^
 ||breakingfactchronicle.pro^
+||breakingfactflow.pro^
 ||breakingnewspulsealert.pro^
 ||breakingnowpulse.pro^
 ||breakingstories.pro^
@@ -11919,6 +11945,7 @@
 ||cerasironi.pro^
 ||ceratdisla.pro^
 ||ceratscrup.pro^
+||cerbergbc-api.gbc.criteo.com^
 ||cerberus-api.us.gbc.criteo.com^
 ||cerbocanni.pro^
 ||cercalventers.click^
@@ -12158,6 +12185,7 @@
 ||chatbot-performance1.click^
 ||chaucghind.pro^
 ||chavedeseguranca.liberar-app.click^
+||chd-www.partner.net.daraz.com^
 ||cheapblows.pro^
 ||cheapererred.click^
 ||cheat-hacks-free-download.com^
@@ -13085,6 +13113,7 @@
 ||clubhmisre.pro^
 ||clueldextr.pro^
 ||clumoutpomp.click^
+||clunchzunian.click^
 ||clupiproce.pro^
 ||clutteredbrush.pro^
 ||clysieelli.pro^
@@ -14482,6 +14511,7 @@
 ||cyjwsx.pro^
 ||cymblinter.pro^
 ||cymujiohio.pro^
+||cymusic.pro^
 ||cynosextra.pro^
 ||cypreopenly.click^
 ||cyprifloor.pro^
@@ -14593,6 +14623,7 @@
 ||dahihye9.pro^
 ||daia.ero-advertising.com^
 ||daidlcaggi.pro^
+||dailybreakingwire.pro^
 ||dailyheadvortex.com^
 ||dailyinsightnews.pro^
 ||dailyinsightreports.pro^
@@ -14600,10 +14631,12 @@
 ||dailynewsfeed.pro^
 ||dailynewsreport.pro^
 ||dailynewsroom.pro^
+||dailypulsewireupdate.pro^
 ||dailyreporthub.pro^
 ||dailyreporting.pro^
 ||dailyreportingsource.pro^
 ||dailysuccessinsights.pro^
+||dailyvanguardflash.pro^
 ||dailyverifiedbulletin.pro^
 ||daincarmch.pro^
 ||daintycoot.pro^
@@ -16273,7 +16306,6 @@
 ||dns-template.com^
 ||dns-upload.com^
 ||dns.0pengl.com^
-||dns.attollo.com.au^
 ||dns.cab.gbc.criteo.com^
 ||dns.chuzushijian.cn^
 ||dns.g8z.net^
@@ -16439,10 +16471,10 @@
 ||download-staging.planify.io^
 ||download-stats.mozilla.org^
 ||download-ue1.pardot.com^
-||download-wetransfers-mit2948.ayowdok.com^
 ||download.123cw.cn^
 ||download.2345.cn^
 ||download.2345.com^
+||download.2gem.gbc.criteo.com^
 ||download.350.com^
 ||download.56.com^
 ||download.88kwp.com^
@@ -16487,7 +16519,6 @@
 ||download.joingofree.com^
 ||download.jword.jp^
 ||download.kaobeitu.com^
-||download.kes.gbc.criteo.com^
 ||download.kesh5.co.il^
 ||download.kuailefun.com^
 ||download.mackeeper.com^
@@ -17808,6 +17839,7 @@
 ||eu-internal.ssp-ads.criteo.com^
 ||eu.ads-appnexusprod.gbc.criteo.com^
 ||eu.ads-pcommerceprod.gbc.criteo.com^
+||eu.ads-preads-previewprodiewprod.gbc.criteo.com^
 ||eu.ads-preiniewprod.gbc.criteo.com^
 ||eu.ads-previewprod.gbc.criteo.com^
 ||eu.ads-prewwwiewprod.gbc.criteo.com^
@@ -17883,7 +17915,6 @@
 ||events-api.towneers.prod.data.krmt.io^
 ||events-collector-api.viacom.tech^
 ||events-jp.splash-screen.net^
-||events-krosmopack.pro^
 ||events.ads.vungle.com^
 ||events.api.boomtrain.com^
 ||events.api.godaddy.com^
@@ -18207,7 +18238,6 @@
 ||fastlocust.pro^
 ||fastlori.pro^
 ||fastly-analytics.com^
-||fastmirror.click^
 ||fastmoose.pro^
 ||fastnewsfeed.pro^
 ||fastnewspulsealert.pro^
@@ -18535,6 +18565,7 @@
 ||finovexis-pro-ai.com^
 ||finovexis-pro-ai.online^
 ||finquor-360.com^
+||finsnsbanks.click^
 ||fintelanci.pro^
 ||finzisocco.pro^
 ||fiondender.pro^
@@ -18965,7 +18996,6 @@
 ||fpa-api.arstechnica.com^
 ||fpa.ero-advertising.com^
 ||fqzjzvqvcjla.pro^
-||fr.eu.ads-appnexusprod.gbc.criteo.com^
 ||fr.eu.ads-pcommerceprod.gbc.criteo.com^
 ||fr.eu.ads-preads-previewprodiewprod.gbc.criteo.com^
 ||fr.eu.ads-preiniewprod.gbc.criteo.com^
@@ -19157,8 +19187,10 @@
 ||frontimbra.pro^
 ||frontingur.pro^
 ||frontlinebulletin.pro^
+||frontlinebulletinnow.pro^
 ||frontlineinstantfeed.pro^
 ||frontlinepulsewire.pro^
+||frontpage-partner.net.daraz.com^
 ||frontstat.agrantsem.com^
 ||fronzguast.pro^
 ||frostcrimsonglow.pro^
@@ -19766,6 +19798,7 @@
 ||giallaccam.pro^
 ||gialldener.pro^
 ||giambrican.pro^
+||gianiniadvogados.com.br^
 ||giates.pro^
 ||gibbeprend.pro^
 ||gicorie0.pro^
@@ -21977,6 +22010,7 @@
 ||immezscalt.pro^
 ||immilincar.pro^
 ||immilsgall.pro^
+||imminentadvisedlylucius.com^
 ||immispiluc.pro^
 ||immisrodie.pro^
 ||immissbron.pro^
@@ -23694,6 +23728,7 @@
 ||jp.devs.data.mob.com^
 ||jp.f.gm.mob.com^
 ||jp.l.gm.mob.com^
+||jp.nomurasecurities.click^
 ||jp3adv-cdn.goldspotmedia.com^
 ||jpaasne.e.shifen.com^
 ||jqmt.qq.com^
@@ -24252,6 +24287,7 @@
 ||laughingtarsier.pro^
 ||laughingwaxbill.pro^
 ||laughingworm.pro^
+||launch-analytics-plugin.launchpotato.com^
 ||launerimbo.pro^
 ||laureadden.pro^
 ||laurithund.pro^
@@ -25900,7 +25936,6 @@
 ||measuheadp.pro^
 ||measurement-api.as.criteo.com^
 ||measurement-api.criteo.com^
-||measurement-api.da.us.criteo.com^
 ||measurement-api.da.us.preprod.criteo.com^
 ||measurement-api.da1.vip.prod.criteo.com^
 ||measurement-api.eu.criteo.com^
@@ -26502,6 +26537,7 @@
 ||mishop.pandora.xiaomi.com.^
 ||misjumical.pro^
 ||miskirinfu.pro^
+||mislearbemire.click^
 ||misleautol.pro^
 ||misliespli.pro^
 ||mismerural.pro^
@@ -26639,6 +26675,7 @@
 ||mohamperve.pro^
 ||moiestrans.pro^
 ||moiqduaahx.pro^
+||mojedane-bnp.click^
 ||mojok.maxify.pro^
 ||mokadpinny.pro^
 ||mokicio5.pro^
@@ -28951,6 +28988,7 @@
 ||pagodesort.pro^
 ||paikivergo.pro^
 ||paimgcdn-feed.baidu.com^
+||paintinnovation.click^
 ||paintsprin.pro^
 ||paiocpilgr.pro^
 ||pairchat.click^
@@ -29157,7 +29195,6 @@
 ||partner-legacy.net.daraz.com^
 ||partner-mail.gbc.criteo.com^
 ||partner-notice.com^
-||partner-pay-europewest.net.daraz.com^
 ||partner-pay-getter.net.daraz.com^
 ||partner-pay.dcloud.net.daraz.com^
 ||partner-pay.net.daraz.com^
@@ -29857,6 +29894,7 @@
 ||people.api.boomtrain.com^
 ||pepflick.pro^
 ||peppertwist.pro^
+||peppery-explanation.pro^
 ||peppyflick.pro^
 ||peppypalettes.pro^
 ||peppypenguins.pro^
@@ -29895,6 +29933,7 @@
 ||perfectboa.pro^
 ||perfectbor.click^
 ||perfectdragonfly.pro^
+||perfectfeedofday.pro^
 ||perfecthedgehog.pro^
 ||perfecthubtops.pro^
 ||perfectnewsline.pro^
@@ -30343,6 +30382,7 @@
 ||pl-kategoria-wyprzedaz-15.click^
 ||pl-oferta-880660.pro^
 ||pl-oferta-iphone-16-pro-max.sbs^
+||pl-pl.update-app007.com.es^
 ||pl-rezerwacja09184.click^
 ||pl.ads.justpremium.com^
 ||pl.cp31.ott.cibntv.net^
@@ -30773,6 +30813,7 @@
 ||postmraker.pro^
 ||postnord-update.help^
 ||postpvagar.pro^
+||potable-hearing.pro^
 ||potable-vast.pro^
 ||potagsorro.pro^
 ||potamabbas.pro^
@@ -31164,6 +31205,7 @@
 ||pro.clanweb.cz^
 ||pro.cloudmania.site^
 ||pro.cn^
+||pro.da.us.gbc.criteo.com^
 ||pro.elhefe.com^
 ||pro.gibbonswhistler.com^
 ||pro.gohinfood.com^
@@ -31451,7 +31493,6 @@
 ||prudentwapiti.pro^
 ||prudesbott.pro^
 ||pruegdragh.pro^
-||prufens.click^
 ||prunepolar.pro^
 ||pruriarbor.pro^
 ||pruribothe.pro^
@@ -31769,7 +31810,6 @@
 ||qovleastugen.pro^
 ||qozamao5.pro^
 ||qr.cp31.ott.cibntv.net^
-||qrcode.api-mailconnect.live^
 ||qrcodes.pro^
 ||qskin.pro^
 ||qskyt.pro^
@@ -33987,6 +34027,7 @@
 ||ritroavvol.pro^
 ||ritrobassi.pro^
 ||rittatinte.pro^
+||rittertingle.click^
 ||rituaorkne.pro^
 ||ritufaddit.pro^
 ||ritufpecca.pro^
@@ -34208,6 +34249,7 @@
 ||rtb-google.us.criteo.com^
 ||rtb-google.us5.us.criteo.com^
 ||rtb-rubicon-1.ads-previewprod.gbc.criteo.com^
+||rtb-rubicon-1.ads-userverlua-aws-va-106.gbc.criteo.com^
 ||rtb-rubicon-cyaniteproxy-gce-sc-3.ads-previewprod.gbc.criteo.com^
 ||rtb-uswest.bat-ads.com^
 ||rtb.ad-stir.com^
@@ -35344,6 +35386,7 @@
 ||scultzolia.pro^
 ||scuotevapo.pro^
 ||scuotneric.pro^
+||scurdytousche.click^
 ||scurvminus.pro^
 ||scuseautos.pro^
 ||scutcaugur.pro^
@@ -35458,6 +35501,7 @@
 ||sdk.open.talk.getui.com^
 ||sdk.open.talk.getui.net^
 ||sdk.open.talk.igexin.com^
+||sdk.optimove.net^
 ||sdk.out.usbla.net^
 ||sdk.playtem.com^
 ||sdk.postscript.io^
@@ -36227,10 +36271,10 @@
 ||share.cluballiance.aaa.com^
 ||share.cosbar.com^
 ||share.coupangeats.com^
-||share.credible.com^
 ||share.creditninja.com^
 ||share.dailypay.com^
 ||share.dailyrounds.in^
+||share.desmoinesregister.com^
 ||share.detroitnews.com^
 ||share.drinki.com^
 ||share.dunlopsports.com^
@@ -36337,7 +36381,6 @@
 ||share.roots.com^
 ||share.ross-simons.com^
 ||share.rvshare.com^
-||share.safecu.org^
 ||share.savvy-navvy.com^
 ||share.scoreholio.com^
 ||share.sesamecare.com^
@@ -38151,11 +38194,13 @@
 ||staging-ads.flurry.com^
 ||staging-e-vcdn.anthill.vn^
 ||staging-notify.sec.miui.com^
+||staging-partner.gbc.criteo.com^
 ||staging.api.adtimaserver.vn^
 ||staging.google.descargatelocorp.org^
 ||staging.sdkconfig.ad.xiaomi.srv^
 ||stagitridu.pro^
 ||stagiwain.pro^
+||staiamesial.click^
 ||staid-host.pro^
 ||stairoocit.pro^
 ||stalasotto.pro^
@@ -40235,7 +40280,6 @@
 ||tombiobbie.pro^
 ||tombismutt.pro^
 ||tombofurlo.pro^
-||tomcat-partner-pay.net.daraz.com^
 ||tomenpensu.pro^
 ||tomladvert.com^
 ||tomog.pro^
@@ -40304,6 +40348,7 @@
 ||topicalupdatesnews.pro^
 ||topicfortoday.pro^
 ||topicinfec.pro^
+||topictopyes.pro^
 ||toplomacru.pro^
 ||toponad.com^
 ||toponrivac.pro^
@@ -41127,7 +41172,6 @@
 ||tutuniscros.pro^
 ||tuviku-wobeto.pro^
 ||tuvusuy7.pro^
-||tv2.hb-api.omtrdc.net^
 ||tvahils.pro^
 ||tve.hb-api.omtrdc.net^
 ||tw-api.vpadn.com^
@@ -41697,6 +41741,7 @@
 ||unnaturalemu.pro^
 ||unnaturalmalkoha.pro^
 ||unnaturalviper.pro^
+||unneedylobfig.click^
 ||unneteiacu.pro^
 ||unneuliqui.pro^
 ||unnocabboc.pro^
@@ -42329,6 +42374,7 @@
 ||vattepsych.pro^
 ||vaultqueri.pro^
 ||vawardsjamb.click^
+||vaworogstikable.pro^
 ||vay24h.click^
 ||vaynganhang.pro^
 ||vaynhanh5p.click^
@@ -42472,6 +42518,7 @@
 ||verifhemod.pro^
 ||verification.jiguang.cn^
 ||verified-download.com^
+||verifiednewsburstalert.pro^
 ||verifiedtrending.pro^
 ||verifier62214.click^
 ||verifier683858.click^
@@ -42483,6 +42530,7 @@
 ||verisundec.pro^
 ||verithibun.pro^
 ||veritunder.pro^
+||verizontelecom.hb-api.omtrdc.net^
 ||vermilionant.pro^
 ||vermilioncatfish.pro^
 ||vermilioncow.pro^
@@ -44162,6 +44210,7 @@
 ||worldwideupdates.pro^
 ||worshritogi.pro^
 ||worst-recognition.pro^
+||worstbreath.pro^
 ||wosttincan.pro^
 ||woundining.pro^
 ||wovenwish.pro^
@@ -45982,6 +46031,7 @@
 ||www.artigcrede.pro^
 ||www.artioforfe.pro^
 ||www.artizpapil.pro^
+||www.artvisualinstall.click^
 ||www.arukesusor.pro^
 ||www.arundfisht.pro^
 ||www.asaicompl.pro^
@@ -46086,6 +46136,7 @@
 ||www.astontrifl.pro^
 ||www.astraappre.pro^
 ||www.astraferru.pro^
+||www.astragale.click^
 ||www.astralplanedreaming.pro^
 ||www.astralprojectiontravel.pro^
 ||www.astraltravelerjourneys.pro^
@@ -46574,6 +46625,7 @@
 ||www.bearclawstrength.pro^
 ||www.bearhugsgivenfreely.pro^
 ||www.bearisnode.pro^
+||www.bearnova-xyron.pro^
 ||www.beatiserfd.pro^
 ||www.beaufgiugu.pro^
 ||www.beautifullyrebird.pro^
@@ -49946,6 +49998,7 @@
 ||www.dahihye9.pro^
 ||www.daia.ero-advertising.com^
 ||www.daidlcaggi.pro^
+||www.dailybreakingwire.pro^
 ||www.dailyheadvortex.com^
 ||www.dailyinsightnews.pro^
 ||www.dailyinsightreports.pro^
@@ -49953,10 +50006,12 @@
 ||www.dailynewsfeed.pro^
 ||www.dailynewsreport.pro^
 ||www.dailynewsroom.pro^
+||www.dailypulsewireupdate.pro^
 ||www.dailyreporthub.pro^
 ||www.dailyreporting.pro^
 ||www.dailyreportingsource.pro^
 ||www.dailysuccessinsights.pro^
+||www.dailyvanguardflash.pro^
 ||www.dailyverifiedbulletin.pro^
 ||www.daincarmch.pro^
 ||www.daintycoot.pro^
@@ -51285,7 +51340,6 @@
 ||www.dns-ff5tjavme90pq8.allredl.com^
 ||www.dns-joj7d9fut87nrn.nalataexport.com^
 ||www.dns-template.com^
-||www.dns.attollo.com.au^
 ||www.dnsextension.pro^
 ||www.doamuautot.pro^
 ||www.dobbrprosp.pro^
@@ -53422,6 +53476,7 @@
 ||www.frontimbra.pro^
 ||www.frontingur.pro^
 ||www.frontlinebulletin.pro^
+||www.frontlinebulletinnow.pro^
 ||www.frontlineinstantfeed.pro^
 ||www.frontlinepulsewire.pro^
 ||www.fronzguast.pro^
@@ -58991,6 +59046,7 @@
 ||www.mogixey3.pro^
 ||www.mohamperve.pro^
 ||www.moiestrans.pro^
+||www.mojedane-bnp.click^
 ||www.mokadpinny.pro^
 ||www.mokicio5.pro^
 ||www.mokysee4.pro^
@@ -60632,6 +60688,7 @@
 ||www.pagoboa4.pro^
 ||www.pagodesort.pro^
 ||www.paikivergo.pro^
+||www.paintinnovation.click^
 ||www.paintsprin.pro^
 ||www.paiocpilgr.pro^
 ||www.pakupuy.pro^
@@ -61051,6 +61108,7 @@
 ||www.perfectboa.pro^
 ||www.perfectbor.click^
 ||www.perfectdragonfly.pro^
+||www.perfectfeedofday.pro^
 ||www.perfecthedgehog.pro^
 ||www.perfecthubtops.pro^
 ||www.perfectnewsline.pro^
@@ -61416,6 +61474,7 @@
 ||www.pl-kategoria-wyprzedaz-15.click^
 ||www.pl-oferta-880660.pro^
 ||www.pl-oferta-iphone-16-pro-max.sbs^
+||www.pl-pl.update-app007.com.es^
 ||www.pl-rezerwacja09184.click^
 ||www.plaay-google.com^
 ||www.placcsfoll.pro^
@@ -68615,7 +68674,6 @@
 ||www.tessematte.pro^
 ||www.tesseperid.pro^
 ||www.tessequino.pro^
-||www.test.partner.net.daraz.com^
 ||www.test4thebest.pro^
 ||www.testadimer.pro^
 ||www.testedbettong.pro^
@@ -68919,6 +68977,7 @@
 ||www.topicalupdatesnews.pro^
 ||www.topicfortoday.pro^
 ||www.topicinfec.pro^
+||www.topictopyes.pro^
 ||www.toplomacru.pro^
 ||www.toponrivac.pro^
 ||www.toponsprin.pro^
@@ -70297,6 +70356,7 @@
 ||www.vaticscomp.pro^
 ||www.vattepsych.pro^
 ||www.vaultqueri.pro^
+||www.vaworogstikable.pro^
 ||www.vazeney4.pro^
 ||www.vaziti-genaka.pro^
 ||www.vealetrupp.pro^
@@ -70417,6 +70477,7 @@
 ||www.veridmacul.pro^
 ||www.verifgrati.pro^
 ||www.verifhemod.pro^
+||www.verifiednewsburstalert.pro^
 ||www.verifiedtrending.pro^
 ||www.verifier683858.click^
 ||www.verifpearl.pro^
@@ -71470,7 +71531,6 @@
 ||www.wordjoyful.pro^
 ||www.wordwhirl.pro^
 ||www.wordwhirls.pro^
-||www.work-pro.cfd^
 ||www.workidisna.pro^
 ||www.workmsvesc.pro^
 ||www.worktanter.pro^
