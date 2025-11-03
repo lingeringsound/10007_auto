@@ -277,16 +277,12 @@ fi
 
 function modtifly() {
 local targetfile="${1}"
-local target_content
 sed -i '/\#/d' "${targetfile}"
 sed -i '/\]/d' "${targetfile}"
 sed -i '/\[/d' "${targetfile}"
 sed -i '/(/d' "${targetfile}"
 sed -i '/)/d' "${targetfile}"
 sed -i 's|127.0.0.1|0.0.0.0|g' "${targetfile}"
-#sed -i -E 's/(^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})([[:space:]]{1,10})/\1 /g' "${targetfile}"
-target_content="$(cat "${targetfile}" | sort | uniq )"
-echo "${target_content}" > "${targetfile}"
 }
 
 function remove_ad() {
@@ -426,6 +422,7 @@ function mktouch_host() {
 add_custo `pwd`/configure/自定义.prop `pwd`/result
 add_custo `pwd`/configure/魅族.conf `pwd`/result
 combine_file `pwd`/result `pwd`/all
+modtifly `pwd`/all
 exclude_value `pwd`/configure/排除列表.prop `pwd`/all
 exclude_value `pwd`/configure/保留奖励.prop `pwd`/all
 modtifly `pwd`/all
@@ -437,6 +434,7 @@ function mktouch_no_host() {
 add_custo `pwd`/configure/自定义.prop `pwd`/result
 add_custo `pwd`/configure/魅族.conf `pwd`/result
 combine_file `pwd`/result `pwd`/reward
+modtifly `pwd`/reward
 exclude_value `pwd`/configure/排除列表.prop `pwd`/reward
 exclude_value `pwd`/configure/保留奖励.prop `pwd`/reward
 modtifly `pwd`/reward
