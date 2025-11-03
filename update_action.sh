@@ -277,12 +277,16 @@ fi
 
 function modtifly() {
 local targetfile="${1}"
+local target_content
 sed -i '/\#/d' "${targetfile}"
 sed -i '/\]/d' "${targetfile}"
 sed -i '/\[/d' "${targetfile}"
 sed -i '/(/d' "${targetfile}"
 sed -i '/)/d' "${targetfile}"
 sed -i 's|127.0.0.1|0.0.0.0|g' "${targetfile}"
+#sed -i -E 's/(^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})([[:space:]]{1,10})/\1 /g' "${targetfile}"
+target_content="$(cat "${targetfile}" | sort | uniq )"
+echo "${target_content}" > "${targetfile}"
 }
 
 function remove_ad() {
