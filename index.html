@@ -43,6 +43,8 @@ blockquote{background:rgba(11,243,81,.08);border-left:5px solid var(--green);pad
 @media(min-width:1024px){.container{max-width:1200px;}.link-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:20px;}.swiper{margin-bottom:40px;}.slide{padding:clamp(24px,6vw,40px)clamp(20px,4vw,40px);}}
 .slide.empty{padding-bottom:clamp(16px, 4vw, 24px); }
 .slide.empty .link-grid{margin:0;min-height:auto;}
+.branch-description{font-size: 14px;color: #666;text-align: center;margin-bottom: 20px;line-height: 1.5;padding: 0 20px;}
+body.dark .branch-description{color:#aaa;}
 </style>
 </head>
 <body id="body">
@@ -55,25 +57,29 @@ blockquote{background:rgba(11,243,81,.08);border-left:5px solid var(--green);pad
   <div class="swiper">
     <div class="swiper-wrapper" id="wrapper">
       <div class="slide">
-        <div class="rule-title">Master 分支（推荐）</div>
-        <div class="swipe-hint">向右滑动查看其他分支 →</div>
-        <div class="link-grid" id="master-links"></div>
-      </div>
+          <div class="rule-title">Master 分支（推荐）</div>
+            <div class="branch-description">将网页定向到 127.0.0.1 ，比较稳定。</div>
+            <div class="swipe-hint">向右滑动查看其他分支 →</div>
+          <div class="link-grid" id="master-links"></div>
+        </div>
       <div class="slide">
-        <div class="rule-title">Feature 分支（AdGuard 重定向）</div>
-        <div class="swipe-hint">向右滑动查看其他分支 →</div>
-        <div class="link-grid" id="feature-links"></div>
+          <div class="rule-title">Feature 分支（AdGuard 重定向）</div>
+             <div class="branch-description">将替换成adguard(94.140.14.33)的，规避反复请求引起的耗电问题。Adaway请在设置中选择重定向(Apply redirected hosts)。</div>
+             <div class="swipe-hint">向右滑动查看其他分支 →</div>
+          <div class="link-grid" id="feature-links"></div>
+       </div>
+     <div class="slide">
+         <div class="rule-title">Feature1 分支（Cloudflare 重定向）</div>
+           <div class="branch-description">将替换成cloudflare(1.1.1.1)的，规避反复请求引起的耗电问题。Adaway请在设置中选择重定向(Apply redirected hosts)。</div>
+           <div class="swipe-hint">向右滑动查看其他分支 →</div>
+         <div class="link-grid" id="feature1-links"></div>
       </div>
-      <div class="slide">
-        <div class="rule-title">Feature1 分支（Cloudflare 重定向）</div>
-        <div class="swipe-hint">向右滑动查看其他分支 →</div>
-        <div class="link-grid" id="feature1-links"></div>
+    <div class="slide">
+         <div class="rule-title">PC 测试分支</div>
+         <div class="branch-description">将127.0.0.1替换成adguard的94.140.14.33，规避反复请求引起的耗电问题。推荐使用SwitchHosts进行管理。</div>
+         <div class="link-grid" id="pc-links"></div>
       </div>
-      <div class="slide">
-        <div class="rule-title">PC 测试分支</div>
-        <div class="link-grid" id="pc-links"></div>
-      </div>
-    </div>
+   </div>
     <div class="nav-dots" id="nav-dots"></div>
   </div>
 
