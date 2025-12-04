@@ -22,9 +22,9 @@ cat << key > `pwd`/README.md
 
 | **名称** | **链接** | **镜像链接** | **Github订阅加速链接** |
 | :-- | :-- | :-- | :-- |
-| **完整版** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all) | [Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/all) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/all) |
-| **保留广告奖励** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward) | [Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/reward) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/reward) | 
-| **Adblock规则** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt) | [Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/adb.txt) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/adb.txt) |
+| **完整版** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all) | ~~[Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/all)死了~~ | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/all) |
+| **保留广告奖励** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward) | ~~[Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/reward)~~ | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/reward) | 
+| **Adguard规则** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt) | ~~[Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/adb.txt)~~ | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/adb.txt) |
 | **Adaway白名单** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/Adaway_white_list.prop) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/Adaway_white_list.prop) |
 | **Adclose规则订阅** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/10007.rule) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/10007.rule) |
 
