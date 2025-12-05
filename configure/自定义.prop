@@ -4,14 +4,14 @@
 127.0.0.1 glores2.lanzoui.com
 127.0.0.1 sanme2.lanzoux.com
 127.0.0.1 glores2.lanzoux.com
-127.0.0.1 sanme2.taisantech.com
-127.0.0.1 glores2.taisantech.com
+#127.0.0.1 sanme2.taisantech.com
+#127.0.0.1 glores2.taisantech.com
 
 
 #其他
 #127.0.0.1 ulog.ksapisrv.com
 #127.0.0.1 ulogs.bytefence.com
-127.0.0.1 erebor.douban.com
+#127.0.0.1 erebor.douban.com
 #127.0.0.1 tobapplog.ctobsnssdk.com
 #127.0.0.1 h.trace.qq.com
 127.0.0.1 yoke.tianyaoguan.cn
@@ -73,7 +73,7 @@
 
 #酷安广告
 127.0.0.1 stream.snssdk.com
-127.0.0.1 tnc3-bjlgy.snssdk.com
+#127.0.0.1 tnc3-bjlgy.snssdk.com
 127.0.0.1 vas-hl-x.snssdk.com
 127.0.0.1 dm-lq.toutiao.com
 #127.0.0.1 toblog.ctobsnssdk.com
@@ -90,17 +90,17 @@
 
 #MIUI
 127.0.0.1 hysdkservice.g.mi.com
-127.0.0.1 im-x.jd.com
+#127.0.0.1 im-x.jd.com
 #127.0.0.1 img11.360buyimg.com
 #127.0.0.1 verify.sec.xiaomi.com
-127.0.0.1 erebor.douban.com
+#127.0.0.1 erebor.douban.com
 #127.0.0.1 static-verify.sec.xiaomi.com
 127.0.0.1 amonsul.douban.com
 #127.0.0.1 msedown.360safe.com
 
 #腾讯22.03.18
 127.0.0.1 qzs.gdtimg.com
-127.0.0.1 adstats.tencentmusic.com
+#127.0.0.1 adstats.tencentmusic.com
 127.0.0.1 a.lubiao.com
 127.0.0.1 access1.tpns.tencent.com
 
@@ -145,7 +145,7 @@
 127.0.0.1 ug.snssdk.com
 
 #京东22.03.27
-127.0.0.1 img14.360buyimg.com
+#127.0.0.1 img14.360buyimg.com
 
 #UC浏览器
 #127.0.0.1 pdds.ucweb.com
@@ -187,7 +187,7 @@
 127.0.0.1 img-x.jd.com
 127.0.0.1 u-x.jd.com
 127.0.0.1 u.x.jd.com
-127.0.0.1 x.jd.com
+#127.0.0.1 x.jd.com
 
 #新浪微博
 127.0.0.1 d0.sinaimg.cn
@@ -250,12 +250,12 @@
 #127.0.0.1 u.jd.com
 #127.0.0.1 3gimg.qq.com
 #蓝奏云
-127.0.0.1 statics.woozooo.com
-127.0.0.1 analytics.woozooo.com
-127.0.0.1 analytic.woozooo.com
-127.0.0.1 crbug.com
-127.0.0.1 wer.qdwght.com
-127.0.0.1 hm.woozooo.com
+#127.0.0.1 statics.woozooo.com
+#127.0.0.1 analytics.woozooo.com
+#127.0.0.1 analytic.woozooo.com
+#127.0.0.1 crbug.com
+#127.0.0.1 wer.qdwght.com
+#127.0.0.1 hm.woozooo.com
 
 #清明节22.04.05
 127.0.0.1 advsdkreport-def.tt.cn
@@ -350,9 +350,9 @@
 #京东商城广告
 127.0.0.1 cdn.appads.com
 127.0.0.1 bdsp.x.jd.com
-127.0.0.1 cm.jd.com
+#127.0.0.1 cm.jd.com
 #127.0.0.1 gia.jd.com
-127.0.0.1 u.x.jd.com
+#127.0.0.1 u.x.jd.com
 127.0.0.1 wn.x.jd.com
 127.0.0.1 x.jd.com
 #必应
@@ -401,6 +401,7 @@
 #主题壁纸
 127.0.0.1 lite.a.market.xiaomi.com
 127.0.0.1 site.e.mi.com
+127.0.0.1 staging.site.e.mi.com
 #豆瓣
 127.0.0.1 erebor.douban.com
 127.0.0.1 adsmind.ugdtimg.com
@@ -445,6 +446,7 @@
 #127.0.0.1 tracking.india.miui.com
 127.0.0.1 sdkconfig.ad.xiaomi.com
 127.0.0.1 sdkconfig.ad.intl.xiaomi.com
+127.0.0.1 sdkconfig.ad.global.xiaomi.com
 127.0.0.1 sdkconfig.ad.india.xiaomi.com
 127.0.0.1 sdkconfig.ad.rus.xiaomi.com
 
@@ -455,7 +457,7 @@
 
 #22.05.20
 #番茄小说
-127.0.0.1 tnc3-alisc1.zijieapi.com
+#127.0.0.1 tnc3-alisc1.zijieapi.com
 #127.0.0.1 mon.toutiaocloud.com
 #127.0.0.1 mon.toutiao.com
 127.0.0.1 frontier-toutiao.snssdk.com
@@ -620,9 +622,9 @@
 #22.08.18
 #字节跳动
 127.0.0.1 ads.zijieapi.com
-127.0.0.1 ad.zijieapi.com
+#127.0.0.1 ad.zijieapi.com
 #22.08.27
-127.0.0.1 pgdt.gtimg.cn
+#127.0.0.1 pgdt.gtimg.cn
 #127.0.0.1 tnc3-bjlgy.zijieapi.com
 
 #22.08.30
@@ -647,7 +649,7 @@
 127.0.0.1 tnc3-alisc2.bytedance.com
 127.0.0.1 tnc3-alisc1.zijieapi.com
 127.0.0.1 tnc3-alisc2.zijieapi.com
-127.0.0.1 tnc3-alisc1.snssdk.com
+#127.0.0.1 tnc3-alisc1.snssdk.com
 127.0.0.1 tnc3-alisc2.snssdk.com
 127.0.0.1 tnc3-bjlgy.bytedance.com
 127.0.0.1 tnc3-bjlgy.zijieapi.com
@@ -722,13 +724,13 @@
 #HUAWEI
 127.0.0.1 lf6-sf-be-pack-sign.pglstatp-toutiao.com
 127.0.0.1 direct.ad-core-lb-v3.lf.bytelb.net
-127.0.0.1 adx-drcn.op.dbankcloud.cn
+#127.0.0.1 adx-drcn.op.dbankcloud.cn
 127.0.0.1 ads.weathercn.com
 #127.0.0.1 httpdns-browser.platform.dbankcloud.cn
-127.0.0.1 ad-drcn.dt.dbankcloud.com
+#127.0.0.1 ad-drcn.dt.dbankcloud.com
 
 #2023.08.18
-127.0.0.1 open.kwaizt.com
+#127.0.0.1 open.kwaizt.com
 127.0.0.1 adsfile.bssdlbig.kugou.com
 127.0.0.1 api-adservices.apple.com
 127.0.0.1 adukwai.com
@@ -737,7 +739,7 @@
 
 #蓝奏云
 #23.09.17
-127.0.0.1 analytic.woozooo.com
+#127.0.0.1 analytic.woozooo.com
 
 #小米ROM服务器下载加速
 #23.09.19
@@ -780,11 +782,11 @@
 127.0.0.1 adx.sogaha.cn
 #华为浏览器安全拦截
 127.0.0.1 dnkeeper.platform.dbankcloud.cn
-127.0.0.1 browsercfg-drcn.cloud.dbankcloud.cn
+#127.0.0.1 browsercfg-drcn.cloud.dbankcloud.cn
 127.0.0.1 grs.dbankcloud.cn
 127.0.0.1 metrics1-drcn.dt.dbankcloud.cn
 127.0.0.1 dnkeeper.platform.dbankcloud.eu
-127.0.0.1 browsercfg-drcn.cloud.dbankcloud.eu
+#127.0.0.1 browsercfg-drcn.cloud.dbankcloud.eu
 127.0.0.1 grs.dbankcloud.eu
 127.0.0.1 metrics1-drcn.dt.dbankcloud.eu
 
@@ -804,7 +806,7 @@
 
 
 #123pan
-127.0.0.1 ssp.1rtb.com
+#127.0.0.1 ssp.1rtb.com
 127.0.0.1 sdk.1rtb.net
 127.0.0.1 zlsdk.1rtb.net
 127.0.0.1 e-zlsdk.1rtb.net
@@ -828,11 +830,13 @@
 127.0.0.1 sdk.markmedia.com.cn
 127.0.0.1 sdk.markmedia.com
 127.0.0.1 tdsdk.cpatrk.net
-127.0.0.1 e-zlsdk.1rtb.net
+#127.0.0.1 e-zlsdk.1rtb.net
 127.0.0.1 cloud.cpatrk.net
 127.0.0.1 bjimp.voiceads.cn
 127.0.0.1 ai.voiceads.cn
 127.0.0.1 dc.sigmob.cn
+127.0.0.1 sigmob.cn
+127.0.0.1 sigmob.com
 
 #toponad
 127.0.0.1 toponad.com
@@ -867,7 +871,7 @@
 127.0.0.1 tk-api.anythinktech.com
 
 #24.07.29
-127.0.0.1 ad.partner.gifshow.com
+#127.0.0.1 ad.partner.gifshow.com
 127.0.0.1 mobads-pre-config.cdn.bcebos.com
 127.0.0.1 ad-display.diwodiwo.xyz
 127.0.0.1 ad-channel.diwodiwo.xyz
@@ -962,6 +966,7 @@
 127.0.0.1 sv.adintl.cn
 127.0.0.1 v.adintl.cn
 127.0.0.1 sdkcfg.adintl.cn
+127.0.0.1 oss.cdn.adintl.cn
 #OPPO 应用商店 主题 开屏广告
 #127.0.0.1 api-cn.store.heytapmobi.com
 #127.0.0.1 api-cn.theme.heytapmobi.com
@@ -1023,6 +1028,10 @@
 # Snaptube 升级提示
 127.0.0.1 upgrade.thejeu.com
 127.0.0.1 online-config.thejeu.com
+127.0.0.1 config.ad-snaptube.app
+127.0.0.1 api.ad.snaptube.app
+127.0.0.1 sensors.snaptube.app
+
 #豆瓣
 127.0.0.1 ad.union.api
 127.0.0.1 lf3-sf-be-pack-sign.pglstatp-toutiao.com
@@ -1030,10 +1039,8 @@
 127.0.0.1 www.pangolin-dsp-toutiao.com
 127.0.0.1 pangolin-dsp-toutiao.com
 127.0.0.1 pangolin-dsp-toutiao-b.com
-127.0.0.1 pangolin-dsp-toutiao.com
-127.0.0.1 pangolin-sdk-toutiao-b.com
 127.0.0.1 pangolin-sdk-toutiao.com
-127.0.0.1 pangolin-sdk-toutiao1.com
+#127.0.0.1 pangolin-sdk-toutiao1.com
 127.0.0.1 panplayable-toutiao-b.com
 127.0.0.1 panplayable-toutiao.com
 127.0.0.1 pglstatp-toutiao-b.com
@@ -1050,7 +1057,6 @@
 #127.0.0.1 net.daraz.com
 #127.0.0.1 net.daraz.com.bd
 127.0.0.1 ads.pointroll.com
-127.0.0.1 admaster.com.cn
 127.0.0.1 ev.ads.pointroll.com
 127.0.0.1 admaster.com.cn
 127.0.0.1 adx.admaster.com.cn
@@ -1075,4 +1081,396 @@
 127.0.0.1 adk2x.com
 127.0.0.1 adplexmedia.adk2.co
 127.0.0.1 adplexmedia.adk2x.com
+#2024.11.19
+127.0.0.1 adverpub.com
+127.0.0.1 ad.adsrvr.cn
+127.0.0.1 ad.adsrvr.com
+127.0.0.1 ad.adsrvr.cn.com
+127.0.0.1 v.adsrvr.cn
+127.0.0.1 cn1-bid.adsrvr.cn
+127.0.0.1 cn2-bid.adsrvr.cn
+127.0.0.1 cn3-bid.adsrvr.cn
+127.0.0.1 cn9-bid.adsrvr.cn
+127.0.0.1 p2-lm.adkwai.com
+127.0.0.1 p3-lm.adkwai.com
+127.0.0.1 p66-ad.adkwai.com
+127.0.0.1 p33-ad.adkwai.com
+#127.0.0.1 bjimp.voiceads.cn
+
+#2024.11.22
+#迅雷浏览器安全浏览
+127.0.0.1 x-api-shoulei.xunlei.com
+#漫蛙
+127.0.0.1 ac1.dcloud.net.cn
+127.0.0.1 ac2.dcloud.net.cn
+127.0.0.1 ac1.cloud.net.cn
+#百度贴吧
+127.0.0.1 miaowu.baidu.com
+127.0.0.1 miao.baidu.com
+#127.0.0.1 mike.baidu.com
+#127.0.0.1 miee.baidu.com
+#127.0.0.1 wjz-cdn.baidu.com
+127.0.0.1 ym.wejianzhan.com
+127.0.0.1 afd.baidu.com
+127.0.0.1 baichuan.baidu.com
+#2024.11.30
+#淘宝
+127.0.0.1 ope.tanx.com
+127.0.0.1 api.qttunion.com
+127.0.0.1 api.touch-moblie.com
+127.0.0.1 opehs.tanx.com
+127.0.0.1 ad.wanchuweilai.com
+127.0.0.1 203.107.1.35
+127.0.0.1 janapi.jd.com
+127.0.0.1 fapi.xdrun.com
+127.0.0.1 sdk-config.tanx.com
+#ssp
+127.0.0.1 ssp.1rtb.com
+127.0.0.1 ssp.tanx.com
+127.0.0.1 ssp-sdk-config.uc.cn
+127.0.0.1 ssp.vivo.com.cn
+127.0.0.1 monitor.ssp.admobile.top
+#aiclk
+127.0.0.1 ad-sdk.aiclk.com
+127.0.0.1 api.aiclk.com
+127.0.0.1 sdk-ab-config.aiclk.com
+127.0.0.1 sdk-globalconfig.aiclk.com
+127.0.0.1 cdn.aiclk.com
+127.0.0.1 cfg-cdn.aiclk.com
+127.0.0.1 rcv.aiclk.com
+
+#2024.12.10
+127.0.0.1 d16-ad.kwai.net
+127.0.0.1 default.cn.sz.wagbridge.ad.alibabacorp.com
+127.0.0.1 default.cn.wagbridge.ad.alibabacorp.com
+127.0.0.1 yk-ssp-ad.cp12.wasu.tv
+127.0.0.1 yk-ssp-ad.cp31.ott.cibntv.net
+127.0.0.1 xmadsdk.cos.tx.xmcdn.com
+127.0.0.1 www.qqads.com
+127.0.0.1 websgsadvert.sanguosha.com
+127.0.0.1 v16-ad.kwai.net
+127.0.0.1 voiceads.cn
+127.0.0.1 upgrade-adservice.hismarttv.com
+127.0.0.1 mad.ireader.com
+127.0.0.1 mads.meituan.com
+127.0.0.1 market-ad.oss-accelerate.aliyuncs.com
+127.0.0.1 market-ad.oss-cn-shenzhen.aliyuncs.com
+127.0.0.1 iadsdk.qtlcdn.com
+127.0.0.1 imp.ads.rgyun.com
+127.0.0.1 jk.c.sdk.kwad.com
+127.0.0.1 jp.ad.gameley.com
+127.0.0.1 kgipadstat.kugou.com
+127.0.0.1 kgipadstatbak.kugou.com
+127.0.0.1 kuaishouad.cn
+127.0.0.1 advert-prod.hyrz.qq.com
+127.0.0.1 advert.swiftpass.cn
+127.0.0.1 advert.tadu.com
+127.0.0.1 advertisercommunity.com
+127.0.0.1 advertiserscommunity.com
+127.0.0.1 advimage.bolink.club
+127.0.0.1 adx-cn.ads.vungle.com
+127.0.0.1 adx-core.youku.com
+127.0.0.1 adx-data.yfanads.com
+127.0.0.1 adx-os-req.anythinktech.com
+127.0.0.1 adx.halomobi.com
+127.0.0.1 adx.op.cp18.ott.cibntv.net
+127.0.0.1 adxstatic.vivo.com.cn
+127.0.0.1 ae.iads.unity3d.com
+127.0.0.1 ai.advertisement.alibabacorp.sm.cn
+127.0.0.1 androiddownload.damai.cn
+127.0.0.1 api.ads66.com
+127.0.0.1 api.adserver.jvmai.com
+#127.0.0.1 ads-drcn.platform.hihonorcloud.com
+127.0.0.1 ads-img-al.xhscdn.com
+127.0.0.1 ads-lb.serving-sys.cn
+127.0.0.1 ads-shopping.shouqianba.com
+127.0.0.1 ads.api.fakeloc.cc
+127.0.0.1 ads.api.lerist.cc
+127.0.0.1 ads.bjlxin.cn
+127.0.0.1 ads.chinaums.com
+127.0.0.1 ads.chuanmeixing.com
+#127.0.0.1 ads.cup.com.cn
+127.0.0.1 ads.game.iqiyi.com
+127.0.0.1 ads.games.laohu.com
+127.0.0.1 ads.heytapmobile.com
+127.0.0.1 ads.huawei.com
+127.0.0.1 ads.ishansong.com
+127.0.0.1 ads.lejuliang.cn
+127.0.0.1 ads.lejuliang.com
+127.0.0.1 ads.lingyuexiu.cn
+127.0.0.1 ads.serving-sys.cn
+127.0.0.1 ads.ubestkid.com
+127.0.0.1 ads.uutest.cn
+127.0.0.1 ads.vungle.com
+127.0.0.1 ads.ysepay.com
+127.0.0.1 ads.zhinengxiyifang.cn
+127.0.0.1 ads3-normal-lf.zijieapi.com.skyworth
+127.0.0.1 ads360.cn
+127.0.0.1 ads5-normal-lf.zijieapi.com.skyworth
+127.0.0.1 ads5-normal-lq.zijieapi.com.c.dsa.cdnbuild.net
+127.0.0.1 adsbdfs.heytapimage.com
+127.0.0.1 adsdk.idmzj.com
+127.0.0.1 adsdk.state.duoku.com
+127.0.0.1 adsdk.whjzjx.cn
+127.0.0.1 adsdkapi.dxys.pro
+127.0.0.1 adsense.7723.com
+127.0.0.1 adsense.com
+127.0.0.1 adsenseformobileapps.com
+127.0.0.1 adserv.ontek.com.tr
+127.0.0.1 adserver.html.it
+127.0.0.1 adservice.aiyouaiyou.cn
+127.0.0.1 adservice.kugou.com
+127.0.0.1 adserviceretry.kglink.cn
+127.0.0.1 adserving-oss.bangdao-tech.com
+127.0.0.1 adsfile20.bssdlbig.kugou.com
+127.0.0.1 adsfs.heytapimage.com
+127.0.0.1 adskp.org
+127.0.0.1 adsmartgetqtt.guangtuikeji.com
+127.0.0.1 adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com
+127.0.0.1 adsmind.tc.qq.com
+127.0.0.1 adstage-analytics.herokuapp.com
+127.0.0.1 adstatic.zhihu.com
+127.0.0.1 adstracking.shuwenkeji.cn
+#联通
+127.0.0.1 m1.ad.10010.com.w.cdngslb.com
+#vivo和OPPO
+127.0.0.1 uapi-ads.vivo.com.cn
+127.0.0.1 detail-adsapi.vivo.com.cn
+127.0.0.1 ssp-adx.ads.heytapmobi.com
+127.0.0.1 ssp-monitor.adstarcharm.com
+127.0.0.1 st-ads-jssdk.vivo.com.cn
+127.0.0.1 st-adsgame.vivo.com.cn
+127.0.0.1 sms.ads.heytapmobi.com
+#百度
+127.0.0.1 miniapp-ad.cdn.bcebos.com
+127.0.0.1 mkt-advertisement.tuhu.cn
+127.0.0.1 match.adsrvr.cn
+127.0.0.1 mbads.paas.cmbchina.com
+127.0.0.1 leads.baidu.com
+127.0.0.1 leads.oceanengine.com
+#番茄小说
+127.0.0.1 frontier100-toutiao-hl.fqnovel.com
+127.0.0.1 frontier100-toutiao-lf.fqnovel.com
+
+#2024.12.16
+127.0.0.1 ad.doubleclick.net
+#讯飞
+127.0.0.1 sdk.voiceads.cn
+127.0.0.1 smartsails.voiceads.cn
+127.0.0.1 smartvideo-test.voiceads.cn
+127.0.0.1 smartvideo.voiceads.cn
+127.0.0.1 smartopen.jd.com
+#极光
+127.0.0.1 sdkapi-smartop.jiguang.cn
+127.0.0.1 smartop-sdkapi-ipv6.jiguang.cn
+127.0.0.1 s.adxvip.com
+127.0.0.1 s.domob.cn
+#127.0.0.1 sdkapi.sms.mob.com
+127.0.0.1 s.gdt.qq.com
+127.0.0.1 sdk.adx.adwangmai.com
+#个性推送
+127.0.0.1 sdk1api.getui.com
+127.0.0.1 sdk2api.getui.com
+127.0.0.1 sdk3api.getui.com
+#网易邮箱
+#127.0.0.1 e-p4p.163.com
+127.0.0.1 integralwall.baidu.com
+
+#2024.12.17
+#蓝奏云
+127.0.0.1 static.jcvba.com
+127.0.0.1 aizhantj.com
+127.0.0.1 dl.btii.cn
+
+#埋堆堆 开屏
+127.0.0.1 sdk1xyajs.data.kuiniuca.com
+#dns 天目？
+127.0.0.1 dns.titannetwork.cn
+127.0.0.1 dns1.titannetwork.cn
+127.0.0.1 dns2.titannetwork.cn
+127.0.0.1 sdk.tianmu.mobi
+#弹窗
+#127.0.0.1 sfo.mddcloud.com.cn
+#埋堆堆GIthub@[samsunggithub](https://github.com/samsunggithub)反馈
+127.0.0.1 sdk-data.ubixioe.com
+127.0.0.1 e-u1.ubixioe.com
+127.0.0.1 tower.ubixioe.com
+127.0.0.1 tx-cfg-u1.ubixioe.com
+127.0.0.1 tx-data-u1.ubixioe.com
+
+#2024.12.18
+#bridgeoos.com
+127.0.0.1 adx-os.bridgeoos.com
+127.0.0.1 adx-os.toponadss.com
+127.0.0.1 adx-sg-req.bridgeoos.com
+127.0.0.1 adx.adtaipo.com
+127.0.0.1 adx.tuia.cn
+127.0.0.1 adx.yixin.im
+127.0.0.1 adxapi.readgps.com
+127.0.0.1 api-c.dutils.com
+127.0.0.1 api-d.dutils.com
+127.0.0.1 api-p0.yksdks.com
+127.0.0.1 api.bridgeoos.com
+127.0.0.1 api.mobrtb.com
+127.0.0.1 api.mosspf.com
+127.0.0.1 api.toponadss.com
+127.0.0.1 da.bridgeoos.com
+127.0.0.1 tk.bridgeoos.com
+127.0.0.1 tk.toponadss.com
+127.0.0.1 ztoken.uyunad.com
+
+#2024.12.19
+#华为和荣耀安装检测和广告
+127.0.0.1 ad-drcn.dt.dbankcloud.cn
+127.0.0.1 ad-drcn.dt.dbankcloud.com
+127.0.0.1 ad-drcn.dt.hihonorcloud.cn
+127.0.0.1 ad-drcn.dt.hihonorcloud.com
+127.0.0.1 ads-drcn.platform.dbankcloud.cn
+127.0.0.1 ads-drcn.platform.dbankcloud.com
+127.0.0.1 ads-drcn.platform.hihonorcloud.cn
+127.0.0.1 ads-drcn.platform.hihonorcloud.com
+127.0.0.1 adx-drcn.op.dbankcloud.cn
+127.0.0.1 adx-drcn.op.dbankcloud.com
+127.0.0.1 adx-drcn.op.hihonorcloud.cn
+127.0.0.1 adx-drcn.op.hihonorcloud.com
+127.0.0.1 metrics-ad-drcn.dt.dbankcloud.cn
+127.0.0.1 metrics-ad-drcn.dt.dbankcloud.com
+127.0.0.1 metrics-ad-drcn.dt.hihonorcloud.cn
+127.0.0.1 metrics-ad-drcn.dt.hihonorcloud.com
+#安装检测
+127.0.0.1 installer-drcn.hispace.dbankcloud.cn
+127.0.0.1 installer-drcn.hispace.dbankcloud.com
+127.0.0.1 installer-drcn.hispace.dbankcloud.eu
+127.0.0.1 installer-drcn.hispace.hihonorcloud.cn
+127.0.0.1 installer-drcn.hispace.hihonorcloud.com
+127.0.0.1 installer-drcn.hispace.hihonorcloud.eu
+#浏览器
+127.0.0.1 browsercfg-drcn.cloud.dbankcloud.cn
+127.0.0.1 browsercfg-drcn.cloud.dbankcloud.com
+127.0.0.1 browsercfg-drcn.cloud.dbankcloud.eu
+127.0.0.1 browsercfg-drcn.cloud.hihonorcloud.cn
+127.0.0.1 browsercfg-drcn.cloud.hihonorcloud.com
+127.0.0.1 browsercfg-drcn.cloud.hihonorcloud.eu
+
+#2025.01.03
+#咕咚运动
+127.0.0.1 imageads.codoon.com
+127.0.0.1 8le8le.com
+#2025.03.01
+127.0.0.1 ck.ads.heytapmobi.com
+127.0.0.1 ck.ads.oppomobile.com
+127.0.0.1 ck.jads.co
+127.0.0.1 ck.juicyads.com
+127.0.0.1 datk.toponadss.com
+127.0.0.1 gcdsdk.appsflyer.com
+127.0.0.1 gcdsdk.appsflyersdk.com
+127.0.0.1 s.ads.smartadserver.com
+127.0.0.1 s.ads.sohu.com
+127.0.0.1 s.adx.opera.com
+127.0.0.1 s.moatads.com
+127.0.0.1 safeframe.googlesyndication.com
+127.0.0.1 ssdk.adkmob.com
+127.0.0.1 titanads1.com
+127.0.0.1 titanads2.com
+127.0.0.1 titanads3.com
+127.0.0.1 titanads4.com
+127.0.0.1 titanads5.com
+127.0.0.1 tk.toponadss.com
+127.0.0.1 tk2-usa.advlion.com
+127.0.0.1 tk2.advlion.com
+127.0.0.1 tkads.millemedia.de
+127.0.0.1 tm.ads.sportradar.com
+127.0.0.1 tmads.xyz
+127.0.0.1 tmatch.adsame.com
+127.0.0.1 tn.ads.justpremium.com
+
+#汽水音乐
+#127.0.0.1 frontier100-normal.zijieapi.com
+#127.0.0.1 saveu.zijieapi.com
+127.0.0.1 vr.gdt.qq.com
+127.0.0.1 mssdk.bytedance.com
+
+#openinstall(可能有误杀)
+127.0.0.1 web.cdn.openinstall.io
+
+#华为天气
+#匹配DNS
+127.0.0.1 op.hicloud.com
+127.0.0.1 op.hihonorcloud.com
+#开屏
+127.0.0.1 acd.op.hicloud.com
+127.0.0.1 acd.op.hihonorcloud.com
+#信息流
+127.0.0.1 newsfeed-drcn.cloud.dbankcloud.cn
+127.0.0.1 newsfeed-drcn.cloud.dbankcloud.com
+127.0.0.1 newsfeed-drcn.cloud.hihonorcloud.cn
+127.0.0.1 newsfeed-drcn.cloud.hihonorcloud.com
+#信息收集
+127.0.0.1 events.op.hicloud.com
+127.0.0.1 events.op.hihonorcloud.com
+#疑似SDK
+127.0.0.1 sdkserver-drcn.op.dbankcloud.cn
+127.0.0.1 sdkserver-drcn.op.hihonorcloud.com
+127.0.0.1 adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
+127.0.0.1 adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
+127.0.0.1 adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn
+127.0.0.1 adx-dra.op.dbankcloud.com
+127.0.0.1 adx-dra.op.hicloud.com
+127.0.0.1 adx-dra.op.hihonorcloud.com
+127.0.0.1 adx-dre.op.dbankcloud.com
+127.0.0.1 adx-dre.op.hicloud.com
+127.0.0.1 adx-dre.op.hihonorcloud.com
+127.0.0.1 adx-drru.op.dbankcloud.ru
+#上传啥的不知道，拦截无影响，可能后续误杀。
+127.0.0.1 upfile-drcn.platform.hicloud.com
+127.0.0.1 upfile-drcn.platform.hihonorcloud.com
+
+#2025.04.22
+#腾讯视频
+127.0.0.1 vv6.video.qq.com
+127.0.0.1 lf-ad-ies.bytecdn.cn
+127.0.0.1 ad.jia.360.cn
+127.0.0.1 ad.iot.360.cn
+#soul
+127.0.0.1 ad-h5-station-cdn.soulapp.cn
+127.0.0.1 ad-h5-cdn.soulapp.cn
+127.0.0.1 ad-r.soulapp.cn
+127.0.0.1 121.196.197.147
+127.0.0.1 120.27.235.201
+127.0.0.1 47.243.147.125
+127.0.0.1 47.110.187.87
+127.0.0.1 47.56.131.76
+127.0.0.1 47.99.42.29
+127.0.0.1 47.97.215.55
+#something
+127.0.0.1 apiv4-iyes.youku.com
+127.0.0.1 tysdk.95516.com
+127.0.0.1 m-vali.cp31.ott.cibntv.net
+127.0.0.1 vali-g1.cp31.ott.cibntv.net
+127.0.0.1 vali-ugc.cp31.ott.cibntv.net
+127.0.0.1 splashimgretrybssdl.cloud.kugou.com
+#未知厂商，先拦了再说
+#uyunad.com
+127.0.0.1 aaid.uyunad.com
+127.0.0.1 yumao.puata.info
+127.0.0.1 ztoken.uyunad.com
+#汽车之家
+127.0.0.1 adproxy.autohome.com.cn
+127.0.0.1 tosv.boe.byted.org
+127.0.0.1 tosv.byted.org
+
+#2025.08.25
+#部分快手登陆需要
+#127.0.0.1 sdkoptedge.chinanetcenter.com
+
+#2025.11.03
+#病毒
+127.0.0.1 fdkss.sbs
+
+#2025.12.06
+#蓝奏云恶意转跳
+127.0.0.1 souka.iptrm.com
+127.0.0.1 souka.ipts.com
+127.0.0.1 souka.iptvlm.com
+127.0.0.1 souka.iptvzj.com
 
