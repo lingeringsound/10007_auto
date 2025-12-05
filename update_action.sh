@@ -210,6 +210,7 @@ local conf="${1}"
 local target="${2}"
 if test -e $conf ;then 
 echo -e "[$(date +%y-%m-%d-%T)] ※执行排除文件["${conf}"]下的规则……※\n"
+busybox sed -i 's/0.0.0.0/127.0.0.1/g' "${conf}"
 	for i in $(cat "${conf}" 2>/dev/null | sed '/^#.*/d;/^[[:space:]]*$/d' )
 		do
 			sed -i "/$i/d" "${target}"
