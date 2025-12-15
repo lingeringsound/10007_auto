@@ -3,7 +3,7 @@
 ! Title: Host 10007
 ! Homepage: https://github.com/lingeringsound/10007_auto
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto
-! Last modified: 2025-12-14 22:20:09
+! Last modified: 2025-12-15 09:55:44
 ! 规则数量: 18952
 
 ! 爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
@@ -561,6 +561,8 @@
 @@||analytics.95516.com^$document
 ! 第三方床图和视频网站播放需要
 @@||p3-tt.byteimg.com^$document
+! 最美天气图床
+@@||dl.zuimeitianqi.com^$document
 
 
 ! 添加一些规则
