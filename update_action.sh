@@ -140,8 +140,7 @@ https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts|1024
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts|StevenBlack
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts|yhost
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts|大圣净化
-https://hosts.oisd.nl/basic|oisd
-https://neodev.team/lite_host|neodev
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/host|neodev
 '
 
 echo -e "\n※下载hosts中……"
