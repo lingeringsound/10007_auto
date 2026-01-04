@@ -3,8 +3,8 @@
 ! Title: Host 10007
 ! Homepage: https://github.com/lingeringsound/10007_auto
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto
-! Last modified: 2026-01-04 10:04:46
-! 规则数量: 13124
+! Last modified: 2026-01-04 11:31:37
+! 规则数量: 13101
 
 ! 爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
 ! 这两没用了
@@ -509,6 +509,8 @@
 @@||imasdk.googleapis.com^$document
 ! 123云盘卡开屏
 @@||sdk-api.beizi.biz^$document
+! 123云盘客户端检测广告域名加载文件
+! @@||apiv4.anythinktech.com^$document
 ! 快手送礼
 @@||w1.kskwai.com^$app=com.smile.gifmaker
 ! 唯品会APP
@@ -566,6 +568,10 @@
 ! 纳米搜索和360官网
 @@||s.ssl.qhres2.com^$document
 @@||qhres2.com^$document
+! QQ9.X获取服务器更新域名
+@@||qappcenterv6.3g.qq.com^$document
+@@||tdid.m.qq.com^$document
+@@||tangram.e.qq.com^$document,app=com.tencent.mobileqq
 
 
 ! 添加一些规则
@@ -834,7 +840,6 @@
 ||23.231.151.252^
 ||2341.a.dlads.cn^
 ||23986834.com^
-||23e4d976.355c2dad197e2ed1b6bd1017.workers.dev^
 ||23gtest.bj2cu.u3.ucweb.com^
 ||240.zaloapp.ads.zdn.vn^
 ||24gtest.bj2cu.u3.ucweb.com^
@@ -2063,6 +2068,7 @@
 ||adk2.co^
 ||adk2.com^
 ||adk2x.com^
+||adlaunch.moji.com^
 ||adlog.flurry.com^
 ||adlog.tagtic.cn^
 ||adlogs.ad2iction.com^
@@ -2901,6 +2907,7 @@
 ||ads.mobilemarketer.com^
 ||ads.mobilityware.com^
 ||ads.mofos.com^
+||ads.mojicdn.com^
 ||ads.mondogames.com^
 ||ads.monetize-me.com^
 ||ads.mopub.com^
@@ -4167,6 +4174,9 @@
 ||adsmart.com^
 ||adsmart.net^
 ||adsmart.yicha.cn^
+||adsmartget.datads.cn^
+||adsmartget.guangtuikeji.com^
+||adsmartgetbes.datads.cn^
 ||adsmartgetqtt.guangtuikeji.com^
 ||adsmartracker.com^
 ||adsmetadata.startappservice.com^
@@ -4465,6 +4475,7 @@
 ||advertica-cdn.com^
 ||adverticum.com^
 ||adverticum.net^
+||advertise.baicizhan.cn^
 ||advertise.bingads.microsoft.com^
 ||advertise.com^
 ||advertise.ldplayer.net^
@@ -4538,7 +4549,6 @@
 ||advombat.ru^
 ||advpic.yicha.jp^
 ||advplace.com^
-||advpro.top^
 ||advrts.onelouder.com^
 ||advs.adgorithms.com^
 ||advsdkreport-def.tt.cn^
@@ -4559,6 +4569,7 @@
 ||adwbs.ximalaya.com^
 ||adwin.startappservice.com^
 ||adwpaces.ero-advertising.com^
+||adx-api.hupu.com^
 ||adx-asia-imp.aarki.net^
 ||adx-asia.aarki.net^
 ||adx-bid.tianzhuobj.com^
@@ -4618,6 +4629,7 @@
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
 ||adx.adtaipo.com^
+||adx.adwangmai.com^
 ||adx.adxglobal.com^
 ||adx.agrantsem.com^
 ||adx.alimama.com^
@@ -4643,6 +4655,7 @@
 ||adx.hupu.com^
 ||adx.hzbxm.com^
 ||adx.ibibo.com^
+||adx.kat.ph^
 ||adx.kuaiyiad.com^
 ||adx.kul.vn^
 ||adx.lsosad.com^
@@ -4650,6 +4663,7 @@
 ||adx.mediaz.asia^
 ||adx.ocala.com^
 ||adx.op.cp18.ott.cibntv.net^
+||adx.open-adx.com^
 ||adx.phunuadong.vn^
 ||adx.pro.cn^
 ||adx.proadscdn.com^
@@ -4667,6 +4681,7 @@
 ||adx.xemvtv.net^
 ||adx.xiaodutv.com^
 ||adx.xtv.vn^
+||adx.yiche.com^
 ||adx.yixin.im^
 ||adx.zuoyebang.com^
 ||adx2.adform.net^
@@ -5100,6 +5115,7 @@
 ||androidsdk.ads.mp.mydas.mobi^
 ||andromeda.iad-01.braze.com^
 ||andrqd.play.aiseet.atianqi.com^
+||anesttopl.pro^
 ||ani.adspruce.com^
 ||anners.ero-advertising.com^
 ||annuaaggri.pro^
@@ -5773,6 +5789,7 @@
 ||apistats-static.propellerads.com^
 ||apistats.propellerads.com^
 ||apiv4-iyes.youku.com^
+||apiv4.anythinktech.com^
 ||apm-volcano.zuoyebang.com^
 ||apo.ero-advertising.com^
 ||app-10d1b5add9b529e5.mobileapi.usebutton.com^
@@ -5883,7 +5900,6 @@
 ||atr.adsmovil.com^
 ||atsmetrics.adobe.com^
 ||attr.union.ucweb.com^
-||attrajungl.pro^
 ||au.ads.link4ads.com^
 ||au.adserver.yahoo.com^
 ||au.umeng.co^
@@ -6069,6 +6085,7 @@
 ||baofeng.m.cn.miaozhen.com^
 ||baogia.vads.vn^
 ||bar.baidu.com^
+||barbasopre.pro^
 ||base.api.my7v.com^
 ||batch.upsight-api.com^
 ||bavners2.ero-advertising.com^
@@ -6352,6 +6369,7 @@
 ||castibubol.pro^
 ||cata.ero-advertising.com^
 ||catalog.video.msn.com^
+||cautecoali.pro^
 ||cavitordin.pro^
 ||cb.alimama.cn^
 ||cb.baidu.com^
@@ -6550,13 +6568,11 @@
 ||checker.cityads.com^
 ||checkinsforwads3.com^
 ||cheroenhal.pro^
-||chiagpilot.pro^
 ||chilowatts.pro^
 ||chineseinla.com^
 ||choingay11b.mobi^
 ||christianbusinessadvertising.com^
 ||chroniclepulsehub.pro^
-||chuguadventures.co.tz^
 ||chykohija.pro^
 ||cianuallum.pro^
 ||cicchlecca.pro^
@@ -6763,6 +6779,7 @@
 ||cm.dmp.360.cn^
 ||cm.dmp.sina.cn^
 ||cm.e.qq.com^
+||cm.fancyapi.com^
 ||cm.g.doubleclick.net^
 ||cm.ipinyou.com^
 ||cm.jd.com^
@@ -6807,7 +6824,6 @@
 ||commercial.shouji.360.cn^
 ||communityinsighthub.pro^
 ||compisorgi.pro^
-||conceattra.pro^
 ||concertads-configs.vox-cdn.com^
 ||conchsguer.pro^
 ||concubethu.pro^
@@ -6841,8 +6857,6 @@
 ||coocaa.admaster.com.cn^
 ||cookie.vrtzads.com^
 ||cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com^
-||coptiopn.pro^
-||cordoproph.pro^
 ||core.royalads.net^
 ||corebug.adsame.com^
 ||corestoneadvisors.live^
@@ -7070,12 +7084,10 @@
 ||demobl.cityads.com^
 ||demr.mspaceads.com^
 ||deployads.com^
-||desaccompl.pro^
 ||desb.mspaceads.com^
 ||desieaute.pro^
 ||designer.dynamic-dns.net^
 ||desk.mspaceads.com^
-||desmitouh.pro^
 ||destrbasto.pro^
 ||deta.ero-advertising.com^
 ||detail-adsapi.vivo.com.cn^
@@ -7114,6 +7126,7 @@
 ||direct.adsrvr.org^
 ||directadvert.ru^
 ||directleads.com^
+||direfstras.pro^
 ||dirhamads.com^
 ||discountads.net^
 ||discretioningratitudeadvisedly.com^
@@ -7125,6 +7138,7 @@
 ||display.ad.daum.net^
 ||display.xad.com^
 ||displayads-formats.googleusercontent.com^
+||disquliter.pro^
 ||disqusads.com^
 ||dissenebbi.pro^
 ||disseritua.pro^
@@ -7132,9 +7146,9 @@
 ||ditersciss.pro^
 ||divavillage.advertserve.com^
 ||divenviter.pro^
+||divispewag.pro^
 ||divultipic.pro^
 ||dk.adserver.yahoo.com^
-||dkamafow.pro^
 ||dl-vip.bav.baidu.com^
 ||dl-vip.pcfaster.baidu.co.th^
 ||dl.2345.com^
@@ -7362,7 +7376,6 @@
 ||eedclicks.ero-advertising.com^
 ||eee.dada8828.com^
 ||efcad85fded269f462c434c4c5f84654a17d4a77.cws.conviva.com^
-||egrzamsdk.top^
 ||ehadvicedev.112.2o7.net^
 ||ei.cnzz.com^
 ||eiv.baidu.com^
@@ -7414,6 +7427,7 @@
 ||es.ads.justpremium.com^
 ||es.adserver.yahoo.com^
 ||es.ero-advertising.com^
+||eschilanne.pro^
 ||escremopin.pro^
 ||escubconce.pro^
 ||et.mobadvent.com^
@@ -7484,11 +7498,10 @@
 ||f25.adventori.com^
 ||faccesbarb.pro^
 ||facebook-ads.hara.vn^
+||faciogratt.pro^
 ||factflowexpress.pro^
 ||fadskis.com^
 ||fadsoampoaksoaw.net^
-||faktybrzesnia.pro^
-||faktygorzewo.pro^
 ||fam-ad.com^
 ||fanerbipar.pro^
 ||fanners.ero-advertising.com^
@@ -7532,7 +7545,6 @@
 ||finance.cityads.com^
 ||finovexis-pro-ai.com^
 ||finquor-360.com^
-||fioracocob.pro^
 ||fireads.online^
 ||fireads.org^
 ||fireworkadservices.com^
@@ -7579,6 +7591,7 @@
 ||forex-advice.net^
 ||forexadv.eu^
 ||form.ads.zalo.me^
+||forniraggu.pro^
 ||forum.ero-advertising.com^
 ||forums.data2.ero-advertising.com^
 ||forums.ero-advertising.com^
@@ -7591,6 +7604,7 @@
 ||frameiubil.pro^
 ||freakads.com^
 ||free247downloads.com^
+||frignlogga.pro^
 ||front.aid-ad.jp^
 ||frontier-toutiao.snssdk.com^
 ||frontier100-toutiao-hl.fqnovel.com^
@@ -7604,7 +7618,6 @@
 ||frwrz661fasv.s4.adsco.re^
 ||fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com^
 ||ftp.dns-info.dyndns.pro^
-||fucossvent.pro^
 ||fumiad.dxys.pro^
 ||fun-adx.admaster.com.cn^
 ||fun.adx.admaster.com.cn^
@@ -7625,6 +7638,7 @@
 ||g.cn.miaozhen.com^
 ||g.doubleclick.net^
 ||g.dtv.cn.miaozhen.com^
+||g.fancyapi.com^
 ||g.jssdk.net^
 ||g.s.360.cn^
 ||g.sdk.look.360.cn^
@@ -7665,7 +7679,6 @@
 ||gateway.ttpsdk.info^
 ||gateway.unityads.unity3d.com^
 ||gavilunrid.pro^
-||gazetakrasnik.pro^
 ||gbp.ebayadvertising.triadretail.net^
 ||gcads.osdn.com^
 ||gcd.mmstat.com^
@@ -7791,7 +7804,6 @@
 ||green-ad.ad-stir.com^
 ||greenwall-monvex-pro.com^
 ||grendkalox.pro^
-||griferasso.pro^
 ||grillgoril.pro^
 ||grippcabla.pro^
 ||gromore.pangolin-sdk-toutiao.com^
@@ -7835,6 +7847,7 @@
 ||ha-api.pushwoosh.com^
 ||haiwai-ic.ksosoft.com^
 ||halo.ad.gt^
+||handiceii.pro^
 ||hao.360.cn^
 ||hao123.xywy.com^
 ||haostat.qihoo.com^
@@ -8157,9 +8170,10 @@
 ||in.adserver.yahoo.com^
 ||in.analytics.glance.inmobi.com^
 ||in.api.glance.inmobi.com^
+||inabigesit.pro^
 ||inc2.igexin.com^
 ||incalrival.pro^
-||incatovera.pro^
+||incargluco.pro^
 ||inceptionads.go2cloud.org^
 ||inciperutt.pro^
 ||incruclatt.pro^
@@ -8229,7 +8243,6 @@
 ||ipko.pl-external-internal-server-v3.pro^
 ||ipko.pl-main-stage-client-api.pro^
 ||ipko.pl-management-alpha-server-api-gateway.pro^
-||ipko.pl-secure-partner-management-node.pro^
 ||ipko.pl-stage-service-server-management.pro^
 ||ipm.atm.cp31.ott.cibntv.net^
 ||ipw.metadsp.co.uk^
@@ -8289,7 +8302,6 @@
 ||jifendownload.2345.cn^
 ||jinkads.de^
 ||jioads.akamaized.net^
-||jiphivevela.pro^
 ||jipinyouwu.com^
 ||jira.vlion.cn^
 ||jizzads.com^
@@ -8380,7 +8392,6 @@
 ||kde.qq.com^
 ||kds.ero-advertising.com^
 ||keitaro1.cityads.com^
-||kerslcusto.pro^
 ||kexmobeves.pro^
 ||keyword.ad.daum.net^
 ||kgipadstat.kugou.com^
@@ -8397,7 +8408,7 @@
 ||krelmondif.pro^
 ||kreumondal.pro^
 ||kreustolvd.pro^
-||kronikagrodzisz.pro^
+||kryptrumig.pro^
 ||kstj.baidu.com^
 ||kt88.pro^
 ||ktokto.mobi^
@@ -8413,6 +8424,7 @@
 ||kylvarix-pro.com^
 ||kyson.ad.daum.net^
 ||kz.admaster.com.cn^
+||l.fancyapi.com^
 ||l.gm.mob.com^
 ||l.tcp.push.mob.com^
 ||l2.l.qq.com^
@@ -8456,6 +8468,7 @@
 ||leeladefer.pro^
 ||legjava.pro^
 ||lenifhorti.pro^
+||lentitonat.pro^
 ||letv.axp.admaster.com.cn^
 ||letv.m.cn.miaozhen.com^
 ||level.turboads.de^
@@ -8504,7 +8517,6 @@
 ||linker.adsee.jp^
 ||links-and-traffic.com^
 ||links.onlinedownloads.org^
-||lipokere.pro^
 ||lisads.d2c.ne.jp^
 ||lite.a.market.xiaomi.com^
 ||litogunres.pro^
@@ -8514,7 +8526,6 @@
 ||live.xunlei.com^
 ||liveads.jp^
 ||livec.l.qq.com^
-||liveci.pro^
 ||livem.l.qq.com^
 ||livep.l.aiseet.atianqi.com^
 ||livep.l.qq.com^
@@ -8569,6 +8580,7 @@
 ||m.ads.sohu.com^
 ||m.ads.zalo.me^
 ||m.adsymptotic.com^
+||m.advast.cn^
 ||m.analytics.126.net^
 ||m.anycast.adnxs.com^
 ||m.api.baifendian.com^
@@ -8705,6 +8717,7 @@
 ||mclick.mobi^
 ||mclick.simba.taobao.com^
 ||mdp-appconf-sg.heytapdl.com^
+||mdrecv.app.cntvwb.cn^
 ||me.xdrig.com^
 ||med-api.admost.com^
 ||medal.blog.csdn.net^
@@ -8980,7 +8993,6 @@
 ||ncads.s3.amazonaws.com^
 ||nclog.pad.baofeng.net^
 ||needadvertising.com^
-||neocodemit.pro^
 ||nep.advangelists.com^
 ||neptune.appads.com^
 ||neptune1.appads.com^
@@ -9034,12 +9046,9 @@
 ||nlog.baidu.com^
 ||nners.ero-advertising.com^
 ||no.adserver.yahoo.com^
-||nocafora.pro^
 ||node.gameads.io^
 ||nodeplexvalutara-pro.com^
 ||nonpibolsc.pro^
-||nonplloafi.pro^
-||nonsesbott.pro^
 ||nontrhippa.pro^
 ||northcrestadvisors.live^
 ||northcrestconsulting.mobi^
@@ -9053,7 +9062,6 @@
 ||notification-browser.com^
 ||novaonads.com^
 ||novecconci.pro^
-||nowinyrzeszowa.pro^
 ||ns-strategy.cdn.bcebos.com^
 ||ns1.cnzz.com^
 ||ns2.cnzz.com^
@@ -9105,7 +9113,6 @@
 ||oc.umeng.com^
 ||ocdn.adsterra.com^
 ||ocx.umeng.com^
-||odnguwipoive.pro^
 ||odoricanel.pro^
 ||oeeee.adsame.com^
 ||of.inviziads.com^
@@ -9198,7 +9205,6 @@
 ||origin-ads.exdynsrv.com^
 ||origin-ads.exoclick.com^
 ||orion.iad.appboy.com^
-||orona.pro^
 ||orpixel.adsafeprotected.com^
 ||ort-stsdk.vivo.com.cn^
 ||ort.stsdk.vivo.com.cn^
@@ -9210,6 +9216,7 @@
 ||otheve.play.aiseet.atianqi.com^
 ||othstr.beacon.qq.com^
 ||othstr.play.aiseet.atianqi.com^
+||ottimalbeg.pro^
 ||oumax.oupeng.com^
 ||ouplog.umeng.com^
 ||out.popads.net^
@@ -9219,7 +9226,6 @@
 ||outcome-cdn.supersonicads.com^
 ||outcome-ssp.supersonicads.com^
 ||outcome.supersonicads.com^
-||ovecy.pro^
 ||overflow.adsoftware.com^
 ||ovjadxdcoad.com^
 ||ovoviintin.pro^
@@ -9227,7 +9233,6 @@
 ||owads.audioadx.com^
 ||owl.proadscdn.com^
 ||ox-d.hypeads.org^
-||oyiwabay.pro^
 ||ozarixtrade50.com^
 ||ozarixtrade50app.com^
 ||ozarixtrade50app.net^
@@ -9522,6 +9527,7 @@
 ||pagepeel.ero-advertising.com^
 ||pages-juxiao.mediav.com^
 ||pages.juxiao.mediav.com^
+||palafspong.pro^
 ||panda.adsame.com^
 ||pandora-profit-ai.net^
 ||pandoramedia-mkt-prod1-t.campaign.adobe.com^
@@ -9593,6 +9599,7 @@
 ||peakstoneventures.pro^
 ||pei-ads.thesmokingjacket.com^
 ||pemtairitoads.net^
+||penetdeman.pro^
 ||pensaanopi.pro^
 ||penta.a.one.impact-ad.jp^
 ||people.api.boomtrain.com^
@@ -9740,6 +9747,7 @@
 ||pos.baidu.com^
 ||post.update.fbsbx.com^
 ||post1.voiceads.cn^
+||postlaccre.pro^
 ||poweredby.jads.co^
 ||poweredby.jads.com^
 ||poweredbyliquidfire.mobi^
@@ -9766,6 +9774,7 @@
 ||premier-trade-pro.com^
 ||premiertrade-pro.com^
 ||presstrans.pro^
+||preveripio.pro^
 ||prevescler.pro^
 ||preview-api.installer.xiaomi.com^
 ||preview.ads.zalo.me^
@@ -9819,7 +9828,6 @@
 ||promo-images.ttpsdk.info^
 ||promo.cityads.com^
 ||promo.propellerads.com^
-||promointon.pro^
 ||promote.biz.weibo.cn^
 ||promotionalads.yahoo.co.jp^
 ||pronetadvertising.com^
@@ -9834,7 +9842,6 @@
 ||prt-stsdk.vivo.com.cn^
 ||prt.stsdk.vivo.com.cn^
 ||prt.stsdk.vivoglobal.com^
-||przegladkrosno.pro^
 ||ps-eu.amazon-adsystem.com^
 ||ps-jp.amazon-adsystem.com^
 ||ps-us.amazon-adsystem.com^
@@ -9866,7 +9873,6 @@
 ||pups.bdimg.com^
 ||push-ad.com^
 ||push-api.topaz-analytics.com^
-||push-kin.pro^
 ||push.lx.netease.com^
 ||push.mob.com^
 ||push.pgl.qq.com^
@@ -9900,7 +9906,6 @@
 ||q12.cnzz.com^
 ||q14.cnzz.com^
 ||qapm.baidu.com^
-||qappcenterv6.3g.qq.com^
 ||qbdsp.html5.qq.com^
 ||qc.789.mobi^
 ||qc.nhatvip.pro^
@@ -9927,7 +9932,6 @@
 ||queue.adspruce.com^
 ||quickadsmedia.gotrackier.com^
 ||quickstreampro.pro^
-||quinyundem.pro^
 ||qurl.f.360.cn^
 ||qzs.gdtimg.com^
 ||r-ad.ne.jp^
@@ -9954,7 +9958,6 @@
 ||rads.msn.com^
 ||rads.stackoverflow.com^
 ||rampidads.com^
-||raportglowicz.pro^
 ||rassudesci.pro^
 ||rata.ero-advertising.com^
 ||rationalan.pro^
@@ -10077,17 +10080,19 @@
 ||rhombusads.com^
 ||riammtechn.pro^
 ||riassvorti.pro^
+||ricanentom.pro^
 ||riconriabi.pro^
 ||ricordedur.pro^
 ||riddaodore.pro^
 ||ridgefieldadvisors.life^
 ||ridgepointintelligence.pro^
 ||riduzperfo.pro^
-||rimardynat.pro^
 ||rimedsilly.pro^
 ||rinasdialk.pro^
+||rindearran.pro^
 ||rinfiintar.pro^
 ||rinfogiull.pro^
+||riperrampo.pro^
 ||risbapreco.pro^
 ||river.zhidao.baidu.com^
 ||rivercrest.pro^
@@ -10157,7 +10162,6 @@
 ||rtb8.adscience.nl^
 ||rtb9.adscience.nl^
 ||rtbflairads.com^
-||rtoloida.pro^
 ||rts.mobula.sdk.duapps.com^
 ||ru-geo.cityads.com^
 ||ru.mst.dns-cloud.net^
@@ -10433,7 +10437,7 @@
 ||saxn.sina.com.cn^
 ||saxs.sina.cn^
 ||saxs.sina.com.cn^
-||sbandcriti.pro^
+||sbaradecon.pro^
 ||sbeacon.sina.com.cn^
 ||sbraidisra.pro^
 ||sbs-ad.com^
@@ -10445,18 +10449,19 @@
 ||scar.unityads.unity3d.com^
 ||scdn.cxense.com^
 ||scdn.eclick.vn^
+||sceglaffig.pro^
 ||scene.vip.xunlei.com^
 ||scialinabi.pro^
 ||sclick.baidu.com^
 ||sconf.f.360.cn^
 ||scopacranc.pro^
-||scorbstret.pro^
 ||scorcdismo.pro^
 ||scribe.twitter.com^
 ||script.mclick.mobi^
 ||script.proadscdn.com^
 ||scrollingads.hustlermegapass.com^
 ||sd.360.cn^
+||sdapprecv.app.cntvwb.cn^
 ||sdfp.snssdk.com^
 ||sdk-02.moengage.com^
 ||sdk-ab-config.aiclk.com^
@@ -10580,6 +10585,7 @@
 ||sdk2api.getui.com^
 ||sdk3api.getui.com^
 ||sdkapi-smartop.jiguang.cn^
+||sdkapi.cloooud.com^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
 ||sdkcfg.adintl.cn^
@@ -10590,7 +10596,6 @@
 ||sdkserver-drcn.op.hihonorcloud.com^
 ||sdktmp.hubcloud.com.cn^
 ||sdkupgrade.insight.ucweb.com^
-||sdottdiffi.pro^
 ||sdructopol.pro^
 ||sdsp.ipinyou.com^
 ||sdu.adwo.com^
@@ -10632,7 +10637,6 @@
 ||sejs.moatads.com^
 ||seks-partner.com^
 ||selencongl.pro^
-||semiibudible.pro^
 ||semirfrigo.pro^
 ||sensors.snaptube.app^
 ||seosoftware.onlinedownloads.org^
@@ -10765,7 +10769,6 @@
 ||skyhavenintegrations.pro^
 ||skyline-nexus-pro-app.com^
 ||skypicker-api.infinario.com^
-||slateepith.pro^
 ||slawbdisap.pro^
 ||slckg-2p3vy.ads.tremorhub.com^
 ||slckg-4znyf.ads.tremorhub.com^
@@ -10819,7 +10822,7 @@
 ||sonevacui.pro^
 ||sonic-us.supersonicads.com^
 ||sor-sdk.follow-apps.com^
-||sosuxel.pro^
+||sorpainzuc.pro^
 ||sottorisol.pro^
 ||souka.iptrm.com^
 ||souka.ipts.com^
@@ -10855,6 +10858,7 @@
 ||sportingbeteur.adsrv.eacdn.com^
 ||sportplus.pro^
 ||spot-01.trackingpro.pro^
+||spregpesca.pro^
 ||sprout-ad.com^
 ||sprout-ad.genieesspv.jp^
 ||squirtatt15.sugar1818.net^
@@ -11069,7 +11073,6 @@
 ||study.snapads.com^
 ||su.bdimg.com^
 ||su.bdstatic.com^
-||subacprinc.pro^
 ||subdotanni.pro^
 ||subwayfranchiseeadvertising.sc.omtrdc.net^
 ||summitgatepartners.pro^
@@ -11170,6 +11173,7 @@
 ||t1.adserver.com^
 ||t1.extreme-dm.com^
 ||t2.a.market.xiaomi.com^
+||t2.fancyapi.com^
 ||t3.a.market.xiaomi.com^
 ||t4.a.market.xiaomi.com^
 ||t4.agrantsem.com^
@@ -11225,7 +11229,6 @@
 ||tcp.push.mob.com^
 ||tdc.advertorials.dk^
 ||tdcv3.talkingdata.net^
-||tdid.m.qq.com^
 ||tdsdk.cpatrk.net^
 ||tdwv1.talkingdata.com^
 ||te.advance.net^
@@ -11233,7 +11236,6 @@
 ||teads.tv^
 ||teads.tv.edgekey.net^
 ||teads245638586802.s.moatpixel.com^
-||teatl.pro^
 ||techain.baidu.com^
 ||techweb.iv.adsame.com^
 ||tediametil.pro^
@@ -11367,6 +11369,7 @@
 ||toolbar.msn.com^
 ||tools.3g.qq.com^
 ||tools.ad-net.co.uk^
+||toosiostra.pro^
 ||topads.ero-advertising.com^
 ||topads.rrstar.com^
 ||topapi.cp12.ott.cibntv.net^
@@ -11511,6 +11514,7 @@
 ||trapadisgu.pro^
 ||trasabread.pro^
 ||trasdnovem.pro^
+||traseimmut.pro^
 ||trc.adsage.com^
 ||trends.mobile.sina.cn^
 ||trincpraes.pro^
@@ -11541,7 +11545,6 @@
 ||turbo2sdk-push.oupeng.com^
 ||turboadv.com^
 ||turbosai.pro^
-||turgigerti.pro^
 ||tutoads.tv^
 ||tvads.alphonso.tv^
 ||tw-api.vpadn.com^
@@ -11644,7 +11647,6 @@
 ||unmotinsal.pro^
 ||unomiingom.pro^
 ||unpaspostf.pro^
-||unpoevetozu.pro^
 ||unpreinfam.pro^
 ||unrescorte.pro^
 ||unstat.baidu.com^
@@ -11703,7 +11705,6 @@
 ||upgrade.mishop.pandora.xiaomi.com^
 ||upgrade.thejeu.com^
 ||upgrade.xl9.xunlei.com^
-||upolaman.pro^
 ||upoll.umengcloud.com^
 ||uppyads.com^
 ||ups.analytics.yahoo.com^
@@ -11853,6 +11854,7 @@
 ||vcdn.anthill.vn^
 ||vcdn.media.innity.net^
 ||vcdn.subiz-cdn.com^
+||vdapprecv.app.cntvwb.cn^
 ||veads.veinteractive.com^
 ||vegetricam.pro^
 ||veim.lrswl.com^
@@ -12182,6 +12184,7 @@
 ||w.adsco.re^
 ||w.cnzz.com^
 ||w.extreme-dm.com^
+||w.fancyapi.com^
 ||w.gdown.baidu.com^
 ||w.l.qq.com^
 ||w.x.baidu.com^
@@ -12230,7 +12233,6 @@
 ||wangmeng.baidu.com^
 ||wap.hot-mob.com^
 ||wapwbclick.mobile.sina.cn^
-||warren-ai-pro-engine.com^
 ||washioverr.pro^
 ||wat.ad.daum.net^
 ||wataads.com^
@@ -12284,7 +12286,6 @@
 ||westads.simpli.fi^
 ||whaleads.com^
 ||whitecorvo.pro^
-||wiadomostrzewo.pro^
 ||widget.cleverads.vn^
 ||wifi.ads.oppomobile.com^
 ||wifiads.cleverads.vn^
@@ -12304,6 +12305,7 @@
 ||windows-several-update.com^
 ||windows-update-02-en.com^
 ||windows-wsus-update.com^
+||wiseldisab.pro^
 ||wisepush.video.baidu.com^
 ||wks.ero-advertising.com^
 ||wlaph4nlrn63.l.adsco.re^
@@ -12423,7 +12425,6 @@
 ||www.1-1ads.com^
 ||www.1-free-share-buttons.com^
 ||www.123win.pro^
-||www.23e4d976.355c2dad197e2ed1b6bd1017.workers.dev^
 ||www.2baners.ero-advertising.com^
 ||www.2ds.ero-advertising.com^
 ||www.2fbanners.ero-advertising.com^
@@ -12611,6 +12612,7 @@
 ||www.analytics.ero-advertising.com^
 ||www.analytics.icons8.com^
 ||www.analytics.picsart.com^
+||www.anesttopl.pro^
 ||www.anners.ero-advertising.com^
 ||www.annuaaggri.pro^
 ||www.anobaq.pro^
@@ -12630,7 +12632,6 @@
 ||www.ata.ero-advertising.com^
 ||www.atlasforgeanalytics.mobi^
 ||www.atlastrailadvisors.mom^
-||www.attrajungl.pro^
 ||www.autencaffe.pro^
 ||www.autoads.asia^
 ||www.autoloblie.pro^
@@ -12662,6 +12663,7 @@
 ||www.banners1.ero-advertising.com^
 ||www.banners2.ero-advertising.com^
 ||www.bannevs.ero-advertising.com^
+||www.barbasopre.pro^
 ||www.bavners2.ero-advertising.com^
 ||www.beadspack.com^
 ||www.beginads.com^
@@ -12722,6 +12724,7 @@
 ||www.cash4downloads.com^
 ||www.castibubol.pro^
 ||www.cata.ero-advertising.com^
+||www.cautecoali.pro^
 ||www.cavitordin.pro^
 ||www.cbeckads.com^
 ||www.cbproads.com^
@@ -12741,7 +12744,6 @@
 ||www.checkinsforwads3.com^
 ||www.chengzijianzhan.com^
 ||www.cheroenhal.pro^
-||www.chiagpilot.pro^
 ||www.chilowatts.pro^
 ||www.christianbusinessadvertising.com^
 ||www.chroniclepulsehub.pro^
@@ -12770,7 +12772,6 @@
 ||www.commenociu.pro^
 ||www.communityinsighthub.pro^
 ||www.compisorgi.pro^
-||www.conceattra.pro^
 ||www.conchsguer.pro^
 ||www.concubethu.pro^
 ||www.confotomog.pro^
@@ -12780,8 +12781,6 @@
 ||www.contradven.site^
 ||www.cool-downloads.com^
 ||www.cool-downloads.net^
-||www.coptiopn.pro^
-||www.cordoproph.pro^
 ||www.corestoneadvisors.live^
 ||www.cpmadvisors.com^
 ||www.cpro.baidu.com^
@@ -12825,9 +12824,7 @@
 ||www.delirsensi.pro^
 ||www.deltafieldadvisors.info^
 ||www.demilitarpout.pro^
-||www.desaccompl.pro^
 ||www.desieaute.pro^
-||www.desmitouh.pro^
 ||www.destrbasto.pro^
 ||www.deta.ero-advertising.com^
 ||www.deutschgenie-ai-pro-app.com^
@@ -12838,16 +12835,18 @@
 ||www.diesiimbro.pro^
 ||www.dinamscamo.pro^
 ||www.directnetadvertising.net^
+||www.direfstras.pro^
 ||www.dirhamads.com^
 ||www.discupostp.pro^
 ||www.disfolacun.pro^
 ||www.dispagrugn.pro^
+||www.disquliter.pro^
 ||www.dissenebbi.pro^
 ||www.disseritua.pro^
 ||www.ditersciss.pro^
 ||www.divenviter.pro^
+||www.divispewag.pro^
 ||www.divultipic.pro^
-||www.dkamafow.pro^
 ||www.dm-tester.online^
 ||www.dobreprogramy.pro^
 ||www.doctodiale.pro^
@@ -12895,6 +12894,7 @@
 ||www.ero-advertising.com^
 ||www.ers.ero-advertising.com^
 ||www.es.ero-advertising.com^
+||www.eschilanne.pro^
 ||www.escremopin.pro^
 ||www.escubconce.pro^
 ||www.eshopads2.com^
@@ -12912,9 +12912,8 @@
 ||www.expressmediabreak.pro^
 ||www.extreme-dm.com^
 ||www.faccesbarb.pro^
+||www.faciogratt.pro^
 ||www.factflowexpress.pro^
-||www.faktybrzesnia.pro^
-||www.faktygorzewo.pro^
 ||www.fanerbipar.pro^
 ||www.fanners.ero-advertising.com^
 ||www.fast-adv.it^
@@ -12924,7 +12923,6 @@
 ||www.fhatfee.ero-advertising.com^
 ||www.finovexis-pro-ai.com^
 ||www.finquor-360.com^
-||www.fioracocob.pro^
 ||www.fireads.online^
 ||www.firstclick.pro^
 ||www.fistubianc.pro^
@@ -12942,15 +12940,16 @@
 ||www.forefchera.pro^
 ||www.foresthdill.pro^
 ||www.forex-advice.net^
+||www.forniraggu.pro^
 ||www.forum.ero-advertising.com^
 ||www.forums.data2.ero-advertising.com^
 ||www.forums.ero-advertising.com^
 ||www.fpa.ero-advertising.com^
 ||www.frameiubil.pro^
+||www.frignlogga.pro^
 ||www.frostgatemetrics.pro^
 ||www.frostlineadvisors.ink^
 ||www.frumeaccud.pro^
-||www.fucossvent.pro^
 ||www.fxadviceformeandyou.com^
 ||www.gaettriasc.pro^
 ||www.galanpante.pro^
@@ -12958,7 +12957,6 @@
 ||www.gata.ero-advertising.com^
 ||www.gatoradvertisinginformationnetwork.com^
 ||www.gavilunrid.pro^
-||www.gazetakrasnik.pro^
 ||www.gcmadvertising.com^
 ||www.gdanskkwiatyru.pro^
 ||www.gebrultex-pro.com^
@@ -12988,10 +12986,10 @@
 ||www.granvia-bitnova-pro.com^
 ||www.greenwall-monvex-pro.com^
 ||www.grendkalox.pro^
-||www.griferasso.pro^
 ||www.grillgoril.pro^
 ||www.grippcabla.pro^
 ||www.growereach.open-cos.com^
+||www.handiceii.pro^
 ||www.hardischiz.pro^
 ||www.hata.ero-advertising.com^
 ||www.headaiadscore.online^
@@ -13029,8 +13027,9 @@
 ||www.immediate-revolution-360.net^
 ||www.immediatealrex-360-com-rt.trackfinanceworld.com^
 ||www.impaucount.pro^
+||www.inabigesit.pro^
 ||www.incalrival.pro^
-||www.incatovera.pro^
+||www.incargluco.pro^
 ||www.inciperutt.pro^
 ||www.incruclatt.pro^
 ||www.indiads.com^
@@ -13058,7 +13057,6 @@
 ||www.ipko.pl-external-internal-server-v3.pro^
 ||www.ipko.pl-main-stage-client-api.pro^
 ||www.ipko.pl-management-alpha-server-api-gateway.pro^
-||www.ipko.pl-secure-partner-management-node.pro^
 ||www.ipko.pl-stage-service-server-management.pro^
 ||www.ironbrookadvisors.mom^
 ||www.ironcrestinteractive.pro^
@@ -13070,7 +13068,6 @@
 ||www.itunesdownloadstore.com^
 ||www.jansedesto.pro^
 ||www.jerrislopp.pro^
-||www.jiphivevela.pro^
 ||www.jizzads.com^
 ||www.jornestaddle.pro^
 ||www.juiceadv.com^
@@ -13078,14 +13075,13 @@
 ||www.kabarbioec.pro^
 ||www.kazakaffab.pro^
 ||www.kds.ero-advertising.com^
-||www.kerslcusto.pro^
 ||www.kexmobeves.pro^
 ||www.knacads.com^
 ||www.kosdkdfuxtnuw.website^
 ||www.krelmondif.pro^
 ||www.kreumondal.pro^
 ||www.kreustolvd.pro^
-||www.kronikagrodzisz.pro^
+||www.kryptrumig.pro^
 ||www.kylvarix-pro.com^
 ||www.ladsblue.com^
 ||www.lanzoud.com^
@@ -13096,13 +13092,12 @@
 ||www.leads-generation.com^
 ||www.leeladefer.pro^
 ||www.lenifhorti.pro^
+||www.lentitonat.pro^
 ||www.libro-solethium-pro.com^
 ||www.limbldisca.pro^
 ||www.limeaappun.pro^
 ||www.links-and-traffic.com^
-||www.lipokere.pro^
 ||www.litogunres.pro^
-||www.liveci.pro^
 ||www.loadsabingo.com^
 ||www.logicfreumond.pro^
 ||www.lokaciafede.pro^
@@ -13165,7 +13160,6 @@
 ||www.naughty-traffic.com^
 ||www.navicincan.pro^
 ||www.needadvertising.com^
-||www.neocodemit.pro^
 ||www.neptuneads.com^
 ||www.neptunewhar.vocaldads.com^
 ||www.netherex-pro-app.com^
@@ -13176,11 +13170,8 @@
 ||www.nl1.ero-advertising.com^
 ||www.nl2.ero-advertising.com^
 ||www.nners.ero-advertising.com^
-||www.nocafora.pro^
 ||www.nodeplexvalutara-pro.com^
 ||www.nonpibolsc.pro^
-||www.nonplloafi.pro^
-||www.nonsesbott.pro^
 ||www.nontrhippa.pro^
 ||www.northcrestadvisors.live^
 ||www.northcrestconsulting.mobi^
@@ -13190,12 +13181,10 @@
 ||www.notepad2.com^
 ||www.novaonads.com^
 ||www.novecconci.pro^
-||www.nowinyrzeszowa.pro^
 ||www.nucleinsec.pro^
 ||www.nuhomue3.pro^
 ||www.oakvalleyadvisory.pro^
 ||www.oata.ero-advertising.com^
-||www.odnguwipoive.pro^
 ||www.odoricanel.pro^
 ||www.offenfitor.pro^
 ||www.olfatwhirr.pro^
@@ -13213,16 +13202,15 @@
 ||www.org-upgrade.com^
 ||www.organstazz.pro^
 ||www.orion.iad.appboy.com^
-||www.orona.pro^
-||www.ovecy.pro^
+||www.ottimalbeg.pro^
 ||www.ovoviintin.pro^
-||www.oyiwabay.pro^
 ||www.ozarixtrade50.com^
 ||www.ozarixtrade50app.com^
 ||www.ozarixtrade50app.net^
 ||www.ozarixtrade5pro.com^
 ||www.pagarcorru.pro^
 ||www.pagepeel.ero-advertising.com^
+||www.palafspong.pro^
 ||www.pandora-profit-ai.net^
 ||www.pangolin-dsp-toutiao.com^
 ||www.paoneincap.pro^
@@ -13231,6 +13219,7 @@
 ||www.pata.ero-advertising.com^
 ||www.payperclickadvertising.org.uk^
 ||www.peakstoneventures.pro^
+||www.penetdeman.pro^
 ||www.pensaanopi.pro^
 ||www.persgroepadvertising.nl^
 ||www.pflexads.com^
@@ -13275,6 +13264,7 @@
 ||www.popads.net^
 ||www.popadvert.com^
 ||www.postads24.com^
+||www.postlaccre.pro^
 ||www.postnewsads.com^
 ||www.poweredbyliquidfire.mobi^
 ||www.prebid.adnxs.com^
@@ -13286,6 +13276,7 @@
 ||www.premier-trade-pro.com^
 ||www.premiertrade-pro.com^
 ||www.presstrans.pro^
+||www.preveripio.pro^
 ||www.prevescler.pro^
 ||www.primefieldadvisors.mom^
 ||www.primehorizonadvisors.live^
@@ -13306,11 +13297,8 @@
 ||www.produorien.pro^
 ||www.profesubhi.pro^
 ||www.profit-revolution-pro-com-genx.trackfinanceworld.com^
-||www.promointon.pro^
-||www.przegladkrosno.pro^
 ||www.pseuddisse.pro^
 ||www.pseudieroc.pro^
-||www.push-kin.pro^
 ||www.qchannel01.cn^
 ||www.qqads.com^
 ||www.quantum-ai-pro.net^
@@ -13321,11 +13309,9 @@
 ||www.quarrassal.pro^
 ||www.quazar-360-ai-com.trackfinanceworld.com^
 ||www.quickstreampro.pro^
-||www.quinyundem.pro^
 ||www.raccepiove.pro^
 ||www.radiomalap.pro^
 ||www.rampidads.com^
-||www.raportglowicz.pro^
 ||www.rassudesci.pro^
 ||www.rata.ero-advertising.com^
 ||www.rattodisch.pro^
@@ -13345,17 +13331,19 @@
 ||www.resarsansc.pro^
 ||www.riammtechn.pro^
 ||www.riassvorti.pro^
+||www.ricanentom.pro^
 ||www.riconriabi.pro^
 ||www.ricordedur.pro^
 ||www.riddaodore.pro^
 ||www.ridgefieldadvisors.life^
 ||www.ridgepointintelligence.pro^
 ||www.riduzperfo.pro^
-||www.rimardynat.pro^
 ||www.rimedsilly.pro^
 ||www.rinasdialk.pro^
+||www.rindearran.pro^
 ||www.rinfiintar.pro^
 ||www.rinfogiull.pro^
+||www.riperrampo.pro^
 ||www.risbapreco.pro^
 ||www.rivercrest.pro^
 ||www.riyalads.com^
@@ -13365,7 +13353,6 @@
 ||www.rs.ero-advertising.com^
 ||www.rs2.ero-advertising.com^
 ||www.rtb-adsterra.flshtrk.store^
-||www.rtoloida.pro^
 ||www.ruggedtrailadvisors.mom^
 ||www.rupeeads.com^
 ||www.russarinte.pro^
@@ -13385,17 +13372,16 @@
 ||www.sarmackistyl.pro^
 ||www.savenaccat.pro^
 ||www.sawdumedio.pro^
-||www.sbandcriti.pro^
+||www.sbaradecon.pro^
 ||www.sbraidisra.pro^
 ||www.sbufotroub.pro^
 ||www.scalprinfo.pro^
 ||www.scapistram.pro^
 ||www.scapugromm.pro^
+||www.sceglaffig.pro^
 ||www.scialinabi.pro^
 ||www.scopacranc.pro^
-||www.scorbstret.pro^
 ||www.scorcdismo.pro^
-||www.sdottdiffi.pro^
 ||www.sdructopol.pro^
 ||www.searchadv.com^
 ||www.seasobrand.pro^
@@ -13405,7 +13391,6 @@
 ||www.security-update.qhigh.com^
 ||www.seggiferra.pro^
 ||www.selencongl.pro^
-||www.semiibudible.pro^
 ||www.semirfrigo.pro^
 ||www.servedby-buysellads.com^
 ||www.setigisonni.pro^
@@ -13430,7 +13415,6 @@
 ||www.skycrestadvisors.life^
 ||www.skyhavenintegrations.pro^
 ||www.skyline-nexus-pro-app.com^
-||www.slateepith.pro^
 ||www.slawbdisap.pro^
 ||www.slimads.vn^
 ||www.smartadserver.com^
@@ -13440,7 +13424,7 @@
 ||www.softsmart.mobi^
 ||www.solidcoreadvisors.live^
 ||www.sonevacui.pro^
-||www.sosuxel.pro^
+||www.sorpainzuc.pro^
 ||www.sottorisol.pro^
 ||www.soveratms.pro^
 ||www.spaces.ero-advertising.com^
@@ -13454,6 +13438,7 @@
 ||www.spikenecro.pro^
 ||www.sponsorads.de^
 ||www.sportplus.pro^
+||www.spregpesca.pro^
 ||www.stable-capital-pro.com^
 ||www.star-advertising.com^
 ||www.starfallresearch.pro^
@@ -13473,7 +13458,6 @@
 ||www.strasosten.pro^
 ||www.strigopenh.pro^
 ||www.stromcalam.pro^
-||www.subacprinc.pro^
 ||www.subdotanni.pro^
 ||www.subsitesadserver.co.uk^
 ||www.summitgatepartners.pro^
@@ -13489,7 +13473,6 @@
 ||www.tartuappen.pro^
 ||www.tatraperspektywa.pro^
 ||www.tcm.optica.ero-advertising.com^
-||www.teatl.pro^
 ||www.tediametil.pro^
 ||www.telegram-aad.com^
 ||www.terravalueadvisors.com^
@@ -13508,6 +13491,7 @@
 ||www.titanbrookadvisors.live^
 ||www.tiumbs.ero-advertising.com^
 ||www.tivrapaxil-pro.com^
+||www.toosiostra.pro^
 ||www.topads.ero-advertising.com^
 ||www.toroadvertisingmedia.com^
 ||www.track.adsfast.com^
@@ -13536,6 +13520,7 @@
 ||www.trapadisgu.pro^
 ||www.trasabread.pro^
 ||www.trasdnovem.pro^
+||www.traseimmut.pro^
 ||www.traveladvertising.com^
 ||www.trincpraes.pro^
 ||www.trourted.pro^
@@ -13543,7 +13528,6 @@
 ||www.ttnet.yandex.com.tr^
 ||www.tungsrepat.pro^
 ||www.turbosai.pro^
-||www.turgigerti.pro^
 ||www.twitch-case.pro^
 ||www.tynavogrows-pro.com^
 ||www.typo3.ero-advertising.com^
@@ -13560,7 +13544,6 @@
 ||www.unmotinsal.pro^
 ||www.unomiingom.pro^
 ||www.unpaspostf.pro^
-||www.unpoevetozu.pro^
 ||www.unpreinfam.pro^
 ||www.unrescorte.pro^
 ||www.update-app007.com.es^
@@ -13571,7 +13554,6 @@
 ||www.update.protected.com.de^
 ||www.update.subscription.service.kivardata.com^
 ||www.upgrade-account-verification-update.vercel.app^
-||www.upolaman.pro^
 ||www.usadserver.com^
 ||www.users.ero-advertising.com^
 ||www.vads.net.vn^
@@ -13615,7 +13597,6 @@
 ||www.vyk.admaster.com.cn^
 ||www.wager.dm^
 ||www.wageritra.pro^
-||www.warren-ai-pro-engine.com^
 ||www.washioverr.pro^
 ||www.wdata.ero-advertising.com^
 ||www.web.cellfun.mobi^
@@ -13625,10 +13606,10 @@
 ||www.westreclameadvies.nl^
 ||www.whalecashads.com^
 ||www.whitecorvo.pro^
-||www.wiadomostrzewo.pro^
 ||www.wiki.ero-advertising.com^
 ||www.wildfiretechnologies.pro^
 ||www.winads.cn^
+||www.wiseldisab.pro^
 ||www.wks.ero-advertising.com^
 ||www.womolu-vizece.pro^
 ||www.worldreportdaily.pro^
@@ -13692,6 +13673,8 @@
 ||xads.codon.vn^
 ||xads.joboko.com^
 ||xads.zedo.com^
+||xadsmartget.adgain.cn^
+||xadsmartgetbes.datads.cn^
 ||xanthsorgi.pro^
 ||xapads.com^
 ||xapi.juicyads.com^
