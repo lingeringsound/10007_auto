@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2026-01-04 11:31:53 
+#更新时间: 2026-01-04 12:21:52 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:32398
+#规则数量:32420
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -1951,6 +1951,7 @@
 1.1.1.1 adk2x.com
 1.1.1.1 adkwai.com
 1.1.1.1 adl.national-lottery.co.uk
+1.1.1.1 adlaunch.moji.com
 1.1.1.1 adleads.com
 1.1.1.1 adleraltflow.pro
 1.1.1.1 adlink-api.huan.tv
@@ -3063,6 +3064,7 @@
 1.1.1.1 ads.mobitree.co.kr
 1.1.1.1 ads.mobvertising.net
 1.1.1.1 ads.mofos.com
+1.1.1.1 ads.mojicdn.com
 1.1.1.1 ads.mondogames.com
 1.1.1.1 ads.monetize-me.com
 1.1.1.1 ads.mopub.com
@@ -4612,6 +4614,9 @@
 1.1.1.1 adsmart.konka.com
 1.1.1.1 adsmart.net
 1.1.1.1 adsmart.yicha.cn
+1.1.1.1 adsmartget.datads.cn
+1.1.1.1 adsmartget.guangtuikeji.com
+1.1.1.1 adsmartgetbes.datads.cn
 1.1.1.1 adsmartgetqtt.guangtuikeji.com
 1.1.1.1 adsmartracker.com
 1.1.1.1 adsmaster.dev
@@ -5185,6 +5190,7 @@
 1.1.1.1 adverticum.net
 1.1.1.1 advertindia.co.in
 1.1.1.1 advertipros.com
+1.1.1.1 advertise.baicizhan.cn
 1.1.1.1 advertise.bingads.microsoft.com
 1.1.1.1 advertise.com
 1.1.1.1 advertise.ldplayer.net
@@ -5414,6 +5420,7 @@
 1.1.1.1 adwin.startappservice.com
 1.1.1.1 adwpaces.ero-advertising.com
 1.1.1.1 adx-ad.smart-tv.cn
+1.1.1.1 adx-api.hupu.com
 1.1.1.1 adx-api.jinmo.tech
 1.1.1.1 adx-cn.ads.vungle.com
 1.1.1.1 adx-cn.anythinktech.com
@@ -5464,6 +5471,7 @@
 1.1.1.1 adx.ads.heytapmobi.com
 1.1.1.1 adx.ads.oppomobile.com
 1.1.1.1 adx.adtaipo.com
+1.1.1.1 adx.adwangmai.com
 1.1.1.1 adx.agrantsem.com
 1.1.1.1 adx.alimama.com
 1.1.1.1 adx.appsdk.com.cn
@@ -5473,11 +5481,14 @@
 1.1.1.1 adx.hubcloud.com
 1.1.1.1 adx.hubcloud.com.cn
 1.1.1.1 adx.hupu.com
+1.1.1.1 adx.kat.ph
 1.1.1.1 adx.op.cp18.ott.cibntv.net
+1.1.1.1 adx.open-adx.com
 1.1.1.1 adx.pro.cn
 1.1.1.1 adx.proadscdn.com
 1.1.1.1 adx.sogaha.cn
 1.1.1.1 adx.tuia.cn
+1.1.1.1 adx.yiche.com
 1.1.1.1 adx.yixin.im
 1.1.1.1 adx.zuoyebang.com
 1.1.1.1 adx1.com
@@ -9346,6 +9357,7 @@
 1.1.1.1 apistats-static.propellerads.com
 1.1.1.1 apistats.propellerads.com
 1.1.1.1 apiv4-iyes.youku.com
+1.1.1.1 apiv4.anythinktech.com
 1.1.1.1 apm-volcano.zuoyebang.com
 1.1.1.1 apo.ero-advertising.com
 1.1.1.1 apodiflutt.pro
@@ -12059,6 +12071,7 @@
 1.1.1.1 cm.dmp.360.cn
 1.1.1.1 cm.dmp.sina.cn
 1.1.1.1 cm.e.qq.com
+1.1.1.1 cm.fancyapi.com
 1.1.1.1 cm.g.doubleclick.net
 1.1.1.1 cm.ipinyou.com
 1.1.1.1 cm.jd.com
@@ -15538,6 +15551,7 @@
 1.1.1.1 g.cn.miaozhen.com
 1.1.1.1 g.doubleclick.net
 1.1.1.1 g.dtv.cn.miaozhen.com
+1.1.1.1 g.fancyapi.com
 1.1.1.1 g.jssdk.net
 1.1.1.1 g.s.360.cn
 1.1.1.1 g.sdk.look.360.cn
@@ -18270,6 +18284,7 @@
 1.1.1.1 kz.admaster.com.cn
 1.1.1.1 l-partner.jp
 1.1.1.1 l.dm.casio.info
+1.1.1.1 l.fancyapi.com
 1.1.1.1 l.gm.mob.com
 1.1.1.1 l.tcp.push.mob.com
 1.1.1.1 l2.l.qq.com
@@ -19003,6 +19018,7 @@
 1.1.1.1 m.ads.sohu.com
 1.1.1.1 m.ads.zalo.me
 1.1.1.1 m.adsymptotic.com
+1.1.1.1 m.advast.cn
 1.1.1.1 m.analytics.126.net
 1.1.1.1 m.anycast.adnxs.com
 1.1.1.1 m.api.baifendian.com
@@ -19396,6 +19412,7 @@
 1.1.1.1 mclick.simba.taobao.com
 1.1.1.1 mcoreads.com
 1.1.1.1 mdp-appconf-sg.heytapdl.com
+1.1.1.1 mdrecv.app.cntvwb.cn
 1.1.1.1 mdws.advancesavings.ca
 1.1.1.1 mdznads.com
 1.1.1.1 mdznads.pages.dev
@@ -23123,7 +23140,6 @@
 1.1.1.1 qaadv.com
 1.1.1.1 qaoderosingo.pro
 1.1.1.1 qapm.baidu.com
-1.1.1.1 qappcenterv6.3g.qq.com
 1.1.1.1 qbdsp.html5.qq.com
 1.1.1.1 qc.789.mobi
 1.1.1.1 qc.nhatvip.pro
@@ -25017,6 +25033,7 @@
 1.1.1.1 scutcaugur.pro
 1.1.1.1 scutczoopl.pro
 1.1.1.1 sd.360.cn
+1.1.1.1 sdapprecv.app.cntvwb.cn
 1.1.1.1 sdentunsep.pro
 1.1.1.1 sdfp.snssdk.com
 1.1.1.1 sdg.desihamster.pro
@@ -25163,6 +25180,7 @@
 1.1.1.1 sdk2api.getui.com
 1.1.1.1 sdk3api.getui.com
 1.1.1.1 sdkapi-smartop.jiguang.cn
+1.1.1.1 sdkapi.cloooud.com
 1.1.1.1 sdkapi.dsp-api.moloco.com
 1.1.1.1 sdkapp.mobile.sina.cn
 1.1.1.1 sdkapp.uve.weibo.com
@@ -27358,6 +27376,7 @@
 1.1.1.1 t1.teads.tv
 1.1.1.1 t2.a.market.xiaomi.com
 1.1.1.1 t2.click.subway.com
+1.1.1.1 t2.fancyapi.com
 1.1.1.1 t3.a.market.xiaomi.com
 1.1.1.1 t4.a.market.xiaomi.com
 1.1.1.1 t4.agrantsem.com
@@ -27526,7 +27545,6 @@
 1.1.1.1 tdbrochure.advancedtech.com
 1.1.1.1 tdc.advertorials.dk
 1.1.1.1 tdcv3.talkingdata.net
-1.1.1.1 tdid.m.qq.com
 1.1.1.1 tds-banner.do.am
 1.1.1.1 tdsdk.cpatrk.net
 1.1.1.1 tdsdk.xdrig.com
@@ -29340,6 +29358,7 @@
 1.1.1.1 vcdn.media.innity.net
 1.1.1.1 vcdn.subiz-cdn.com
 1.1.1.1 vcs.zijieapi.com
+1.1.1.1 vdapprecv.app.cntvwb.cn
 1.1.1.1 veads.veinteractive.com
 1.1.1.1 vecchpirog.pro
 1.1.1.1 vecchprocr.pro
@@ -29958,6 +29977,7 @@
 1.1.1.1 w.adsco.re
 1.1.1.1 w.cnzz.com
 1.1.1.1 w.extreme-dm.com
+1.1.1.1 w.fancyapi.com
 1.1.1.1 w.gdown.baidu.com
 1.1.1.1 w.l.qq.com
 1.1.1.1 w.x.baidu.com
@@ -31932,6 +31952,8 @@
 1.1.1.1 xads.joboko.com
 1.1.1.1 xads.zedo.com
 1.1.1.1 xadsmart.com
+1.1.1.1 xadsmartget.adgain.cn
+1.1.1.1 xadsmartgetbes.datads.cn
 1.1.1.1 xadve.lat
 1.1.1.1 xaligubam.pro
 1.1.1.1 xanthicalligator.pro
