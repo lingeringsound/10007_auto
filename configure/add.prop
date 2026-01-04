@@ -501,6 +501,8 @@
 @@||imasdk.googleapis.com^$document
 ! 123云盘卡开屏
 @@||sdk-api.beizi.biz^$document
+! 123云盘客户端检测广告域名加载文件
+! @@||apiv4.anythinktech.com^$document
 ! 快手送礼
 @@||w1.kskwai.com^$app=com.smile.gifmaker
 ! 唯品会APP
@@ -558,6 +560,10 @@
 ! 纳米搜索和360官网
 @@||s.ssl.qhres2.com^$document
 @@||qhres2.com^$document
+! QQ9.X获取服务器更新域名
+@@||qappcenterv6.3g.qq.com^$document
+@@||tdid.m.qq.com^$document
+@@||tangram.e.qq.com^$document,app=com.tencent.mobileqq
 
 
 ! 添加一些规则

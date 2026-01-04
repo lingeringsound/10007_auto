@@ -465,6 +465,8 @@
 ^0.0.0.0[[:space:]]imasdk.googleapis.com$
 #123云盘卡开屏
 ^0.0.0.0[[:space:]]sdk-api.beizi.biz$
+#123云盘客户端检测广告域名加载文件
+#^0.0.0.0[[:space:]]apiv4.anythinktech.com$
 #快手送礼物
 ^0.0.0.0[[:space:]]w1.kskwai.com$
 #唯品会APP
@@ -522,6 +524,11 @@
 #纳米搜索和360官网
 ^0.0.0.0[[:space:]]*.ssl.qhres2.com$
 ^0.0.0.0[[:space:]]qhres2.com$
+#QQ9.X获取服务器更新域名
+^0.0.0.0[[:space:]]qappcenterv6.3g.qq.com$
+^0.0.0.0[[:space:]]qappcenterv*.qq.com$
+^0.0.0.0[[:space:]]tdid.m.qq.com$
+^0.0.0.0[[:space:]]tangram.e.qq.com$
 
 
 #放到iptables屏蔽的域名
