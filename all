@@ -2,7 +2,7 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
 #在相应行的开头加个"#"号
-#更新时间: 2026-01-08 09:55:03
+#更新时间: 2026-01-08 11:35:00
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
@@ -15,7 +15,7 @@
 127.0.1.1 hostname
 127.0.1.2 hostname
 127.0.1.3 hostname
-#规则数量:13183
+#规则数量:13188
 #GIthub订阅主页: https://github.com/lingeringsound/10007_auto
 
 0.0.0.0 0.r.msn.com
@@ -604,6 +604,7 @@
 0.0.0.0 ad.dzwindows.com
 0.0.0.0 ad.dzwww.com
 0.0.0.0 ad.e-kolay.net
+0.0.0.0 ad.e.waimai.sankuai.com
 0.0.0.0 ad.ecplaza.net
 0.0.0.0 ad.egloos.com
 0.0.0.0 ad.egou.com
@@ -1417,6 +1418,7 @@
 0.0.0.0 ads-api.playfun.vn
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 ads-api.twitter.com
+0.0.0.0 ads-api.xiaohongshu.com
 0.0.0.0 ads-backend.chaincliq.com
 0.0.0.0 ads-bi.zenkube.com
 0.0.0.0 ads-bid.l.doubleclick.net
@@ -1475,6 +1477,7 @@
 0.0.0.0 ads-us.pictela.net
 0.0.0.0 ads-v-darwin.hulu.com
 0.0.0.0 ads-verify.flurry.com
+0.0.0.0 ads-video-qc.xhscdn.com
 0.0.0.0 ads-wc.adaptv.advertising.com
 0.0.0.0 ads.1thegioi.vn
 0.0.0.0 ads.359group.com
@@ -2640,6 +2643,7 @@
 0.0.0.0 ads.xedoisong.vn
 0.0.0.0 ads.xemphimso.com
 0.0.0.0 ads.xhamster.com
+0.0.0.0 ads.xiaohongshu.com
 0.0.0.0 ads.xtargeting.com
 0.0.0.0 ads.xtra.ca
 0.0.0.0 ads.xtra.co.nz
@@ -3825,6 +3829,7 @@
 0.0.0.0 adwin.startappservice.com
 0.0.0.0 adwpaces.ero-advertising.com
 0.0.0.0 adx-api.hupu.com
+0.0.0.0 adx-api.yfanads.com
 0.0.0.0 adx-asia-imp.aarki.net
 0.0.0.0 adx-asia.aarki.net
 0.0.0.0 adx-bid.tianzhuobj.com
@@ -4005,8 +4010,6 @@
 0.0.0.0 all.cnzz.com.danuoyi.tbcache.com
 0.0.0.0 all.orfr.adgtw.orangeads.fr
 0.0.0.0 allitirmi.pro
-0.0.0.0 alogsus.umeng.com
-0.0.0.0 alogus.umeng.com
 0.0.0.0 alpfund-pro.net
 0.0.0.0 alpha2.autoads.asia
 0.0.0.0 alphaapi.autoads.asia
@@ -6675,7 +6678,6 @@
 0.0.0.0 erexol24.pro
 0.0.0.0 ero-advertising.com
 0.0.0.0 erp.garan.pro
-0.0.0.0 errnewlog.umeng.com
 0.0.0.0 ers.baidu.com
 0.0.0.0 ers.ero-advertising.com
 0.0.0.0 es-res.flyme.cn
@@ -6983,8 +6985,6 @@
 0.0.0.0 gj.gds.mmstat.com
 0.0.0.0 gj.mmstat.com
 0.0.0.0 gj.track.uc.cn
-0.0.0.0 gjapplog.uc.cn
-0.0.0.0 gjapplog.ucweb.com
 0.0.0.0 gjtrack.ucweb.com
 0.0.0.0 gklfs-0vg08.ads.tremorhub.com
 0.0.0.0 gklfs-fvifs.ads.tremorhub.com
@@ -7799,7 +7799,6 @@
 0.0.0.0 local-update.com
 0.0.0.0 location.ximalaya.com
 0.0.0.0 lofter.httpdns.c.163.com
-0.0.0.0 logging.api.intuit.com
 0.0.0.0 logicfreumond.pro
 0.0.0.0 logserver.insight.ucweb.com
 0.0.0.0 logssug.ucweb.com
@@ -8449,6 +8448,7 @@
 0.0.0.0 optimized-by.vitalads.net
 0.0.0.0 optimized.by.vitalads.net
 0.0.0.0 optimus-ads.amap.com
+0.0.0.0 optimus-ads.amap.com.w.alikunlun.com
 0.0.0.0 optimus.ipinyou.com
 0.0.0.0 opus.analytics.yahoo.com
 0.0.0.0 opuscschna.pro
@@ -9144,6 +9144,7 @@
 0.0.0.0 pv.vipads.cc
 0.0.0.0 pw.analytics.console.aws.a2z.com
 0.0.0.0 pw.cnzz.com
+0.0.0.0 px.ads.linkedin.cn
 0.0.0.0 px.ads.linkedin.com
 0.0.0.0 px.moatads.com
 0.0.0.0 px.tvadsync.com
@@ -9383,6 +9384,7 @@
 0.0.0.0 rtb.admaster.com.cn
 0.0.0.0 rtb.adview.cn
 0.0.0.0 rtb.adx1.com
+0.0.0.0 rtb.adxsenmeng.com
 0.0.0.0 rtb.mfadsrvr.com
 0.0.0.0 rtb.nativeads.com
 0.0.0.0 rtb.tamura.ad.dev.nend.net
@@ -9653,6 +9655,7 @@
 0.0.0.0 sac.ayads.co
 0.0.0.0 sacchetnic.pro
 0.0.0.0 sadc1.outbrain.org
+0.0.0.0 sadfasdfa962.com
 0.0.0.0 sadisperli.pro
 0.0.0.0 safe.res.meizu.com
 0.0.0.0 sagan.iad-03.braze.com
@@ -10032,8 +10035,6 @@
 0.0.0.0 slckg-nugvu.ads.tremorhub.com
 0.0.0.0 slckg-qrmhc.ads.tremorhub.com
 0.0.0.0 slimads.vn
-0.0.0.0 slog.sina.cn
-0.0.0.0 slog.sina.com.cn
 0.0.0.0 sltint.adv.ott.cibntv.net
 0.0.0.0 sm.domob.cn
 0.0.0.0 sm.domobcdn.com
@@ -10156,6 +10157,7 @@
 0.0.0.0 ssp.vivo.com.cn
 0.0.0.0 ssp15.adview.cn
 0.0.0.0 ssp16.adview.cn
+0.0.0.0 sspapi.youxiaoad.com
 0.0.0.0 sspmservice.ad-survey.com
 0.0.0.0 sspservice.ad-survey.com
 0.0.0.0 sstats.adobe.com
@@ -10403,6 +10405,7 @@
 0.0.0.0 syndication.trafficreps.com
 0.0.0.0 syzbh66.xyz
 0.0.0.0 t-ads.adap.tv
+0.0.0.0 t-ads.xiaohongshu.com
 0.0.0.0 t-e.flyme.cn
 0.0.0.0 t-flow.flyme.cn
 0.0.0.0 t-id.ads.heytapmobile.com
@@ -10412,6 +10415,7 @@
 0.0.0.0 t.ads.pof.com
 0.0.0.0 t.ads.sohu.com
 0.0.0.0 t.adx.opera.com
+0.0.0.0 t.adxchina.cn
 0.0.0.0 t.agrantsem.com
 0.0.0.0 t.alimama.com
 0.0.0.0 t.channeladvisor.com
@@ -13018,6 +13022,7 @@
 0.0.0.0 yepdigital.adk2x.com
 0.0.0.0 yesads.com
 0.0.0.0 yesadvertising.com
+0.0.0.0 yfanads.com
 0.0.0.0 yieldads.com
 0.0.0.0 yildun.iad-03.appboy.com
 0.0.0.0 yildun.iad-03.braze.com
