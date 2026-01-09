@@ -3,8 +3,8 @@
 ! Title: Host 10007
 ! Homepage: https://github.com/lingeringsound/10007_auto
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto
-! Last modified: 2026-01-09 09:55:57
-! 规则数量: 13221
+! Last modified: 2026-01-09 22:27:18
+! 规则数量: 13224
 
 ! 爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
 ! 这两没用了
@@ -717,6 +717,7 @@
 ||api.weibo.cn/2/*/wbox/*/home_bottom_modal
 ||api.weibo.cn/2/*/wbox/*/interest_category
 ||api.weibo.cn/2/ad/weibointl?
+||api.weibo.cn/2/adscheme
 ||api.weibo.cn/2/comments/bullet_screens?
 ||api.weibo.cn/2/hot/hours_spotlight?
 ||api.weibo.cn/2/photo/info?
@@ -734,12 +735,14 @@
 ||bootrealtime.uve.weibo.com/v*/ad/realtime
 ||bootrealtime.uve.weibo.com/v2/ad/realtime
 ||bootrealtime.uve.weibo.com/v3/ad/realtime
-||card.weibo.com/article/m/aj/reward
 ||card.weibo.com/article/m/aj/uvead
 ||sdkapp.uve.weibo.com/interface/sdk/get-lbs-cell-info.php
 ||sdkapp.uve.weibo.com/interface/sdk/sdkconfig.php
+||wbapp.mobile.sina.cn/wbapplua/wbpullad.lua
 ||weibo.com/ttarticle/x/m/aj/reward
-||weibo.com/ttarticle/x/m/aj/uvead
+! 微博部分重写规则
+||api.weibo.cn/2/statuses/extend?$replace=/"is_ad_card":/"10007":/
+||api.weibo.cn/2/statuses/extend?$replace=/"source": "ad_reduce"/"source": "10007"/
 ! 小红书
 ||edith.xiaohongshu.com/api/sns/v1/surprisebox/get_style
 ||edith.xiaohongshu.com/api/sns/v1/surprisebox/open
@@ -8407,6 +8410,7 @@
 ||k5ads.osdn.com^
 ||k88.pro^
 ||kabarbioec.pro^
+||kadmimage.biz.weibo.com^
 ||kazakaffab.pro^
 ||kd.api.agrantsem.com^
 ||kde.qq.com^
@@ -8516,6 +8520,7 @@
 ||lf24-common-ckv-tos.pstatp.com^
 ||lf25-common-ckv-tos.pstatp.com^
 ||lf26-common-ckv-tos.pstatp.com^
+||lf26-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf27-common-ckv-tos.pstatp.com^
 ||lf28-common-ckv-tos.pstatp.com^
 ||lf29-common-ckv-tos.pstatp.com^
@@ -8530,6 +8535,7 @@
 ||lf7-common-ckv-tos.pstatp.com^
 ||lf8-common-ckv-tos.pstatp.com^
 ||lf9-common-ckv-tos.pstatp.com^
+||lf9-sf-be-pack-sign.pglstatp-toutiao.com^
 ||liberty.gedads.com^
 ||libro-solethium-pro.com^
 ||lightstep-collector.api.ua.com^

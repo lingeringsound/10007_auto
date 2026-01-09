@@ -1,8 +1,8 @@
 # Host 10007
 # 主页: https://github.com/lingeringsound/10007_auto
 # 中文主页: https://www.gitlink.org.cn/keytoolazy/10007_auto
-# 更新日期: 2026-01-09 09:55:57
-# 规则数量: 13221
+# 更新日期: 2026-01-09 22:27:18
+# 规则数量: 13224
 
 #广告奖励
 Domain, adsmind.gdtimg.com
@@ -175,6 +175,7 @@ URL, https://api.weibo.cn/2/*/live/media_homelist?
 URL, https://api.weibo.cn/2/*/wbox/*/home_bottom_modal
 URL, https://api.weibo.cn/2/*/wbox/*/interest_category
 URL, https://api.weibo.cn/2/ad/weibointl?
+URL, https://api.weibo.cn/2/adscheme
 URL, https://api.weibo.cn/2/comments/bullet_screens?
 URL, https://api.weibo.cn/2/hot/hours_spotlight?
 URL, https://api.weibo.cn/2/photo/info?
@@ -192,12 +193,11 @@ URL, https://api.weibo.cn/2/vote/get_vote_detail?
 URL, https://bootrealtime.uve.weibo.com/v*/ad/realtime
 URL, https://bootrealtime.uve.weibo.com/v2/ad/realtime
 URL, https://bootrealtime.uve.weibo.com/v3/ad/realtime
-URL, https://card.weibo.com/article/m/aj/reward
 URL, https://card.weibo.com/article/m/aj/uvead
 URL, https://sdkapp.uve.weibo.com/interface/sdk/get-lbs-cell-info.php
 URL, https://sdkapp.uve.weibo.com/interface/sdk/sdkconfig.php
+URL, https://wbapp.mobile.sina.cn/wbapplua/wbpullad.lua
 URL, https://weibo.com/ttarticle/x/m/aj/reward
-URL, https://weibo.com/ttarticle/x/m/aj/uvead
 URL, https://edith.xiaohongshu.com/api/sns/v1/surprisebox/get_style
 URL, https://edith.xiaohongshu.com/api/sns/v1/surprisebox/open
 URL, https://edith.xiaohongshu.com/api/sns/v1/surprisebox/submit_action
@@ -7863,6 +7863,7 @@ Domain, k1.mobileadsserver.com
 Domain, k5ads.osdn.com
 Domain, k88.pro
 Domain, kabarbioec.pro
+Domain, kadmimage.biz.weibo.com
 Domain, kazakaffab.pro
 Domain, kd.api.agrantsem.com
 Domain, kde.qq.com
@@ -7972,6 +7973,7 @@ Domain, lf23-common-ckv-tos.pstatp.com
 Domain, lf24-common-ckv-tos.pstatp.com
 Domain, lf25-common-ckv-tos.pstatp.com
 Domain, lf26-common-ckv-tos.pstatp.com
+Domain, lf26-sf-be-pack-sign.pglstatp-toutiao.com
 Domain, lf27-common-ckv-tos.pstatp.com
 Domain, lf28-common-ckv-tos.pstatp.com
 Domain, lf29-common-ckv-tos.pstatp.com
@@ -7986,6 +7988,7 @@ Domain, lf6-sf-be-pack-sign.pglstatp-toutiao.com
 Domain, lf7-common-ckv-tos.pstatp.com
 Domain, lf8-common-ckv-tos.pstatp.com
 Domain, lf9-common-ckv-tos.pstatp.com
+Domain, lf9-sf-be-pack-sign.pglstatp-toutiao.com
 Domain, liberty.gedads.com
 Domain, libro-solethium-pro.com
 Domain, lightstep-collector.api.ua.com
