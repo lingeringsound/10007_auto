@@ -709,6 +709,7 @@
 ||api.weibo.cn/2/*/wbox/*/home_bottom_modal
 ||api.weibo.cn/2/*/wbox/*/interest_category
 ||api.weibo.cn/2/ad/weibointl?
+||api.weibo.cn/2/adscheme
 ||api.weibo.cn/2/comments/bullet_screens?
 ||api.weibo.cn/2/hot/hours_spotlight?
 ||api.weibo.cn/2/photo/info?
@@ -726,12 +727,14 @@
 ||bootrealtime.uve.weibo.com/v*/ad/realtime
 ||bootrealtime.uve.weibo.com/v2/ad/realtime
 ||bootrealtime.uve.weibo.com/v3/ad/realtime
-||card.weibo.com/article/m/aj/reward
 ||card.weibo.com/article/m/aj/uvead
 ||sdkapp.uve.weibo.com/interface/sdk/get-lbs-cell-info.php
 ||sdkapp.uve.weibo.com/interface/sdk/sdkconfig.php
+||wbapp.mobile.sina.cn/wbapplua/wbpullad.lua
 ||weibo.com/ttarticle/x/m/aj/reward
-||weibo.com/ttarticle/x/m/aj/uvead
+! 微博部分重写规则
+||api.weibo.cn/2/statuses/extend?$replace=/"is_ad_card":/"10007":/
+||api.weibo.cn/2/statuses/extend?$replace=/"source": "ad_reduce"/"source": "10007"/
 ! 小红书
 ||edith.xiaohongshu.com/api/sns/v1/surprisebox/get_style
 ||edith.xiaohongshu.com/api/sns/v1/surprisebox/open
