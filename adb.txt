@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2026-04-14 10:47:48
+! Last modified: 2026-04-14 17:58:39
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2026-04-14 10:47:48 ^
+!更新时间: 2026-04-14 17:58:39 ^
 
-!规则数量:31802^
+!规则数量:31861^
 !#################^
 
 110.43.121.13 bigota.d.miui.com^
@@ -1310,6 +1310,7 @@
 ||ad.outstream.today^
 ||ad.owlair.net^
 ||ad.oyy.ru^
+||ad.ozone.ru^
 ||ad.palazzoadm.com.br^
 ||ad.pandora.tv^
 ||ad.parkvv.com^
@@ -1667,6 +1668,7 @@
 ||ad4.i2i.jp^
 ||ad4.layerads.ero-advertising.com^
 ||ad4.lbn.ru^
+||ad4.mail.ru^
 ||ad4.nend.net^
 ||ad4.sina.com.cn^
 ||ad4.speedbit.com^
@@ -2040,6 +2042,7 @@
 ||ads-eu.adaptv.advertising.com^
 ||ads-game-187f4.firebaseapp.com^
 ||ads-game-configuration-master.ads.prd.ie.internal.unity3d.com^
+||ads-gate.wildberries.ru^
 ||ads-gdl.imovideo.ru^
 ||ads-go.adroi.com.cn^
 ||ads-i1.xhscdn.com^
@@ -2052,6 +2055,7 @@
 ||ads-img-qc.xhscdn.com^
 ||ads-img.mozilla.org^
 ||ads-insght.digital^
+||ads-integration.rustore.ru^
 ||ads-interfaces.sc-cdn.net^
 ||ads-jp.tiktok.com^
 ||ads-leaseweb.appsgeyser.com^
@@ -2061,6 +2065,7 @@
 ||ads-lot.ru^
 ||ads-marketing-vivofs.vivo.com.cn^
 ||ads-media.gameforge.com^
+||ads-media.wildberries.ru^
 ||ads-mediafin.adhese.com^
 ||ads-nrc.adhese.com^
 ||ads-partners.coupang.com^
@@ -2506,6 +2511,7 @@
 ||ads.da1.vip.prod.criteo.com^
 ||ads.dabi.ir^
 ||ads.dada.it^
+||ads.dahlmessenger.com^
 ||ads.dailycamera.com^
 ||ads.dandelionchocolate.jp^
 ||ads.data.pplive.com^
@@ -3199,6 +3205,7 @@
 ||ads.rubiconproject.com^
 ||ads.rude.com^
 ||ads.ruralpress.com^
+||ads.rustore.ru^
 ||ads.sacbee.com^
 ||ads.safarme.ir^
 ||ads.salemall.vn^
@@ -3207,6 +3214,7 @@
 ||ads.samsungads.com^
 ||ads.satyamonline.com^
 ||ads.saymedia.com^
+||ads.sber.ru^
 ||ads.scabee.com^
 ||ads.schmoozecom.net^
 ||ads.scifi.com^
@@ -3456,6 +3464,7 @@
 ||ads.vimg.net^
 ||ads.vipbaihe.com^
 ||ads.vipcams.com^
+||ads.viqeo.tv^
 ||ads.viralize.tv^
 ||ads.virginislandsdailynews.com^
 ||ads.virtual-nights.com^
@@ -3464,6 +3473,7 @@
 ||ads.vishare.vn^
 ||ads.vjaffiliates.com^
 ||ads.vk.com^
+||ads.vk.ru^
 ||ads.vlr.vn^
 ||ads.vnhell.com^
 ||ads.vntsm.com^
@@ -3514,6 +3524,7 @@
 ||ads.whoishostingthis.com^
 ||ads.wiezoekje.nl^
 ||ads.wikia.nocookie.net^
+||ads.wildberries.ru^
 ||ads.win555capi.com^
 ||ads.wineenthusiast.com^
 ||ads.winsite.com^
@@ -3526,6 +3537,7 @@
 ||ads.wwe.biz^
 ||ads.x.com^
 ||ads.x17online.com^
+||ads.x5media.ru^
 ||ads.xbiz.com^
 ||ads.xbox-scene.com^
 ||ads.xedoisong.vn^
@@ -3821,6 +3833,7 @@
 ||ads9-normal.zijieapi.com^
 ||ads9.contentabc.com^
 ||ads9.speedbit.com^
+||adsadvisor.io^
 ||adsage.com^
 ||adsame.com^
 ||adsamer.adsame.com^
@@ -4077,11 +4090,13 @@
 ||adv.mpvc.it^
 ||adv.mxmcdn.net^
 ||adv.nexthardware.com^
+||adv.ozon.ru^
 ||adv.p2pbg.com^
 ||adv.pilseta24.lv^
 ||adv.publy.net^
 ||adv.pushtimize.com^
 ||adv.r7.com^
+||adv.rustore.ru^
 ||adv.s8bbs.com^
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
@@ -4228,7 +4243,13 @@
 ||adversni.com^
 ||adverster.com^
 ||advert-admin.vnay.vn^
+||advert-api-sandbox.wb.ru^
+||advert-api-sandbox.wildberries.ru^
+||advert-api.wb.ru^
+||advert-api.wildberries.ru^
 ||advert-layer.de^
+||advert-media-api.wb.ru^
+||advert-media-api.wildberries.ru^
 ||advert-time.com^
 ||advert-track.com^
 ||advert.ananzi.co.za^
@@ -4597,6 +4618,7 @@
 ||agd2.p.360.cn^
 ||aged-minor.pro^
 ||ageingstudies.click^
+||agency-adv.ozon.ru^
 ||agency002.partner-connect-marketing.com^
 ||agendaweb.pro^
 ||agent-server.sc-api.seaart.ai^
@@ -6838,6 +6860,7 @@
 ||analytics-2.aasaam.com^
 ||analytics-3.aasaam.com^
 ||analytics-ads.xyz^
+||analytics-adv.ozon.ru^
 ||analytics-alv.google.com^
 ||analytics-api-samples.googlecode.com^
 ||analytics-api.a-f.io^
@@ -6923,6 +6946,7 @@
 ||analytics-ssl.allconnect.com^
 ||analytics-ssl.bradyid.com^
 ||analytics-ssl.seton.co.uk^
+||analytics-stage.wildberries.ru^
 ||analytics-stamp.confi.com.vc^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-stg.samsungknox.com^
@@ -8283,6 +8307,8 @@
 ||analytics.vivantskincare.com^
 ||analytics.vivint.com^
 ||analytics.vixcloud.co^
+||analytics.vk.com^
+||analytics.vk.ru^
 ||analytics.vnncdn.net^
 ||analytics.vnpt.vn^
 ||analytics.vnreview.vn^
@@ -8350,6 +8376,7 @@
 ||analytics.wienerberger.si^
 ||analytics.wienerberger.sk^
 ||analytics.wikitide.net^
+||analytics.wildberries.ru^
 ||analytics.wildlifestudios.com^
 ||analytics.wildtangent.com^
 ||analytics.winter.ink^
@@ -8589,6 +8616,8 @@
 ||api-es.apdetective.site^
 ||api-es.doglobal.net^
 ||api-eu.bidmachine.io^
+||api-eu.carrotquest.app^
+||api-eu.carrotquest.io^
 ||api-exc.dutils.com^
 ||api-exp.dfs.uk^
 ||api-exponea.csob.sk^
@@ -8618,6 +8647,7 @@
 ||api-internal-dev.oncustomer.asia^
 ||api-internal.oncustomer.asia^
 ||api-js.datadome.co^
+||api-js.mindbox.ru^
 ||api-js.mixpanel.com^
 ||api-kampane.dovera.sk^
 ||api-keks.com^
@@ -8647,11 +8677,17 @@
 ||api-resource.youzicheng.net^
 ||api-rewarded-video.fyber.com^
 ||api-rssocks.youzicheng.net^
+||api-ru.carrotquest.app^
+||api-ru.carrotquest.io^
+||api-ru.mindbox.cloud^
 ||api-rza6sjrnc.metalcentor.es^
 ||api-s2s.taboola.com^
 ||api-sdk.datadome.co^
+||api-secure.carrotquest.app^
+||api-secure.carrottrack.app^
 ||api-secure.solvemedia.com^
 ||api-shrek.net.jumia.com.gh^
+||api-staging.mindbox.ru^
 ||api-stape.bennimoda.com.br^
 ||api-stape.inglesparadesesperados.com^
 ||api-stape.mintlovers.pt^
@@ -8973,6 +9009,9 @@
 ||api.carlaandrea.com.br^
 ||api.carnevoro.site^
 ||api.carolinamueller.com.br^
+||api.carrotquest.app^
+||api.carrotquest.io^
+||api.carrottrack.app^
 ||api.cartaoconfarma.com.br^
 ||api.casadapaneladeferro.com.br^
 ||api.casadepraia.leaodenegocios.com.br^
@@ -9059,6 +9098,8 @@
 ||api.danielfunchal.com.br^
 ||api.danielhenriqueadv.com.br^
 ||api.danielsoutoortopedista.com.br^
+||api.dashly.app^
+||api.dashlytrack.app^
 ||api.data-analytics.pokemon.com^
 ||api.datahub-srgssr.ch^
 ||api.dataroid.com^
@@ -9508,6 +9549,8 @@
 ||api.milanowear.com.br^
 ||api.mimarbaby.com^
 ||api.min88.com^
+||api.mindbox.cloud^
+||api.mindbox.ru^
 ||api.miner.beeppool.org^
 ||api.minhaclinicalucrativa.com.br^
 ||api.minhalancheirinha.com.br^
@@ -10263,7 +10306,6 @@
 ||audid.umeng.com^
 ||audio.ad^
 ||aup.mobi^
-||aura-api.aurasamodians.in.net^
 ||auranova-hub.click^
 ||aurelianverdantisle.pro^
 ||aurfluxluxe.pro^
@@ -10630,6 +10672,7 @@
 ||beddiracca.pro^
 ||beeintare.click^
 ||befakaovasxhd.pro^
+||beginners-adv.ozon.ru^
 ||beginprogram.click^
 ||begolriela.pro^
 ||behaltooth.pro^
@@ -12082,6 +12125,7 @@
 ||click.rollouki.com^
 ||click.ru^
 ||click.runcpa.com^
+||click.rustore.ru^
 ||click.rypr.ru^
 ||click.sakuralive.com^
 ||click.scour.com^
@@ -12586,6 +12630,7 @@
 ||crm-analytics.imweb.ru^
 ||croftenvaal.pro^
 ||crooked.click^
+||crop-api.bereathfertil.in.net^
 ||cropp.dm-euco.com^
 ||crossplatformdevdl.pro^
 ||crossungre.pro^
@@ -12843,6 +12888,7 @@
 ||data-47ee1b0882.union-filmtheater.de^
 ||data-9d5c2cfc8c.baustoff-partner.de^
 ||data-ads.realmemobile.com^
+||data-api.axiomatrixflow.in.net^
 ||data-api.csob.cz^
 ||data-c26a0f6abd.smarthouse-pro.de^
 ||data-canary.flurry.com^
@@ -14322,6 +14368,7 @@
 ||faraway-recover.pro^
 ||farawaycookie.pro^
 ||fargelion.pro^
+||farm-api.ryesears.in.net^
 ||fartherneed.click^
 ||fasd-fads.cfd^
 ||fashionfinds.click^
@@ -15198,6 +15245,7 @@
 ||google-ads.hara.vn^
 ||google-analyticals.com^
 ||google-analytics-cn.com^
+||google-analytics-suite.ozon.ru^
 ||google-analytics.bi.owox.com^
 ||google-analytics.com^
 ||google-assistance.fr^
@@ -17421,6 +17469,7 @@
 ||loxodo-analytics.ext.nile.works^
 ||loyal-mother.pro^
 ||loyalgreen.pro^
+||loyalnost-adv.ozon.ru^
 ||lp.b2bmail.adobe.com^
 ||lp.customer-success-apac.adobe.com^
 ||lp.demo1.demoamericas275.adobe.com^
@@ -18395,6 +18444,7 @@
 ||neocodemit.pro^
 ||neofield.click^
 ||neolf.theadventurechallenge.com^
+||neon.click^
 ||neonflamepilot.pro^
 ||neopaactin.pro^
 ||neos.masterads.pro^
@@ -18437,6 +18487,7 @@
 ||neutravia.pro^
 ||new-aaid.umeng.com^
 ||new-aaid.umeng.com.gds.alibabadns.com^
+||new-adv.ozon.ru^
 ||new.cnzz.com^
 ||new24h.pro^
 ||newbrushes.click^
@@ -21326,6 +21377,7 @@
 ||productionadvice.com^
 ||productive-maximum.pro^
 ||produorien.pro^
+||prodvizhenie-adv.ozon.ru^
 ||proeroclips.pro^
 ||professionalinsightgroupae.pro^
 ||profesubhi.pro^
@@ -21624,6 +21676,7 @@
 ||questerion-logic.pro^
 ||questionable-heat.pro^
 ||questionable-shoulder.pro^
+||questions-adv.ozon.ru^
 ||quickbriefdaily.pro^
 ||quickfactchecker.pro^
 ||quickfee.click^
@@ -22852,6 +22905,7 @@
 ||sentry.d.mi.com^
 ||sentry.d.xiaomi.net^
 ||sentry.music.163.com^
+||sentry.x5.ru^
 ||seo-traffic.xyz^
 ||seoalchemy.click^
 ||seoandcontentgroupdp.pro^
@@ -23712,6 +23766,7 @@
 ||speee-ad.akamaized.net^
 ||speee-ad.jp^
 ||speeuclicks.ero-advertising.com^
+||sphere-api.dialectosphere.in.net^
 ||spicebitflow.pro^
 ||spicytask.pro^
 ||spietconse.pro^
@@ -24715,6 +24770,7 @@
 ||thornfisth.pro^
 ||thornridgeprojects.pro^
 ||thoseplace.pro^
+||thought-api.noetisphere.in.net^
 ||thoughtfuladvance.com^
 ||thoughtfulend.pro^
 ||thousandpiv.click^
@@ -25897,6 +25953,7 @@
 ||vdcci.adsame.com^
 ||vdf4d.click^
 ||vecchpirog.pro^
+||vector-api.theorivector.in.net^
 ||vectorai.click^
 ||vectorbrendal.pro^
 ||vefaxe.pro^
@@ -27164,6 +27221,7 @@
 ||web-analytics.ica.se^
 ||web-analytics.lastpass.com^
 ||web-analytics.mona.host^
+||web-analytics.wildberries.ru^
 ||web-api.tjme.io^
 ||web-check.co^
 ||web-pro-ccf.fr^
@@ -27382,6 +27440,7 @@
 ||workforcetrends.advancedtech.com^
 ||workokpro.pro^
 ||world-ad.jp^
+||world-api.ontoversegrid.in.net^
 ||world.ex-advantage.jp^
 ||worldhotels.pro^
 ||worldhotelss.pro^
