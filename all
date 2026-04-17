@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2026-04-17 10:48:23 
+#更新时间: 2026-04-17 22:58:09 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:32239
+#规则数量:32236
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -3545,6 +3545,7 @@
 127.0.0.1 ads.wwe.biz
 127.0.0.1 ads.x.com
 127.0.0.1 ads.x17online.com
+127.0.0.1 ads.x5.ru
 127.0.0.1 ads.x5media.ru
 127.0.0.1 ads.xbiz.com
 127.0.0.1 ads.xbox-scene.com
@@ -4115,6 +4116,8 @@
 127.0.0.1 adv.topvideo.tj
 127.0.0.1 adv.unionesarda.it
 127.0.0.1 adv.virgilio.it
+127.0.0.1 adv.vk.com
+127.0.0.1 adv.vk.ru
 127.0.0.1 adv.vz.ru
 127.0.0.1 adv.webmd.com
 127.0.0.1 adv.webvariant.com
@@ -4466,6 +4469,7 @@
 127.0.0.1 advisorycloud-dev.actonservice.com
 127.0.0.1 advisx.icu
 127.0.0.1 adviva.net
+127.0.0.1 advk.vk.ru
 127.0.0.1 advkino.ru
 127.0.0.1 advlead.click
 127.0.0.1 advlistings.com
@@ -12618,7 +12622,6 @@
 127.0.0.1 counter.csdn.net
 127.0.0.1 counter.ksosoft.com
 127.0.0.1 counter.sina.com.cn
-127.0.0.1 counter.yandex.net
 127.0.0.1 counter.yandex.ru
 127.0.0.1 countevoca.pro
 127.0.0.1 counttabes.pro
@@ -12725,7 +12728,6 @@
 127.0.0.1 crm-analytics.imweb.ru
 127.0.0.1 croftenvaal.pro
 127.0.0.1 crooked.click
-127.0.0.1 crop-api.bereathfertil.in.net
 127.0.0.1 cropp.dm-euco.com
 127.0.0.1 crossplatformdevdl.pro
 127.0.0.1 crossungre.pro
@@ -12984,7 +12986,6 @@
 127.0.0.1 data-47ee1b0882.union-filmtheater.de
 127.0.0.1 data-9d5c2cfc8c.baustoff-partner.de
 127.0.0.1 data-ads.realmemobile.com
-127.0.0.1 data-api.axiomatrixflow.in.net
 127.0.0.1 data-api.csob.cz
 127.0.0.1 data-c26a0f6abd.smarthouse-pro.de
 127.0.0.1 data-canary.flurry.com
@@ -13412,6 +13413,7 @@
 127.0.0.1 dimuzuzarub.pro
 127.0.0.1 dinamica-fortuna.pro
 127.0.0.1 dinamscamo.pro
+127.0.0.1 dindong.tos-cn-hongkong.volces.com
 127.0.0.1 dinedai.pro
 127.0.0.1 dinexura-pro.com
 127.0.0.1 dinfritid.ads.ramsalt.com
@@ -14161,7 +14163,6 @@
 127.0.0.1 energyhouseinfo.pro
 127.0.0.1 energyinfo.pro
 127.0.0.1 energywisdomways.pro
-127.0.0.1 engine-api.systemoraengine.in.net
 127.0.0.1 engine.4chan-ads.org
 127.0.0.1 enhancedspice.click
 127.0.0.1 enhancementsbend.click
@@ -14467,7 +14468,6 @@
 127.0.0.1 faraway-recover.pro
 127.0.0.1 farawaycookie.pro
 127.0.0.1 fargelion.pro
-127.0.0.1 farm-api.ryesears.in.net
 127.0.0.1 fartherneed.click
 127.0.0.1 fasd-fads.cfd
 127.0.0.1 fashionfinds.click
@@ -18071,6 +18071,8 @@
 127.0.0.1 metrics3.data.hicloud.com
 127.0.0.1 metrics4.data.hicloud.com
 127.0.0.1 metrics5.data.hicloud.com
+127.0.0.1 metrika.yandex.com
+127.0.0.1 metrika.yandex.net
 127.0.0.1 metrika.yandex.ru
 127.0.0.1 metrobreakingalert.pro
 127.0.0.1 metroexpressbulletin.pro
@@ -20785,12 +20787,11 @@
 127.0.0.1 pix-cdn77.trafficjunky.net
 127.0.0.1 pix.eads.com
 127.0.0.1 pix.hyj.mobi
-127.0.0.1 pix.yandex.ru
 127.0.0.1 pixel.ad
 127.0.0.1 pixel.adadvisor.net
 127.0.0.1 pixel.advanseads.com
 127.0.0.1 pixel.advertising.com
-127.0.0.1 pixel.yandex.net
+127.0.0.1 pixel.yandex.com
 127.0.0.1 pixelgrauveld.pro
 127.0.0.1 pixelplay.pro
 127.0.0.1 pixels.ad.gt
@@ -23961,7 +23962,6 @@
 127.0.0.1 speee-ad.akamaized.net
 127.0.0.1 speee-ad.jp
 127.0.0.1 speeuclicks.ero-advertising.com
-127.0.0.1 sphere-api.dialectosphere.in.net
 127.0.0.1 spicebitflow.pro
 127.0.0.1 spicytask.pro
 127.0.0.1 spietconse.pro
@@ -24968,7 +24968,6 @@
 127.0.0.1 thornfisth.pro
 127.0.0.1 thornridgeprojects.pro
 127.0.0.1 thoseplace.pro
-127.0.0.1 thought-api.noetisphere.in.net
 127.0.0.1 thoughtfuladvance.com
 127.0.0.1 thoughtfulend.pro
 127.0.0.1 thousandpiv.click
@@ -26150,7 +26149,6 @@
 127.0.0.1 vd.l.qq.com
 127.0.0.1 vdcci.adsame.com
 127.0.0.1 vdf4d.click
-127.0.0.1 vector-api.theorivector.in.net
 127.0.0.1 vectorai.click
 127.0.0.1 vectorbrendal.pro
 127.0.0.1 vefaxe.pro
@@ -27663,7 +27661,6 @@
 127.0.0.1 workforcetrends.advancedtech.com
 127.0.0.1 workokpro.pro
 127.0.0.1 world-ad.jp
-127.0.0.1 world-api.ontoversegrid.in.net
 127.0.0.1 world.ex-advantage.jp
 127.0.0.1 worldhotels.pro
 127.0.0.1 worldhotelss.pro
