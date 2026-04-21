@@ -1,7 +1,7 @@
 ## 去广告订阅自动更新
 ## [English](./README_en.md)
 
-## 统计 (2026-04-21 10:49:02)
+## 统计 (2026-04-21 11:38:33)
 ```
 完整版累积拦截域名: 14439
 保留广告奖励累积拦截域名: 14369
@@ -11,13 +11,13 @@
 ## 订阅
 ### 国内请用 **镜像链接**  
 
-| **名称** | **链接** | **镜像链接** | **Github订阅加速链接** |
+| **名称** | **链接** | **Github Page链接** | **CDN加速链接** |
 | :-- | :-- | :-- | :-- |
-| **完整版** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all) | ~~[Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/all)死了~~ | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/all) |
-| **保留广告奖励** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward) | ~~[Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/reward)~~ | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/reward) | 
-| **Adguard规则** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt) | ~~[Gitcode镜像](https://gitcode.net/weixin_45617236/10007_auto/-/raw/master/adb.txt)~~ | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/adb.txt) |
-| **Adaway白名单** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/Adaway_white_list.prop) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/Adaway_white_list.prop) |
-| **Adclose规则订阅** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/10007.rule) | [加速链接](https://raw.gitmirror.com/lingeringsound/10007_auto/master/10007.rule) |
+| **完整版** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all) | [Github page](https://lingeringsound.github.io/10007_auto/all) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/all) |
+| **保留广告奖励** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward) | [Github page](https://lingeringsound.github.io/10007_auto/reward) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/reward) | 
+| **Adguard规则** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt) | [Github page](https://lingeringsound.github.io/10007_auto/adb.txt) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/adb.txt) |
+| **Adaway白名单** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/Adaway_white_list.prop) | [Github page](https://lingeringsound.github.io/10007_auto/Adaway_white_list.prop) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/Adaway_white_list.prop) |
+| **Adclose规则订阅** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/10007.rule) | [Github page](https://lingeringsound.github.io/10007_auto/10007.rule) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/10007.rule) |
 
 
 
