@@ -1,0 +1,139 @@
+name: add_hosts_master
+on:
+  workflow_dispatch:
+  watch:
+    types: [started]
+  schedule:
+    - cron: '0 */14 * * *'
+
+jobs:
+   master:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Create local changes
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        sudo apt-get install -y dos2unix
+        bash update_action.sh && bash update_README.sh
+    - name: Commit files
+      run: |
+        git pull
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
+        git add .
+        git commit -m "hosts update" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+        force : true
+
+   developer:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+          ref: developer
+    - name: Create local changes developer
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        sudo apt-get install -y dos2unix
+        bash update_action.sh && bash update_README.sh
+    - name: Commit files developer
+      run: |
+        git pull
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
+        git add .
+        git commit -m "hosts update" -a
+    - name: Push changes developer
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: developer
+        force : true
+
+   Feature:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+          ref: Feature
+    - name: Create local changes Feature
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        sudo apt-get install -y dos2unix
+        bash update_action.sh && bash update_README.sh
+    - name: Commit files Feature
+      run: |
+        git pull
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
+        git add .
+        git commit -m "hosts update" -a
+    - name: Push changes Feature
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: Feature
+        force : true
+
+   PC_For_Test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+          ref: PC_For_Test
+    - name: Create local changes PC_For_Test
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        sudo apt-get install -y dos2unix
+        bash update_action.sh && bash update_README.sh
+    - name: Commit files PC_For_Test
+      run: |
+        git pull
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
+        git add .
+        git commit -m "hosts update" -a
+    - name: Push changes PC_For_Test
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: PC_For_Test
+        force : true
+        
+   Feature1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+          ref: Feature1
+    - name: Create local changes Feature1
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        sudo apt-get install -y dos2unix
+        bash update_action.sh && bash update_README.sh
+    - name: Commit files Feature1
+      run: |
+        git pull
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
+        git add .
+        git commit -m "hosts update" -a
+    - name: Push changes Feature1
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: Feature1
+        force : true
+       
