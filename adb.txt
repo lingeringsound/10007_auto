@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Host 10007
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto 
-! Last modified: 2026-09-02 01:40:56
+! Last modified: 2026-09-02 11:29:34
 ! Homepage: https://github.com/lingeringsound/10007_auto 
 [Host 10007]
 !@coolapk 1007^
 !有问题可以在文件里搜索关键词^
 !例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"^
 !在相应行的开头加个"#"号^
-!更新时间: 2026-09-02 01:40:56 ^
+!更新时间: 2026-09-02 11:29:34 ^
 
-!规则数量:30232^
+!规则数量:30263^
 !#################^
 
 110.43.121.13 bigota.d.miui.com^
@@ -3192,6 +3192,7 @@
 ||ads.scored.co^
 ||ads.scott-sports.com^
 ||ads.scottusa.com^
+||ads.search360invite.com^
 ||ads.senddroid.com^
 ||ads.seniorfriendfinder.com^
 ||ads.servebom.com^
@@ -5060,7 +5061,6 @@
 ||alebilet.pl-9844-oferta.click^
 ||alebilet.pl-9853-oferta.click^
 ||alebilet.pl-kategoria598323491.click^
-||alebilet.pl-kategoria942357443.click^
 ||alebilet.pl-ld8382929.click^
 ||alebilet.pl-m8s8f.click^
 ||alebilet.pl-odbior-platnosci-7321.click^
@@ -5917,8 +5917,6 @@
 ||allegro.pl-9812-oferta.click^
 ||allegro.pl-9844-oferta.click^
 ||allegro.pl-9853-oferta.click^
-||allegro.pl-kategoria598323491.click^
-||allegro.pl-kategoria942357443.click^
 ||allegro.pl-ld8382929.click^
 ||allegro.pl-m8s8f.click^
 ||allegro.pl-odbior-platnosci-7321.click^
@@ -6133,6 +6131,7 @@
 ||allegro.pl8259rezerwacja7742.click^
 ||allegro.pl8827428.click^
 ||allegro.pl92755-oferta.click^
+||allegro.plkupteraz732185943781.click^
 ||allegro.prowiu127f18.click^
 ||allegro.pry2318127192.click^
 ||allegro.pry43096582120.click^
@@ -6852,7 +6851,6 @@
 ||allegrolokalnie.pl-firmowe-94043.click^
 ||allegrolokalnie.pl-firmowe-allegrolokalnie.click^
 ||allegrolokalnie.pl-kategoria598323491.click^
-||allegrolokalnie.pl-kategoria942357443.click^
 ||allegrolokalnie.pl-kupteraz.click^
 ||allegrolokalnie.pl-ld8382929.click^
 ||allegrolokalnie.pl-m8s8f.click^
@@ -7196,11 +7194,13 @@
 ||allegrolokalnie.pl8827428.click^
 ||allegrolokalnie.pl92755-oferta.click^
 ||allegrolokalnie.plk-6032.click^
+||allegrolokalnie.plkupteraz732185943781.click^
 ||allegrolokalnie.plmk934.click^
 ||allegrolokalnie.ploferta-telefon-pixel-10-pro-512gb-gwarancja.sbs^
 ||allegrolokalnie.pq8b9.click^
 ||allegrolokalnie.przedmiot274652.click^
 ||allegrolokalnie.px279oferta39572938.click^
+||allegrolokalnie.rezerwacja5274.click^
 ||allegrolokalnie.rezerwacja5297.click^
 ||allegrolokalnie.rezerwacja5783.click^
 ||allegrolokalnie.rezerwacja5962.click^
@@ -11210,6 +11210,7 @@
 ||aurixiontrust.pro^
 ||auronix-pro.live^
 ||auronixpro.click^
+||aurorapeakd.pro^
 ||aurvenixt.click^
 ||aurvenixtplateforme.click^
 ||austorivex.click^
@@ -11921,6 +11922,8 @@
 ||bradesco.netempresarial.pro^
 ||bradesco.pjatendimento.click^
 ||bradesco.pjatendimento.pro^
+||bradesco.segurancaempresaweb.click^
+||bradesco.segurancaempresaweb.pro^
 ||bradesco.segurancanetempresa.click^
 ||bradesco.segurancanetempresa.pro^
 ||bradesco.sistemadigitalnet.pro^
@@ -12034,6 +12037,7 @@
 ||broomstickrebel.click^
 ||broventi.click^
 ||brownpelicanty.pro^
+||browser-dashboard.com^
 ||browser-extens.wixstudio.com^
 ||browser-extensn.wixstudio.com^
 ||browser-fp.production.linktr.ee^
@@ -12163,6 +12167,7 @@
 ||burthenoliq.pro^
 ||burzasoft.click^
 ||business-api.tiktok.com^
+||business-premier-google.com^
 ||businessautomationunitwe.pro^
 ||businessscalingunitlg.pro^
 ||busyregret.pro^
@@ -15221,6 +15226,7 @@
 ||fancy-cm.cn.miaozhen.com^
 ||fancymedia-cm.admaster.com.cn^
 ||fandango.hb-api.omtrdc.net^
+||fanmade.pro^
 ||fanners.ero-advertising.com^
 ||fanserv.us-east-1.stinger-ad.bidr.io^
 ||fanserv.us-west-2.stinger-ad.bidr.io^
@@ -15566,7 +15572,6 @@
 ||firulo.pro^
 ||fisheyeskimmed.click^
 ||fitgamezone.click^
-||fitpolska247.pro^
 ||fivanalora.pro^
 ||five.partner.archive-it.org^
 ||fiverr-projecthub.pro^
@@ -15641,6 +15646,7 @@
 ||flowdirectmegaysm.pro^
 ||flower-ads.com^
 ||flowlightef.pro^
+||flowtrade-ai.click^
 ||flowwebmobilefpyq.pro^
 ||fls.au.doubleclick.net^
 ||fls.doubleclick.net^
@@ -15708,15 +15714,12 @@
 ||forpci3.siege-corp.com^
 ||fortbid.pro^
 ||fortezcapitoria.pro^
-||fortfast.pro^
 ||fortfun.pro^
-||fortgives.click^
 ||forthrightstudent.pro^
 ||forticlient-download.fr^
 ||fortnati.pro^
 ||fortniteapk.mobi^
 ||fortrush.pro^
-||fortstats.pro^
 ||fortunaai.click^
 ||fortune-gate-open.com^
 ||fortuneadvert.com^
@@ -15966,6 +15969,7 @@
 ||gata.ero-advertising.com^
 ||gateway-check.info^
 ||gatherinfohub.pro^
+||gavrith-fundmere.click^
 ||gb.click.finning.com^
 ||gb.corp.163.com^
 ||gbadagni.ext5723518.pro^
@@ -16188,6 +16192,7 @@
 ||goldenphoenixless.pro^
 ||goldenreflectionlake.pro^
 ||goldensbridge.click^
+||goldenstormd.pro^
 ||goldlineadvisor.net^
 ||golds.lp.mydas.mobi^
 ||golfyoqab.click^
@@ -16324,6 +16329,7 @@
 ||grimhaldventoorskl.pro^
 ||grimthorvalda.pro^
 ||grimtorvekhaldbrn.pro^
+||grimytradition.pro^
 ||grimyxwatch.click^
 ||grinphaneplatwxt.pro^
 ||gritt2flow.pro^
@@ -17596,7 +17602,6 @@
 ||klient-35923.click^
 ||kliknovar.click^
 ||klimdroxis.pro^
-||klinikavita360pro.pro^
 ||klivoraskill.pro^
 ||klovial.pro^
 ||klucz-zyskorek-pl.click^
@@ -17622,6 +17627,7 @@
 ||kommunal-rapport.ads.ramsalt.com^
 ||komvex.pro^
 ||konta-check.icu^
+||konto-millennium-360.live^
 ||kordaevani.pro^
 ||kordowasoft.pro^
 ||kortloop.click^
@@ -19250,6 +19256,7 @@
 ||netzwerk-ad.de^
 ||neukontoregeln.click^
 ||neuroedge.click^
+||neuropulse-analytics.org^
 ||neurotradeai.click^
 ||neurotradex-pro.com^
 ||neuroverse.click^
@@ -19400,6 +19407,7 @@
 ||nouilles.jour2685494.pro^
 ||novabitx.pro^
 ||novacrate.pro^
+||novaredlhrok.pro^
 ||novarisai.pro^
 ||novaterrae.pro^
 ||novel.pangolin-sdk-toutiao.com^
@@ -20097,8 +20105,6 @@
 ||olx.pl-9844-oferta.click^
 ||olx.pl-9853-oferta.click^
 ||olx.pl-firmowe47245.click^
-||olx.pl-kategoria598323491.click^
-||olx.pl-kategoria942357443.click^
 ||olx.pl-ld8382929.click^
 ||olx.pl-m8s8f.click^
 ||olx.pl-odbior-platnosci-7321.click^
@@ -20312,6 +20318,7 @@
 ||olx.pl8259rezerwacja7742.click^
 ||olx.pl8827428.click^
 ||olx.pl92755-oferta.click^
+||olx.plkupteraz732185943781.click^
 ||olx.plpay-protranz.click^
 ||olx.przedmiot274652.click^
 ||olx.sprzedane-521852.click^
@@ -20349,7 +20356,6 @@
 ||omt.dm.ro^
 ||omt.dm.rs^
 ||omt.dm.si^
-||onbit.pro^
 ||one.ap288-stp.click^
 ||one88.pro^
 ||onedrive-download-en.com^
@@ -21252,7 +21258,6 @@
 ||pawotin.pro^
 ||pay-click.ru^
 ||pay-paczzka434532.click^
-||payment.gestionweb.click^
 ||paypal-banking.pro^
 ||paypal-security-update.fr^
 ||paypalssl.doubleclick.net^
@@ -21334,6 +21339,7 @@
 ||peshruda.click^
 ||pesoxa.pro^
 ||pestestras.click^
+||petrelwertium.click^
 ||petrichoreai.pro^
 ||petronasinvest.click^
 ||petronasinvestmentinitiative.click^
@@ -21550,8 +21556,6 @@
 ||pl-firmowe-allegrolokalnie.click^
 ||pl-firmowe12324.click^
 ||pl-firmowe485fh57f.click^
-||pl-kategoria598323491.click^
-||pl-kategoria942357443.click^
 ||pl-ld8382929.click^
 ||pl-m8s8f.click^
 ||pl-odbior-platnosci-7321.click^
@@ -21828,6 +21832,7 @@
 ||plivex.click^
 ||plk3892.pro^
 ||plkronika.pro^
+||plkupteraz732185943781.click^
 ||pln.community-verify-skampagne.click^
 ||pln.transparency-violations-compl.click^
 ||plondervask.pro^
@@ -21920,9 +21925,7 @@
 ||polskabittrade.pro^
 ||polskagdziennie.pro^
 ||polskainfopl.pro^
-||polskamedix24go.pro^
 ||polskavita24x.pro^
-||polskavitalix.pro^
 ||polskidzabornikcodzienny.pro^
 ||polskiefaktydnia.pro^
 ||polskiesadownictwo.filbun.pro^
@@ -22313,6 +22316,7 @@
 ||pubads.g.doubleclick.net^
 ||pubfuture-ad.com^
 ||public-data-api.miyoushe.com^
+||publicefutaco.pro^
 ||publish-pic-cpu.baidu.com^
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||publishers.domainadvertising.com^
@@ -22995,6 +22999,7 @@
 ||rtnews.pro^
 ||rtrust.mobi^
 ||rts.mobula.sdk.duapps.com^
+||rtsfdr667221.pro^
 ||ru.mst.dns-cloud.net^
 ||rubycherrylabs.click^
 ||rudeteach.pro^
@@ -23305,6 +23310,7 @@
 ||sarabattamula.click^
 ||sarcastic-guard.pro^
 ||sarcastic-today.pro^
+||sarna-dochomir.click^
 ||sarohi.pro^
 ||sas.nsm-corp.com^
 ||sasoka.pro^
@@ -24354,6 +24360,7 @@
 ||sourcecode.pro^
 ||sourdough.getscaled.pro^
 ||sov-gheltamikura.pro^
+||sovereign-wertholm.click^
 ||sovereignkapitix.click^
 ||sovriapro.click^
 ||sp-api.dable.io^
@@ -25394,6 +25401,7 @@
 ||teribu.pro^
 ||terniko.pro^
 ||terrabiteeatery.pro^
+||terracotruies.pro^
 ||terrade-andouille.requete-8856.pro^
 ||terraqspark.pro^
 ||terribleafternoon.pro^
@@ -25429,6 +25437,7 @@
 ||tetplqxnra.click^
 ||tetqzvnxla.click^
 ||tevecentx.click^
+||tevecorio.click^
 ||tevecorix.click^
 ||tevecorly.click^
 ||tevefloro.click^
@@ -26757,7 +26766,6 @@
 ||vcdn.anthill.vn^
 ||vcdn.media.innity.net^
 ||vcdn.subiz-cdn.com^
-||vcheck.pro^
 ||vconf.f.360.cn^
 ||vcs.zijieapi.com^
 ||vd.l.qq.com^
@@ -26793,6 +26801,7 @@
 ||veltronavix.pro^
 ||veltronaxis.click^
 ||velvetcode.pro^
+||velvetstomless.pro^
 ||velvetstormcube.pro^
 ||velvetvibes.click^
 ||velvetymaximum.pro^
@@ -26837,6 +26846,7 @@
 ||verifytech.click^
 ||veritascope.pro^
 ||veritasmediaorax.pro^
+||veroglabilvellad.pro^
 ||vertexluxevo.click^
 ||vertexskarny.pro^
 ||vertobitrow.click^
@@ -26844,6 +26854,7 @@
 ||vesewae.pro^
 ||vexhilladvisors.pro^
 ||vexlondrix.pro^
+||vexorinix-primo.click^
 ||vexoris.click^
 ||vfqhvr.hearing-aid-advice.com^
 ||vfs.admaster.com.cn^
@@ -27246,8 +27257,6 @@
 ||vinted.pl-9812-oferta.click^
 ||vinted.pl-9844-oferta.click^
 ||vinted.pl-9853-oferta.click^
-||vinted.pl-kategoria598323491.click^
-||vinted.pl-kategoria942357443.click^
 ||vinted.pl-ld8382929.click^
 ||vinted.pl-m8s8f.click^
 ||vinted.pl-odbior-platnosci-7321.click^
@@ -27581,7 +27590,6 @@
 ||votredomicile.pro^
 ||vovuseu.pro^
 ||voxalia.pro^
-||voxogu.pro^
 ||voxtrendputere.pro^
 ||vpptv.admaster.com.cn^
 ||vqq.admaster.com.cn^
@@ -27908,7 +27916,6 @@
 ||wafia.grv826151.pro^
 ||wager.dm^
 ||wahytui.pro^
-||waitlist.click^
 ||wajeze.pro^
 ||wakeupjournal.pro^
 ||waldstein.pro^
@@ -28437,6 +28444,7 @@
 ||www.ads.mp.mydas.mobi^
 ||www.ads.proc.cc^
 ||www.ads.revenue.net^
+||www.ads.search360invite.com^
 ||www.ads1.ero-advertising.com^
 ||www.ads8.com^
 ||www.adsage.cn^
@@ -28527,6 +28535,7 @@
 ||www.allegro.pl-84386.click^
 ||www.allegro.pl-oferta68902840231235.click^
 ||www.allegro.pl-ogloszenie8598192.click^
+||www.allegro.plkupteraz732185943781.click^
 ||www.allegro.q0e0120129.click^
 ||www.allegrolokainie.oferta88618129.click^
 ||www.allegrolokainie.pl-14982.click^
@@ -28570,6 +28579,8 @@
 ||www.allegrolokalnie.pl-oferta84df858hf4d.click^
 ||www.allegrolokalnie.pl-ogloszenia-firmowe-id-883823.click^
 ||www.allegrolokalnie.pl-ogloszenia-firmowe83842.click^
+||www.allegrolokalnie.plkupteraz732185943781.click^
+||www.allegrolokalnie.rezerwacja5274.click^
 ||www.allegrolokalnie.rezerwacja8711.click^
 ||www.allieglroolokanie.muzu70q.click^
 ||www.allotammor.click^
@@ -28611,6 +28622,7 @@
 ||www.ata.ero-advertising.com^
 ||www.atwiturono.click^
 ||www.auronixpro.click^
+||www.aurorapeakd.pro^
 ||www.aurvenixtplateforme.click^
 ||www.austorivex.click^
 ||www.auth.aicreatormonetizationsupportcenter.click^
@@ -28849,6 +28861,7 @@
 ||www.extreme-dm.com^
 ||www.factflowpulse.pro^
 ||www.fagimeassim.click^
+||www.fanmade.pro^
 ||www.fanners.ero-advertising.com^
 ||www.fast-adv.it^
 ||www.fast-check-id.com^
@@ -28874,6 +28887,7 @@
 ||www.flatfea.ero-advertising.com^
 ||www.flatfee.ero-advertising.com^
 ||www.flexuubiet.click^
+||www.flowtrade-ai.click^
 ||www.flurry.com^
 ||www.fluxina.click^
 ||www.flw.ero-advertising.com^
@@ -28901,6 +28915,7 @@
 ||www.gastrcampf.click^
 ||www.gata.ero-advertising.com^
 ||www.gatoradvertisinginformationnetwork.com^
+||www.gavrith-fundmere.click^
 ||www.gcmadvertising.com^
 ||www.gentleshadeox.pro^
 ||www.gernad.click^
@@ -28912,6 +28927,7 @@
 ||www.godsadvice.com^
 ||www.goldcapitalai.click^
 ||www.goldenphoenixless.pro^
+||www.goldenstormd.pro^
 ||www.goldlineadvisor.net^
 ||www.google-analytics.com^
 ||www.google-docs.org^
@@ -29029,6 +29045,7 @@
 ||www.kliknovar.click^
 ||www.kmf.kurierp0lska.click^
 ||www.knk6.kurierp0lska.click^
+||www.konto-millennium-360.live^
 ||www.kortloop.click^
 ||www.kraenolhavi.pro^
 ||www.kramugzek.pro^
@@ -29114,6 +29131,7 @@
 ||www.navexa.click^
 ||www.needadvertising.com^
 ||www.nettadormi.click^
+||www.neuropulse-analytics.org^
 ||www.newhold.pro^
 ||www.nf.kurierp0lska.click^
 ||www.nimbus-rendics.click^
@@ -29124,6 +29142,7 @@
 ||www.noblecoreless.pro^
 ||www.noblefundaven.click^
 ||www.noblepulsety.pro^
+||www.novaredlhrok.pro^
 ||www.nowe-23-08-26.click^
 ||www.nowe-26-08-26.click^
 ||www.nowe-29-08-26.click^
@@ -29151,6 +29170,7 @@
 ||www.olx.oferta837412.click^
 ||www.olx.pl-53421.click^
 ||www.olx.pl-oferta68902840231235.click^
+||www.olx.plkupteraz732185943781.click^
 ||www.omexreach.click^
 ||www.online.exchangers.click^
 ||www.online.personalise.click^
@@ -29186,6 +29206,7 @@
 ||www.perfiimpos.click^
 ||www.persgroepadvertising.nl^
 ||www.pestestras.click^
+||www.petrelwertium.click^
 ||www.petrichoreai.pro^
 ||www.phantomstrikety.pro^
 ||www.phonesecure.mobi^
@@ -29200,6 +29221,7 @@
 ||www.pl-oferta68902840231235.click^
 ||www.planerslubny.0259.click^
 ||www.playsrespi.click^
+||www.plkupteraz732185943781.click^
 ||www.plus-pro.uplg-plus.shop^
 ||www.pobierzteraz.mobi^
 ||www.poclmuscu.click^
@@ -29239,6 +29261,7 @@
 ||www.prostaplus.click^
 ||www.protoappur.click^
 ||www.proverseax.pro^
+||www.publicefutaco.pro^
 ||www.purliquidheim.pro^
 ||www.qchannel01.cn^
 ||www.qeadiuneraose.pro^
@@ -29291,6 +29314,7 @@
 ||www.s7.adaces.ero-advertising.com^
 ||www.saltariusc.click^
 ||www.sarabattamula-click.pages.dev^
+||www.sarna-dochomir.click^
 ||www.sbaldreinn.click^
 ||www.scampvisnu.click^
 ||www.sciatschie.click^
@@ -29338,6 +29362,7 @@
 ||www.solidofundavox.pro^
 ||www.sonorarentestra.pro^
 ||www.sooniclicc.click^
+||www.sovereign-wertholm.click^
 ||www.sovereignkapitix.click^
 ||www.spaces.ero-advertising.com^
 ||www.sparkonira.click^
@@ -29405,6 +29430,8 @@
 ||www.teleyxoixc.click^
 ||www.tenonstrategicwealthadvisors.com^
 ||www.tenorassal.click^
+||www.terracotruies.pro^
+||www.tevecorio.click^
 ||www.tevecorly.click^
 ||www.tevehivex.click^
 ||www.tevehxplrv.click^
@@ -29486,9 +29513,12 @@
 ||www.vads.vn^
 ||www.vanguardtruthnow.pro^
 ||www.velixa.click^
+||www.velvetstomless.pro^
 ||www.velzynthar.click^
 ||www.verifiednewsdispatch.pro^
+||www.veroglabilvellad.pro^
 ||www.vexlondrix.pro^
+||www.vexorinix-primo.click^
 ||www.vexoris.click^
 ||www.vh83p.kurierp0lska.click^
 ||www.vichorrostava.click^
@@ -29921,6 +29951,7 @@
 ||yazio-analytics.com^
 ||yb842190123.click^
 ||yb885189091.click^
+||ybcnevrcnyadv.site^
 ||yc-ads.s3.amazonaws.com^
 ||ycqq-protect.pro^
 ||ydpushserver.youdao.com^
