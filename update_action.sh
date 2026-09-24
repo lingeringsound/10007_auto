@@ -74,7 +74,7 @@ done
 
 #蓝奏云拦截域名
 for i in s d z ;do
-cat <<key >> "${file}"
+cat >> "${file}" << key 
 0.0.0.0 lanzou$i.com
 0.0.0.0 cbzhk.lanzou$i.com
 0.0.0.0 wwa.lanzou$i.com
@@ -191,7 +191,7 @@ esac
 local targetdir="`pwd`/result"
 if test -e "${file}" ;then 
 	mkdir -p "${targetdir}"
-	hosts_value="$( cat ${file} 2>/dev/null | grep $word ${value} ${file} | sed '/^#/d;/^[[:space:]]*$/d' )"
+	hosts_value="$(grep $word "${value}" "${file}" 2>/dev/null | sed '/^#/d;/^[[:space:]]*$/d' )"
 echo -e "${hosts_value}" > "${targetdir}/${value}.conf" && echo -e "已经输出[ ${value} ]"
 fi
 }
@@ -248,7 +248,7 @@ local conf="${1}"
 local target="${2}"
 if test -e $conf ;then 
 echo -e "[$(date +%y-%m-%d-%T)] ※执行排除文件["${conf}"]下的规则……※\n"
-	for i in $(cat "${conf}" 2>/dev/null | sed '/^#.*/d;/^[[:space:]]*$/d' )
+	for i in $(sed '/^#.*/d;/^[[:space:]]*$/d' "${conf}" 2>/dev/null )
 		do
 			busybox sed -i "/$i/d" "${target}"
 	done && echo -e "[$(date +%y-%m-%d-%T)] ※已排除[${conf}]文件中的规则※\n"
@@ -275,7 +275,7 @@ done && echo -e "[$(date +%y-%m-%d-%T)] ※完成合并规则！※\n" || echo -
 	if test -e "${output}" ;then
 		echo -e "[$(date +%y-%m-%d-%T)] ※筛选重复项中……※\n"
 cat <<key > "${output}" && echo -e "[$(date +%y-%m-%d-%T)] ※筛选重复项完成！※\n" || echo -e "[$(date +%y-%m-%d-%T)] ※筛选失败！※\n"
-$(cat "${output}" | sort | uniq | sed '/^#.*/d;/^[[:space:]]*$/d' )
+$(sort -u "${output}" | sed '/^#.*/d;/^[[:space:]]*$/d' )
 key
 		wipe_logcat "${output}"
 	fi
@@ -292,7 +292,7 @@ sed -i '/(/d' "${targetfile}"
 sed -i '/)/d' "${targetfile}"
 sed -i 's|127.0.0.1|0.0.0.0|g' "${targetfile}"
 #sed -i -E 's/(^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})([[:space:]]{1,10})/\1 /g' "${targetfile}"
-target_content="$(cat "${targetfile}" | sort | uniq )"
+target_content="$(sort -u "${targetfile}" )"
 echo "${target_content}" > "${targetfile}"
 }
 
@@ -301,10 +301,10 @@ local file="$1"
 local target="$2"
 local local_host_file="$3"
 test -f "${target}" && rm -rf "${target}"
-cat "${file}" 2>/dev/null | sed '/^#/d;/^[[:space:]]*$/d' | while read host ;do
+sed '/^#/d;/^[[:space:]]*$/d' "${file}" 2>/dev/null | while read host ;do
 echo -e "0.0.0.0 $host" >> "$target"
 done
-cat <<key >> $local_host_file
+cat >> "$local_host_file" << key 
 #广告奖励
 $(cat "$target" 2>/dev/null )
 #END
@@ -326,7 +326,7 @@ sed -i -E -e 's/\^0.0.0.0\[\[:space:\]\]//g' \
 -e '/\#放到iptables屏蔽的域名/,/^[[:space:]]$/d' \
 -e '/^[[:space:]]*$/d' "${file}"
 local original="$(cat "${file}")"
-cat << key > "${file}" 
+cat > "${file}" << key  
 #########
 #Adaway专用白名单
 #禁止用在拦截黑名单或者Adguard订阅
@@ -344,9 +344,9 @@ echo "${original}" >> "${file}"
 #写入信息
 function write_head () {
 local target_file="${1}"
-local original_file_content="$(cat ${target_file} 2>/dev/null | sed '/^#/d;/^[[:space:]]*$/d')"
+local original_file_content="$(sed '/^#/d;/^[[:space:]]*$/d' ${target_file} 2>/dev/null )"
 local total_count="$(echo "${original_file_content}" | wc -l )"
-cat << KEY > "${target_file}"
+cat > "${target_file}" << KEY 
 #@coolapk 1007
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
@@ -383,7 +383,7 @@ if test -f "$file" ;then
 	sed -i "s/^\^//g" "$file"
 local file_content="$(cat "${file}")"
 local filter_count="$(echo "${file_content}" | sed '/^[[:space:]]*$/d' | wc -l)"
-cat << key > "${file}"
+cat > "${file}" << key 
 [Host 10007]
 [Adblock Plus 2.0]
 ! Title: Host 10007
@@ -412,7 +412,7 @@ if test -f "$file" ;then
 	sed -i "s/^\^//g" "$file"
 local file_content="$(cat "${file}")"
 local filter_count="$(echo "${file_content}" | sed '/^[[:space:]]*$/d' | wc -l)"
-cat << key > "${file}"
+cat > "${file}" << key 
 # Host 10007
 # 主页: https://github.com/lingeringsound/10007_auto
 # 中文主页: https://www.gitlink.org.cn/keytoolazy/10007_auto
