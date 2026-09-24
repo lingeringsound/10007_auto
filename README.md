@@ -1,7 +1,7 @@
 ## 去广告订阅自动更新
 ## [English](./README_en.md)
 
-## 统计 (2026-09-24 11:42:58)
+## 统计 (2026-09-24 12:21:30)
 ```
 完整版累积拦截域名: 12645
 保留广告奖励累积拦截域名: 12575
@@ -19,7 +19,16 @@
 | **Adaway白名单** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/Adaway_white_list.prop) | [Github page](https://lingeringsound.github.io/10007_auto/Adaway_white_list.prop) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/Adaway_white_list.prop) |
 | **Adclose规则订阅** | [订阅链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/10007.rule) | [Github page](https://lingeringsound.github.io/10007_auto/10007.rule) | [加速链接](https://cdn.jsdelivr.net/gh/lingeringsound/10007_auto@master/10007.rule) |
 
-
+<details>
+<summary>不知道啥时候会死的 <a href="https://www.gitlink.org.cn/keytoolazy/10007_auto" target="_blank">Gitlink</a></summary>
+<ul>
+<li> <a href="https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/10007_auto/raw/all" target="_blank" > 完整版 </a> </li>
+<li> <a href="https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/10007_auto/raw/reward" target="_blank" > 保留广告奖励 </a> </li>
+<li> <a href="https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/10007_auto/raw/adb.txt" target="_blank" > Adguard规则 </a> </li>
+<li> <a href="https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/10007_auto/raw/Adaway_white_list.prop" target="_blank" > Adaway白名单 </a> </li>
+<li> <a href="https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/10007_auto/raw/10007.rule" target="_blank" > Adclose规则订阅 </a> </li>
+</ul>
+</details>
 
 ## **[捐赠地址](https://github.com/lingeringsound/10007)**
 
