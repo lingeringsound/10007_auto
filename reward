@@ -2,12 +2,12 @@
 #有问题可以在文件里搜索关键词
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"
 #在相应行的开头加个"#"号
-#更新时间: 2026-10-16 02:04:52 
+#更新时间: 2026-10-16 11:38:40 
 127.0.0.1 localhost
 ::1 localhost
 ::1 ip6-loopback
 ::1 ip6-localhost
-#规则数量:25850
+#规则数量:25846
 ##################
 
 110.43.121.13 bigota.d.miui.com
@@ -67,6 +67,7 @@
 1.1.1.1 122.14.229.148
 1.1.1.1 122.14.229.149
 1.1.1.1 123.fluxads.com
+1.1.1.1 123p.broadstreetbuzz.com
 1.1.1.1 123win.pro
 1.1.1.1 124.225.195.107
 1.1.1.1 12gtest.bj2cu.u3.ucweb.com
@@ -242,13 +243,13 @@
 1.1.1.1 7r3cna.viqiyi.admaster.com.cn
 1.1.1.1 7r76oa.vyk.admaster.com.cn
 1.1.1.1 7r8a9a.viqiyi.admaster.com.cn
+1.1.1.1 7whm.whm.www.staging.www.api.as.152-53-37-155.plesk.page
 1.1.1.1 81-sports.asadventure.sbs
 1.1.1.1 8178add5.vcstrading.com
 1.1.1.1 8219.mobi
 1.1.1.1 822.dlads.cn
 1.1.1.1 86488.lundivjcxk.pro
 1.1.1.1 864891.lundivjcxk.pro
-1.1.1.1 864892.lundivjcxk.pro
 1.1.1.1 8b253a.vyk.admaster.com.cn
 1.1.1.1 8b26nu.viqiyi.admaster.com.cn
 1.1.1.1 8b4pea.c.admaster.com.cn
@@ -407,7 +408,6 @@
 1.1.1.1 ab.advertiserurl.com
 1.1.1.1 ab.dns-finder.com
 1.1.1.1 ab.hysdknb.com
-1.1.1.1 abaadview.com
 1.1.1.1 abateadversity.com
 1.1.1.1 abc-ads.com
 1.1.1.1 abc.hb-api.omtrdc.net
@@ -2086,6 +2086,7 @@
 1.1.1.1 ads-platform.zalo.me
 1.1.1.1 ads-portal-cdn.vidaatv.net
 1.1.1.1 ads-privacy-api.prd.mz.internal.unity3d.com
+1.1.1.1 ads-proxy-aka.prod.bo.canal.canalplustech.pro
 1.1.1.1 ads-query.luizalabs.com
 1.1.1.1 ads-redis.ecn.cl
 1.1.1.1 ads-resources-legacy.waze.com
@@ -2484,7 +2485,6 @@
 1.1.1.1 ads.cyberctm.com
 1.1.1.1 ads.cybersales.cz
 1.1.1.1 ads.d-msquared.com
-1.1.1.1 ads.d21.media
 1.1.1.1 ads.dabi.ir
 1.1.1.1 ads.dada.it
 1.1.1.1 ads.dailycamera.com
@@ -5240,7 +5240,6 @@
 1.1.1.1 advisorservicesfpc.etradefinancial.com
 1.1.1.1 advisorthrowbible.com
 1.1.1.1 advisorweboptions.com
-1.1.1.1 advisory-coffee-jpguxsuz-dpqrdexzqmfr.edgeone.dev
 1.1.1.1 advisory.benisab.se
 1.1.1.1 advisory.dasa.se
 1.1.1.1 advisory.mentalitedor.com
@@ -5540,7 +5539,6 @@
 1.1.1.1 alicdn.bayimob.com
 1.1.1.1 alicdnv2.sitemonitor.cn.miaozhen.com
 1.1.1.1 alice.form11420.pro
-1.1.1.1 alice.ram534212.pro
 1.1.1.1 alice.urge844284.pro
 1.1.1.1 aliceaadsl.fr
 1.1.1.1 aliceadsm.fr
@@ -5653,7 +5651,6 @@
 1.1.1.1 amzaboprime007.pro
 1.1.1.1 amzaboprime008.pro
 1.1.1.1 amzaboprime009.pro
-1.1.1.1 amzaboprime010.pro
 1.1.1.1 amzaboprime011.pro
 1.1.1.1 amzaboprime012.pro
 1.1.1.1 an.yandex.ru
@@ -8096,7 +8093,6 @@
 1.1.1.1 api.corposaradowear.com.br
 1.1.1.1 api.corretaimoveis.com
 1.1.1.1 api.cortimax.com.br
-1.1.1.1 api.corusworldhealth.co.uk
 1.1.1.1 api.cosmetologiadobem.com.br
 1.1.1.1 api.country.is
 1.1.1.1 api.cozinhasempanela.com.br
@@ -9006,7 +9002,6 @@
 1.1.1.1 api.sconnect-cmo.co.com
 1.1.1.1 api.scotchpos.com
 1.1.1.1 api.scotia-connect-business.com
-1.1.1.1 api.scotiabank.cutover.com
 1.1.1.1 api.scotiabusiness.gr.com
 1.1.1.1 api.scotiaconnect-business.cc
 1.1.1.1 api.scotiaconnect-businessdigital.co.com
@@ -9706,7 +9701,6 @@
 1.1.1.1 bafkreigad2mpjeilddb2jlmf3ne7xm33i6jomon3tghs6tz4dui7q5lzeq.ipfs.dweb.link
 1.1.1.1 bafkreigmg7ghnrblmtiy7usj3mymxgadg5dh3w7cgzxjzxm6rkecyhpczm.ipfs.dweb.link
 1.1.1.1 bafkreih2axiaaad2t5noherxpr5tlv6ajtjoxiiwscryyf7vwixu47qgtu.ipfs.dweb.link
-1.1.1.1 bafybeibednalgwbl72zf6kml3rrbyabnk2k2nxm6j3szad2lemlagypcda.ipfs.dweb.link
 1.1.1.1 baichuan-sdk.alicdn.com
 1.1.1.1 baichuan-sdk.taobao.com
 1.1.1.1 baichuan.baidu.com
@@ -10111,7 +10105,6 @@
 1.1.1.1 blitz-analytics-batch-server.blitz.gg
 1.1.1.1 blizonprecisie.pro
 1.1.1.1 blnfsdkskzqfh.site
-1.1.1.1 blocadvisor.com
 1.1.1.1 blockadsnot.com
 1.1.1.1 blockchain-ads.com
 1.1.1.1 blog.ero-advertising.com
@@ -10196,7 +10189,6 @@
 1.1.1.1 boutique-ldlc-pro.fr
 1.1.1.1 boutru.grv4571134.pro
 1.1.1.1 bovirentix-fin.pro
-1.1.1.1 bovot.grv5781752.pro
 1.1.1.1 boxadstop.com
 1.1.1.1 boyard.grv5781752.pro
 1.1.1.1 bp.commercial.batteriesplus.com
@@ -10213,7 +10205,6 @@
 1.1.1.1 bradesco.atendimento-juridico-pj.pro
 1.1.1.1 bradesco.atualizacaonetempresa.pro
 1.1.1.1 bradesco.biacentral.pro
-1.1.1.1 bradesco.creditonetempresas.pro
 1.1.1.1 bradesco.gerenciadornetempresa.pro
 1.1.1.1 bradesco.gestaoempresanet.pro
 1.1.1.1 bradesco.habilitanetempresabr.pro
@@ -10221,7 +10212,6 @@
 1.1.1.1 bradesco.pjatendimento-juridico.pro
 1.1.1.1 bradesco.pjatendimento.pro
 1.1.1.1 bradesco.segurancaempresaweb.pro
-1.1.1.1 bradesco.segurancanetempresa.pro
 1.1.1.1 bradesco.sincronizacaopjonline.pro
 1.1.1.1 bradesco.sistemadigitalnet.pro
 1.1.1.1 bradesco.suportebr.pro
@@ -10556,6 +10546,7 @@
 1.1.1.1 capitaldownloads.net
 1.1.1.1 capitalflux-system-pro.pages.dev
 1.1.1.1 capitalflux-system.pro
+1.1.1.1 capitalholding.pro
 1.1.1.1 capitalstreamiqa.pro
 1.1.1.1 capitalstreamora.pro
 1.1.1.1 capitalupdatezone.pro
@@ -10869,6 +10860,7 @@
 1.1.1.1 check-pointrelay.fr
 1.1.1.1 check-products.org
 1.1.1.1 check-products.shop
+1.1.1.1 check-pz.club
 1.1.1.1 check-service.netlify.app
 1.1.1.1 check-status-31f89.firebaseapp.com
 1.1.1.1 check-tcp.rayjump.com
@@ -10877,7 +10869,6 @@
 1.1.1.1 check-you-id-972727.eu.cc
 1.1.1.1 check.ba4vkx.sbs
 1.1.1.1 check.buetzandbeats.de
-1.1.1.1 check.checkandbalancefirm.top
 1.1.1.1 check.frbservices.org
 1.1.1.1 check.gr1hao.qpon
 1.1.1.1 check.jettrade.dk
@@ -10890,7 +10881,6 @@
 1.1.1.1 check.tep.test.ajo.adobe.com
 1.1.1.1 check.wv9qtv.qpon
 1.1.1.1 check.zrntz.com
-1.1.1.1 checkedtodaydx.pro
 1.1.1.1 checker.cityads.com
 1.1.1.1 checking.cloudflare-browser-check.top
 1.1.1.1 cheeryburn.pro
@@ -10961,6 +10951,7 @@
 1.1.1.1 cityadstrack.com
 1.1.1.1 citynewsbeatdaily.pro
 1.1.1.1 cityofsanmateo.analytics.open.law
+1.1.1.1 civic-union.org
 1.1.1.1 civylya.pro
 1.1.1.1 civyqeu.pro
 1.1.1.1 cjhd.mediav.com
@@ -11046,6 +11037,7 @@
 1.1.1.1 click-facebook.blogspot.com
 1.1.1.1 click-for-preview.com
 1.1.1.1 click-haproxy.supersonicads.com
+1.1.1.1 click-maxis.my.id
 1.1.1.1 click-pay.net
 1.1.1.1 click-performance.assets.rndtech.de
 1.1.1.1 click-plus.genieesspv.jp
@@ -11644,7 +11636,6 @@
 1.1.1.1 cornychicken.pro
 1.1.1.1 corp-downloads.com
 1.1.1.1 corp-github.com
-1.1.1.1 corp-help.info
 1.1.1.1 corp.eulerian.com
 1.1.1.1 corp.eulerian.eu
 1.1.1.1 corp.eulerian.fr
@@ -11736,7 +11727,6 @@
 1.1.1.1 creotrax-pro.com
 1.1.1.1 crestfundgroveai-click.pages.dev
 1.1.1.1 crestyieldmere.pro
-1.1.1.1 crinberg.pro
 1.1.1.1 criptoinvest-click.pages.dev
 1.1.1.1 crisp-crew.pro
 1.1.1.1 crisp-run.pro
@@ -11818,7 +11808,6 @@
 1.1.1.1 custom-wrs.api.responsys.net
 1.1.1.1 custom.jabads.de
 1.1.1.1 customads.co
-1.1.1.1 customerupgrade1121.weebly.com
 1.1.1.1 cvr.ad-brix.com
 1.1.1.1 cvt.mydas.mobi
 1.1.1.1 cw8e5xa342.triadscargo.com
@@ -12269,7 +12258,6 @@
 1.1.1.1 dell.hb-api.omtrdc.net
 1.1.1.1 della-rocca.hub5780137.pro
 1.1.1.1 delog.nestads.com
-1.1.1.1 dem1889926.pro
 1.1.1.1 dem4552069.pro
 1.1.1.1 demandingnail.pro
 1.1.1.1 demo.adsame.com
@@ -12321,6 +12309,7 @@
 1.1.1.1 df.mob.com
 1.1.1.1 dfe.mic.mob.com
 1.1.1.1 dfgtmtrack.df-advocacia.adv.br
+1.1.1.1 dflnqwww.www.www.backend.www.api.as.152-53-37-155.plesk.page
 1.1.1.1 dfp.doubleclick.net
 1.1.1.1 dg9w4mgjy9ro.l.adsco.re
 1.1.1.1 dgafgadsgkjg.top
@@ -13192,7 +13181,6 @@
 1.1.1.1 exponea-api.alshaya.com
 1.1.1.1 exponea-api.dnb.com
 1.1.1.1 ext-345064.pro
-1.1.1.1 ext-536805.pro
 1.1.1.1 ext5710418.pro
 1.1.1.1 ext5710441.pro
 1.1.1.1 ext5723518.pro
@@ -13320,7 +13308,6 @@
 1.1.1.1 ferlantora.pro
 1.1.1.1 fernand.urge844284.pro
 1.1.1.1 fernando.bdll55113248.pro
-1.1.1.1 ferreira.jour2685494.pro
 1.1.1.1 ferreirateixeira.adv.br
 1.1.1.1 ferrovaldenza-pro.pages.dev
 1.1.1.1 ferrovaldenza.pro
@@ -13542,6 +13529,7 @@
 1.1.1.1 finpoland.pro
 1.1.1.1 finpolska.pro
 1.1.1.1 fintecaai.pro
+1.1.1.1 finzy5-ad51.sbs
 1.1.1.1 finzy6-ad28.sbs
 1.1.1.1 finzy6-ad33.sbs
 1.1.1.1 finzy7-ad0.sbs
@@ -13630,7 +13618,6 @@
 1.1.1.1 flurry.com
 1.1.1.1 fluxads.com
 1.1.1.1 fluxgainluxor-click.pages.dev
-1.1.1.1 fluxus-open-air.com
 1.1.1.1 flw.ero-advertising.com
 1.1.1.1 fly-ads.net
 1.1.1.1 flyads1.com
@@ -13718,7 +13705,6 @@
 1.1.1.1 francocreditan-pro.com
 1.1.1.1 franken-analytics.makeup.global
 1.1.1.1 frankjackpot.pro
-1.1.1.1 fratura.urge284671.pro
 1.1.1.1 freakads.com
 1.1.1.1 free-ebookdownloads.com
 1.1.1.1 free-fb-traffic.com
@@ -13793,6 +13779,7 @@
 1.1.1.1 fxgate.baidu.com
 1.1.1.1 fykilia.pro
 1.1.1.1 fyls88zqyb.content-ad.net
+1.1.1.1 fylucoe.pro
 1.1.1.1 fypypau.pro
 1.1.1.1 fyzoceu.pro
 1.1.1.1 fzogzt.gadventures.co.uk
@@ -14213,7 +14200,6 @@
 1.1.1.1 grs.hicloud.com
 1.1.1.1 grumpyprotection.pro
 1.1.1.1 grundhestveld.pro
-1.1.1.1 gruntheldvaskd.pro
 1.1.1.1 grv564298.pro
 1.1.1.1 grv846316.pro
 1.1.1.1 grv961010.pro
@@ -14395,7 +14381,6 @@
 1.1.1.1 hauntingdependent.pro
 1.1.1.1 havan-investimentos-sa.pro
 1.1.1.1 hawthornethreads.mom
-1.1.1.1 hazel-tide-5a09-03c9cad8.pages.dev
 1.1.1.1 haziba.pro
 1.1.1.1 hb-analytics.hotstar.com
 1.1.1.1 hb-api.omnitagjs.com
@@ -14476,7 +14461,6 @@
 1.1.1.1 hit.api.useinsider.com
 1.1.1.1 hitadsmedia.com
 1.1.1.1 hitclub.pro
-1.1.1.1 hitierlallement.grv9710620.pro
 1.1.1.1 hitman-pro.ru
 1.1.1.1 hitofintralis.pro
 1.1.1.1 hittoadv.com
@@ -14589,6 +14573,7 @@
 1.1.1.1 hub848245.pro
 1.1.1.1 hubble.netease.com
 1.1.1.1 hubcloud.com.cn
+1.1.1.1 hubspot-google-meet.raspy-cake-4f11.workers.dev
 1.1.1.1 hubt.pornhub.com
 1.1.1.1 hucyqoy.pro
 1.1.1.1 hueads.com
@@ -14870,6 +14855,7 @@
 1.1.1.1 imgs.adverticum.net
 1.1.1.1 imgs.dlads.cn
 1.1.1.1 imgs.jads.co
+1.1.1.1 imgshare-api.connor-linfoot.workers.dev
 1.1.1.1 imgstat.baidu.com
 1.1.1.1 imgx.mediav.com
 1.1.1.1 immdiateaion-ai.pro
@@ -15073,7 +15059,6 @@
 1.1.1.1 inugiwi.pro
 1.1.1.1 investhelm.pro
 1.1.1.1 investhubpro-click.pages.dev
-1.1.1.1 investigativereportdx7.pro
 1.1.1.1 investmentplatform.pro
 1.1.1.1 investtrendcore9.pro
 1.1.1.1 invideo.ero-advertising.com
@@ -15356,7 +15341,6 @@
 1.1.1.1 jzwjq.ads.tremorhub.com
 1.1.1.1 k.tcp.push.mob.com
 1.1.1.1 k1.mobileadsserver.com
-1.1.1.1 k51qzi5uqu5dgjngusbscza0jnzwdcaylhdqwute0pyrfh9505ad7vn8gua1pl.ipns.dweb.link
 1.1.1.1 k5ads.osdn.com
 1.1.1.1 k7j2w9.filmnadvd.cz
 1.1.1.1 k88.mobi
@@ -15429,6 +15413,7 @@
 1.1.1.1 kingads.net
 1.1.1.1 kingads2.org
 1.1.1.1 kinkadservercdn.com
+1.1.1.1 kinsteads.net
 1.1.1.1 kiolakdaoadposdkados.site
 1.1.1.1 kiolaokaasodkasiadsodikd.site
 1.1.1.1 kiolapaodlkadoadsdp.site
@@ -15600,6 +15585,7 @@
 1.1.1.1 layer-ads.de
 1.1.1.1 layerads.ero-advertising.com
 1.1.1.1 layers.ero-advertising.com
+1.1.1.1 layout-capturer-pro.lovable.app
 1.1.1.1 lazada1.cc
 1.1.1.1 lazada1.com
 1.1.1.1 lazada1.vn
@@ -15682,7 +15668,6 @@
 1.1.1.1 legjava.pro
 1.1.1.1 leijgerdams.pro
 1.1.1.1 leiki-doubleclick-proxy.appspot.com
-1.1.1.1 leistenschneider.urge842284.pro
 1.1.1.1 lekkirendovikai.pro
 1.1.1.1 lelatrixio-ai-pro.com
 1.1.1.1 lelixio-pro.pages.dev
@@ -16374,6 +16359,7 @@
 1.1.1.1 manizae.pro
 1.1.1.1 mantis.autoads.asia
 1.1.1.1 manureads.com
+1.1.1.1 manus-analytics.com
 1.1.1.1 mapping.adsame.com
 1.1.1.1 maralgel.pro
 1.1.1.1 marcel.hub5724557.pro
@@ -16572,7 +16558,6 @@
 1.1.1.1 menez.tjcr5781135.pro
 1.1.1.1 merchandise.opera-api.com
 1.1.1.1 merchant-center-analytics.goog
-1.1.1.1 mercredizyt50hc.pro
 1.1.1.1 merdalixan.pro
 1.1.1.1 mereche.hub5723511.pro
 1.1.1.1 merovixantalzerio.pro
@@ -16790,6 +16775,7 @@
 1.1.1.1 mobilesdk-us.kampyle.com
 1.1.1.1 mobpartner.mobi
 1.1.1.1 mobwsa.ximalaya.com
+1.1.1.1 mock-matrix-hub-api.pages.dev
 1.1.1.1 modelfertinex.pro
 1.1.1.1 modelmanerixhex.pro
 1.1.1.1 modobua.pro
@@ -16911,6 +16897,7 @@
 1.1.1.1 mssg57391.pro
 1.1.1.1 mssp.baidu.com
 1.1.1.1 mt-api.itpub.cloud
+1.1.1.1 mta-sts-jijzept.pages.dev
 1.1.1.1 mta-sts.mail.wt-eu02.net
 1.1.1.1 mta61-163.muc.bh-mail.com
 1.1.1.1 mta62-163.muc.bh-mail.com
@@ -17114,7 +17101,6 @@
 1.1.1.1 neronixprofit-pro.com
 1.1.1.1 nest-resource-works.pro
 1.1.1.1 nestlegroup.pro
-1.1.1.1 nestli.pro
 1.1.1.1 net-actifvillepro.pro
 1.1.1.1 net.24-ads.com
 1.1.1.1 net.salmonads.com
@@ -17360,7 +17346,6 @@
 1.1.1.1 oata.ero-advertising.com
 1.1.1.1 obaxavak.pro
 1.1.1.1 obedientbirthday.pro
-1.1.1.1 oberkvisthalden.pro
 1.1.1.1 obersviktrondholm.pro
 1.1.1.1 obese-actor.pro
 1.1.1.1 obiegrix-opinie-click.pages.dev
@@ -17494,7 +17479,6 @@
 1.1.1.1 onrt.stsdk.vivo.com.cn
 1.1.1.1 onrt.stsdk.vivoglobal.com
 1.1.1.1 onsiterecs.api.boomtrain.com
-1.1.1.1 onyzen.pro
 1.1.1.1 ooi7k-lxpl-lab-ki12.ad4gde.qpon
 1.1.1.1 oooh.pro
 1.1.1.1 op.hicloud.com
@@ -17823,6 +17807,7 @@
 1.1.1.1 p5-be-pack-sign.pglstatp-toutiao.com
 1.1.1.1 p5-orange.byteorge.com
 1.1.1.1 p5.tribution.mobi
+1.1.1.1 p581488.pro
 1.1.1.1 p6-ad-sign.byteimg.com
 1.1.1.1 p6-be-pack-sign.pglstatp-toutiao.com
 1.1.1.1 p6-orange.byteorge.com
@@ -18486,6 +18471,7 @@
 1.1.1.1 ph-ad21.focalink.com
 1.1.1.1 phantom-adventure.com
 1.1.1.1 phantomstrikety.pro
+1.1.1.1 phew.pro
 1.1.1.1 philippe.urge5718504.pro
 1.1.1.1 philippinetraveladventures.com
 1.1.1.1 phimtronbo.pro
@@ -18799,7 +18785,6 @@
 1.1.1.1 preferences.ubs.test.ajo.adobe.com
 1.1.1.1 preludeadv.it
 1.1.1.1 premads.info
-1.1.1.1 premiersadvisory.pages.dev
 1.1.1.1 premiumads.com.br
 1.1.1.1 premiumads.net
 1.1.1.1 premiumdownloads.org
@@ -18828,7 +18813,6 @@
 1.1.1.1 primeamzabo008.pro
 1.1.1.1 primeamzabo009.pro
 1.1.1.1 primeamzabo010.pro
-1.1.1.1 primeamzabo012.pro
 1.1.1.1 primeamzabo014.pro
 1.1.1.1 primeamzabo015.pro
 1.1.1.1 primeamzabo025.pro
@@ -18863,7 +18847,6 @@
 1.1.1.1 pro-dgrfo.com
 1.1.1.1 pro-factory.com
 1.1.1.1 pro-hacks.com
-1.1.1.1 pro-help-suite-cdn.typedream.app
 1.1.1.1 pro-interieurgouv.fr
 1.1.1.1 pro-invest-polska.com
 1.1.1.1 pro-invest-polska.net
@@ -19088,7 +19071,6 @@
 1.1.1.1 pulsemorphix.pro
 1.1.1.1 pulslokalu.pro
 1.1.1.1 pulsportalowy.pro
-1.1.1.1 pulswitryna.pro
 1.1.1.1 puma-api.iqiyi.com
 1.1.1.1 puma.api.iqiyi.com
 1.1.1.1 punktwidoku.pro
@@ -19186,6 +19168,7 @@
 1.1.1.1 qihoo.cn
 1.1.1.1 qikdownloads.com
 1.1.1.1 qilvkam.pro
+1.1.1.1 qiwytui.pro
 1.1.1.1 qizotu.pro
 1.1.1.1 qleverapro.pro
 1.1.1.1 qliceadsl.fr
@@ -19193,6 +19176,7 @@
 1.1.1.1 qntm.pro
 1.1.1.1 qocezoe.pro
 1.1.1.1 qojise.pro
+1.1.1.1 qorvath.pro
 1.1.1.1 qoventrix24.pro
 1.1.1.1 qr-non-member-unsubscribe-landing-page.qr.test.ajo.adobe.com
 1.1.1.1 qskin.pro
@@ -19277,7 +19261,6 @@
 1.1.1.1 r3.adwo.com
 1.1.1.1 ra.gtimg.com
 1.1.1.1 rabbit.tg.meitu.com
-1.1.1.1 rachid.serv464564.pro
 1.1.1.1 rad.msn.com
 1.1.1.1 radar.josianamendes.adv.br
 1.1.1.1 radar.luanapradoadvocacia.com.br
@@ -19290,7 +19273,6 @@
 1.1.1.1 radiocanada.hb-api.omtrdc.net
 1.1.1.1 rads.msn.com
 1.1.1.1 rads.stackoverflow.com
-1.1.1.1 radsdojo-staging.com
 1.1.1.1 rainstormty.pro
 1.1.1.1 rakam-api.aptoide.com
 1.1.1.1 rakutenadvertising.io
@@ -19415,7 +19397,6 @@
 1.1.1.1 refinedads.com
 1.1.1.1 refundacja-ebok.ch-update.site
 1.1.1.1 refundrecorder-redirect-private-api.vwliterature.com
-1.1.1.1 refusa.pro
 1.1.1.1 region1.analytics.google.com
 1.1.1.1 region1.google-analytics.com
 1.1.1.1 regionads.ru
@@ -20063,6 +20044,7 @@
 1.1.1.1 safepal-download.com
 1.1.1.1 sakura-traffic.com
 1.1.1.1 saladstory.mom
+1.1.1.1 salesforce-api-dev.mauiresortrentals.workers.dev
 1.1.1.1 salewayplatform.pro
 1.1.1.1 salva-tore.bdll845000.pro
 1.1.1.1 sam.msn.com
@@ -20423,7 +20405,6 @@
 1.1.1.1 semanticspreadsheet.com
 1.1.1.1 semprad.pro
 1.1.1.1 seniorliving.broadviewseniorliving.org
-1.1.1.1 senohi.pro
 1.1.1.1 sensible-ads.com
 1.1.1.1 sensorflarexxp.pro
 1.1.1.1 sensors.snaptube.app
@@ -20851,6 +20832,7 @@
 1.1.1.1 single.upsight-api.com
 1.1.1.1 singlespray.pro
 1.1.1.1 sinsaypl.pro
+1.1.1.1 sintrelonix-pro.pages.dev
 1.1.1.1 sintrelonix.pro
 1.1.1.1 sipospeiragel.pro
 1.1.1.1 sirinlabs.pro
@@ -20863,7 +20845,6 @@
 1.1.1.1 sizeer.pro
 1.1.1.1 sizzling-flower.pro
 1.1.1.1 sjarvis.taobao.com
-1.1.1.1 sjbaiduadv1.redou.com
 1.1.1.1 sk.ball88.mobi
 1.1.1.1 skadsdk.appsflyer.com
 1.1.1.1 skadsdk.appsflyersdk.com
@@ -21157,7 +21138,6 @@
 1.1.1.1 speeuclicks.ero-advertising.com
 1.1.1.1 spellads.com
 1.1.1.1 spicycopy.pro
-1.1.1.1 spicysign.radsdojo-staging.com
 1.1.1.1 spike.email-disney.cjm.adobe.com
 1.1.1.1 spikeavonexneo-pro.pages.dev
 1.1.1.1 spikeavonexneo.pro
@@ -21240,6 +21220,8 @@
 1.1.1.1 ssl-msn.oewabox.at
 1.1.1.1 ssl.google-analytics.com
 1.1.1.1 ssl.trace.zhiziyun.com
+1.1.1.1 sso-godaddy-fuyswwcaalqcivhlehgdvoos.pages.dev
+1.1.1.1 sso-godaddy-ozfihceptdslzwrpeowutbwn.pages.dev
 1.1.1.1 ssp-ad.momento.dev
 1.1.1.1 ssp-ads.da1.us.criteo.com
 1.1.1.1 ssp-ads.fr3.eu.criteo.com
@@ -21676,6 +21658,7 @@
 1.1.1.1 suburban-deposit.pro
 1.1.1.1 subwayfranchiseeadvertising.sc.omtrdc.net
 1.1.1.1 success.ctobsnssdk.com
+1.1.1.1 succinylcholinesiifountainheads.info
 1.1.1.1 suelto-creditante.pro
 1.1.1.1 sufasii.pro
 1.1.1.1 sugargoospreadsheet.fr
@@ -21938,7 +21921,6 @@
 1.1.1.1 tada1ove.com
 1.1.1.1 tads.mobadvent.com
 1.1.1.1 tadv.didestan.net
-1.1.1.1 tadve.sendmanagement.com
 1.1.1.1 tadvi.conradfulbrookdesign.com
 1.1.1.1 tag-dev.sp.advertising.com
 1.1.1.1 tag.admaster.com.cn
@@ -22298,6 +22280,7 @@
 1.1.1.1 topdownloads.nl.intellitxt.com
 1.1.1.1 tophippo.vlion.cn
 1.1.1.1 topicalpulseupdate.pro
+1.1.1.1 topicthreads.online
 1.1.1.1 toponad.com
 1.1.1.1 toponadss.com
 1.1.1.1 topstorybreak.pro
@@ -22323,7 +22306,6 @@
 1.1.1.1 tour.affbuzzads.com
 1.1.1.1 toutiao-frontier.snssdk.com
 1.1.1.1 tower.ubixioe.com
-1.1.1.1 towersadvisor.com
 1.1.1.1 toxexie.pro
 1.1.1.1 toyota.api.useinsider.com
 1.1.1.1 tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com
@@ -22959,7 +22941,6 @@
 1.1.1.1 update-macosx.com
 1.1.1.1 update-monremaxremax-quebec.weebly.com
 1.1.1.1 update-myetherwallet.com
-1.1.1.1 update-ndaax-en-us.square.site
 1.1.1.1 update-netflix.com
 1.1.1.1 update-netflix.fr
 1.1.1.1 update-ntfl.fr
@@ -22977,6 +22958,7 @@
 1.1.1.1 update.3lift.com
 1.1.1.1 update.adflex.vn
 1.1.1.1 update.adsrvr.org
+1.1.1.1 update.as.152-53-37-155.plesk.page
 1.1.1.1 update.avlyun.sec.miui.com
 1.1.1.1 update.baidu.com
 1.1.1.1 update.bainv.net
@@ -23005,9 +22987,11 @@
 1.1.1.1 update.taptarget.io
 1.1.1.1 update.tas.yieldmo.com
 1.1.1.1 update.tcsg.edu
+1.1.1.1 update.update.www.backend.staging.ny.152-53-37-155.plesk.page
 1.1.1.1 update.wo.gumgum.com
 1.1.1.1 update.wps.cn
 1.1.1.1 update.wtag.adaptv.advertising.com
+1.1.1.1 update.www.www.www.admin.api.as.152-53-37-155.plesk.page
 1.1.1.1 update3487u.serv5781698.pro
 1.1.1.1 update3778b.acces462705.pro
 1.1.1.1 update5643r.rjvs4571248.pro
@@ -23210,6 +23194,7 @@
 1.1.1.1 valcreditance.pro
 1.1.1.1 valdricora.pro
 1.1.1.1 valeurgaintra.pro
+1.1.1.1 valexiro-pro.pages.dev
 1.1.1.1 valexiro.pro
 1.1.1.1 valf.atm.cp31.ott.cibntv.net
 1.1.1.1 vali-g1.cp31.ott.cibntv.net
@@ -23327,10 +23312,10 @@
 1.1.1.1 viads.net
 1.1.1.1 viamichelin.media.trafficjunky.net
 1.1.1.1 vib.mobi
+1.1.1.1 vibestop.pro
 1.1.1.1 vice-ads-cdn.vice.com
 1.1.1.1 viciouscelebration.pro
 1.1.1.1 victor.jpod5714521.pro
-1.1.1.1 victoria.bdll845276.pro
 1.1.1.1 victoriaadvocate.112.2o7.net
 1.1.1.1 victoriaexecutive-pro.pages.dev
 1.1.1.1 vid-uap.iads.unity3d.com
@@ -23861,6 +23846,7 @@
 1.1.1.1 webleads-tracker.com
 1.1.1.1 webload101.hitbox.com
 1.1.1.1 weblog.blogads.com
+1.1.1.1 webmail-roundcubes.ktexim.pro
 1.1.1.1 webmail-update.biz
 1.1.1.1 webmaster-traffic.com
 1.1.1.1 webmine.pro
@@ -24465,6 +24451,7 @@
 1.1.1.1 www.buylike.pro
 1.1.1.1 www.cadvision.com
 1.1.1.1 www.calderive-pro.pages.dev
+1.1.1.1 www.capitalholding.pro
 1.1.1.1 www.cash4downloads.com
 1.1.1.1 www.cashflowxx-click.pages.dev
 1.1.1.1 www.cata.ero-advertising.com
@@ -24482,6 +24469,7 @@
 1.1.1.1 www.chat.ero-advertising.com
 1.1.1.1 www.chatgptinvestbot-click.pages.dev
 1.1.1.1 www.check-id2193.fun
+1.1.1.1 www.check-pz.club
 1.1.1.1 www.check-you-id-972727.eu.cc
 1.1.1.1 www.chekmeseger-adspager.online
 1.1.1.1 www.chengzijianzhan.com
@@ -24490,6 +24478,7 @@
 1.1.1.1 www.ciderbayoulg.pro
 1.1.1.1 www.cimaonrendaviol-click.pages.dev
 1.1.1.1 www.cityads.com
+1.1.1.1 www.civic-union.org
 1.1.1.1 www.claude-ads.ai
 1.1.1.1 www.claude-advertisers.ai
 1.1.1.1 www.clear-living-route.pro
@@ -24608,7 +24597,6 @@
 1.1.1.1 www.exotradeai-pro.pages.dev
 1.1.1.1 www.exotradeai.pro
 1.1.1.1 www.ext-345064.pro
-1.1.1.1 www.ext-536805.pro
 1.1.1.1 www.ext5710418.pro
 1.1.1.1 www.ext5710441.pro
 1.1.1.1 www.ext5723518.pro
@@ -24624,6 +24612,7 @@
 1.1.1.1 www.fhatfee.ero-advertising.com
 1.1.1.1 www.finalopoweko.pro
 1.1.1.1 www.finanse-check.com
+1.1.1.1 www.finzy5-ad51.sbs
 1.1.1.1 www.finzy6-ad28.sbs
 1.1.1.1 www.finzy6-ad33.sbs
 1.1.1.1 www.finzy7-ad0.sbs
@@ -24661,6 +24650,7 @@
 1.1.1.1 www.fundedtradingplus-click.pages.dev
 1.1.1.1 www.futurixedgeai-click.pages.dev
 1.1.1.1 www.fxadviceformeandyou.com
+1.1.1.1 www.fylucoe.pro
 1.1.1.1 www.game-advertising-online.com
 1.1.1.1 www.gata.ero-advertising.com
 1.1.1.1 www.gatoradvertisinginformationnetwork.com
@@ -24770,6 +24760,7 @@
 1.1.1.1 www.kds.ero-advertising.com
 1.1.1.1 www.kdyzlow.pro
 1.1.1.1 www.kgstinvest-pro.pages.dev
+1.1.1.1 www.kinsteads.net
 1.1.1.1 www.kivazyu.pro
 1.1.1.1 www.knacads.com
 1.1.1.1 www.konto-millennium-360.online
@@ -24783,6 +24774,7 @@
 1.1.1.1 www.lanzous.com
 1.1.1.1 www.lanzouz.com
 1.1.1.1 www.layers.ero-advertising.com
+1.1.1.1 www.layout-capturer-pro.lovable.app
 1.1.1.1 www.lead-analytics-1000.com
 1.1.1.1 www.leadenhorges.pro
 1.1.1.1 www.leads.goldenshovel.com
@@ -24815,7 +24807,6 @@
 1.1.1.1 www.megawin88.mobi
 1.1.1.1 www.mellowads.com
 1.1.1.1 www.mememakers.mobi
-1.1.1.1 www.mercredizyt50hc.pro
 1.1.1.1 www.miami.ero-advertising.com
 1.1.1.1 www.microsoft-update.name
 1.1.1.1 www.mmnetwork.mobi
@@ -24953,8 +24944,10 @@
 1.1.1.1 www.properrayam.pro
 1.1.1.1 www.pulsarvexline-pro-com.pages.dev
 1.1.1.1 www.qchannel01.cn
+1.1.1.1 www.qiwytui.pro
 1.1.1.1 www.qocezoe.pro
 1.1.1.1 www.qojise.pro
+1.1.1.1 www.qorvath.pro
 1.1.1.1 www.qqads.com
 1.1.1.1 www.quantivaadvisoryprogrammes.net
 1.1.1.1 www.quantixfinance-pro.pages.dev
@@ -25029,6 +25022,7 @@
 1.1.1.1 www.silnagieldownia-pro.pages.dev
 1.1.1.1 www.simple-track-path.pro
 1.1.1.1 www.sin.ero-advertising.com
+1.1.1.1 www.sintrelonix-pro.pages.dev
 1.1.1.1 www.skarveldun.pro
 1.1.1.1 www.skjoldverdivik.pro
 1.1.1.1 www.slimads.vn
@@ -25074,6 +25068,7 @@
 1.1.1.1 www.studymeshq.pro
 1.1.1.1 www.subscription-update-mt.com
 1.1.1.1 www.subsitesadserver.co.uk
+1.1.1.1 www.succinylcholinesiifountainheads.info
 1.1.1.1 www.summitvalnexapp-pro.pages.dev
 1.1.1.1 www.supersonicads.com
 1.1.1.1 www.swap-dexair-pro.com
@@ -25098,10 +25093,10 @@
 1.1.1.1 www.thumbs2.ero-advertising.com
 1.1.1.1 www.tinbuadserv.com
 1.1.1.1 www.tiumbs.ero-advertising.com
-1.1.1.1 www.toit9875408.pro
 1.1.1.1 www.token360day-pro.pages.dev
 1.1.1.1 www.tokinmony.pro
 1.1.1.1 www.topads.ero-advertising.com
+1.1.1.1 www.topicthreads.online
 1.1.1.1 www.torchkapivex.pro
 1.1.1.1 www.toroadvertisingmedia.com
 1.1.1.1 www.tosumu.pro
@@ -25155,6 +25150,7 @@
 1.1.1.1 www.vads.net.vn
 1.1.1.1 www.vads.vn
 1.1.1.1 www.valdricora.pro
+1.1.1.1 www.valexiro-pro.pages.dev
 1.1.1.1 www.valleprofitra-pro.pages.dev
 1.1.1.1 www.valuezone-click.pages.dev
 1.1.1.1 www.vanguardassetadvisory.com
@@ -25165,6 +25161,7 @@
 1.1.1.1 www.velvixkentromintspectrum.pro
 1.1.1.1 www.vendortrust-click.pages.dev
 1.1.1.1 www.verificaitalia-click.pages.dev
+1.1.1.1 www.vibestop.pro
 1.1.1.1 www.viniciusfrancoadvocacia.com.br
 1.1.1.1 www.vintaroquorixhubline.pro
 1.1.1.1 www.vintaroquorixhubwave.pro
@@ -25311,7 +25308,6 @@
 1.1.1.1 xiaomi.ovh
 1.1.1.1 xiaomi.tf
 1.1.1.1 xiaomi.yt
-1.1.1.1 xibowi.pro
 1.1.1.1 xiditav.pro
 1.1.1.1 xifisao.pro
 1.1.1.1 xigua.bet
