@@ -3,8 +3,8 @@
 
 ## count
 ```
-all: 25560
-reward: 25490
+all: 12288
+reward: 12218
 ```
 
 | **name** | **links** |
