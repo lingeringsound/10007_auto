@@ -90,6 +90,9 @@
 ! 日志收集，禁用会占用大量CPU
 @@||ulog*.*.com^$important
 @@||toblog.ctobsnssdk.com^$important
+! App日志追踪导致功耗异常 感谢GIthub[recycle007](https://github.com/recycle007)反馈
+@@||px.ucweb.com^$important,document
+@@||hermes.hupu.com^$document
 ! 阿里/支付宝
 @@||mmstat.com^$important
 ! 小米商店登陆
@@ -567,7 +570,6 @@
 ! HyperOS 超级岛
 @@||hyperos.developer.xiaomi.com^$document
 @@||metok.sys.miui.com^$document
-
 
 
 ! 添加一些规则
