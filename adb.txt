@@ -3,8 +3,8 @@
 ! Title: Host 10007
 ! Homepage: https://github.com/lingeringsound/10007_auto
 ! ZH_Homepage: https://www.gitlink.org.cn/keytoolazy/10007_auto
-! Last modified: 2026-11-28 06:31:32
-! 规则数量: 12842
+! Last modified: 2026-11-28 14:25:10
+! 规则数量: 12867
 
 ! 爱奇艺腾讯视频网页版广告，删除了客户端没广告，网页就打不开。
 ! 这两没用了
@@ -98,6 +98,9 @@
 ! 日志收集，禁用会占用大量CPU
 @@||ulog*.*.com^$important
 @@||toblog.ctobsnssdk.com^$important
+! App日志追踪导致功耗异常 感谢GIthub[recycle007](https://github.com/recycle007)反馈
+@@||px.ucweb.com^$important,document
+@@||hermes.hupu.com^$document
 ! 阿里/支付宝
 @@||mmstat.com^$important
 ! 小米商店登陆
@@ -577,7 +580,6 @@
 @@||metok.sys.miui.com^$document
 
 
-
 ! 添加一些规则
 ||s.360.cn^$important
 ||p.s.360.cn^$important
@@ -815,6 +817,7 @@
 ||122.14.229.148^
 ||122.14.229.149^
 ||123.fluxads.com^
+||123aaad3.doreenfroehlich.com^
 ||123win.pro^
 ||124.225.195.107^
 ||12gtest.bj2cu.u3.ucweb.com^
@@ -4494,7 +4497,6 @@
 ||adv.yo.cz^
 ||adv2.expres.ua^
 ||advack.net^
-||advanced-reserv8283.com^
 ||advancedcleaner.com^
 ||advancedmactools.com^
 ||advancedmn.us.intellitxt.com^
@@ -4813,6 +4815,8 @@
 ||akamai.smartadserver.com^
 ||akar.iad.appboy.com^
 ||aksdk-images.adikteev.com^
+||aldi.broadsideballad.shop^
+||aldi.nailheadstud.shop^
 ||aldius-market.nailheadstud.shop^
 ||ali-ad.a.yximgs.com^
 ||ali.cityads.com^
@@ -4832,7 +4836,6 @@
 ||ama.adwo.com^
 ||amazon-adsystem.com^
 ||ambroexpres.pro^
-||ambrokurier.pro^
 ||amdcopen.m.taobao.com^
 ||amer.rel.msn.com^
 ||amonsul.douban.com^
@@ -5993,9 +5996,11 @@
 ||avage-400.pro^
 ||avast-downloads.com^
 ||avazunativeads.com^
+||avelixio-pro.pages.dev^
 ||avelixio.pro^
 ||averatomatm.pro^
 ||avoadsservices.com^
+||avoirentor-click.pages.dev^
 ||avonex-pro.pro^
 ||avowtech.mobileadstrk.com^
 ||avutian.pro^
@@ -6155,6 +6160,7 @@
 ||baogia.vads.vn^
 ||bar.baidu.com^
 ||base.api.my7v.com^
+||basketinion-ie.pro^
 ||batch.upsight-api.com^
 ||bavners2.ero-advertising.com^
 ||bazowin781.pro^
@@ -6191,7 +6197,6 @@
 ||beacon-iad3.rubiconproject.com^
 ||beacon-us-iad2.rubiconproject.com^
 ||beacon.sina.com.cn^
-||beaconfundamoren.pro^
 ||bead-ad.com^
 ||beads.sx.atl.publicus.com^
 ||beap.adss.yahoo.com^
@@ -6255,7 +6260,6 @@
 ||blu.mobileads.msn.com^
 ||blucher.iad-03.braze.com^
 ||blue-ad.ad-stir.com^
-||bluequbitai-pro.pages.dev^
 ||bm.alimama.cn^
 ||bmvip.alimama.cn^
 ||bnr6txockztw.l.adsco.re^
@@ -6275,6 +6279,7 @@
 ||borsa-ai.pro^
 ||botuu.adsame.com^
 ||bounceads.net^
+||bouncemultiple.pro^
 ||boxadstop.com^
 ||bp.mobad.ijinshan.com^
 ||bqgimgs1.cdn.bcebos.com^
@@ -7555,10 +7560,7 @@
 ||filteradkernel.adsimilate.com^
 ||fim.adnxs.com^
 ||finance.cityads.com^
-||financeforum-click.pages.dev^
 ||finetorexsystem.pro^
-||finsy5-ad64.cfd^
-||finsy9-ad83.cfd^
 ||finterra-tech.pro^
 ||finterrabe.pro^
 ||finzy7-ad49.sbs^
@@ -7787,6 +7789,7 @@
 ||google-docs.org^
 ||google-shopping-v2.sapoapps.vn^
 ||google-shopping.sapoapps.vn^
+||google-webinaries-rosy.vercel.app^
 ||googleads.g.doubleclick.net^
 ||googleads2.g.doubleclick.net^
 ||googleads4.g.doubleclick.net^
@@ -7799,6 +7802,7 @@
 ||gothamads.com^
 ||gouploads.nocoshop.ru^
 ||gouploads.uploadbox.world^
+||gove-update.com^
 ||gr.adserver.yahoo.com^
 ||grand-prix.cityads.com^
 ||graphics.medleyads.com^
@@ -7880,7 +7884,6 @@
 ||help.cnzz.com^
 ||help.juicyads.com^
 ||hercules.iad.appboy.com^
-||hermes.hupu.com^
 ||hexagon-analytics.com^
 ||hexusads.fluent.ltd.uk^
 ||hflalffajhf.top^
@@ -7900,6 +7903,7 @@
 ||hk.adserver.yahoo.com^
 ||hk.napi.ucweb.com^
 ||hl1n.pro^
+||hlnreport365.pro^
 ||hlrcv.stage.adobe.com^
 ||hm.baidu.com^
 ||hm.baidu.com.zzsdtzb.com^
@@ -8162,13 +8166,12 @@
 ||in.analytics.glance.inmobi.com^
 ||in.api.glance.inmobi.com^
 ||inc2.igexin.com^
+||incadscher.store^
 ||inceptionads.go2cloud.org^
 ||indexerymax-ark-click.pages.dev^
 ||indiceonagpt-fr.pro^
 ||indo.autoads.asia^
 ||indus.iad-01.braze.com^
-||induscapitalplatform-pro.pages.dev^
-||induscapitalplatform.pro^
 ||inferna.iad-03.braze.com^
 ||infinite-ads.com^
 ||infiniti.cityads.com^
@@ -8265,6 +8268,7 @@
 ||jads.co^
 ||jadserve.postrelease.com^
 ||jadserve.postrelease.com.akadns.net^
+||jaduremio.pro^
 ||janapi.jd.com^
 ||jasnaskala.pro^
 ||jasnybrzeg.pro^
@@ -8273,6 +8277,7 @@
 ||jeanbellparker.pro^
 ||jellyfish.pandora.xiaomi.com^
 ||jenno.adsb4all.com^
+||jezgravireon-pro.pages.dev^
 ||jf.winads.cn^
 ||jfdaily.adsame.com^
 ||jic.talkingdata.com^
@@ -8351,7 +8356,6 @@
 ||juicywebcams.com^
 ||juicywives.com^
 ||jump.baidu.001union.com^
-||junvexa.pro^
 ||jupin.mediav.com^
 ||jupiter.appads.com^
 ||jupiter1.appads.com^
@@ -8395,6 +8399,7 @@
 ||kuaishou.httpdns.pro^
 ||kuaishouad.cn^
 ||kubet.mobi^
+||kuvrothelx-app-pro.pages.dev^
 ||kv-analytics.kiotviet.vn^
 ||kvinit-prod.api.kochava.com^
 ||kwurl.ucweb.com^
@@ -8501,7 +8506,6 @@
 ||linker.adsee.jp^
 ||links-and-traffic.com^
 ||links.onlinedownloads.org^
-||liquidstorse.pro^
 ||lirygoy.pro^
 ||lisads.d2c.ne.jp^
 ||lite.a.market.xiaomi.com^
@@ -8825,7 +8829,6 @@
 ||mobwsa.ximalaya.com^
 ||modig-vekstanse.pro^
 ||moengagewebsdk.imgix.net^
-||moj-bonus-check.top^
 ||momento-pindolol-pro.com^
 ||momsg.wps.cn^
 ||mon.ad-stir.com^
@@ -8951,6 +8954,7 @@
 ||nad.ad-stir.com^
 ||nad.leadboltads.net^
 ||naiadsystems.com^
+||nailheadstud.shop^
 ||nairapulse-pro.digital^
 ||nameketathar.pro^
 ||napoleonx.pro^
@@ -8974,6 +8978,7 @@
 ||nclog.pad.baofeng.net^
 ||nectarpondil.pro^
 ||needadvertising.com^
+||nelepyymau.pro^
 ||nep.advangelists.com^
 ||neptune.appads.com^
 ||neptune1.appads.com^
@@ -9116,6 +9121,7 @@
 ||olx.click-offer8362.lol^
 ||olx.click-pay-pl.shop^
 ||olx.click-pay-poland.shop^
+||olx.slsaadsss.top^
 ||omgmta.play.aiseet.atianqi.com^
 ||omgmta.play.cp81.ott.cibntv.net^
 ||omgmta.play.ott.video.qq.com^
@@ -9511,6 +9517,7 @@
 ||pagepeel.ero-advertising.com^
 ||pages-juxiao.mediav.com^
 ||pages.juxiao.mediav.com^
+||pahygui.pro^
 ||palazzorendiora-it.pro^
 ||panda.adsame.com^
 ||pandoramedia-mkt-prod1-t.campaign.adobe.com^
@@ -9583,6 +9590,7 @@
 ||pdl.gionee.com^
 ||pdown.stat.360safe.com^
 ||pei-ads.thesmokingjacket.com^
+||pekirgardony.pro^
 ||pemtairitoads.net^
 ||penta.a.one.impact-ad.jp^
 ||people.api.boomtrain.com^
@@ -9592,6 +9600,7 @@
 ||perf.mmstat.com^
 ||perf.teads.tv.edgekey.net^
 ||persgroepadvertising.nl^
+||pesipiunee.pro^
 ||petpathika.pro^
 ||pfp.sina.com.cn^
 ||pfpip.sina.com^
@@ -9636,6 +9645,7 @@
 ||phpadsnew.wn.com^
 ||phpmyadmin.ero-advertising.com^
 ||phpmyadmin.js.ero-advertising.com^
+||phpspreadsheet.com^
 ||pic.bloggerads.net^
 ||pic2.bloggerads.net^
 ||piccdn.bloggerads.net^
@@ -9853,7 +9863,6 @@
 ||px.ads.linkedin.com^
 ||px.moatads.com^
 ||px.tvadsync.com^
-||px.ucweb.com^
 ||px2.moatads.com^
 ||px2ii-ufb66.ads.tremorhub.com^
 ||px2m.moatads.com^
@@ -9918,8 +9927,10 @@
 ||radio.stickyadstv.com^
 ||rads.msn.com^
 ||rads.stackoverflow.com^
+||rainewsark.pro^
 ||rainewsoned.pro^
 ||rainewsprod.pro^
+||rainewsvox.pro^
 ||rampidads.com^
 ||raspy-dawn-2ad8.ezecdqlaacyrfin.workers.dev^
 ||rata.ero-advertising.com^
@@ -10041,7 +10052,6 @@
 ||rhads.sv.publicus.com^
 ||rhombusads.com^
 ||ridge-capitaldale.pro^
-||riqueazacoinlume-click.pages.dev^
 ||river.zhidao.baidu.com^
 ||rlog-api.under9.co^
 ||rm.sina.com.cn^
@@ -10349,6 +10359,7 @@
 ||sac.ayads.co^
 ||sadc1.outbrain.org^
 ||sadfasdfa962.com^
+||sadsfouga.store^
 ||safe.res.meizu.com^
 ||safeoffers.pro^
 ||safeonwebsolution-click.pages.dev^
@@ -10701,6 +10712,7 @@
 ||slckg-qrmhc.ads.tremorhub.com^
 ||slimads.vn^
 ||slovaraix.pro^
+||slsaadsss.top^
 ||sltint.adv.ott.cibntv.net^
 ||sm.domob.cn^
 ||sm.domobcdn.com^
@@ -11513,6 +11525,7 @@
 ||uev.ad-stir.com^
 ||ug.pangolin-dsp-toutiao.com^
 ||ug.snssdk.com^
+||ugoldenharbi.pro^
 ||ujovinfernad.pro^
 ||uk-ads.openx.net^
 ||uk.ads.hexus.net^
@@ -11724,6 +11737,7 @@
 ||v9-ad.ixigua.com^
 ||v9.cnzz.com^
 ||va6-bid.adsrvr.org^
+||vabokougiu.pro^
 ||vads.net.vn^
 ||vads.vn^
 ||vae-bid.adsrvr.org^
@@ -11778,7 +11792,6 @@
 ||viamichelin.media.trafficjunky.net^
 ||vice-ads-cdn.vice.com^
 ||victoriaadvocate.112.2o7.net^
-||victoriaexecutive.pro^
 ||vid-io-iad.springserve.com^
 ||vid-uap.iads.unity3d.com^
 ||video-ad-stats.googlesyndication.com^
@@ -12066,6 +12079,7 @@
 ||vtyqy.admaster.com.cn^
 ||vu.adschoom.com^
 ||vu88.mobi^
+||vuxelyamoi.pro^
 ||vv6.video.qq.com^
 ||vv84.bj.bcebos.com^
 ||vwins.pro^
@@ -12317,6 +12331,7 @@
 ||www.0latfee.ero-advertising.com^
 ||www.1-1ads.com^
 ||www.1-free-share-buttons.com^
+||www.123aaad3.doreenfroehlich.com^
 ||www.123win.pro^
 ||www.1control.pro^
 ||www.2baners.ero-advertising.com^
@@ -12460,7 +12475,6 @@
 ||www.adt.com.vn^
 ||www.adv.axiatraders.com^
 ||www.advaliant.com^
-||www.advanced-reserv8283.com^
 ||www.advancedcleaner.com^
 ||www.advancedmactools.com^
 ||www.advancedsoftwaresupport.com^
@@ -12496,12 +12510,13 @@
 ||www.aid-ad.jp^
 ||www.airybotsh.pro^
 ||www.aizdiharai.pro^
+||www.aldi.broadsideballad.shop^
+||www.aldi.nailheadstud.shop^
 ||www.aldius-market.nailheadstud.shop^
 ||www.alphamovix-32.pro^
 ||www.althoryven-ai.pro^
 ||www.alva-capital.pro^
 ||www.ambroexpres.pro^
-||www.ambrokurier.pro^
 ||www.analytics-digit-in.cdn.ampproject.org^
 ||www.analytics.247sports.com^
 ||www.analytics.ero-advertising.com^
@@ -12530,10 +12545,12 @@
 ||www.autoads.asia^
 ||www.avage-400.pro^
 ||www.avast-downloads.com^
+||www.avelixio-pro.pages.dev^
 ||www.avelixio.pro^
 ||www.averatomatm.pro^
 ||www.avnads.com^
 ||www.avoadsservices.com^
+||www.avoirentor-click.pages.dev^
 ||www.avonex-pro.pro^
 ||www.avsads.com^
 ||www.avutian.pro^
@@ -12555,8 +12572,8 @@
 ||www.banners1.ero-advertising.com^
 ||www.banners2.ero-advertising.com^
 ||www.bannevs.ero-advertising.com^
+||www.basketinion-ie.pro^
 ||www.bavners2.ero-advertising.com^
-||www.beaconfundamoren.pro^
 ||www.beginads.com^
 ||www.bemydate.mobi^
 ||www.bestphoneapps.mobi^
@@ -12580,7 +12597,6 @@
 ||www.blog.intext.ero-advertising.com^
 ||www.blogads.com^
 ||www.blueadvantagearkasas.com^
-||www.bluequbitai-pro.pages.dev^
 ||www.booknestika.pro^
 ||www.boostadipexhex.pro^
 ||www.boostfertinex-ai.pro^
@@ -12759,10 +12775,7 @@
 ||www.feyads.com^
 ||www.fhatfee.ero-advertising.com^
 ||www.fidovenza.pro^
-||www.financeforum-click.pages.dev^
 ||www.finetorexsystem.pro^
-||www.finsy5-ad64.cfd^
-||www.finsy9-ad83.cfd^
 ||www.finterra-tech.pro^
 ||www.finterrabe.pro^
 ||www.finzy7-ad49.sbs^
@@ -12811,11 +12824,13 @@
 ||www.godsadvice.com^
 ||www.google-analytics.com^
 ||www.google-docs.org^
+||www.google-webinaries-rosy.vercel.app^
 ||www.googleadservices.com^
 ||www.googletagmanager.com^
 ||www.gorcesygnal.pro^
 ||www.gort-pro-build.base44.app^
 ||www.gort-pro-kitchen.base44.app^
+||www.gove-update.com^
 ||www.greenvistazj.pro^
 ||www.groman-pro.com^
 ||www.groman.pro^
@@ -12839,6 +12854,7 @@
 ||www.hightrafficads.com^
 ||www.hit-counter-download.com^
 ||www.hl1n.pro^
+||www.hlnreport365.pro^
 ||www.hodnotmarrecenze.pro^
 ||www.homecoveika.pro^
 ||www.honeydriftyh.pro^
@@ -12849,11 +12865,10 @@
 ||www.imads.ero-advertising.com^
 ||www.imeds.ero-advertising.com^
 ||www.immediate-x-engine-pro.com^
+||www.incadscher.store^
 ||www.indexerymax-ark-click.pages.dev^
 ||www.indiads.com^
 ||www.indiceonagpt-fr.pro^
-||www.induscapitalplatform-pro.pages.dev^
-||www.induscapitalplatform.pro^
 ||www.infinite-ads.com^
 ||www.infinityads.com^
 ||www.information-update.dynamic-dns.net^
@@ -12875,13 +12890,14 @@
 ||www.itunesdownloadstore.com^
 ||www.izerylatarnia.pro^
 ||www.j00g8h.engage-riksleads.com^
+||www.jaduremio.pro^
 ||www.jasnaskala.pro^
 ||www.jasnybrzeg.pro^
 ||www.jeanbellparker.pro^
+||www.jezgravireon-pro.pages.dev^
 ||www.jizzads.com^
 ||www.juiceadv.com^
 ||www.juicyads.com^
-||www.junvexa.pro^
 ||www.just-devisire.pro^
 ||www.kadrogainatm.pro^
 ||www.kanjelorie.pro^
@@ -12891,6 +12907,7 @@
 ||www.kletlib.pro^
 ||www.knacads.com^
 ||www.kratuxil-tech.pro^
+||www.kuvrothelx-app-pro.pages.dev^
 ||www.kylvarix-pro.com^
 ||www.ladsblue.com^
 ||www.lanzoud.com^
@@ -12912,7 +12929,6 @@
 ||www.leztruvin-tradingapp.pro^
 ||www.ligocubetfandecs-de.pro^
 ||www.links-and-traffic.com^
-||www.liquidstorse.pro^
 ||www.lirygoy.pro^
 ||www.loadsabingo.com^
 ||www.logarionas-gr.pro^
@@ -12969,6 +12985,7 @@
 ||www.mzancexai.pro^
 ||www.n149adserv.com^
 ||www.naiadsystems.com^
+||www.nailheadstud.shop^
 ||www.nairapulse-pro.digital^
 ||www.napoleonx.pro^
 ||www.narivoxaro-pro.com^
@@ -12977,6 +12994,7 @@
 ||www.naughty-traffic.com^
 ||www.nectarpondil.pro^
 ||www.needadvertising.com^
+||www.nelepyymau.pro^
 ||www.neptuneads.com^
 ||www.nersirelieffund.pro^
 ||www.newhold.pro^
@@ -13029,6 +13047,7 @@
 ||www.oxvurilzsoftware-pro.pages.dev^
 ||www.ozarixtrade5pro.com^
 ||www.pagepeel.ero-advertising.com^
+||www.pahygui.pro^
 ||www.palazzorendiora-it.pro^
 ||www.pangolin-dsp-toutiao.com^
 ||www.pantedomme.pro^
@@ -13041,8 +13060,10 @@
 ||www.payperclickadvertising.org.uk^
 ||www.peachysailwv.pro^
 ||www.pearlyappss.pro^
+||www.pekirgardony.pro^
 ||www.pepreturn-jp.pro^
 ||www.persgroepadvertising.nl^
+||www.pesipiunee.pro^
 ||www.petpathika.pro^
 ||www.pflexads.com^
 ||www.phoenixads.co.in^
@@ -13102,8 +13123,10 @@
 ||www.quantumsystem.pro^
 ||www.qwotzorro.pro^
 ||www.qyxafiu.pro^
+||www.rainewsark.pro^
 ||www.rainewsoned.pro^
 ||www.rainewsprod.pro^
+||www.rainewsvox.pro^
 ||www.rampidads.com^
 ||www.raspy-dawn-2ad8.ezecdqlaacyrfin.workers.dev^
 ||www.rata.ero-advertising.com^
@@ -13121,7 +13144,6 @@
 ||www.revoluttaxadvisory.com^
 ||www.revstoiteio.pro^
 ||www.ridge-capitaldale.pro^
-||www.riqueazacoinlume-click.pages.dev^
 ||www.roadsparad.store^
 ||www.romantic-lab-care-pro.base44.app^
 ||www.rotator.beginads.com^
@@ -13143,6 +13165,7 @@
 ||www.s10.histats.com.ero-advertising.com^
 ||www.s10paces.ero-advertising.com^
 ||www.s7.adaces.ero-advertising.com^
+||www.sadsfouga.store^
 ||www.safeonwebsolution-click.pages.dev^
 ||www.sclipireportalis-pro.com^
 ||www.searchadv.com^
@@ -13267,6 +13290,7 @@
 ||www.turewzgorze.pro^
 ||www.tynavogrows-pro.com^
 ||www.typo3.ero-advertising.com^
+||www.ugoldenharbi.pro^
 ||www.ujovinfernad.pro^
 ||www.umbercompisy.pro^
 ||www.umbs.ero-advertising.com^
@@ -13281,6 +13305,7 @@
 ||www.usadserver.com^
 ||www.users.ero-advertising.com^
 ||www.uvelvitcovess.pro^
+||www.vabokougiu.pro^
 ||www.vads.net.vn^
 ||www.vads.vn^
 ||www.valimorica-es.pro^
@@ -13298,7 +13323,6 @@
 ||www.velotrade.pro^
 ||www.veltrix-app.pro^
 ||www.vestmarel.pro^
-||www.victoriaexecutive.pro^
 ||www.vignemalemirador.pro^
 ||www.vinted.click-aukcja1832.lol^
 ||www.vinted.click-aukcja9287.lol^
@@ -13311,6 +13335,7 @@
 ||www.vodacom-ai.pro^
 ||www.voiceads.cn^
 ||www.vortexfrance-pro.pages.dev^
+||www.vuxelyamoi.pro^
 ||www.vyk.admaster.com.cn^
 ||www.vznosnatel.pro^
 ||www.wager.dm^
@@ -13360,6 +13385,7 @@
 ||www.za45c9.angeltoursandadventure.com^
 ||www.zawadzkinikodem.pro^
 ||www.zelantezza.pro^
+||www.zenithinverix-pro.pages.dev^
 ||www.zentrix-app.pro^
 ||www.zhadstufa.shop^
 ||www.zisdkb.naim-sounds.com^
@@ -13574,6 +13600,7 @@
 ||zazerygu.pro^
 ||zdads.e-media.com^
 ||zelantezza.pro^
+||zenithinverix-pro.pages.dev^
 ||zentrix-app.pro^
 ||zeus.ad.intl.xiaomi.com^
 ||zeus.ad.xiaomi.com^
